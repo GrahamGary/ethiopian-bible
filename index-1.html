@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#183b32">
+  <meta name="description" content="Ethiopian Bible — offline-first study reader by Gary Graham.">
+  <title>Ethiopian Bible</title>
+    <style>
+:root {
+  --bg: #f4f2eb;
+  --surface: #ffffff;
+  --surface-soft: #eeece4;
+  --ink: #1d2622;
+  --muted: #69756f;
+  --accent: #183b32;
+  --accent-2: #315e50;
+  --line: #d8d8cf;
+  --focus: #8d6d21;
+  --shadow: 0 14px 38px rgba(21, 38, 31, 0.12);
+  --reader-size: 1.08rem;
+  --radius: 18px;
+}
+
+html[data-theme="dark"] {
+  --bg: #111713;
+  --surface: #19211c;
+  --surface-soft: #222d27;
+  --ink: #f3f1e8;
+  --muted: #adb8b1;
+  --accent: #d8c78d;
+  --accent-2: #c2b273;
+  --line: #334139;
+  --focus: #e3c15d;
+  --shadow: 0 14px 38px rgba(0, 0, 0, 0.35);
+}
+
+* { box-sizing: border-box; }
+html { min-height: 100%; background: var(--bg); scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+button, input, textarea { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.skip-link { position: fixed; left: 1rem; top: -4rem; z-index: 999; background: var(--surface); color: var(--ink); padding: .7rem 1rem; border-radius: 10px; }
+.skip-link:focus { top: 1rem; }
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: 66px;
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  align-items: center;
+  gap: .4rem;
+  padding: 0 .65rem;
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(14px);
+}
+.brand-wrap { min-width: 0; text-align: center; }
+.brand { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 1.15rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.location-label { color: var(--muted); font-size: .74rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.icon-button { width: 44px; height: 44px; border: 0; border-radius: 14px; background: transparent; color: var(--ink); font-size: 1.55rem; display: grid; place-items: center; }
+.icon-button:hover { background: var(--surface-soft); }
+.icon-button.compact { width: 36px; height: 36px; font-size: 1.35rem; }
+
+.app-shell { display: grid; grid-template-columns: minmax(260px, 320px) minmax(0, 1fr); max-width: 1440px; margin: 0 auto; }
+.library-panel { position: sticky; top: 66px; height: calc(100vh - 66px); padding: 1.15rem; border-right: 1px solid var(--line); background: var(--surface); overflow-y: auto; }
+.panel-header { display: flex; align-items: center; justify-content: space-between; gap: .8rem; margin-bottom: 1rem; }
+.panel-header h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; }
+.field-label { display: block; color: var(--muted); font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; margin: .25rem 0 .4rem; }
+.search-input { width: 100%; border: 1px solid var(--line); border-radius: 14px; padding: .78rem .9rem; background: var(--bg); color: var(--ink); }
+.book-list { display: grid; gap: .55rem; margin-top: 1rem; }
+.book-item { width: 100%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 14px; padding: .85rem .9rem; text-align: left; }
+.book-item:hover, .book-item.active { border-color: var(--accent-2); background: var(--surface-soft); }
+.book-item strong { display: block; }
+.book-item span { display: block; color: var(--muted); font-size: .78rem; margin-top: .18rem; }
+
+.reader { min-width: 0; padding: 1.1rem clamp(1rem, 3vw, 3rem) 6rem; }
+.reader-toolbar { position: sticky; top: 76px; z-index: 20; display: grid; gap: .7rem; padding: .75rem; margin-bottom: 1.25rem; border: 1px solid var(--line); border-radius: 16px; background: color-mix(in srgb, var(--surface) 96%, transparent); backdrop-filter: blur(12px); box-shadow: 0 8px 24px rgba(21, 38, 31, .06); }
+.chapter-controls { display: grid; grid-template-columns: 1fr auto 1fr; gap: .5rem; align-items: center; }
+.text-button, .chapter-button, .primary-button, .secondary-button { border-radius: 12px; padding: .72rem .9rem; font-weight: 700; }
+.text-button { border: 0; background: transparent; color: var(--accent); }
+.text-button:last-child { text-align: right; }
+.text-button:disabled { opacity: .35; cursor: default; }
+.chapter-button { border: 1px solid var(--line); background: var(--surface); color: var(--ink); white-space: nowrap; }
+.reader-search-wrap { display: flex; align-items: center; gap: .6rem; }
+.search-count { flex: 0 0 auto; min-width: 3rem; color: var(--muted); font-size: .8rem; text-align: right; }
+
+.welcome-card, .chapter-view { max-width: 900px; margin: 0 auto; }
+.welcome-card { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: clamp(1.3rem, 4vw, 3.2rem); box-shadow: var(--shadow); }
+.eyebrow { color: var(--accent-2); font-size: .76rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.welcome-card h1, .chapter-header h1 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; margin: .15rem 0 .7rem; }
+.welcome-card h1 { font-size: clamp(2.3rem, 8vw, 4.6rem); }
+.welcome-card > p:not(.eyebrow) { max-width: 720px; font-size: 1.08rem; color: var(--muted); }
+.welcome-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.5rem 0; }
+.primary-button { border: 1px solid var(--accent); background: var(--accent); color: var(--bg); }
+html[data-theme="dark"] .primary-button { color: #111713; }
+.secondary-button { border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.status-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; margin-top: 1.6rem; }
+.status-grid div { border: 1px solid var(--line); border-radius: 14px; padding: .9rem; background: var(--surface-soft); }
+.status-grid strong, .status-grid span { display: block; }
+.status-grid span { color: var(--muted); font-size: .86rem; margin-top: .25rem; }
+
+.chapter-header { padding: 1.4rem 0 1rem; border-bottom: 1px solid var(--line); }
+.chapter-header h1 { font-size: clamp(2.2rem, 7vw, 4rem); }
+.chapter-subtitle { margin: .2rem 0 0; color: var(--muted); font-size: 1.05rem; }
+.chapter-content { font-family: Georgia, "Times New Roman", serif; font-size: var(--reader-size); line-height: 1.78; padding-top: .4rem; }
+.verse { position: relative; padding: 1rem .9rem; margin: .7rem 0; border-radius: 14px; border: 1px solid transparent; }
+.verse:hover { background: var(--surface-soft); }
+.verse-line { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: .45rem; align-items: start; }
+.verse-number { position: static; display: block; padding-top: .36rem; color: var(--accent-2); font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-weight: 800; font-size: .72rem; line-height: 1; text-align: center; }
+.verse-text { display: block; min-width: 0; }
+.verse-study { margin-top: .8rem; padding: .8rem .9rem; border-left: 3px solid var(--accent-2); border-radius: 0 10px 10px 0; background: var(--surface-soft); font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: .84em; line-height: 1.55; }
+.verse-study strong { display: block; margin-bottom: .22rem; font-size: .82rem; letter-spacing: .015em; }
+.verse-study p { margin: 0 0 .55rem; }
+.verse-crossrefs { display: block; margin-top: .72rem; padding-top: .7rem; border-top: 1px solid var(--line); }
+.verse-crossrefs > strong { display: block; margin: 0 0 .48rem; color: var(--accent-2); font-size: .74rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.crossref-list { display: grid; gap: .48rem; }
+.crossref-item { display: grid; grid-template-columns: minmax(7.4rem, auto) 1fr; gap: .7rem; align-items: start; padding: .58rem .68rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.crossref-reference { color: var(--accent-2); font-size: .79rem; font-weight: 800; line-height: 1.35; }
+.crossref-note { color: var(--muted); font-size: .8rem; line-height: 1.45; }
+.source-note { margin: .2rem 0 1.2rem; padding: .9rem 1rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: .88rem; line-height: 1.55; }
+.source-note h3 { margin: 0 0 .35rem; font-size: .9rem; }
+.source-note p { margin: 0; color: var(--muted); }
+.verse.highlight { background: color-mix(in srgb, var(--focus) 18%, var(--surface)); }
+.explanation, .crossrefs { margin: .85rem 0 1.2rem; padding: 1rem 1.1rem; border-left: 4px solid var(--accent-2); background: var(--surface-soft); border-radius: 0 14px 14px 0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: .93rem; }
+.explanation h3, .crossrefs h3 { margin: 0 0 .55rem; font-size: .95rem; }
+.explanation p, .crossrefs p { margin: .35rem 0; }
+.crossrefs .crossref-list { margin-top: .55rem; }
+@media (max-width: 520px) {
+  .crossref-item { grid-template-columns: 1fr; gap: .16rem; padding: .62rem .68rem; }
+  .crossref-reference { font-size: .77rem; }
+  .crossref-note { font-size: .79rem; }
+}
+
+.floating-menu-button { position: fixed; right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom)); z-index: 80; width: 54px; height: 54px; border: 0; border-radius: 50%; background: var(--accent); color: var(--bg); font-size: 1.8rem; box-shadow: var(--shadow); }
+html[data-theme="dark"] .floating-menu-button { color: #111713; }
+.popup-menu { position: fixed; z-index: 90; right: 1rem; top: 60px; width: min(290px, calc(100vw - 2rem)); padding: .45rem; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
+.popup-menu button { width: 100%; padding: .78rem .85rem; border: 0; border-radius: 10px; text-align: left; background: transparent; color: var(--ink); }
+.popup-menu button:hover { background: var(--surface-soft); }
+
+.app-dialog { width: min(650px, calc(100vw - 2rem)); max-height: 85vh; padding: 0; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.app-dialog::backdrop { background: rgba(0,0,0,.48); backdrop-filter: blur(3px); }
+.app-dialog form { padding: 1rem; }
+.dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.dialog-header h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; }
+.chapter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(54px, 1fr)); gap: .55rem; margin-top: 1rem; max-height: 55vh; overflow-y: auto; }
+.chapter-grid button { min-height: 48px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-soft); color: var(--ink); }
+.chapter-grid button.active { border-color: var(--accent); background: var(--accent); color: var(--bg); }
+#notesText { width: 100%; margin-top: 1rem; resize: vertical; padding: .9rem; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); color: var(--ink); }
+.dialog-actions { display: flex; justify-content: flex-end; gap: .6rem; margin-top: .8rem; }
+.about-copy { color: var(--muted); }
+.copyright { font-size: .86rem; }
+.toast { position: fixed; z-index: 120; left: 50%; bottom: 5.5rem; transform: translateX(-50%); max-width: calc(100vw - 2rem); background: var(--ink); color: var(--surface); padding: .72rem 1rem; border-radius: 999px; box-shadow: var(--shadow); font-size: .88rem; }
+
+@media (max-width: 850px) {
+  .app-shell { display: block; }
+  .library-panel { position: fixed; inset: 66px auto 0 0; z-index: 60; width: min(88vw, 340px); height: calc(100vh - 66px); transform: translateX(-105%); transition: transform .2s ease; box-shadow: var(--shadow); }
+  .library-panel.open { transform: translateX(0); }
+  .reader { padding: .75rem .75rem 6rem; }
+  .reader-toolbar { top: 72px; }
+  .status-grid { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 851px) {
+  #closeLibraryButton { display: none; }
+}
+
+@media (max-width: 520px) {
+  .chapter-controls { grid-template-columns: 1fr auto 1fr; gap: .15rem; }
+  .text-button { padding-inline: .35rem; font-size: .82rem; }
+  .chapter-button { padding-inline: .6rem; }
+  .welcome-card { border-radius: 18px; }
+  .verse { padding-left: .35rem; padding-right: .35rem; }
+  .verse-line { grid-template-columns: 1.45rem minmax(0, 1fr); gap: .4rem; }
+  .verse-number { padding-top: .34rem; }
+}
+
+@media print {
+  :root, html[data-theme="dark"] { --bg: #fff; --surface: #fff; --surface-soft: #fff; --ink: #000; --muted: #222; --line: #aaa; --accent: #000; --accent-2: #000; }
+  body { background: #fff; color: #000; }
+  .topbar, .library-panel, .reader-toolbar, .floating-menu-button, .popup-menu, .welcome-actions, .toast { display: none !important; }
+  .app-shell { display: block; }
+  .reader { padding: 0; }
+  .chapter-view, .welcome-card { max-width: none; border: 0; box-shadow: none; }
+  .verse, .verse-study, .source-note, .explanation, .crossrefs { break-inside: avoid; background: #fff !important; color: #000; }
+}
+
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#reader">Skip to reader</a>
+
+  <header class="topbar">
+    <button id="libraryButton" class="icon-button" type="button" aria-label="Open library" title="Library">☰</button>
+    <div class="brand-wrap">
+      <div class="brand">Ethiopian Bible</div>
+      <div id="locationLabel" class="location-label">Offline • Online Update V2.1</div>
+    </div>
+    <button id="moreButton" class="icon-button" type="button" aria-label="More options" aria-haspopup="true" aria-expanded="false" title="More">⋮</button>
+  </header>
+
+  <div class="app-shell">
+    <aside id="libraryPanel" class="library-panel" aria-label="Bible library">
+      <div class="panel-header">
+        <h2>Library</h2>
+        <button id="closeLibraryButton" class="icon-button compact" type="button" aria-label="Close library">×</button>
+      </div>
+      <label class="field-label" for="librarySearch">Find a book</label>
+      <input id="librarySearch" class="search-input" type="search" placeholder="Search books…" autocomplete="off">
+      <div id="bookList" class="book-list"></div>
+    </aside>
+
+    <main id="reader" class="reader" tabindex="-1">
+      <section class="reader-toolbar" aria-label="Reader controls">
+        <div class="chapter-controls">
+          <button id="prevChapterButton" class="text-button" type="button">◀ Previous</button>
+          <button id="chapterPickerButton" class="chapter-button" type="button" aria-haspopup="dialog">Chapter <span id="chapterNumber">—</span></button>
+          <button id="nextChapterButton" class="text-button" type="button">Next ▶</button>
+        </div>
+        <div class="reader-search-wrap">
+          <input id="readerSearch" class="search-input" type="search" placeholder="Search this chapter…" autocomplete="off" aria-label="Search this chapter">
+          <span id="searchCount" class="search-count" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section id="welcomeScreen" class="welcome-card">
+        <p class="eyebrow">OFFLINE-FIRST SCRIPTURE READER</p>
+        <h1>Ethiopian Bible</h1>
+        <p>This is the permanent Ethiopian Bible reader. Chapters 1–3 are built in. When internet is available, use Check for Bible Updates to download new Scripture directly into the local library; reading then remains available offline.</p>
+        <div class="welcome-actions">
+          <button id="openDemoButton" class="primary-button" type="button">Open 1 Enoch • Chapter 1</button>
+          <button id="showLibraryButton" class="secondary-button" type="button">Open Library</button>
+        </div>
+        <div class="status-grid">
+          <div><strong>Offline</strong><span>Reading and study work without AI, accounts or server calls.</span></div>
+          <div><strong>Modular</strong><span>Each chapter is an independent content file.</span></div>
+          <div><strong>Private</strong><span>Bookmarks and notes stay on this device.</span></div>
+          <div><strong>Accessible</strong><span>Pinch zoom, large text controls and print support.</span></div>
+        </div>
+      </section>
+
+      <article id="chapterView" class="chapter-view" hidden>
+        <header class="chapter-header">
+          <p id="bookCategory" class="eyebrow"></p>
+          <h1 id="bookTitle"></h1>
+          <p id="chapterTitle" class="chapter-subtitle"></p>
+        </header>
+        <div id="chapterContent" class="chapter-content"></div>
+      </article>
+    </main>
+  </div>
+
+  <button id="floatingMenuButton" class="floating-menu-button" type="button" aria-label="Open quick menu" aria-haspopup="true" aria-expanded="false">⋮</button>
+
+  <div id="moreMenu" class="popup-menu" role="menu" hidden>
+    <button type="button" data-action="font-increase" role="menuitem">A+ Increase text</button>
+    <button type="button" data-action="font-decrease" role="menuitem">A− Decrease text</button>
+    <button type="button" data-action="theme" role="menuitem">◐ Light / dark</button>
+    <button type="button" data-action="bookmark" role="menuitem">☆ Bookmark chapter</button>
+    <button type="button" data-action="notes" role="menuitem">✎ Chapter notes</button>
+    <button type="button" data-action="print" role="menuitem">⎙ Print / PDF</button>
+    <button type="button" data-action="check-updates" role="menuitem">⟳ Check for Bible Updates</button>
+    <button type="button" data-action="bible-update" role="menuitem">⬇ Import Bible Update (manual backup)</button>
+    <button type="button" data-action="export" role="menuitem">⇩ Export complete backup</button>
+    <button type="button" data-action="import" role="menuitem">⇧ Restore complete backup</button>
+    <button type="button" data-action="about" role="menuitem">ⓘ About / Update status</button>
+  </div>
+
+  <dialog id="chapterDialog" class="app-dialog">
+    <form method="dialog">
+      <div class="dialog-header"><h2>Select chapter</h2><button value="cancel" class="icon-button compact" aria-label="Close">×</button></div>
+      <div id="chapterGrid" class="chapter-grid"></div>
+    </form>
+  </dialog>
+
+  <dialog id="notesDialog" class="app-dialog">
+    <form method="dialog" id="notesForm">
+      <div class="dialog-header"><h2>Chapter notes</h2><button value="cancel" class="icon-button compact" aria-label="Close">×</button></div>
+      <textarea id="notesText" rows="10" placeholder="Your private notes…"></textarea>
+      <div class="dialog-actions"><button value="cancel" class="secondary-button">Cancel</button><button id="saveNotesButton" value="default" class="primary-button">Save notes</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="aboutDialog" class="app-dialog">
+    <form method="dialog">
+      <div class="dialog-header"><h2>About</h2><button value="cancel" class="icon-button compact" aria-label="Close">×</button></div>
+      <div class="about-copy">
+        <p><strong>Ethiopian Bible Online Update V2.1</strong></p>
+        <p>This permanent mobile edition is designed to remain on the device while new Bible chapters are imported separately. It opens directly from Android My Files/Samsung Internet without separate CSS or JavaScript files.</p>
+        <p><strong>Future chapter workflow:</strong> choose <strong>⋮ → Check for Bible Updates</strong>. When internet is available, the reader checks the protected update catalogue, downloads only missing Scripture updates, and stores them locally. <strong>Import Bible Update</strong> remains available as a manual backup method.</p>
+        <p id="contentStatus"><strong>Installed content:</strong> checking…</p>
+        <p id="storageStatus"><strong>Update storage:</strong> checking…</p>
+        <p>A complete backup includes bookmarks, notes, settings, and all Bible chapters imported after installation.</p>
+        <p class="copyright">© 2026 Gary Graham. All rights reserved. Original application content, original translations, research, compilation and editorial arrangement authored or commissioned for this project are protected under applicable copyright and intellectual-property law and may not be sold, republished or commercially exploited without written permission from Gary Graham.</p>
+      </div>
+    </form>
+  </dialog>
+
+  <input id="bibleUpdateFile" type="file" accept=".json,application/json" hidden>
+  <input id="importFile" type="file" accept=".json,application/json" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script>
+window.ETHIOPIAN_BIBLE_LIBRARY = {
+  version: "2.1.0",
+  books: [
+    {
+      id: "1-enoch",
+      title: "1 Enoch",
+      shortTitle: "1 Enoch",
+      category: "Ethiopic biblical literature",
+      chapterCount: 3,
+      totalChapterCount: 108,
+      chapterPathPattern: "data/enoch/{chapter}.js",
+      enabled: true
+    }
+  ]
+};
+
+window.ETHIOPIAN_BIBLE_CHAPTERS = window.ETHIOPIAN_BIBLE_CHAPTERS || {};
+window.ETHIOPIAN_BIBLE_CHAPTERS["1-enoch:1"] = {
+  bookId: "1-enoch",
+  bookTitle: "1 Enoch",
+  category: "Ethiopic textual tradition • Modern English research translation",
+  chapter: 1,
+  title: "Chapter 1 — The Blessing and the Coming Judgment",
+  sourceNote: "Translated afresh into clear modern English from the sense preserved in the Ethiopic (Geʽez) textual tradition of 1 Enoch. The wording is intentionally not copied from a modern published English translation. Verse numbering follows the conventional nine-verse division of Chapter 1.",
+  verses: [
+    {
+      verse: 1,
+      text: "These are the words of Enoch’s blessing, with which he blessed the chosen and righteous who will be alive in a time of distress, when all the wicked and godless are removed.",
+      study: "The book opens as a blessing addressed to the faithful rather than as a message of fear for them. Judgment and rescue are placed side by side: evil is not presented as permanent, and the righteous are called to endure until God sets things right.",
+      crossReferences: ["Psalm 1:5–6 — the wicked do not stand in judgment, but the LORD knows the way of the righteous", "Matthew 24:21–22 — severe distress and the preservation of the chosen"]
+    },
+    {
+      verse: 2,
+      text: "Enoch took up his declaration and said: I, Enoch, a righteous man whose eyes God opened, saw a vision of the Holy One in heaven. The angels showed it to me; from them I heard everything, and through what I saw I came to understand it. Yet it is not for this generation, but for a distant generation that is still to come.",
+      study: "Enoch presents the message as revelation: seeing, hearing, and understanding. Its horizon extends beyond his own generation. That future orientation explains why later passages speak in sweeping language about final accountability and the vindication of the faithful.",
+      crossReferences: ["Numbers 12:6 — God makes Himself known to a prophet in a vision", "Daniel 7:1 — a prophetic vision concerning events beyond the prophet’s immediate setting"]
+    },
+    {
+      verse: 3,
+      text: "I spoke about the chosen and raised this declaration concerning them: The Great Holy One will come out from His dwelling place.",
+      study: "The central actor is God Himself. The language of coming out from His dwelling portrays divine intervention: God is not indifferent to corruption, and His holiness moves toward judgment and rescue.",
+      crossReferences: ["Isaiah 26:21 — the LORD comes out from His place to call the inhabitants of the earth to account", "Micah 1:3 — the LORD comes out from His place and descends"]
+    },
+    {
+      verse: 4,
+      text: "The eternal God will tread upon the earth, upon Mount Sinai, and He will appear from His heavenly camp. He will be revealed in the strength of His power from the highest heaven.",
+      study: "Sinai language connects this future appearing with the earlier biblical revelation of God in holiness, fire, trembling, and covenant authority. The image does not reduce God to a local deity; He comes from the highest heaven and His authority reaches the whole earth.",
+      crossReferences: ["Deuteronomy 33:2 — the LORD comes from Sinai with myriads of holy ones", "Exodus 19:18 — Mount Sinai trembles at the LORD’s descent"]
+    },
+    {
+      verse: 5,
+      text: "Everyone will be struck with fear. The Watchers will tremble, and great fear and shaking will seize them to the ends of the earth.",
+      study: "The judgment reaches both earthly and heavenly rebels. The Watchers, developed more fully later in 1 Enoch, are not beyond God’s authority. Their terror reverses the apparent power they exercise in the story: before God, they themselves tremble.",
+      crossReferences: ["Isaiah 24:21 — the LORD judges the host of the heights and the kings of the earth", "James 2:19 — even the demons believe and shudder"]
+    },
+    {
+      verse: 6,
+      text: "The high mountains will be shaken, the lofty hills will sink down, and they will melt like wax before a flame.",
+      study: "Mountains symbolize what appears immovable. Before God’s presence even the strongest features of creation cannot remain unchanged. The picture communicates the absolute difference between created strength and the power of the Creator.",
+      crossReferences: ["Psalm 97:5 — the mountains melt like wax before the LORD", "Micah 1:4 — the mountains melt and the valleys split before Him"]
+    },
+    {
+      verse: 7,
+      text: "The earth will be completely torn apart. Everything upon the earth will face destruction, and judgment will come upon everyone.",
+      study: "The language is universal and judicial. The point is not random catastrophe but accountability. Human life is lived before God, and the corruption described later in the book ultimately comes under His judgment.",
+      crossReferences: ["Isaiah 24:19–20 — the earth is broken and shaken under judgment", "2 Peter 3:10 — the present created order is exposed before the day of the Lord"]
+    },
+    {
+      verse: 8,
+      text: "But He will make peace with the righteous. He will protect the chosen, and mercy will rest upon them. They will all belong to God; they will flourish and be blessed. He will help them all, light will appear to them, and He will make peace with them.",
+      study: "Judgment is not the chapter’s final word. For the righteous, God’s coming means peace, protection, mercy, belonging, blessing, help, and light. The contrast is deliberate: the same divine appearing that exposes rebellion becomes deliverance for those who belong to God.",
+      crossReferences: ["Psalm 37:11 — the humble inherit the land and delight in abundant peace", "Isaiah 54:10 — God’s covenant of peace and compassion will not be removed", "John 8:12 — the one who follows Christ has the light of life"]
+    },
+    {
+      verse: 9,
+      text: "Look! He comes with ten thousands of His holy ones to execute judgment upon everyone, to bring the godless to an end, and to convict all humanity concerning every ungodly deed they have committed and every harsh word that ungodly sinners have spoken against Him.",
+      study: "This climactic verse combines the Sinai image of God arriving with innumerable holy ones and the courtroom image of exposing deeds and words. Jude later cites this Enochic prophecy almost directly, showing that this passage was known and used in the earliest Christian period.",
+      crossReferences: ["Deuteronomy 33:2 — God comes with myriads of holy ones", "Jude 14–15 — Enoch’s prophecy is cited in the New Testament", "Zechariah 14:5 — the LORD comes with all His holy ones"]
+    }
+  ],
+  explanation: {
+    heading: "Chapter teaching and context",
+    paragraphs: [
+      "Chapter 1 functions as the theological doorway to 1 Enoch. Before the book explains the rebellion of the Watchers, it announces the end of the story: God remains sovereign, rebellion will be judged, and the faithful will not be abandoned.",
+      "The imagery is deeply rooted in the Hebrew Scriptures. Sinai, holy ones, trembling mountains, melting hills, worldwide judgment, mercy, peace, and light all have close parallels in the Protestant canon. This means the chapter should be read within the same biblical world of divine holiness, covenant accountability, judgment, and rescue rather than as an isolated mythological scene.",
+      "The repeated contrast is important. The wicked and rebellious fear God’s appearing; the chosen receive peace. The chapter therefore calls the reader not merely to speculate about future events but to ask which way of life he or she is walking now: rebellion against God or faithful belonging to Him.",
+      "Verse 9 is especially significant because Jude 14–15 preserves a close Greek form of the same prophecy. Jude’s use does not require every later interpretive claim about 1 Enoch to be accepted automatically; it does show that this particular Enochic saying was known and treated as meaningful testimony in the earliest Christian community."
+    ]
+  },
+  crossReferences: [
+    "Deuteronomy 33:2 — Sinai and the myriads of holy ones",
+    "Psalm 97:5 — mountains melting before the LORD",
+    "Isaiah 26:21 — the LORD coming out from His place",
+    "Micah 1:3–4 — divine descent and melting mountains",
+    "Matthew 24:21–22 — distress and the chosen",
+    "Jude 14–15 — direct New Testament use of Enoch’s judgment prophecy"
+  ]
+};
+
+window.ETHIOPIAN_BIBLE_CHAPTERS = window.ETHIOPIAN_BIBLE_CHAPTERS || {};
+window.ETHIOPIAN_BIBLE_CHAPTERS["1-enoch:2"] = {
+  bookId: "1-enoch",
+  bookTitle: "1 Enoch",
+  category: "Ethiopic textual tradition • Modern English research translation",
+  chapter: 2,
+  title: "Chapter 2 — The Ordered Heavens and the Faithfulness of Creation",
+  sourceNote: "Translated afresh into clear modern English from the sense preserved in the Ethiopic (Geʽez) textual tradition of 1 Enoch. The wording is intentionally not copied from a modern published English translation. Verse numbering follows the conventional three-verse division of Chapter 2.",
+  verses: [
+    {
+      verse: 1,
+      text: "Observe everything that happens in heaven: how the heavenly bodies do not abandon their paths, and how the lights of heaven all rise and set in their appointed order, each at its proper time, without turning aside from the order assigned to them.",
+      study: "Enoch directs attention away from human disorder and toward the regularity of the heavens. The point is moral as well as observational: the created lights keep the order given to them. Creation becomes a witness to faithful obedience, preparing the contrast with human beings and rebellious heavenly beings who refuse God’s order.",
+      crossReferences: [
+        "Genesis 1:14–18 — God appoints the heavenly lights for signs, seasons, days and years",
+        "Psalm 19:1–6 — the heavens declare God’s glory and the sun follows its appointed course",
+        "Jeremiah 31:35 — the LORD establishes the sun, moon and stars by fixed order"
+      ]
+    },
+    {
+      verse: 2,
+      text: "Look at the earth and pay close attention to everything that happens upon it from beginning to end. See how firmly ordered it is, and how the works God has made continue to appear before you in their appointed pattern.",
+      study: "The reader is told to study the earth with the same attentiveness given to the heavens. The stability of creation is not presented as self-created; it is God’s work. The chapter invites human beings to learn from what they can plainly observe: the Creator sustains an ordered world, and His works testify to His authority.",
+      crossReferences: [
+        "Psalm 104:5, 24 — God establishes the earth and fills it with works made in wisdom",
+        "Job 12:7–10 — the creatures of the earth testify that the hand of the LORD made and sustains them",
+        "Romans 1:20 — God’s power and divine nature are perceived through what has been made"
+      ]
+    },
+    {
+      verse: 3,
+      text: "Observe summer and winter: how the whole earth receives water, and how cloud, dew and rain rest upon it in their seasons.",
+      study: "Seasonal water is presented as another sign of dependable created order. Rain, dew, cloud, summer and winter do not exist independently of God’s sustaining rule. The verse prepares the ethical argument that follows in later chapters: creation keeps its appointed rhythms, while sinful beings knowingly depart from the way given to them.",
+      crossReferences: [
+        "Genesis 8:22 — seedtime and harvest, cold and heat, summer and winter continue by God’s sustaining order",
+        "Deuteronomy 11:14 — rain is given in its season",
+        "Jeremiah 5:24 — God gives autumn and spring rains and preserves the appointed weeks of harvest"
+      ]
+    }
+  ],
+  explanation: {
+    heading: "Chapter teaching and context",
+    paragraphs: [
+      "Chapter 2 is short, but it establishes one of the book’s central arguments. Enoch tells the reader to observe creation carefully. The heavens keep their courses, the earth remains under an ordered pattern, and the seasons bring their recurring changes. Creation is portrayed as obedient to the boundaries and rhythms established by God.",
+      "This observation becomes morally significant because 1 Enoch will soon describe beings who do the opposite. The Watchers cross boundaries that were not given to them, and human wickedness spreads through the earth. Against that rebellion, the ordered heavens and seasons stand as silent witnesses that God’s creation is meant to remain within His appointed order.",
+      "The same biblical pattern appears throughout the Protestant canon. Genesis describes God assigning functions to the heavenly lights and preserving the cycle of seasons. Psalms speaks of creation obeying God’s command. Jeremiah appeals to the fixed order of heaven and the regular rains as evidence of God’s faithfulness. The lesson is therefore not that nature itself should be worshiped, but that nature points beyond itself to the faithfulness and authority of its Creator.",
+      "For the reader, the chapter asks a direct question without stating it explicitly: if the heavens, seasons and waters keep the order God has given them, will human beings willingly live within the order God has given them? Obedience is presented not as arbitrary restriction but as alignment with the Creator’s wise ordering of life."
+    ]
+  },
+  crossReferences: [
+    "Genesis 1:14–18 — God appoints the lights of heaven",
+    "Genesis 8:22 — the continuing order of the seasons",
+    "Psalm 19:1–6 — the heavens as testimony to God",
+    "Psalm 104:5, 24 — creation established and ordered in wisdom",
+    "Jeremiah 5:24 — seasonal rains under God’s provision",
+    "Jeremiah 31:35–36 — the fixed order of sun, moon and stars",
+    "Romans 1:20 — creation makes God’s power perceptible"
+  ]
+};
+
+
+window.ETHIOPIAN_BIBLE_CHAPTERS = window.ETHIOPIAN_BIBLE_CHAPTERS || {};
+window.ETHIOPIAN_BIBLE_CHAPTERS["1-enoch:3"] = {
+  bookId: "1-enoch",
+  bookTitle: "1 Enoch",
+  category: "Ethiopic textual tradition • Modern English research translation",
+  chapter: 3,
+  title: "Chapter 3 — The Trees and Their Appointed Cycle",
+  sourceNote: "Translated afresh into clear modern English from the sense preserved in the Ethiopic (Geʽez) textual tradition of 1 Enoch. Chapter 3 is preserved as a brief observational unit and is conventionally presented as one verse. The wording is intentionally not copied from a modern published English translation.",
+  verses: [
+    {
+      verse: 1,
+      text: "Observe and see how the trees appear to have withered and shed their leaves, except for fourteen trees that do not lose their foliage. They keep the old leaves for two or three years, until the new growth comes.",
+      study: "Enoch again asks the reader to learn by observing creation. Most trees visibly pass through a cycle of losing their leaves, while the text points to fourteen trees that retain their foliage for a longer period. The emphasis is not on naming those trees but on the dependable patterns built into creation. Different trees follow different appointed cycles, yet the larger order remains consistent.",
+      crossReferences: [
+        "Genesis 1:11–12 — God appoints vegetation and trees to grow according to their kinds",
+        "Psalm 1:3 — the righteous person is compared with a tree planted by streams of water whose leaf does not wither",
+        "Jeremiah 17:7–8 — the person who trusts in the LORD is pictured as a tree that remains green and continues bearing fruit"
+      ]
+    }
+  ],
+  explanation: {
+    heading: "Chapter teaching and context",
+    paragraphs: [
+      "Chapter 3 continues the invitation of Chapter 2: look carefully at the created world. Here the focus narrows from the heavens, earth and seasons to trees. Their changing leaves reveal recurring patterns, while the trees that retain foliage demonstrate that not every created thing follows exactly the same visible cycle.",
+      "The chapter does not identify the fourteen trees by species, so the text itself does not justify assigning names to them. Its stated observation is sufficient: some trees retain old foliage for an extended period until new growth arrives.",
+      "Within the flow of 1 Enoch, creation continues to function as a witness to order. The heavens keep their courses, seasons return, rain comes in its time, and trees follow recognizable cycles. This ordered background prepares the contrast with rational beings who knowingly depart from the boundaries God has given them.",
+      "The Protestant canon frequently uses trees as moral imagery. Psalm 1 and Jeremiah 17 compare faithful people with well-watered trees whose leaves remain healthy and whose fruit continues. The point is not that 1 Enoch 3 directly interprets those passages, but that both bodies of Scripture use the visible life of trees to direct attention toward endurance, fruitfulness and the sustaining order of God."
+    ]
+  },
+  crossReferences: [
+    "Genesis 1:11–12 — trees and vegetation created according to their kinds",
+    "Psalm 1:3 — the faithful compared with a flourishing tree",
+    "Jeremiah 17:7–8 — enduring green leaves and fruit under God’s sustaining care"
+  ]
+};
+
+
+</script>
+  <script>
+(() => {
+  "use strict";
+
+  const VERSION = "2.1.0";
+  const STORAGE_KEY = "ethiopianBiblePermanentSettingsV2";
+  const FALLBACK_CONTENT_KEY = "ethiopianBiblePermanentContentV2";
+  const DB_NAME = "EthiopianBiblePermanentDB";
+  const DB_VERSION = 1;
+  const ONLINE_BASE_URL = "https://grahamgary.github.io/ethiopian-bible/";
+  const ONLINE_MANIFEST_URL = ONLINE_BASE_URL + "content-manifest.json";
+  const library = window.ETHIOPIAN_BIBLE_LIBRARY || { books: [] };
+  window.ETHIOPIAN_BIBLE_CHAPTERS = window.ETHIOPIAN_BIBLE_CHAPTERS || {};
+
+  const $ = (id) => document.getElementById(id);
+  const els = {
+    libraryPanel: $("libraryPanel"), libraryButton: $("libraryButton"), closeLibraryButton: $("closeLibraryButton"), showLibraryButton: $("showLibraryButton"),
+    librarySearch: $("librarySearch"), bookList: $("bookList"), welcomeScreen: $("welcomeScreen"), chapterView: $("chapterView"),
+    bookTitle: $("bookTitle"), bookCategory: $("bookCategory"), chapterTitle: $("chapterTitle"), chapterNumber: $("chapterNumber"), chapterContent: $("chapterContent"),
+    locationLabel: $("locationLabel"), prevChapterButton: $("prevChapterButton"), nextChapterButton: $("nextChapterButton"), chapterPickerButton: $("chapterPickerButton"),
+    chapterDialog: $("chapterDialog"), chapterGrid: $("chapterGrid"), readerSearch: $("readerSearch"), searchCount: $("searchCount"),
+    moreButton: $("moreButton"), floatingMenuButton: $("floatingMenuButton"), moreMenu: $("moreMenu"),
+    notesDialog: $("notesDialog"), notesText: $("notesText"), notesForm: $("notesForm"), saveNotesButton: $("saveNotesButton"),
+    aboutDialog: $("aboutDialog"), contentStatus: $("contentStatus"), storageStatus: $("storageStatus"), bibleUpdateFile: $("bibleUpdateFile"), importFile: $("importFile"), toast: $("toast"), openDemoButton: $("openDemoButton")
+  };
+
+  const defaultState = {
+    theme: "light",
+    fontScale: 1,
+    currentBookId: null,
+    currentChapter: null,
+    bookmarks: [],
+    notes: {}
+  };
+
+  let state = loadState();
+  let toastTimer = null;
+  let contentDb = null;
+  let storageMode = "initializing";
+  let fallbackContent = { books: {}, chapters: {}, appliedUpdates: [] };
+  let importedChapterKeys = new Set();
+
+  function loadState() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+      return { ...defaultState, ...(parsed || {}) };
+    } catch (_) {
+      return { ...defaultState };
+    }
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function canUseLocalStorage() {
+    try {
+      const k = "__ethiopian_bible_storage_test__";
+      localStorage.setItem(k, "1");
+      localStorage.removeItem(k);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function requestPromise(request) {
+    return new Promise((resolve, reject) => {
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error || new Error("Database request failed"));
+    });
+  }
+
+  function openContentDatabase() {
+    return new Promise((resolve, reject) => {
+      if (!("indexedDB" in window)) {
+        reject(new Error("IndexedDB unavailable"));
+        return;
+      }
+      const request = indexedDB.open(DB_NAME, DB_VERSION);
+      request.onupgradeneeded = () => {
+        const db = request.result;
+        if (!db.objectStoreNames.contains("chapters")) db.createObjectStore("chapters", { keyPath: "key" });
+        if (!db.objectStoreNames.contains("books")) db.createObjectStore("books", { keyPath: "id" });
+        if (!db.objectStoreNames.contains("meta")) db.createObjectStore("meta", { keyPath: "key" });
+      };
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error || new Error("Could not open Bible update database"));
+    });
+  }
+
+  function idbStore(storeName, mode = "readonly") {
+    return contentDb.transaction(storeName, mode).objectStore(storeName);
+  }
+
+  async function idbGet(storeName, key) {
+    return requestPromise(idbStore(storeName).get(key));
+  }
+
+  async function idbGetAll(storeName) {
+    return requestPromise(idbStore(storeName).getAll());
+  }
+
+  async function idbGetAllKeys(storeName) {
+    return requestPromise(idbStore(storeName).getAllKeys());
+  }
+
+  async function idbPut(storeName, value) {
+    return requestPromise(idbStore(storeName, "readwrite").put(value));
+  }
+
+  async function idbClear(storeName) {
+    return requestPromise(idbStore(storeName, "readwrite").clear());
+  }
+
+  function loadFallbackContent() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(FALLBACK_CONTENT_KEY) || "null");
+      if (parsed && typeof parsed === "object") {
+        fallbackContent = {
+          books: parsed.books || {},
+          chapters: parsed.chapters || {},
+          appliedUpdates: Array.isArray(parsed.appliedUpdates) ? parsed.appliedUpdates : []
+        };
+      }
+    } catch (_) {}
+  }
+
+  function saveFallbackContent() {
+    try {
+      localStorage.setItem(FALLBACK_CONTENT_KEY, JSON.stringify(fallbackContent));
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function mergeBookMetadata(meta) {
+    if (!meta || !meta.id || !meta.title) return;
+    let book = library.books.find(b => b.id === meta.id);
+    if (!book) {
+      book = {
+        id: meta.id,
+        title: meta.title,
+        shortTitle: meta.shortTitle || meta.title,
+        category: meta.category || "Ethiopic biblical literature",
+        chapterCount: 0,
+        totalChapterCount: Number(meta.totalChapterCount) || Number(meta.chapterCount) || 1,
+        enabled: true
+      };
+      library.books.push(book);
+    } else {
+      if (meta.title) book.title = meta.title;
+      if (meta.shortTitle) book.shortTitle = meta.shortTitle;
+      if (meta.category) book.category = meta.category;
+      if (meta.totalChapterCount) book.totalChapterCount = Number(meta.totalChapterCount);
+      book.enabled = meta.enabled !== false;
+    }
+  }
+
+  function embeddedChapterNumbers(bookId) {
+    const prefix = `${bookId}:`;
+    return Object.keys(window.ETHIOPIAN_BIBLE_CHAPTERS)
+      .filter(k => k.startsWith(prefix))
+      .map(k => Number(k.slice(prefix.length)))
+      .filter(Number.isFinite);
+  }
+
+  function installedChapterNumbers(bookId) {
+    const numbers = new Set(embeddedChapterNumbers(bookId));
+    const prefix = `${bookId}:`;
+    importedChapterKeys.forEach(k => {
+      if (String(k).startsWith(prefix)) {
+        const n = Number(String(k).slice(prefix.length));
+        if (Number.isFinite(n)) numbers.add(n);
+      }
+    });
+    return [...numbers].sort((a, b) => a - b);
+  }
+
+  function refreshBookCounts() {
+    library.books.forEach(book => {
+      const installed = installedChapterNumbers(book.id);
+      book.installedCount = installed.length;
+      book.chapterCount = installed.length ? Math.max(...installed) : 0;
+    });
+    updateStatusText();
+  }
+
+  function updateStatusText() {
+    if (els.contentStatus) {
+      const summary = library.books.map(book => {
+        const installed = installedChapterNumbers(book.id).length;
+        const total = Number(book.totalChapterCount) || installed;
+        return `${book.title}: ${installed} of ${total} chapters`;
+      }).join(" • ");
+      els.contentStatus.innerHTML = `<strong>Installed content:</strong> ${escapeHtml(summary || "No books installed")}`;
+    }
+    if (els.storageStatus) {
+      const text = storageMode === "indexeddb"
+        ? "Permanent local Bible database (IndexedDB)"
+        : storageMode === "localstorage"
+          ? "Local browser storage fallback"
+          : "Temporary memory only — imported updates may not survive closing the browser";
+      els.storageStatus.innerHTML = `<strong>Update storage:</strong> ${escapeHtml(text)}`;
+    }
+  }
+
+  async function initializeContentStorage() {
+    try {
+      contentDb = await openContentDatabase();
+      storageMode = "indexeddb";
+      const books = await idbGetAll("books");
+      books.forEach(mergeBookMetadata);
+      importedChapterKeys = new Set((await idbGetAllKeys("chapters")).map(String));
+    } catch (error) {
+      console.warn("IndexedDB unavailable; using fallback storage.", error);
+      if (canUseLocalStorage()) {
+        storageMode = "localstorage";
+        loadFallbackContent();
+        Object.values(fallbackContent.books || {}).forEach(mergeBookMetadata);
+        importedChapterKeys = new Set(Object.keys(fallbackContent.chapters || {}));
+      } else {
+        storageMode = "memory";
+      }
+    }
+    refreshBookCounts();
+  }
+
+  function showToast(message) {
+    clearTimeout(toastTimer);
+    els.toast.textContent = message;
+    els.toast.hidden = false;
+    toastTimer = setTimeout(() => { els.toast.hidden = true; }, 2600);
+  }
+
+  function applyTheme() {
+    document.documentElement.dataset.theme = state.theme;
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", state.theme === "dark" ? "#111713" : "#183b32");
+  }
+
+  function applyFontScale() {
+    const size = Math.max(.9, Math.min(1.6, Number(state.fontScale) || 1));
+    state.fontScale = size;
+    document.documentElement.style.setProperty("--reader-size", `${1.08 * size}rem`);
+  }
+
+  function renderLibrary(filter = "") {
+    const q = filter.trim().toLowerCase();
+    els.bookList.innerHTML = "";
+    const books = library.books.filter(b => b.enabled !== false && (!q || b.title.toLowerCase().includes(q) || (b.category || "").toLowerCase().includes(q)));
+    if (!books.length) {
+      const empty = document.createElement("p");
+      empty.textContent = "No books found.";
+      empty.style.color = "var(--muted)";
+      els.bookList.appendChild(empty);
+      return;
+    }
+    books.forEach(book => {
+      const installed = installedChapterNumbers(book.id);
+      const total = Number(book.totalChapterCount) || installed.length;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "book-item" + (state.currentBookId === book.id ? " active" : "");
+      btn.innerHTML = `<strong>${escapeHtml(book.title)}</strong><span>${escapeHtml(book.category || "")} • ${installed.length} of ${total} chapters installed</span>`;
+      btn.disabled = installed.length === 0;
+      btn.addEventListener("click", () => {
+        const preferred = state.currentBookId === book.id && installed.includes(Number(state.currentChapter))
+          ? Number(state.currentChapter)
+          : installed[0];
+        if (preferred) openChapter(book.id, preferred);
+      });
+      els.bookList.appendChild(btn);
+    });
+  }
+
+  function bookById(id) { return library.books.find(b => b.id === id); }
+  function chapterKey(bookId, chapter) { return `${bookId}:${chapter}`; }
+  function paddedChapter(chapter) { return String(chapter).padStart(3, "0"); }
+
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const existing = [...document.scripts].find(s => s.dataset.dynamicSrc === src);
+      if (existing) { resolve(); return; }
+      const script = document.createElement("script");
+      script.src = src;
+      script.async = true;
+      script.dataset.dynamicSrc = src;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error(`Could not load ${src}`));
+      document.head.appendChild(script);
+    });
+  }
+
+  async function getChapter(book, chapter) {
+    const key = chapterKey(book.id, chapter);
+
+    if (importedChapterKeys.has(key)) {
+      if (storageMode === "indexeddb") {
+        const record = await idbGet("chapters", key);
+        if (record && record.data) return record.data;
+      } else if (storageMode === "localstorage") {
+        const data = fallbackContent.chapters[key];
+        if (data) return data;
+      }
+    }
+
+    if (window.ETHIOPIAN_BIBLE_CHAPTERS[key]) return window.ETHIOPIAN_BIBLE_CHAPTERS[key];
+
+    if (book.chapterPathPattern) {
+      const src = book.chapterPathPattern.replace("{chapter}", paddedChapter(chapter));
+      await loadScript(src);
+      const data = window.ETHIOPIAN_BIBLE_CHAPTERS[key];
+      if (data) return data;
+    }
+    throw new Error(`Chapter data not registered: ${key}`);
+  }
+
+  async function openChapter(bookId, chapter) {
+    const book = bookById(bookId);
+    if (!book) return;
+    const installed = installedChapterNumbers(book.id);
+    if (!installed.length) {
+      showToast("No chapters are installed for this book.");
+      return;
+    }
+    chapter = Number(chapter) || installed[0];
+    if (!installed.includes(chapter)) {
+      chapter = installed.find(n => n >= chapter) || installed[installed.length - 1];
+    }
+
+    els.locationLabel.textContent = "Loading…";
+    try {
+      const data = await getChapter(book, chapter);
+      state.currentBookId = bookId;
+      state.currentChapter = chapter;
+      saveState();
+      renderChapter(book, data);
+      renderLibrary(els.librarySearch.value);
+      closeLibraryOnMobile();
+      try { history.replaceState(null, "", `#${encodeURIComponent(bookId)}-${chapter}`); } catch (_) {}
+    } catch (error) {
+      console.error(error);
+      showToast("Chapter could not be loaded.");
+      els.locationLabel.textContent = `Permanent V${VERSION}`;
+    }
+  }
+
+  function appendCrossReference(parent, rawReference) {
+    const raw = String(rawReference || "").trim();
+    const parts = raw.split(/\s+—\s+/, 2);
+    const reference = parts[0] || raw;
+    const note = parts.length > 1 ? raw.slice(reference.length).replace(/^\s*—\s*/, "") : "Related biblical passage";
+
+    const item = document.createElement("div");
+    item.className = "crossref-item";
+
+    const ref = document.createElement("div");
+    ref.className = "crossref-reference";
+    ref.textContent = reference;
+
+    const description = document.createElement("div");
+    description.className = "crossref-note";
+    description.textContent = note;
+
+    item.append(ref, description);
+    parent.appendChild(item);
+  }
+
+  function renderChapter(book, data) {
+    els.welcomeScreen.hidden = true;
+    els.chapterView.hidden = false;
+    els.bookTitle.textContent = data.bookTitle || book.title;
+    els.bookCategory.textContent = data.category || book.category || "";
+    els.chapterTitle.textContent = data.title || `Chapter ${data.chapter}`;
+    els.chapterNumber.textContent = data.chapter;
+    els.locationLabel.textContent = `${book.shortTitle || book.title} • Chapter ${data.chapter}`;
+    els.readerSearch.value = "";
+    els.searchCount.textContent = "";
+
+    const frag = document.createDocumentFragment();
+    if (data.sourceNote) {
+      const source = document.createElement("section");
+      source.className = "source-note";
+      source.dataset.search = data.sourceNote.toLowerCase();
+      const h = document.createElement("h3"); h.textContent = "Textual source note"; source.appendChild(h);
+      const p = document.createElement("p"); p.textContent = data.sourceNote; source.appendChild(p);
+      frag.appendChild(source);
+    }
+
+    (data.verses || []).forEach(v => {
+      const block = document.createElement("section");
+      block.className = "verse";
+      block.id = `${book.id.replace(/[^a-z0-9]+/gi, "-")}-${data.chapter}-${v.verse}`;
+      const searchable = [v.verse, v.text, v.study, ...(v.crossReferences || [])].filter(Boolean).join(" ");
+      block.dataset.search = searchable.toLowerCase();
+
+      const line = document.createElement("div");
+      line.className = "verse-line";
+      line.innerHTML = `<span class="verse-number" aria-label="Verse ${escapeHtml(String(v.verse))}">${escapeHtml(String(v.verse))}</span><span class="verse-text">${escapeHtml(v.text)}</span>`;
+      block.appendChild(line);
+
+      if (v.study || (v.crossReferences || []).length) {
+        const study = document.createElement("div");
+        study.className = "verse-study";
+        if (v.study) {
+          const label = document.createElement("strong"); label.textContent = "Meaning & context"; study.appendChild(label);
+          const p = document.createElement("p"); p.textContent = v.study; study.appendChild(p);
+        }
+        if ((v.crossReferences || []).length) {
+          const refs = document.createElement("div"); refs.className = "verse-crossrefs";
+          const label = document.createElement("strong"); label.textContent = "Biblical connections"; refs.appendChild(label);
+          const list = document.createElement("div"); list.className = "crossref-list";
+          v.crossReferences.forEach(ref => appendCrossReference(list, ref));
+          refs.appendChild(list);
+          study.appendChild(refs);
+        }
+        block.appendChild(study);
+      }
+
+      frag.appendChild(block);
+    });
+
+    if (data.explanation && (data.explanation.paragraphs || []).length) {
+      const box = document.createElement("section");
+      box.className = "explanation";
+      box.dataset.search = `${data.explanation.heading || "Explanation"} ${(data.explanation.paragraphs || []).join(" ")}`.toLowerCase();
+      const h = document.createElement("h3"); h.textContent = data.explanation.heading || "Explanation"; box.appendChild(h);
+      (data.explanation.paragraphs || []).forEach(p => { const para = document.createElement("p"); para.textContent = p; box.appendChild(para); });
+      frag.appendChild(box);
+    }
+
+    if ((data.crossReferences || []).length) {
+      const box = document.createElement("section"); box.className = "crossrefs";
+      box.dataset.search = data.crossReferences.join(" ").toLowerCase();
+      const h = document.createElement("h3"); h.textContent = "Chapter connections"; box.appendChild(h);
+      const list = document.createElement("div"); list.className = "crossref-list";
+      data.crossReferences.forEach(ref => appendCrossReference(list, ref));
+      box.appendChild(list);
+      frag.appendChild(box);
+    }
+
+    els.chapterContent.innerHTML = "";
+    els.chapterContent.appendChild(frag);
+    const installed = installedChapterNumbers(book.id);
+    const position = installed.indexOf(Number(data.chapter));
+    els.prevChapterButton.disabled = position <= 0;
+    els.nextChapterButton.disabled = position < 0 || position >= installed.length - 1;
+    renderChapterGrid(book, data.chapter);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function renderChapterGrid(book, activeChapter) {
+    els.chapterGrid.innerHTML = "";
+    const installed = installedChapterNumbers(book.id);
+    installed.forEach(i => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.textContent = i;
+      if (i === Number(activeChapter)) btn.classList.add("active");
+      btn.addEventListener("click", () => { els.chapterDialog.close(); openChapter(book.id, i); });
+      els.chapterGrid.appendChild(btn);
+    });
+  }
+
+  function searchCurrentChapter(query) {
+    const q = query.trim().toLowerCase();
+    const searchable = [...els.chapterContent.querySelectorAll("[data-search]")];
+    let count = 0;
+    searchable.forEach(node => {
+      const match = !q || node.dataset.search.includes(q);
+      node.hidden = !match;
+      node.classList.toggle("highlight", !!q && match);
+      if (q && match) count++;
+    });
+    els.searchCount.textContent = q ? `${count} found` : "";
+  }
+
+  function openLibrary() { els.libraryPanel.classList.add("open"); }
+  function closeLibraryOnMobile() { if (matchMedia("(max-width: 850px)").matches) els.libraryPanel.classList.remove("open"); }
+
+  function toggleMenu(sourceButton) {
+    const willOpen = els.moreMenu.hidden;
+    els.moreMenu.hidden = !willOpen;
+    els.moreButton.setAttribute("aria-expanded", String(willOpen));
+    els.floatingMenuButton.setAttribute("aria-expanded", String(willOpen));
+    if (willOpen && sourceButton === els.floatingMenuButton) {
+      const rect = els.floatingMenuButton.getBoundingClientRect();
+      els.moreMenu.style.top = "auto";
+      els.moreMenu.style.bottom = `${window.innerHeight - rect.top + 8}px`;
+    } else if (willOpen) {
+      els.moreMenu.style.bottom = "auto";
+      els.moreMenu.style.top = "60px";
+    }
+  }
+
+  function closeMenu() {
+    els.moreMenu.hidden = true;
+    els.moreButton.setAttribute("aria-expanded", "false");
+    els.floatingMenuButton.setAttribute("aria-expanded", "false");
+  }
+
+  function currentKey() { return state.currentBookId && state.currentChapter ? chapterKey(state.currentBookId, state.currentChapter) : null; }
+
+  function toggleBookmark() {
+    const key = currentKey();
+    if (!key) { showToast("Open a chapter first."); return; }
+    const idx = state.bookmarks.indexOf(key);
+    if (idx >= 0) { state.bookmarks.splice(idx, 1); showToast("Bookmark removed."); }
+    else { state.bookmarks.push(key); showToast("Chapter bookmarked."); }
+    saveState();
+  }
+
+  function openNotes() {
+    const key = currentKey();
+    if (!key) { showToast("Open a chapter first."); return; }
+    els.notesText.value = state.notes[key] || "";
+    els.notesDialog.showModal();
+    setTimeout(() => els.notesText.focus(), 50);
+  }
+
+  function saveNotes(event) {
+    event.preventDefault();
+    const key = currentKey();
+    if (!key) return;
+    const text = els.notesText.value.trim();
+    if (text) state.notes[key] = text; else delete state.notes[key];
+    saveState();
+    els.notesDialog.close();
+    showToast("Notes saved on this device.");
+  }
+
+  function normalizeUpdateBook(meta, chapter) {
+    if (meta && meta.id && meta.title) return meta;
+    return {
+      id: chapter.bookId,
+      title: chapter.bookTitle || chapter.bookId,
+      shortTitle: chapter.bookTitle || chapter.bookId,
+      category: "Ethiopic biblical literature",
+      totalChapterCount: Number(chapter.totalChapterCount) || Number(chapter.chapter) || 1,
+      enabled: true
+    };
+  }
+
+  function validateChapterData(chapter) {
+    if (!chapter || typeof chapter !== "object") throw new Error("Invalid chapter object");
+    if (!chapter.bookId || !Number.isInteger(Number(chapter.chapter)) || Number(chapter.chapter) < 1) throw new Error("Chapter identity is invalid");
+    if (!chapter.bookTitle) throw new Error("Book title is missing");
+    if (!Array.isArray(chapter.verses) || chapter.verses.length === 0) throw new Error("Chapter verses are missing");
+    chapter.verses.forEach(v => {
+      if (!Number.isFinite(Number(v.verse)) || typeof v.text !== "string" || !v.text.trim()) throw new Error("A verse is invalid");
+    });
+  }
+
+  async function storeImportedBook(book) {
+    mergeBookMetadata(book);
+    if (storageMode === "indexeddb") {
+      await idbPut("books", {
+        id: book.id,
+        title: book.title,
+        shortTitle: book.shortTitle || book.title,
+        category: book.category || "Ethiopic biblical literature",
+        totalChapterCount: Number(book.totalChapterCount) || Number(book.chapterCount) || 1,
+        enabled: book.enabled !== false
+      });
+    } else if (storageMode === "localstorage") {
+      fallbackContent.books[book.id] = {
+        id: book.id,
+        title: book.title,
+        shortTitle: book.shortTitle || book.title,
+        category: book.category || "Ethiopic biblical literature",
+        totalChapterCount: Number(book.totalChapterCount) || Number(book.chapterCount) || 1,
+        enabled: book.enabled !== false
+      };
+    }
+  }
+
+  async function storeImportedChapter(chapter) {
+    validateChapterData(chapter);
+    const key = chapterKey(chapter.bookId, Number(chapter.chapter));
+    if (storageMode === "indexeddb") {
+      await idbPut("chapters", { key, data: chapter });
+    } else if (storageMode === "localstorage") {
+      fallbackContent.chapters[key] = chapter;
+    } else {
+      throw new Error("Permanent browser storage is unavailable");
+    }
+    importedChapterKeys.add(key);
+  }
+
+  async function importBibleUpdatePayload(parsed, sourceName = "Bible update") {
+    if (!parsed || parsed.format !== "ethiopian-bible-update" || Number(parsed.schemaVersion) !== 1) {
+      throw new Error("Not an Ethiopian Bible update file");
+    }
+
+    const chapters = Array.isArray(parsed.chapters) ? parsed.chapters : [];
+    if (!chapters.length) throw new Error("No chapters found in update");
+
+    const suppliedBooks = Array.isArray(parsed.books) ? parsed.books : [];
+    const bookMap = new Map(suppliedBooks.filter(b => b && b.id).map(b => [b.id, b]));
+
+    for (const chapter of chapters) {
+      validateChapterData(chapter);
+      const meta = normalizeUpdateBook(bookMap.get(chapter.bookId), chapter);
+      if (Number(meta.totalChapterCount) < Number(chapter.chapter)) meta.totalChapterCount = Number(chapter.chapter);
+      await storeImportedBook(meta);
+      await storeImportedChapter(chapter);
+    }
+
+    const updateRecord = {
+      updateId: parsed.updateId || sourceName,
+      contentVersion: parsed.contentVersion || "",
+      importedAt: new Date().toISOString(),
+      chapterCount: chapters.length
+    };
+
+    if (storageMode === "indexeddb") {
+      await idbPut("meta", { key: "lastUpdate", value: updateRecord });
+    } else if (storageMode === "localstorage") {
+      fallbackContent.appliedUpdates.push(updateRecord);
+      if (!saveFallbackContent()) throw new Error("Browser storage is full");
+    }
+
+    refreshBookCounts();
+    renderLibrary(els.librarySearch.value);
+
+    const currentBook = bookById(state.currentBookId);
+    if (currentBook && state.currentChapter) {
+      renderChapterGrid(currentBook, state.currentChapter);
+      const installed = installedChapterNumbers(currentBook.id);
+      const pos = installed.indexOf(Number(state.currentChapter));
+      els.prevChapterButton.disabled = pos <= 0;
+      els.nextChapterButton.disabled = pos < 0 || pos >= installed.length - 1;
+    }
+
+    return chapters.length;
+  }
+
+  async function importBibleUpdate(file) {
+    try {
+      const parsed = JSON.parse(await file.text());
+      const count = await importBibleUpdatePayload(parsed, file.name);
+      showToast(`${count} Bible chapter${count === 1 ? "" : "s"} imported successfully.`);
+    } catch (err) {
+      console.error(err);
+      showToast(`Update not imported: ${err.message || "invalid file"}.`);
+    } finally {
+      els.bibleUpdateFile.value = "";
+    }
+  }
+
+  async function fetchJson(url) {
+    const response = await fetch(url, {
+      method: "GET",
+      cache: "no-store",
+      headers: { "Accept": "application/json" }
+    });
+    if (!response.ok) throw new Error(`Server returned ${response.status}`);
+    return response.json();
+  }
+
+  async function checkForBibleUpdates() {
+    if (!navigator.onLine) {
+      showToast("No internet connection. Your installed Bible remains available offline.");
+      return;
+    }
+
+    showToast("Checking the Bible update library…");
+
+    try {
+      const manifest = await fetchJson(ONLINE_MANIFEST_URL);
+      if (!manifest || manifest.format !== "ethiopian-bible-online-manifest" || Number(manifest.schemaVersion) !== 1) {
+        throw new Error("Online update catalogue is invalid");
+      }
+
+      const updates = Array.isArray(manifest.updates) ? manifest.updates : [];
+      const missing = updates.filter(item => {
+        if (!item || !item.bookId || !Number.isFinite(Number(item.chapter)) || !item.url) return false;
+        return !installedChapterNumbers(item.bookId).includes(Number(item.chapter));
+      });
+
+      if (!missing.length) {
+        const versionText = manifest.contentVersion ? ` Content version ${manifest.contentVersion}.` : "";
+        showToast(`Bible library is up to date.${versionText}`);
+        return;
+      }
+
+      const preview = missing.slice(0, 12).map(item => {
+        const book = bookById(item.bookId);
+        return `${book ? book.title : item.bookId} ${item.chapter}`;
+      }).join("\n");
+      const more = missing.length > 12 ? `\n…and ${missing.length - 12} more` : "";
+
+      const approved = window.confirm(
+        `${missing.length} new Bible chapter${missing.length === 1 ? "" : "s"} available:\n\n${preview}${more}\n\nDownload and install now?`
+      );
+      if (!approved) {
+        showToast("Bible update cancelled.");
+        return;
+      }
+
+      let installedCount = 0;
+      for (const item of missing) {
+        const updateUrl = new URL(item.url, ONLINE_BASE_URL).href;
+        const payload = await fetchJson(updateUrl);
+        installedCount += await importBibleUpdatePayload(payload, item.id || item.url);
+      }
+
+      showToast(`${installedCount} new Bible chapter${installedCount === 1 ? "" : "s"} installed. Available offline.`);
+    } catch (err) {
+      console.error(err);
+      showToast(`Could not check for updates: ${err.message || "network error"}.`);
+    }
+  }
+
+  async function collectImportedContent() {
+    if (storageMode === "indexeddb") {
+      const books = await idbGetAll("books");
+      const records = await idbGetAll("chapters");
+      return { books, chapters: records.map(r => r.data), storageMode };
+    }
+    if (storageMode === "localstorage") {
+      return {
+        books: Object.values(fallbackContent.books || {}),
+        chapters: Object.values(fallbackContent.chapters || {}),
+        storageMode
+      };
+    }
+    return { books: [], chapters: [], storageMode };
+  }
+
+  async function exportUserData() {
+    try {
+      const content = await collectImportedContent();
+      const payload = {
+        format: "ethiopian-bible-complete-backup",
+        schemaVersion: 1,
+        app: "Ethiopian Bible Permanent",
+        version: VERSION,
+        exportedAt: new Date().toISOString(),
+        userData: {
+          bookmarks: state.bookmarks,
+          notes: state.notes,
+          theme: state.theme,
+          fontScale: state.fontScale
+        },
+        importedContent: content
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `Ethiopian_Bible_Complete_Backup_${new Date().toISOString().slice(0,10)}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+      showToast("Complete backup exported.");
+    } catch (err) {
+      console.error(err);
+      showToast("Backup could not be created.");
+    }
+  }
+
+  async function importUserData(file) {
+    try {
+      const parsed = JSON.parse(await file.text());
+      const userData = parsed.userData || parsed;
+      if (!Array.isArray(userData.bookmarks) || typeof userData.notes !== "object") throw new Error("Invalid backup");
+
+      state.bookmarks = userData.bookmarks;
+      state.notes = userData.notes || {};
+      if (userData.theme === "dark" || userData.theme === "light") state.theme = userData.theme;
+      if (userData.fontScale) state.fontScale = Number(userData.fontScale);
+
+      const content = parsed.importedContent;
+      if (content && Array.isArray(content.books) && Array.isArray(content.chapters)) {
+        for (const book of content.books) await storeImportedBook(book);
+        for (const chapter of content.chapters) await storeImportedChapter(chapter);
+        if (storageMode === "localstorage" && !saveFallbackContent()) throw new Error("Browser storage is full");
+      }
+
+      applyTheme();
+      applyFontScale();
+      saveState();
+      refreshBookCounts();
+      renderLibrary(els.librarySearch.value);
+      showToast("Complete backup restored.");
+    } catch (err) {
+      console.error(err);
+      showToast("That file is not a valid Ethiopian Bible backup.");
+    } finally {
+      els.importFile.value = "";
+    }
+  }
+
+  function escapeHtml(text) {
+    return String(text).replace(/[&<>'"]/g, ch => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", "'":"&#39;", '"':"&quot;" }[ch]));
+  }
+
+  function handleMenuAction(action) {
+    closeMenu();
+    switch (action) {
+      case "font-increase": state.fontScale = Math.min(1.6, state.fontScale + .1); applyFontScale(); saveState(); showToast("Text enlarged."); break;
+      case "font-decrease": state.fontScale = Math.max(.9, state.fontScale - .1); applyFontScale(); saveState(); showToast("Text reduced."); break;
+      case "theme": state.theme = state.theme === "dark" ? "light" : "dark"; applyTheme(); saveState(); break;
+      case "bookmark": toggleBookmark(); break;
+      case "notes": openNotes(); break;
+      case "print": window.print(); break;
+      case "check-updates": checkForBibleUpdates(); break;
+      case "bible-update": els.bibleUpdateFile.click(); break;
+      case "export": exportUserData(); break;
+      case "import": els.importFile.click(); break;
+      case "about": els.aboutDialog.showModal(); break;
+    }
+  }
+
+  function initEvents() {
+    els.libraryButton.addEventListener("click", openLibrary);
+    els.showLibraryButton.addEventListener("click", openLibrary);
+    els.closeLibraryButton.addEventListener("click", () => els.libraryPanel.classList.remove("open"));
+    els.librarySearch.addEventListener("input", e => renderLibrary(e.target.value));
+    els.readerSearch.addEventListener("input", e => searchCurrentChapter(e.target.value));
+    els.openDemoButton.addEventListener("click", () => openChapter("1-enoch", 1));
+    els.prevChapterButton.addEventListener("click", () => {
+      const book = bookById(state.currentBookId);
+      if (!book) return;
+      const installed = installedChapterNumbers(book.id);
+      const pos = installed.indexOf(Number(state.currentChapter));
+      if (pos > 0) openChapter(book.id, installed[pos - 1]);
+    });
+    els.nextChapterButton.addEventListener("click", () => {
+      const book = bookById(state.currentBookId);
+      if (!book) return;
+      const installed = installedChapterNumbers(book.id);
+      const pos = installed.indexOf(Number(state.currentChapter));
+      if (pos >= 0 && pos < installed.length - 1) openChapter(book.id, installed[pos + 1]);
+    });
+    els.chapterPickerButton.addEventListener("click", () => { const book = bookById(state.currentBookId); if (!book) { showToast("Open a book first."); return; } renderChapterGrid(book, state.currentChapter); els.chapterDialog.showModal(); });
+    els.moreButton.addEventListener("click", e => { e.stopPropagation(); toggleMenu(els.moreButton); });
+    els.floatingMenuButton.addEventListener("click", e => { e.stopPropagation(); toggleMenu(els.floatingMenuButton); });
+    els.moreMenu.addEventListener("click", e => { const btn = e.target.closest("button[data-action]"); if (btn) handleMenuAction(btn.dataset.action); });
+    document.addEventListener("click", e => { if (!els.moreMenu.hidden && !els.moreMenu.contains(e.target) && e.target !== els.moreButton && e.target !== els.floatingMenuButton) closeMenu(); });
+    els.notesForm.addEventListener("submit", saveNotes);
+    els.bibleUpdateFile.addEventListener("change", () => { if (els.bibleUpdateFile.files[0]) importBibleUpdate(els.bibleUpdateFile.files[0]); });
+    els.importFile.addEventListener("change", () => { if (els.importFile.files[0]) importUserData(els.importFile.files[0]); });
+    window.addEventListener("keydown", e => { if (e.key === "Escape") closeMenu(); });
+  }
+
+  function registerServiceWorker() {
+    if ("serviceWorker" in navigator && (location.protocol === "http:" || location.protocol === "https:")) {
+      navigator.serviceWorker.register("sw.js").catch(err => console.warn("Service worker registration failed", err));
+    }
+  }
+
+  function restoreRoute() {
+    const hash = decodeURIComponent(location.hash.slice(1));
+    const match = hash.match(/^(.+)-(\d+)$/);
+    if (match && bookById(match[1])) { openChapter(match[1], Number(match[2])); return; }
+    if (state.currentBookId && bookById(state.currentBookId) && state.currentChapter) openChapter(state.currentBookId, state.currentChapter);
+    else els.locationLabel.textContent = `Offline • V${VERSION}`;
+  }
+
+  async function startPermanentApp() {
+    applyTheme();
+    applyFontScale();
+    initEvents();
+    registerServiceWorker();
+    await initializeContentStorage();
+    renderLibrary();
+    restoreRoute();
+  }
+
+  startPermanentApp().catch(error => {
+    console.error(error);
+    storageMode = "memory";
+    refreshBookCounts();
+    renderLibrary();
+    restoreRoute();
+    showToast("The reader started, but permanent update storage is unavailable.");
+  });
+})();
+
+</script>
+</body>
+</html>

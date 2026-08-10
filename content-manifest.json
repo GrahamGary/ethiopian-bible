@@ -1,0 +1,17 @@
+{
+  "format": "ethiopian-bible-online-manifest",
+  "schemaVersion": 1,
+  "contentVersion": "2026.08.10.0",
+  "updatedAt": "2026-08-10T05:25:00+02:00",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "totalChapterCount": 108,
+      "builtInThroughChapter": 3
+    }
+  ],
+  "updates": []
+}
