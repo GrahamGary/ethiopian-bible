@@ -1,0 +1,56 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-004-2026-08-10",
+  "contentVersion": "2026.08.10.1",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 4,
+      "title": "Chapter 4 — The Heat of Summer",
+      "sourceNote": "Translated afresh into clear modern English from the sense preserved in the Ethiopic (Geʽez) textual tradition of 1 Enoch. Chapter 4 is a brief observational unit, conventionally presented as one verse. The wording is intentionally not copied from a modern published English translation.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Again, observe the days of summer: the sun stands high over the earth, and because of its heat you seek shade and shelter. The ground itself becomes hot, so that you cannot comfortably tread on the earth or on the rocks because of the heat.",
+          "study": "The instruction remains simple: pay attention to creation. Summer is recognized by the sun’s intense heat, the search for shade, and the warming of the ground and rocks. The point is not to explain astronomy, but to call attention to the dependable order of the created world. Within the argument of these opening chapters, creation follows recognizable patterns; this ordered obedience will later stand in contrast with beings who knowingly abandon the boundaries appointed to them.",
+          "crossReferences": [
+            "Genesis 8:22 — seedtime and harvest, cold and heat, summer and winter continue in their appointed cycles",
+            "Psalm 19:4–6 — the sun runs its course across the heavens, and nothing is hidden from its heat",
+            "Ecclesiastes 1:5 — the sun rises, sets, and returns again to its appointed course",
+            "Isaiah 4:6 — shade is pictured as shelter from heat"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 4 continues the sequence of observations begun in Chapters 2 and 3. The reader is not asked to speculate but to look: the heat of summer is real, regular, and recognizable.",
+          "The chapter highlights the practical human response to that heat—seeking shade and shelter. Even the earth and exposed rock absorb the sun’s heat strongly enough to affect where a person can comfortably walk.",
+          "In the literary flow of 1 Enoch, these observations reinforce a larger contrast. The created order follows its appointed patterns. Seasons recur, the sun gives heat, and the natural world behaves within recognizable limits. The moral force of the opening section grows from this contrast between ordered creation and deliberate rebellion.",
+          "The Protestant canon uses the same created realities as witnesses to God’s ordering of the world. Genesis 8:22 speaks of recurring seasons, Psalm 19 describes the sun’s heat and course, and Ecclesiastes 1:5 describes the sun’s repeated movement. These are parallels in imagery and theme rather than claims that one passage is quoting another."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 8:22 — the continuing cycle of heat, cold, summer and winter",
+        "Psalm 19:4–6 — the sun’s course and pervasive heat",
+        "Ecclesiastes 1:5 — the recurring course of the sun",
+        "Isaiah 4:6 — shade as protection from heat"
+      ]
+    }
+  ]
+}
