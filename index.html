@@ -204,7 +204,7 @@ html[data-theme="dark"] .floating-menu-button { color: #111713; }
     <button id="libraryButton" class="icon-button" type="button" aria-label="Open library" title="Library">☰</button>
     <div class="brand-wrap">
       <div class="brand">Ethiopian Bible</div>
-      <div id="locationLabel" class="location-label">Offline • Permanent V2.0</div>
+      <div id="locationLabel" class="location-label">Offline • Online Update V2.1</div>
     </div>
     <button id="moreButton" class="icon-button" type="button" aria-label="More options" aria-haspopup="true" aria-expanded="false" title="More">⋮</button>
   </header>
@@ -236,7 +236,7 @@ html[data-theme="dark"] .floating-menu-button { color: #111713; }
       <section id="welcomeScreen" class="welcome-card">
         <p class="eyebrow">OFFLINE-FIRST SCRIPTURE READER</p>
         <h1>Ethiopian Bible</h1>
-        <p>This is now the permanent Ethiopian Bible reader. Chapters 1–3 are built in, and future Scripture chapters can be imported into the library without replacing this app.</p>
+        <p>This is the permanent Ethiopian Bible reader. Chapters 1–3 are built in. When internet is available, use Check for Bible Updates to download new Scripture directly into the local library; reading then remains available offline.</p>
         <div class="welcome-actions">
           <button id="openDemoButton" class="primary-button" type="button">Open 1 Enoch • Chapter 1</button>
           <button id="showLibraryButton" class="secondary-button" type="button">Open Library</button>
@@ -269,7 +269,8 @@ html[data-theme="dark"] .floating-menu-button { color: #111713; }
     <button type="button" data-action="bookmark" role="menuitem">☆ Bookmark chapter</button>
     <button type="button" data-action="notes" role="menuitem">✎ Chapter notes</button>
     <button type="button" data-action="print" role="menuitem">⎙ Print / PDF</button>
-    <button type="button" data-action="bible-update" role="menuitem">⬇ Import Bible Update</button>
+    <button type="button" data-action="check-updates" role="menuitem">⟳ Check for Bible Updates</button>
+    <button type="button" data-action="bible-update" role="menuitem">⬇ Import Bible Update (manual backup)</button>
     <button type="button" data-action="export" role="menuitem">⇩ Export complete backup</button>
     <button type="button" data-action="import" role="menuitem">⇧ Restore complete backup</button>
     <button type="button" data-action="about" role="menuitem">ⓘ About / Update status</button>
@@ -294,9 +295,9 @@ html[data-theme="dark"] .floating-menu-button { color: #111713; }
     <form method="dialog">
       <div class="dialog-header"><h2>About</h2><button value="cancel" class="icon-button compact" aria-label="Close">×</button></div>
       <div class="about-copy">
-        <p><strong>Ethiopian Bible Permanent V2.0</strong></p>
+        <p><strong>Ethiopian Bible Online Update V2.1</strong></p>
         <p>This permanent mobile edition is designed to remain on the device while new Bible chapters are imported separately. It opens directly from Android My Files/Samsung Internet without separate CSS or JavaScript files.</p>
-        <p><strong>Future chapter workflow:</strong> download the small Bible update file, open this app, choose <strong>⋮ → Import Bible Update</strong>, and select the update. The chapter becomes part of this local Bible library; the app file itself does not need to be replaced.</p>
+        <p><strong>Future chapter workflow:</strong> choose <strong>⋮ → Check for Bible Updates</strong>. When internet is available, the reader checks the protected update catalogue, downloads only missing Scripture updates, and stores them locally. <strong>Import Bible Update</strong> remains available as a manual backup method.</p>
         <p id="contentStatus"><strong>Installed content:</strong> checking…</p>
         <p id="storageStatus"><strong>Update storage:</strong> checking…</p>
         <p>A complete backup includes bookmarks, notes, settings, and all Bible chapters imported after installation.</p>
@@ -311,7 +312,7 @@ html[data-theme="dark"] .floating-menu-button { color: #111713; }
 
   <script>
 window.ETHIOPIAN_BIBLE_LIBRARY = {
-  version: "2.0.0",
+  version: "2.1.0",
   books: [
     {
       id: "1-enoch",
@@ -512,11 +513,13 @@ window.ETHIOPIAN_BIBLE_CHAPTERS["1-enoch:3"] = {
 (() => {
   "use strict";
 
-  const VERSION = "2.0.0";
+  const VERSION = "2.1.0";
   const STORAGE_KEY = "ethiopianBiblePermanentSettingsV2";
   const FALLBACK_CONTENT_KEY = "ethiopianBiblePermanentContentV2";
   const DB_NAME = "EthiopianBiblePermanentDB";
   const DB_VERSION = 1;
+  const ONLINE_BASE_URL = "https://grahamgary.github.io/ethiopian-bible/";
+  const ONLINE_MANIFEST_URL = ONLINE_BASE_URL + "content-manifest.json";
   const library = window.ETHIOPIAN_BIBLE_LIBRARY || { books: [] };
   window.ETHIOPIAN_BIBLE_CHAPTERS = window.ETHIOPIAN_BIBLE_CHAPTERS || {};
 
@@ -1101,62 +1104,128 @@ window.ETHIOPIAN_BIBLE_CHAPTERS["1-enoch:3"] = {
     importedChapterKeys.add(key);
   }
 
+  async function importBibleUpdatePayload(parsed, sourceName = "Bible update") {
+    if (!parsed || parsed.format !== "ethiopian-bible-update" || Number(parsed.schemaVersion) !== 1) {
+      throw new Error("Not an Ethiopian Bible update file");
+    }
+
+    const chapters = Array.isArray(parsed.chapters) ? parsed.chapters : [];
+    if (!chapters.length) throw new Error("No chapters found in update");
+
+    const suppliedBooks = Array.isArray(parsed.books) ? parsed.books : [];
+    const bookMap = new Map(suppliedBooks.filter(b => b && b.id).map(b => [b.id, b]));
+
+    for (const chapter of chapters) {
+      validateChapterData(chapter);
+      const meta = normalizeUpdateBook(bookMap.get(chapter.bookId), chapter);
+      if (Number(meta.totalChapterCount) < Number(chapter.chapter)) meta.totalChapterCount = Number(chapter.chapter);
+      await storeImportedBook(meta);
+      await storeImportedChapter(chapter);
+    }
+
+    const updateRecord = {
+      updateId: parsed.updateId || sourceName,
+      contentVersion: parsed.contentVersion || "",
+      importedAt: new Date().toISOString(),
+      chapterCount: chapters.length
+    };
+
+    if (storageMode === "indexeddb") {
+      await idbPut("meta", { key: "lastUpdate", value: updateRecord });
+    } else if (storageMode === "localstorage") {
+      fallbackContent.appliedUpdates.push(updateRecord);
+      if (!saveFallbackContent()) throw new Error("Browser storage is full");
+    }
+
+    refreshBookCounts();
+    renderLibrary(els.librarySearch.value);
+
+    const currentBook = bookById(state.currentBookId);
+    if (currentBook && state.currentChapter) {
+      renderChapterGrid(currentBook, state.currentChapter);
+      const installed = installedChapterNumbers(currentBook.id);
+      const pos = installed.indexOf(Number(state.currentChapter));
+      els.prevChapterButton.disabled = pos <= 0;
+      els.nextChapterButton.disabled = pos < 0 || pos >= installed.length - 1;
+    }
+
+    return chapters.length;
+  }
+
   async function importBibleUpdate(file) {
     try {
       const parsed = JSON.parse(await file.text());
-      if (parsed.format !== "ethiopian-bible-update" || Number(parsed.schemaVersion) !== 1) {
-        throw new Error("Not an Ethiopian Bible update file");
-      }
-      const chapters = Array.isArray(parsed.chapters) ? parsed.chapters : [];
-      if (!chapters.length) throw new Error("No chapters found in update");
-
-      const suppliedBooks = Array.isArray(parsed.books) ? parsed.books : [];
-      const bookMap = new Map(suppliedBooks.filter(b => b && b.id).map(b => [b.id, b]));
-
-      for (const chapter of chapters) {
-        validateChapterData(chapter);
-        const meta = normalizeUpdateBook(bookMap.get(chapter.bookId), chapter);
-        if (Number(meta.totalChapterCount) < Number(chapter.chapter)) meta.totalChapterCount = Number(chapter.chapter);
-        await storeImportedBook(meta);
-        await storeImportedChapter(chapter);
-      }
-
-      if (storageMode === "indexeddb") {
-        await idbPut("meta", {
-          key: "lastUpdate",
-          value: {
-            updateId: parsed.updateId || file.name,
-            contentVersion: parsed.contentVersion || "",
-            importedAt: new Date().toISOString(),
-            chapterCount: chapters.length
-          }
-        });
-      } else if (storageMode === "localstorage") {
-        fallbackContent.appliedUpdates.push({
-          updateId: parsed.updateId || file.name,
-          contentVersion: parsed.contentVersion || "",
-          importedAt: new Date().toISOString(),
-          chapterCount: chapters.length
-        });
-        if (!saveFallbackContent()) throw new Error("Browser storage is full");
-      }
-
-      refreshBookCounts();
-      renderLibrary(els.librarySearch.value);
-      const currentBook = bookById(state.currentBookId);
-      if (currentBook && state.currentChapter) {
-        renderChapterGrid(currentBook, state.currentChapter);
-        const installed = installedChapterNumbers(currentBook.id);
-        const pos = installed.indexOf(Number(state.currentChapter));
-        els.prevChapterButton.disabled = pos <= 0;
-        els.nextChapterButton.disabled = pos < 0 || pos >= installed.length - 1;
-      }
-      showToast(`${chapters.length} Bible chapter${chapters.length === 1 ? "" : "s"} imported successfully.`);
+      const count = await importBibleUpdatePayload(parsed, file.name);
+      showToast(`${count} Bible chapter${count === 1 ? "" : "s"} imported successfully.`);
     } catch (err) {
       console.error(err);
       showToast(`Update not imported: ${err.message || "invalid file"}.`);
     } finally {
       els.bibleUpdateFile.value = "";
+    }
+  }
+
+  async function fetchJson(url) {
+    const response = await fetch(url, {
+      method: "GET",
+      cache: "no-store",
+      headers: { "Accept": "application/json" }
+    });
+    if (!response.ok) throw new Error(`Server returned ${response.status}`);
+    return response.json();
+  }
+
+  async function checkForBibleUpdates() {
+    if (!navigator.onLine) {
+      showToast("No internet connection. Your installed Bible remains available offline.");
+      return;
+    }
+
+    showToast("Checking the Bible update library…");
+
+    try {
+      const manifest = await fetchJson(ONLINE_MANIFEST_URL);
+      if (!manifest || manifest.format !== "ethiopian-bible-online-manifest" || Number(manifest.schemaVersion) !== 1) {
+        throw new Error("Online update catalogue is invalid");
+      }
+
+      const updates = Array.isArray(manifest.updates) ? manifest.updates : [];
+      const missing = updates.filter(item => {
+        if (!item || !item.bookId || !Number.isFinite(Number(item.chapter)) || !item.url) return false;
+        return !installedChapterNumbers(item.bookId).includes(Number(item.chapter));
+      });
+
+      if (!missing.length) {
+        const versionText = manifest.contentVersion ? ` Content version ${manifest.contentVersion}.` : "";
+        showToast(`Bible library is up to date.${versionText}`);
+        return;
+      }
+
+      const preview = missing.slice(0, 12).map(item => {
+        const book = bookById(item.bookId);
+        return `${book ? book.title : item.bookId} ${item.chapter}`;
+      }).join("\n");
+      const more = missing.length > 12 ? `\n…and ${missing.length - 12} more` : "";
+
+      const approved = window.confirm(
+        `${missing.length} new Bible chapter${missing.length === 1 ? "" : "s"} available:\n\n${preview}${more}\n\nDownload and install now?`
+      );
+      if (!approved) {
+        showToast("Bible update cancelled.");
+        return;
+      }
+
+      let installedCount = 0;
+      for (const item of missing) {
+        const updateUrl = new URL(item.url, ONLINE_BASE_URL).href;
+        const payload = await fetchJson(updateUrl);
+        installedCount += await importBibleUpdatePayload(payload, item.id || item.url);
+      }
+
+      showToast(`${installedCount} new Bible chapter${installedCount === 1 ? "" : "s"} installed. Available offline.`);
+    } catch (err) {
+      console.error(err);
+      showToast(`Could not check for updates: ${err.message || "network error"}.`);
     }
   }
 
@@ -1252,6 +1321,7 @@ window.ETHIOPIAN_BIBLE_CHAPTERS["1-enoch:3"] = {
       case "bookmark": toggleBookmark(); break;
       case "notes": openNotes(); break;
       case "print": window.print(); break;
+      case "check-updates": checkForBibleUpdates(); break;
       case "bible-update": els.bibleUpdateFile.click(); break;
       case "export": exportUserData(); break;
       case "import": els.importFile.click(); break;
