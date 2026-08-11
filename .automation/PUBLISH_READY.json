@@ -5,14 +5,14 @@
   "lastValidated": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 16
+    "chapter": 17
   },
   "nextUnfinished": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 17
+    "chapter": 18
   },
-  "validatedAt": "2026-08-11T04:13:33Z",
+  "validatedAt": "2026-08-11T05:05:19Z",
   "checks": {
     "source": "PASSED",
     "structure": "PASSED",
@@ -31,104 +31,24 @@
       "role": "publication-control-record"
     },
     {
-      "path": ".automation/README.md",
-      "sha256": "a3a9d5b5102ed409c53763fd789c91b3ac46ad3ccd9e74f4486fbd7cfbc61bde",
-      "role": "validation-infrastructure"
-    },
-    {
       "path": ".automation/VALIDATED_STATE.json",
-      "sha256": "d1773be6cd1c641987506cffec210c0949aa1df6b328bfcb31ee7465c1c3658f",
+      "sha256": "6e7ec048391b59a2904c722dfa384afdc11586ffaa7ced26dd2ea30d67d8af28",
       "role": "validation-infrastructure"
     },
     {
-      "path": ".gitignore",
-      "sha256": "213425e83608c2e44848449d2640aeb5ee05816b658ee46d102cf0f291472206",
-      "role": "automation-infrastructure"
-    },
-    {
-      "path": "1-enoch-005.json",
-      "sha256": "2c7be25bbb885416fb01b4737b9fb3eb4b1532f9fdb652bb75aa7abc68f869d5",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-006.json",
-      "sha256": "be33945ee9f64a561dc02c75fa035edb276d35693859e6dcc52fbadd5fbcefbb",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-007.json",
-      "sha256": "deaf2bbb678ceb78e0ecafae02baea59e80f72f4a365b2b9be2b79797b637b4b",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-008.json",
-      "sha256": "1a391d6321da6f3620bb358e7747c7f576d0cecfe00b4607d70a79670257f68e",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-009.json",
-      "sha256": "c0d90558d3600776a0b448169ae253039f49690a6cb2e3943e7cac8326e357ac",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-010.json",
-      "sha256": "4ee60337c92d3d19959ead4d106a9cd2443bd69ec42f54462f8e9227569bd8fa",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-011.json",
-      "sha256": "7ab10fcee4624b1b19a7f345df543a7017cede82bd2df3d10a83ef6532c951ef",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-012.json",
-      "sha256": "c90ba290d0d22b2c0efce8de8f08a3fce41f3381d6be2b0cdc4fa54223afcc95",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-013.json",
-      "sha256": "dc72dfb18f5c47f23ac04ddbb249406ccd54e6b49f9049630de6f96b9bde2c1f",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-014.json",
-      "sha256": "9f614e978c81b8c87dda19d7f65bc4d4db49bdc6a47abcba5d78edbb8dbc08c1",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-015.json",
-      "sha256": "fda448944ad2cc183d64db6e1c96885b4a80bb9c4c726ce007fb27ee9ac265c8",
-      "role": "scripture"
-    },
-    {
-      "path": "1-enoch-016.json",
-      "sha256": "a0d06db480cf3a369ff41011fa552468b3819c48fdd3ace8a18ee9e0bffca6d4",
+      "path": "1-enoch-017.json",
+      "sha256": "8bb6010d81f1b25d3486f8c39600c28314610f14a0af0e7b58c4401031a7fc2e",
       "role": "scripture"
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "5927a0044d5ada2910e2ea9ef37a6deaac6eb3340e89152f71e3785180a36782",
+      "sha256": "0504c73ac3483618a872452bda9b02aa5fb78bbd05fbf646ba9a5a4cd8f191cd",
       "role": "publication-metadata"
     },
     {
       "path": "content-manifest.json",
-      "sha256": "aee8ad7deb4e49b20f6c657d7327d75015bb5aa9c35e3e73e9de4dfe3f47f4e7",
+      "sha256": "30d14bb61f16dc9e6ccd31c23a26270f634d592d505a30ba0d6cc282c634427f",
       "role": "publication-metadata"
-    },
-    {
-      "path": "scripts/production-lock.sh",
-      "sha256": "010c857aa5469cbe53c2ede416b281d8b6d7e579de8300992db4bfcd2b68dec5",
-      "role": "automation-infrastructure"
-    },
-    {
-      "path": "scripts/publish-validated.sh",
-      "sha256": "7c1ba52e96fe7dbb97110bbdfe7340371b1f8b9f7b094083581e5389417ce2df",
-      "role": "automation-infrastructure"
-    },
-    {
-      "path": "scripts/validation-gate.py",
-      "sha256": "78cf318d8b020839a1d9f398f5dec4bbbcddb9602ef2ce2813118b5403d6b266",
-      "role": "automation-infrastructure"
     }
   ]
 }

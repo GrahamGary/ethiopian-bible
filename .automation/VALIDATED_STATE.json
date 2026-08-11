@@ -4,14 +4,14 @@
   "lastValidated": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 16
+    "chapter": 17
   },
   "nextUnfinished": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 17
+    "chapter": 18
   },
-  "validatedAt": "2026-08-11T03:10:07Z",
+  "validatedAt": "2026-08-11T05:05:19Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -86,6 +86,11 @@
     {
       "path": "1-enoch-016.json",
       "sha256": "a0d06db480cf3a369ff41011fa552468b3819c48fdd3ace8a18ee9e0bffca6d4",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-017.json",
+      "sha256": "8bb6010d81f1b25d3486f8c39600c28314610f14a0af0e7b58c4401031a7fc2e",
       "scope": "validated Scripture"
     }
   ]

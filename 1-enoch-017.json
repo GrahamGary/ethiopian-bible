@@ -1,0 +1,136 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-017-2026-08-11",
+  "contentVersion": "2026.08.11.9",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 17,
+      "title": "Chapter 17 — The Fiery Beings and the Boundaries of the Deep",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witnesses available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 17. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete eight-verse chapter and is the principal translation base. The full Ethiopic (Geʽez) textual tradition, including Rylands Ethiopic MS 23, confirms the chapter's sequence and continuity while preserving identifiable variants, notably ‘mountains’ where the Greek reads ‘winds’ in verse 7. The earlier complete Greek reading is followed without conflating the witnesses or supplying missing text. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "They took me and led me to a certain place, where those who were there become like blazing fire and, whenever they wish, appear like human beings.",
+          "study": "Chapter 17 begins a new guided journey. The beings who escort Enoch can appear as flame or in human form, showing that their visible appearance does not exhaust what they are. The verse describes what Enoch is shown without inviting him to control or imitate it.",
+          "crossReferences": [
+            "Genesis 18:1–2 — heavenly visitors are perceived in human form",
+            "Judges 13:19–21 — the angel of the LORD ascends in the flame of the altar",
+            "Psalm 104:4 — God's messengers are associated with winds and flaming fire",
+            "Hebrews 1:7 — Psalm 104 is applied to God's angels and servants"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "They led me to a place of deep gloom and to a mountain whose summit reached to heaven.",
+          "study": "The journey moves from fiery beings into a landscape marked by darkness and immense height. The mountain reaches toward heaven, but Enoch arrives only because he is led. The setting underscores both the scale of the created order and the limits of ordinary human access.",
+          "crossReferences": [
+            "Exodus 19:16–20 — Sinai joins mountain height, darkness, fire and divine disclosure",
+            "Deuteronomy 4:11 — the mountain burns while darkness and thick cloud surround it",
+            "Psalm 97:2 — clouds and deep darkness surround God's throne",
+            "Hebrews 12:18–21 — the terrifying mountain imagery recalls the limits placed around Sinai"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I saw the place of the heavenly lights, the storehouses of the stars and the thunders, and the depths of the air, where there was a bow of fire, with its arrows and quivers, and all the flashes of lightning.",
+          "study": "The heavenly lights, thunder and lightning are portrayed as belonging to appointed places and storehouses. The imagery treats forces that seem sudden from the earth as parts of an ordered realm. Enoch observes their locations and instruments; he is not presented as possessing their power.",
+          "crossReferences": [
+            "Job 38:22–23 — snow and hail are pictured as kept in storehouses for appointed times",
+            "Job 38:35 — lightning goes forth at God's command",
+            "Psalm 7:12–13 — the divine bow and fiery arrows express judicial power",
+            "Psalm 135:7 — God brings wind from storehouses and lightning with rain"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "They led me as far as the waters and as far as the fire of the west, which provides every setting of the sun.",
+          "study": "The vision describes the western boundary through which the sun's daily course reaches its setting. Water and fire stand together at that remote edge, and the setting is supplied according to an established order. The verse continues the chapter's concern with appointed places rather than random cosmic motion.",
+          "crossReferences": [
+            "Genesis 1:14–18 — the heavenly lights are appointed for times, days and years",
+            "Psalm 19:4–6 — the sun follows its course from one end of the heavens to the other",
+            "Psalm 104:19 — the sun knows the time of its setting",
+            "Ecclesiastes 1:5 — the sun sets and hastens again to the place of its rising"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "We came to a river of fire, in which the fire runs down like water and flows into a great sea in the west.",
+          "study": "Fire is depicted with the movement of a river, joining two elements that ordinarily seem opposed. The comparison emphasizes continuous, directed flow toward the western sea. Within the vision, even this fearsome river has a course and destination.",
+          "crossReferences": [
+            "Daniel 7:9–10 — a river of fire flows out from before God's throne",
+            "Psalm 50:3 — consuming fire accompanies God's appearing",
+            "Ezekiel 1:13 — fire and lightning move among the living creatures",
+            "Revelation 22:1 — a river proceeding from the throne provides a contrasting image of ordered divine life"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "I saw the great rivers, and I reached the great river and the great darkness; then I went to the place where no flesh walks.",
+          "study": "Enoch reaches a boundary beyond ordinary embodied life. The repeated word ‘great’ stresses the scale of the rivers and darkness, while the statement that no flesh walks there marks the place as inaccessible by normal human travel. The guide permits witness, not ordinary settlement.",
+          "crossReferences": [
+            "Job 10:21–22 — the land of deepest darkness lies beyond ordinary human life",
+            "Job 28:7–8 — a hidden path is described as unknown to creatures and untrodden by beasts",
+            "Psalm 139:11–12 — even the deepest darkness is not hidden from God",
+            "Jeremiah 2:6 — the wilderness is remembered as a land through which no person passes"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "I saw the wintry winds of the regions of darkness and the outpouring from the abyss of all the waters.",
+          "study": "The Greek witness places the wintry winds beside the abyss from which waters pour out. Cold, darkness and deep waters are presented as bounded features within the world Enoch is shown. The Ethiopic tradition reads ‘mountains’ in place of ‘winds,’ an ancient variant that is acknowledged in the source note rather than silently combined with the Greek text.",
+          "crossReferences": [
+            "Genesis 7:11 — the springs of the great deep open and waters pour forth",
+            "Job 37:9–10 — storm and cold come forth under God's ordering power",
+            "Job 38:16 — God questions Job about the springs of the sea and recesses of the deep",
+            "Psalm 147:17–18 — frost and frozen waters yield when God sends His word and wind"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "I saw the outlet in the earth for all the rivers, and the mouth of the abyss.",
+          "study": "The journey ends this chapter at the outlets of rivers and the opening of the abyss. What appears on earth as many rivers is traced to remote boundaries beyond ordinary sight. The brief statement prepares the continuing tour of winds, foundations and the extremities of the earth in Chapter 18.",
+          "crossReferences": [
+            "Genesis 8:2 — the springs of the deep and the windows of heaven are closed after the flood",
+            "Job 38:8–11 — the sea is given doors and fixed boundaries",
+            "Psalm 104:9–10 — God sets a boundary for the waters and sends springs into valleys",
+            "Proverbs 8:28–29 — the fountains of the deep are established and the sea receives its appointed limit"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 17 opens Enoch's first extended journey through the remote places of the created order. The Watchers' verdict has already been delivered; now Enoch is led by heavenly beings to see boundaries and storehouses that ordinary human beings cannot reach.",
+          "The chapter repeatedly joins awe with order. Fiery beings can appear as human, a mountain rises into heaven, thunder and lightning have appointed places, the sun has a western setting, and a river of fire follows a course toward the sea. None of these forces is presented as independent or uncontrolled.",
+          "The journey also emphasizes human limitation. Enoch does not discover these places by his own mastery; he is taken and led. He reaches great darkness and a region where no flesh walks. His role is that of a witness who receives a measured disclosure of realities beyond ordinary sight.",
+          "The chapter's imagery resonates with biblical passages that describe creation as governed by God through boundaries, storehouses and appointed paths. Those connections illuminate the shared language of cosmic order without forcing each detail into a later scheme. Chapter 18 continues the same journey through the winds, the foundations of the earth and the prison of rebellious stars."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:14–18 — appointed courses and purposes of the heavenly lights",
+        "Exodus 19:16–20; Deuteronomy 4:11 — mountain, fire and deep darkness at divine disclosure",
+        "Job 37:9–10; 38:8–23 — winds, cold, waters, boundaries and storehouses under God's command",
+        "Psalm 19:4–6; 104:4, 9, 19 — fiery messengers and the ordered courses of sun and waters",
+        "Psalm 135:7; 147:17–18 — winds, lightning and waters brought forth by God",
+        "Daniel 7:9–10 — the river of fire proceeding from the divine throne",
+        "Hebrews 1:7; 12:18–21 — fiery angelic service and the terrifying imagery of Sinai"
+      ]
+    }
+  ]
+}

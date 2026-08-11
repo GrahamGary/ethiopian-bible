@@ -1,8 +1,8 @@
 {
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
-  "contentVersion": "2026.08.11.8",
-  "updatedAt": "2026-08-11T04:30:01+02:00",
+  "contentVersion": "2026.08.11.9",
+  "updatedAt": "2026-08-11T05:05:19Z",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -104,6 +104,13 @@
       "chapter": 16,
       "contentVersion": "2026.08.11.8",
       "url": "1-enoch-016.json"
+    },
+    {
+      "id": "1-enoch-017-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 17,
+      "contentVersion": "2026.08.11.9",
+      "url": "1-enoch-017.json"
     }
   ]
 }
