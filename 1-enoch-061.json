@@ -1,0 +1,169 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-061-2026-08-11",
+  "contentVersion": "2026.08.11.53",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 61,
+      "title": "Chapter 61 — The Measures of the Righteous and the Chosen One's Throne",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language text responsibly available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text in August Dillmann's 1851 critical edition, Liber Henoch Aethiopice, is the translation base for all thirteen verses: the angels' measuring cords, the return of those lost on land and sea, the Chosen One seated to weigh deeds, and the united praise of heavenly powers, the chosen and all flesh. The repeated language of measures, one voice and spiritual qualities is retained, along with the full list of Cherubim, Seraphim, Ophanim and angelic powers. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days I saw long cords given to those angels. They took wings for themselves, flew, and went toward the north.",
+          "study": "The cords introduce a mission of measurement rather than destruction. The angels move north with heavenly speed to prepare what the following explanation calls the measures of the righteous.",
+          "crossReferences": [
+            "Zechariah 2:1–5 — an angelic figure carries a measuring line for Jerusalem",
+            "Revelation 21:15–17 — an angel measures the holy city with a measuring rod"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I asked the angel, saying, ‘Why have these taken the long cords and gone away?’ He said to me, ‘They have gone to measure.’",
+          "study": "The concise answer makes measurement the purpose of the journey. In prophetic imagery, measurement identifies, orders and secures what belongs within God's appointed design.",
+          "crossReferences": [
+            "Ezekiel 40:3–5 — a heavenly guide measures the restored sanctuary",
+            "Revelation 11:1 — the sanctuary and worshipers are measured"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The angel who went with me said, ‘These will bring the measures of the righteous and the cords of the righteous to the righteous, so that they may support themselves upon the name of the Lord of Spirits forever and ever.’",
+          "study": "The measures are given to the people they define. Their lasting support is not the cord itself but the name of the Lord of Spirits, in whom the righteous find stability.",
+          "crossReferences": [
+            "Psalm 20:7 — the faithful trust in the name of the LORD",
+            "Proverbs 18:10 — the LORD's name is a strong tower for the righteous"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "The chosen will begin to dwell with the chosen. These are the measures that will be given to faith and that will strengthen the word of righteousness.",
+          "study": "Measured belonging becomes shared dwelling. Faith receives definition and the word of righteousness receives strength, joining community, trust and truthful speech.",
+          "crossReferences": [
+            "Isaiah 28:16–17 — faith, justice and righteousness form God's measured foundation",
+            "Ephesians 4:13–15 — measured maturity strengthens truth and communal unity"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "These measures will uncover all the hidden things in the depth of the earth. Those who were lost in the wilderness, those devoured by the fish of the sea, and those devoured by wild animals will return and support themselves on the day of the Chosen One, for no one will be lost before the Lord of Spirits, and no one is able to be lost.",
+          "study": "No manner of death places a person beyond divine recovery. Wilderness, sea and beasts cannot erase the people known before the Lord; the day of the Chosen One becomes their return and support.",
+          "crossReferences": [
+            "Ezekiel 37:11–14 — those regarded as lost are raised and restored",
+            "Revelation 20:13 — the sea and death give up the dead within them",
+            "John 6:39 — the Son loses none entrusted to Him but raises them at the last day"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "All who dwell in the heights of heaven received a command, and one power, one voice and one light like fire were given to them.",
+          "study": "Heaven's multitude receives unity without losing its many members. Shared command, power, voice and fiery light prepare a single act of worship.",
+          "crossReferences": [
+            "Daniel 7:10 — a fiery stream and countless attendants surround the throne",
+            "Revelation 19:6 — a vast multitude sounds with one overwhelming voice"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "With their first word they blessed that One, exalted Him and glorified Him with wisdom. They were made wise in speech and in the spirit of life.",
+          "study": "The first use of the heavenly voice is blessing. Wisdom shapes both the content of praise and the living spirit by which it is uttered.",
+          "crossReferences": [
+            "Psalm 104:33–34 — praise and meditation are offered to God with delight",
+            "Revelation 7:11–12 — angels bless God with a many-sided doxology"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The Lord of Spirits seated the Chosen One upon the throne of His glory. He will judge all the works of the holy ones in the heights of heaven, and their deeds will be weighed in a balance.",
+          "study": "The Chosen One receives delegated judicial authority on the throne of glory. Even the deeds of heavenly holy ones are weighed, showing that nearness to heaven does not remove accountability.",
+          "crossReferences": [
+            "Daniel 7:13–14 — the humanlike chosen ruler receives authority and dominion",
+            "Matthew 25:31–32 — the Son of Man sits on the throne of glory to judge",
+            "1 Samuel 2:3 — deeds are weighed by the God of knowledge"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "When He lifts His face to judge their hidden paths by the word of the name of the Lord of Spirits, and their course by the path of the righteous judgment of God Most High, they will all speak with one voice and bless, glorify, exalt and praise the name of the Lord of Spirits.",
+          "study": "Hidden paths become open before the Chosen One's judgment. The result is a unified confession that the Most High's judicial path is righteous and worthy of praise.",
+          "crossReferences": [
+            "Ecclesiastes 12:14 — every hidden deed is brought into judgment",
+            "Romans 2:16 — God judges hidden things through His appointed agent",
+            "Revelation 15:3–4 — the nations praise God's just and true ways"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "He will summon all the host of heaven and all the holy ones above, the host of God, the Cherubim, Seraphim and Ophanim, all the angels of power, all the angels of lordships, the Chosen One, and the other powers that are upon the dry ground and over the water on that day.",
+          "study": "The summons ranges from the highest named throne beings to powers associated with land and water. The Chosen One stands within a comprehensive assembly called by the Lord.",
+          "crossReferences": [
+            "Isaiah 6:1–3 — Seraphim attend and praise the enthroned Lord",
+            "Ezekiel 10:9–20 — Cherubim and wheel-like throne beings accompany divine glory",
+            "Colossians 1:16 — thrones, lordships, rulers and authorities are created through the Son"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "On that day they will raise one voice and bless, glorify, praise and exalt in the spirit of faith, in the spirit of wisdom and patience, in the spirit of mercy, in the spirit of judgment and peace, and in the spirit of goodness.",
+          "study": "United praise is filled with moral and spiritual qualities. Faith, wisdom, patience, mercy, judgment, peace and goodness belong together rather than competing within heavenly worship.",
+          "crossReferences": [
+            "Isaiah 11:2–4 — the Spirit grants wisdom and righteous judgment",
+            "Galatians 5:22–23 — the Spirit bears patience, peace and goodness",
+            "James 3:17 — heavenly wisdom is peaceable, merciful and full of good fruit"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "They will all say with one voice, ‘Blessed is He, and blessed be the name of the Lord of Spirits forever and ever.’",
+          "study": "The many spirits of praise converge in a simple everlasting blessing. God's own blessedness grounds the unending blessing of His name.",
+          "crossReferences": [
+            "Psalm 113:2 — the name of the LORD is blessed forever",
+            "Daniel 2:20 — God's name is blessed from age to age"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "All who do not sleep in the heights of heaven will bless Him, all His holy ones in heaven, all the chosen who dwell in the garden of life, and every spirit of light able to bless, glorify, exalt and sanctify Your holy name. All flesh beyond its own power will glorify and bless Your name forever and ever. For the mercy of the Lord of Spirits is great, and He is slow to anger. He has made and revealed all His works and all His power in measure to the righteous and chosen, in the name of the Lord of Spirits.",
+          "study": "The final choir includes sleepless heavenly beings, the chosen in the garden, spirits of light and frail flesh strengthened beyond its power. Praise answers the measured revelation of a Lord whose greatness is merciful and slow to anger.",
+          "crossReferences": [
+            "Psalm 145:8–13 — the merciful, slow-to-anger LORD is praised by all His works",
+            "Revelation 5:13 — every creature joins blessing and honor before the throne",
+            "Revelation 7:15 — God's servants worship continually before Him"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 61 moves from measuring cords to the throne of judgment. The measures identify and strengthen the righteous, while also uncovering depths from which no lost person is beyond return on the day of the Chosen One.",
+          "The Chosen One is seated upon the throne of glory to weigh deeds and judge hidden paths. Judgment reaches heavenly holy ones as well as earthly life, and its righteousness produces a single voice of praise.",
+          "The chapter's vast assembly joins Cherubim, Seraphim, Ophanim, angelic powers, the chosen, spirits of light and all flesh. Their unity is ethical as well as vocal, filled with faith, wisdom, patience, mercy, judgment, peace and goodness.",
+          "Measure is the chapter's governing image. The righteous are measured for belonging, deeds are weighed, and the Lord reveals His works and power in measure. Divine order culminates in worship of One whose mercy is great and whose anger is patient."
+        ]
+      },
+      "crossReferences": [
+        "Zechariah 2:1–5 — heavenly measuring cords and a secured people",
+        "Ezekiel 37:11–14 — the return of those considered lost",
+        "Daniel 7:13–14 — the chosen ruler receives judicial authority",
+        "Matthew 25:31–32 — judgment from the throne of glory",
+        "Revelation 5:11–13 — the united praise of heaven and all creation"
+      ]
+    }
+  ]
+}

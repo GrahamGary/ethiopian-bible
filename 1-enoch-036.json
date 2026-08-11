@@ -1,0 +1,90 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-036-2026-08-11",
+  "contentVersion": "2026.08.11.28",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 36,
+      "title": "Chapter 36 — The Southern and Eastern Gates",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 36, and the surviving continuous Greek Codex Panopolitanus ends at 32:6. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all four verses, including the southern weather gates, the eastern star gates and the closing praise of the Creator's works. The ancient gate cosmography is rendered as transmitted without adding a modern physical mechanism. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I went southward to the ends of the earth and saw three gates of heaven standing open. From them come dew, rain and wind.",
+          "study": "The south, like the north and west, is marked by three open gates. Here the listed effects are dew, rain and wind. The concise description places life-giving moisture and moving air within the same ordered boundary system.",
+          "crossReferences": [
+            "Genesis 2:5–6 — moisture waters the ground before cultivated rain is described",
+            "Job 36:27–29 — water rises and falls as rain through the ordering of the clouds",
+            "Psalm 135:7 — God makes rain and brings wind from storehouses",
+            "Zechariah 9:14 — the storm winds of the south appear under the LORD's action"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "From there I went eastward to the ends of heaven and saw three eastern gates of heaven standing open, with smaller gates above them.",
+          "study": "The survey returns to the east and adds a new detail: smaller openings stand above the three principal gates. The layered arrangement prepares for the many stars that pass through on appointed paths. The vision remains architectural in form and orderly in purpose.",
+          "crossReferences": [
+            "Genesis 1:14–18 — heavenly lights are appointed within the expanse",
+            "Ezekiel 43:1–4 — an eastern gate frames a vision of heavenly glory",
+            "Psalm 19:4–6 — the sun emerges to run its full course",
+            "1 Enoch 33:2–4 — eastern gates open for the named and counted stars"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Through each of these smaller gates the stars of heaven pass, and they run westward along the path shown to them.",
+          "study": "The stars move through individual outlets and across a directed course. Their westward path is shown to them; they do not establish it for themselves. This repeats the Book of the Watchers' larger cosmic theme that heavenly power remains accountable to appointed order.",
+          "crossReferences": [
+            "Job 38:31–33 — the constellations and laws of heaven remain under command",
+            "Psalm 19:5–6 — the sun rejoices to run the course set before it",
+            "Isaiah 40:26 — the heavenly host comes out by number under the Creator's might",
+            "1 Enoch 21:3–6 — stars that transgressed the Lord's command are bound"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Whenever I saw these things, I blessed the Lord of glory. I continued to bless the Lord of glory, who has made great and glorious wonders to display the greatness of his work to his angels, to spirits and to human beings, so that they might praise his work and all his creation, see the work of his power, praise the great work of his hands and bless him forever.",
+          "study": "The journey through judgment places, gardens, winds and stars ends in sustained worship. Revelation is meant to make created beings see, praise and bless the Creator's work and power. Enoch's repeated blessing supplies the fitting response to the ordered wonders he has witnessed.",
+          "crossReferences": [
+            "Psalm 8:3–6 — the works of God's hands awaken wonder at His care for humanity",
+            "Psalm 19:1–4 — the heavens declare God's glory across the earth",
+            "Psalm 111:2–4 — the LORD's great and glorious works are studied and remembered",
+            "Revelation 5:13 — creatures in heaven and earth unite in blessing and praise"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 36 completes both the directional survey and the Book of the Watchers. Southern gates release dew, rain and wind; eastern gates provide ordered outlets for stars traveling west on paths shown to them.",
+          "The chapter's cosmography uses gates, outlets and directed paths. Its enduring theological claim is that weather and heavenly lights operate within assigned structures. Stars are powerful and beautiful, but they are not self-directing deities.",
+          "Enoch's closing praise interprets the entire journey. The Creator displays great works so that angels, spirits and people may see His power, praise creation as His work and bless Him. Knowledge of the world reaches its proper end in worship of the One who made it.",
+          "This conclusion gathers the Book of the Watchers' central themes: rebellion receives judgment, holiness belongs to God, creation has appointed boundaries and faithful heavenly beings explain rather than obscure divine order. Chapter 37 will begin a new vision cycle."
+        ]
+      },
+      "crossReferences": [
+        "Job 36:27–29; Psalm 135:7 — rain, dew and wind under divine governance",
+        "Job 38:31–33; Isaiah 40:26 — stars following named and appointed order",
+        "Psalm 8:3–6; 19:1–6; 111:2–4 — creation's works declaring and eliciting divine praise",
+        "Revelation 5:13 — universal blessing offered to the enthroned Lord",
+        "1 Enoch 17–36 — the completed journey through cosmic boundaries, judgment places and gardens"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-044-2026-08-11",
+  "contentVersion": "2026.08.11.36",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 44,
+      "title": "Chapter 44 — Stars That Become Lightning",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for this one-verse chapter, including the transformation of stars into lightning and their inability to leave the form joined to them. The brief observation is preserved without adding a cause or mechanism. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I saw another thing concerning the lightning: how some arise from the stars, become lightning, and cannot leave the form joined to them.",
+          "study": "The vision adds transformation to the naming and measuring of the lights. Even when stars take the form of lightning, the change remains fixed within an order Enoch observes but does not claim to explain.",
+          "crossReferences": [
+            "Job 36:32 — God covers His hands with lightning and directs its mark",
+            "Job 38:35 — lightning goes forth and answers its sender",
+            "Psalm 148:3–6 — the heavenly lights remain within established decree"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 44 is a single, compact extension of the heavenly-light vision. Stars do not merely keep courses; some are seen arising into the form of lightning.",
+          "The verse states the transformation and its permanence without supplying a physical explanation. Its restraint matters: the witness reports what was shown and leaves hidden what was not disclosed.",
+          "Theologically, the image continues the chapter sequence's emphasis on ordered heavenly power. Lightning is not autonomous chaos but a form held within the created order.",
+          "The chapter invites reverent attention without speculation. Created mysteries may be truly observed while their mechanism remains with the Lord who names and measures the lights."
+        ]
+      },
+      "crossReferences": [
+        "Job 36:32; 38:35 — lightning directed and responsive",
+        "Psalm 147:4 — stars individually known by God",
+        "Psalm 148:3–6 — heavenly lights fixed by divine decree",
+        "1 Enoch 43:1–2 — named lights measured in faithful courses"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-040-2026-08-11",
+  "contentVersion": "2026.08.11.32",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 40,
+      "title": "Chapter 40 — The Four Presences and Their Voices",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all ten verses, including the innumerable heavenly multitude, four presences and their voices, the restraint of the Satans, and the names and functions of Michael, Raphael, Gabriel and Phanuel. The plural title Satans is retained where the witness describes heavenly accusers. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "After this I saw thousands upon thousands and ten thousand times ten thousand—a multitude beyond number and counting—standing before the glory of the Lord of Spirits.",
+          "study": "The heavenly court exceeds human counting, yet every member stands before one glory. The multitude magnifies the Lord of Spirits rather than competing with Him.",
+          "crossReferences": [
+            "Daniel 7:10 — thousands serve before the heavenly Judge",
+            "Hebrews 12:22 — innumerable angels gather in festal assembly",
+            "Revelation 5:11 — myriads surround the throne in worship"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "On the four sides of the Lord of Spirits I saw four presences, different from those who do not sleep, and I learned their names, for the angel who went with me made their names known and showed me all hidden things.",
+          "study": "Four distinct presences occupy ordered positions around the Lord of Spirits. Their names and roles come through an angelic guide, maintaining the vision's pattern of disclosed rather than self-invented knowledge.",
+          "crossReferences": [
+            "Ezekiel 1:5–12 — four living beings occupy ordered positions around divine glory",
+            "Zechariah 1:9 — an accompanying angel explains a vision",
+            "Revelation 4:6–8 — four heavenly beings surround the throne"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I heard the voices of those four presences as they uttered praises before the Lord of glory.",
+          "study": "The four are first known by worship. Their different duties in later verses operate within a common orientation toward divine glory.",
+          "crossReferences": [
+            "Psalm 103:20–21 — angels bless the LORD while carrying out His will",
+            "Isaiah 6:3 — heavenly voices proclaim divine holiness",
+            "Revelation 4:8–11 — throne attendants lead unceasing praise"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "The first voice blesses the Lord of Spirits forever and ever.",
+          "study": "The first ministry is direct, enduring blessing. Before any other role is named, the vision establishes worship as the fundamental service of heaven.",
+          "crossReferences": [
+            "Psalm 103:20 — mighty angels bless the LORD",
+            "Psalm 145:1–2 — God's name is blessed forever",
+            "Revelation 5:13 — blessing is offered to the enthroned One forever"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "The second voice blesses the Chosen One and the chosen who depend upon the Lord of Spirits.",
+          "study": "The Chosen One and the chosen community are joined in a blessing grounded in dependence upon the Lord of Spirits. Their status is relational, not autonomous.",
+          "crossReferences": [
+            "Isaiah 42:1 — God's chosen servant is upheld by Him",
+            "Psalm 37:5 — the righteous entrust their way to the LORD",
+            "1 Enoch 39:6–7 — the Chosen One and chosen stand beneath the Lord of Spirits' wings"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "The third voice I heard praying and interceding for those who dwell on the earth and making supplication in the name of the Lord of Spirits.",
+          "study": "Heavenly worship includes intercession for earth's inhabitants. The prayer appeals in the Lord's name, so compassion remains dependent on divine authority.",
+          "crossReferences": [
+            "Zechariah 1:12 — an angel intercedes concerning God's people",
+            "Romans 8:26–27 — intercession is made according to God's will",
+            "Revelation 8:3–4 — heavenly prayer rises before God"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "The fourth voice fends off the Satans and does not permit them to enter before the Lord of Spirits to accuse those who dwell on the earth.",
+          "study": "The fourth presence restrains heavenly accusers. The plural Satans describes adversarial figures by function, and their access to accuse is subject to divine limits.",
+          "crossReferences": [
+            "Job 1:6–12 — the accuser's activity remains bounded by God",
+            "Zechariah 3:1–2 — the LORD rebukes the accuser standing against Joshua",
+            "Revelation 12:10 — the accuser of God's people is cast down"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "After this I asked the angel of peace who went with me and showed me everything hidden, 'Who are these four presences whom I have seen, and whose words I have heard and written down?'",
+          "study": "Enoch seeks names only after observing position, praise and service. His written account preserves both the vision and the explanation supplied by the angel of peace.",
+          "crossReferences": [
+            "Daniel 7:16 — Daniel asks an attendant for the vision's meaning",
+            "Habakkuk 2:2 — revelation is committed to writing",
+            "Revelation 1:19 — the seer records what has been shown"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "He said to me, 'The first is Michael, merciful and patient; the second is Raphael, who is set over every disease and every wound of the children of humankind; the third is Gabriel, who is set over all powers; and the fourth is Phanuel, who is set over repentance leading to the hope of those who inherit eternal life.'",
+          "study": "The names match distinct ministries: mercy, healing, power and repentance with hope. Each role serves the Lord of Spirits and the life of His creatures; none is presented as independent divine rule.",
+          "crossReferences": [
+            "Daniel 10:13, 21 — Michael serves as a chief heavenly prince",
+            "Daniel 8:16 — Gabriel is commissioned to explain a vision",
+            "Tobit 3:17; 12:15 — Raphael is sent to heal and identifies his heavenly service"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "These are the four angels of the Lord of Spirits and the four voices that I heard in those days.",
+          "study": "The conclusion unites presence, voice, name and service. All four belong to the Lord of Spirits, whose court gives their ministries purpose and order.",
+          "crossReferences": [
+            "Psalm 104:4 — winds and flames serve as God's messengers",
+            "Hebrews 1:14 — angels are ministering spirits sent for service",
+            "Revelation 7:1–2 — four angels receive ordered responsibilities"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 40 expands the heavenly dwelling of Chapter 39 into a court beyond counting. Four presences stand around the Lord of Spirits, each joining praise with a distinct ministry.",
+          "The voices bless, intercede and restrain accusation. Heaven is therefore portrayed not as passive splendor but as ordered service directed toward divine glory and the needs of earth's inhabitants.",
+          "Michael, Raphael, Gabriel and Phanuel are distinguished without becoming rivals. Mercy, healing, power, repentance and hope all remain ministries of angels belonging to the Lord of Spirits.",
+          "The chapter's theological center is the throne, not angelic fascination. The innumerable host and four named presences derive position, speech and purpose from the glory before which they stand."
+        ]
+      },
+      "crossReferences": [
+        "Daniel 7:10; Revelation 5:11 — innumerable heavenly servants before the throne",
+        "Ezekiel 1:5–12; Revelation 4:6–8 — four ordered presences around divine glory",
+        "Job 1:6–12; Zechariah 3:1–2; Revelation 12:10 — accusation and its divine restraint",
+        "Daniel 8:16; 10:13, 21; Tobit 12:15 — Michael, Gabriel and Raphael in biblical literature",
+        "Hebrews 1:14 — angels as ministering spirits"
+      ]
+    }
+  ]
+}

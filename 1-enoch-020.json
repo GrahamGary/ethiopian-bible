@@ -1,0 +1,136 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-020-2026-08-11",
+  "contentVersion": "2026.08.11.12",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 20,
+      "title": "Chapter 20 — The Seven Holy Angels and Their Appointed Realms",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witnesses available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 20. The Greek Codex Panopolitanus (Cairo Papyrus 10759) is the principal translation base: its main copy preserves verses 2–7 and its duplicated copy of 19:3–21:9 preserves verses 2–8, including the Remiel line omitted by the main copy and the Ethiopic. Both Greek copies retain the concluding count of seven archangels. The complete Ethiopic (Geʽez) tradition, including Rylands Ethiopic MS 23, supplies the full opening sentence in verse 1 and confirms verses 2–7. The Greek spellings Sariel and Remiel are followed. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "These are the names of the holy angels who watch.",
+          "study": "The chapter introduces holy watchers whose vigilance is expressed through assigned responsibilities. The list contrasts these ordered servants with the Watchers who abandoned their appointed place in Chapters 6–16. Their names lead directly into their distinct commissions.",
+          "crossReferences": [
+            "Daniel 4:13, 17 — a holy watcher descends from heaven with a decree",
+            "Daniel 7:10 — countless attendants stand before the heavenly Judge",
+            "Hebrews 1:14 — angels are described as ministering spirits sent for service",
+            "Revelation 8:2 — seven angels stand before God and receive appointed tasks"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Uriel, one of the holy angels, who is over the world and Tartarus.",
+          "study": "Uriel is assigned oversight extending from the world to Tartarus, the place of confinement associated with rebellious heavenly beings in the surrounding journey. His repeated role as Enoch’s guide joins knowledge of the created order with knowledge of its divinely fixed boundaries.",
+          "crossReferences": [
+            "1 Enoch 18:14–16 — Uriel explains the prison of the transgressing stars",
+            "1 Enoch 19:1 — Uriel identifies the place appointed for the rebellious angels",
+            "1 Enoch 21:5–10 — Uriel explains the fiery prison and its term of judgment",
+            "2 Peter 2:4 — sinning angels are cast into Tartarus and kept for judgment"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Raphael, one of the holy angels, who is over the spirits of humanity.",
+          "study": "Raphael’s commission concerns human spirits. Earlier he was charged with binding Azazel and healing the earth; here the brief description places care for humanity’s spiritual life within the ordered service of the holy angels.",
+          "crossReferences": [
+            "1 Enoch 10:4–8 — Raphael binds Azazel and acts toward the healing of the earth",
+            "1 Enoch 22:3–9 — Raphael explains the places prepared for the spirits of the dead",
+            "Psalm 34:7 — the angel of the LORD encamps around those who fear Him",
+            "Luke 16:22 — angels carry Lazarus after his death"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Raguel, one of the holy angels, who takes vengeance on the world of the luminaries.",
+          "study": "Raguel’s sphere is the ordered company of heavenly lights. The following journey presents him explaining the fire that drives the luminaries in their course. The language of vengeance shows that even cosmic powers remain answerable to their appointed order.",
+          "crossReferences": [
+            "Genesis 1:14–18 — God appoints the heavenly lights for signs, seasons, days and years",
+            "Psalm 19:1–6 — the heavens and the sun display an ordered course",
+            "Isaiah 24:21–23 — heavenly powers and earthly rulers are visited in judgment",
+            "1 Enoch 23:1–4 — Raguel explains the fire that drives the heavenly luminaries"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Michael, one of the holy angels, who is appointed over the good among the people and over chaos.",
+          "study": "Michael is given responsibility for the good among the people as well as for chaos. His commission spans faithful human community and the unformed or disordered realm, emphasizing that divine appointment sets limits both among peoples and at the boundaries of creation.",
+          "crossReferences": [
+            "Genesis 1:2 — darkness lies over the deep before God orders creation",
+            "Daniel 10:13, 21 — Michael contends for God’s people as one of the chief princes",
+            "Daniel 12:1 — Michael stands over the prophet’s people in a time of distress",
+            "Jude 9 — Michael the archangel acts under the Lord’s authority"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Sariel, one of the holy angels, who is over the spirits that sin in the spirit.",
+          "study": "Sariel’s assignment concerns spiritual transgression. The wording is compact and does not define the offenders further, so the line is best allowed to retain its restraint: wrongdoing in the spiritual realm is neither hidden nor outside appointed oversight.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly sons cross a divinely established boundary",
+            "1 Enoch 15:3–7 — the Watchers are reproved for abandoning the holy spiritual realm",
+            "2 Peter 2:4 — angels who sinned are kept for judgment",
+            "Jude 6 — angels who left their proper dwelling are held for the great day"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Gabriel, one of the holy angels, who is over Paradise, the dragons and the cherubim.",
+          "study": "Gabriel’s commission joins Paradise with powerful guardian creatures. The text names dragons and cherubim without explaining their forms. The assignment places the guarded holy realm and its formidable inhabitants under ordered angelic responsibility.",
+          "crossReferences": [
+            "Genesis 3:24 — cherubim guard the way to the tree of life",
+            "Ezekiel 28:13–16 — Eden, the holy mountain and a guardian cherub appear together",
+            "Daniel 8:16–19 — Gabriel is commanded to explain a vision to Daniel",
+            "Daniel 9:21–23 — Gabriel comes with insight and understanding"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Remiel, one of the holy angels, whom God appointed over those who rise.",
+          "study": "Remiel completes the seven named angels. His charge concerns those who rise, wording that points to God’s power over restoration from death. The commission is explicitly God-given: hope for rising rests on divine appointment rather than on an angel’s independent power.",
+          "crossReferences": [
+            "Daniel 12:2–3 — many who sleep in the dust awake, and the wise shine",
+            "Isaiah 26:19 — the dead are called to live and rise from the dust",
+            "Ezekiel 37:12–14 — God opens graves and raises His people by His Spirit",
+            "John 5:28–29 — the dead hear the Son’s voice and come out of their graves"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 20 turns from the judgment of rebellious heavenly beings to the ordered service of holy angels. Each name is linked to a commission. The contrast is structural: the condemned Watchers seized what was not assigned to them, while these angels serve within responsibilities given under divine authority.",
+          "The assignments span the world, Tartarus, human spirits, the heavenly luminaries, the faithful among the people, chaos, spiritual transgression, Paradise and resurrection. Together they present creation as accountable and ordered. No realm named in the chapter—human, cosmic, punitive or paradisal—lies outside God’s government.",
+          "Several descriptions are deliberately compressed. The chapter does not explain the dragons, define every class of spirit or describe how each angel performs his task. Text-grounded reading should preserve those limits while recognizing the repeated claim that holy power is exercised by appointment, not by self-exaltation.",
+          "Remiel’s line completes the sevenfold list preserved by the duplicated Greek copy. His responsibility for those who rise closes the chapter with hope beyond confinement and death. Judgment is real in the surrounding chapters, but it is not the final horizon for those whom God raises."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:2, 14–18; 3:24 — chaos, ordered luminaries and the guarded Paradise",
+        "Daniel 4:13, 17 — the holy watcher in heavenly service",
+        "Daniel 10:13, 21; 12:1–3 — Michael, God’s people and resurrection",
+        "1 Enoch 10:4–11 — commissions given to Raphael, Gabriel and Michael",
+        "1 Enoch 21:5–10; 22:3–9; 23:1–4 — Uriel, Raphael and Raguel explain their appointed realms",
+        "2 Peter 2:4; Jude 6, 9 — Tartarus, rebellious angels and Michael under divine authority",
+        "Revelation 8:2 — seven angels stand before God for appointed service"
+      ]
+    }
+  ]
+}

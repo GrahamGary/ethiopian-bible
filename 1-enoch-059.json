@@ -1,0 +1,76 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-059-2026-08-11",
+  "contentVersion": "2026.08.11.51",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 59,
+      "title": "Chapter 59 — The Secrets of Lightning and Thunder",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language text responsibly available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text in August Dillmann's 1851 critical edition, Liber Henoch Aethiopice, is the translation base for all three verses: the hidden workings and judgments of lightning, the voice and appointed effects of thunder, and the lights that flash for blessing and abundance. The text's repeated distinction between blessing and curse and its attribution of both to the will and word of the Lord of Spirits are retained. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days my eyes saw the hidden workings of the lightning flashes and the lights, and the judgments belonging to them. They flash for blessing and for curse, according to the will of the Lord of Spirits.",
+          "study": "Lightning is presented as ordered rather than random. Its different effects remain subject to the Lord's will, making the storm another part of creation through which blessing and judgment can be disclosed.",
+          "crossReferences": [
+            "Job 36:31–33 — God uses the storm both to judge peoples and to provide food",
+            "Psalm 97:4 — God's lightning illumines the world",
+            "Zechariah 9:14 — the LORD's lightning accompanies His decisive action"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "There I saw the hidden workings of the thunder: when it sounds in the heights of heaven, its voice is heard. The dwelling places of the dry ground were shown to me, and the voice of the thunder is for peace and blessing, or for curse, according to the word of the Lord of Spirits.",
+          "study": "Thunder joins heaven's heights to the inhabited earth below. Its voice reaches human dwelling places, yet whether it serves peace, blessing or curse is determined by the Lord's word.",
+          "crossReferences": [
+            "Exodus 9:23–29 — thunder and hail cease at the LORD's command",
+            "Psalm 29:3–9 — the voice of the LORD sounds powerfully over the waters and land",
+            "John 12:28–30 — a heavenly voice is heard by some as thunder"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "After this all the hidden workings of the lights and lightning flashes were shown to me: they flash for blessing and for abundance.",
+          "study": "The brief chapter closes on provision. The same brilliant forces that can bear judgment also serve blessing and fullness, revealing that divine power sustains as well as confronts the world.",
+          "crossReferences": [
+            "Deuteronomy 28:12 — the LORD opens heaven to give rain and bless the work of the land",
+            "Job 38:25–27, 35 — God directs rain and lightning to water uninhabited ground",
+            "Acts 14:17 — rain and fruitful seasons witness to divine goodness"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 59 turns the third Parable's language of light toward the created lights of the storm. Lightning and thunder possess hidden order and appointed effects known to the seer through revelation.",
+          "The chapter refuses to treat natural power as independent divinity. Lightning acts according to the Lord's will, and thunder serves according to His word; both remain within the Creator's government.",
+          "Blessing and curse name the moral range of the storm imagery. The same heavens can nourish the dry ground, announce peace or expose judgment, depending on the purpose of the Lord of Spirits.",
+          "The final emphasis falls on blessing and abundance. Divine sovereignty over the storm is therefore not merely threatening: it is also the ordered power by which the world receives provision and fullness."
+        ]
+      },
+      "crossReferences": [
+        "Job 36:31–33; 38:25–35 — storm, judgment and provision under God's command",
+        "Psalm 29:3–9 — the thunderous voice of the LORD",
+        "Psalm 97:4 — lightning illuminating the world",
+        "Deuteronomy 28:12 — heaven opened for agricultural blessing",
+        "Acts 14:17 — rain and fruitful seasons as witnesses to divine goodness"
+      ]
+    }
+  ]
+}

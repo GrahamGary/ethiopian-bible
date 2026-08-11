@@ -1,0 +1,113 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-032-2026-08-11",
+  "contentVersion": "2026.08.11.24",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 32,
+      "title": "Chapter 32 — The Garden of Righteousness and the Tree of Wisdom",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic of 4Q206 (4QEnoch e) governs the preserved portions of 32:2–3 concerning the eastern journey and the garden. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves 32:1–5 and the opening words of 32:6, ending after Raphael identifies the wisdom tree and refers to Enoch's father. The complete Ethiopic (Geʽez) tradition, including Rylands Ethiopic MS 23, supplies the rest of 32:6 concerning the first parents, opened eyes, nakedness and expulsion from the garden. The ancient place name Zoti'el and the Erythraean Sea designation are retained without speculative modern identification. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Beyond these aromatic places, looking toward the northeast over the mountains, I saw seven mountains full of choice nard, fragrant trees, cinnamon and pepper.",
+          "study": "The final stage of the aromatic journey gathers several prized substances across seven mountains. Nard, cinnamon and pepper make the landscape both fragrant and abundant. The number and arrangement continue the vision's picture of created richness ordered across distinct places.",
+          "crossReferences": [
+            "Song of Songs 4:13–14 — nard and cinnamon belong to a garden of choice spices",
+            "Mark 14:3 — pure nard is recognized as exceedingly costly",
+            "John 12:3 — nard fills a house with fragrance",
+            "1 Enoch 29–31 — the preceding eastern mountains yield frankincense, myrrh and other aromatics"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "From there I journeyed to the sources of all these mountains, far toward the east of the earth. I passed over the Erythraean Sea and traveled above its farthest reaches; from there I passed over Zoti'el.",
+          "study": "Enoch crosses named and unnamed boundaries on the way to the garden. Erythraean Sea is the ancient designation transmitted by the witness, and Zoti'el is retained because the text gives no secure modern location. The point is remoteness: the journey reaches beyond the fragrant mountains to their far eastern source.",
+          "crossReferences": [
+            "Genesis 2:8 — the garden is planted toward the east",
+            "Deuteronomy 29:29 — some things remain undisclosed while revealed things may be received",
+            "Job 28:12–14 — wisdom is not found by ordinary search through land and sea",
+            "1 Enoch 30:3 — the journey repeatedly advances toward the east"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I came to the garden of righteousness. From afar I saw many trees there—large, exceedingly beautiful, glorious and magnificent—and the tree of wisdom, whose fruit the holy ones eat and thereby know great wisdom.",
+          "study": "The destination is explicitly called the garden of righteousness. Its many trees surpass the earlier groves in scale and glory, while one tree is distinguished by wisdom-giving fruit. Wisdom is received through an appointed gift in a holy setting, not seized through independent mastery.",
+          "crossReferences": [
+            "Genesis 2:9 — the garden contains trees of life and knowledge",
+            "Proverbs 3:13–18 — wisdom is called a tree of life to those who take hold of her",
+            "Isaiah 51:3 — restored Zion is compared with Eden, the garden of the LORD",
+            "Revelation 2:7 — the conqueror is promised fruit from the tree in God's paradise"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "That tree was tall like a fir. Its leaves resembled those of the carob tree, and its fruit was like clusters of a vine, exceedingly beautiful. Its fragrance traveled far from the tree.",
+          "study": "The tree is described by a combination of familiar comparisons rather than one botanical identity: fir-like height, carob-like leaves, grape-like clusters and far-reaching fragrance. Each comparison contributes to the vision without authorizing a modern species assignment.",
+          "crossReferences": [
+            "Numbers 13:23 — a great cluster of grapes signifies extraordinary fruitfulness",
+            "Psalm 92:12–14 — flourishing height and enduring fruit portray righteous life",
+            "Hosea 14:6–7 — restored growth spreads beauty and fragrance",
+            "Ezekiel 31:8–9 — Eden's trees are compared in height, branches and beauty"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then I said, 'How beautiful this tree is, and how delightful to behold!'",
+          "study": "Enoch responds to the tree's beauty but still does not name its history for himself. Delight in what is seen leads to Raphael's explanation. The pattern continues throughout the journey: observation and wonder come before interpretation.",
+          "crossReferences": [
+            "Genesis 2:9 — the garden's trees are pleasing to sight",
+            "Genesis 3:6 — the tree is seen as desirable before the first humans eat",
+            "Psalm 27:4 — beholding beauty is joined with seeking in God's dwelling",
+            "1 Enoch 24:5–25:1 — wonder at another tree leads to an angelic explanation"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Then Raphael, the holy angel who was with me, answered me: 'This is the tree of wisdom from which your ancient father and your aged mother, who were before you, ate. They learned wisdom, and their eyes were opened; they knew that they were naked, and they were driven from the garden.'",
+          "study": "Raphael identifies the tree through the story of the first parents. The verse follows the sequence known from Genesis: eating, opened eyes, awareness of nakedness and expulsion. Calling it the tree of wisdom emphasizes the knowledge gained, while the expulsion shows that acquired knowledge did not equal faithful life in the garden.",
+          "crossReferences": [
+            "Genesis 2:16–17 — the first humans receive a command concerning the tree",
+            "Genesis 3:6–7 — they eat, their eyes open and they know their nakedness",
+            "Genesis 3:22–24 — the man and woman are expelled and access to the garden is guarded",
+            "Romans 5:12–19 — the first transgression is contrasted with the obedience that brings life"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 32 reaches the goal of the eastward journey: the garden of righteousness. Seven fragrant mountains give way to a remote crossing, and beyond it Enoch sees glorious trees and the tree of wisdom.",
+          "The tree is described with deliberate variety—fir, carob and vine comparisons, beautiful fruit and far-reaching fragrance. The text does not offer a botanical identification. Its importance lies in its fruit and history: holy ones receive wisdom from it, while the first parents ate and were expelled.",
+          "Raphael's explanation connects the vision directly with Genesis 3. Opened eyes and acquired knowledge are not celebrated without qualification; they accompany recognition of nakedness and loss of garden access. Wisdom separated from obedience does not preserve communion with God.",
+          "The textual tradition itself becomes visible at the chapter's close. The Greek codex ends in the middle of Raphael's sentence, while the complete Geʽez witness preserves the remaining account. Using the witnesses in order allows the chapter to remain complete without pretending that the broken Greek contains words it does not."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 2:8–17; 3:6–24 — the eastern garden, the tree, opened eyes and expulsion",
+        "Proverbs 3:13–18 — wisdom portrayed as a tree of life",
+        "Isaiah 51:3; Ezekiel 31:8–9 — Eden as the measure of restored and incomparable beauty",
+        "Hosea 14:6–7 — growth whose fragrance spreads",
+        "Romans 5:12–19 — Adam's transgression and the obedient answer that brings life",
+        "Revelation 2:7 — access to the tree in the paradise of God"
+      ]
+    }
+  ]
+}

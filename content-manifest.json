@@ -1,8 +1,8 @@
 {
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
-  "contentVersion": "2026.08.11.9",
-  "updatedAt": "2026-08-11T05:05:19Z",
+  "contentVersion": "2026.08.11.74",
+  "updatedAt": "2026-08-11T12:47:33Z",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -111,6 +111,461 @@
       "chapter": 17,
       "contentVersion": "2026.08.11.9",
       "url": "1-enoch-017.json"
+    },
+    {
+      "id": "1-enoch-018-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 18,
+      "contentVersion": "2026.08.11.10",
+      "url": "1-enoch-018.json"
+    },
+    {
+      "id": "1-enoch-019-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 19,
+      "contentVersion": "2026.08.11.11",
+      "url": "1-enoch-019.json"
+    },
+    {
+      "id": "1-enoch-020-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 20,
+      "contentVersion": "2026.08.11.12",
+      "url": "1-enoch-020.json"
+    },
+    {
+      "id": "1-enoch-021-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 21,
+      "contentVersion": "2026.08.11.13",
+      "url": "1-enoch-021.json"
+    },
+    {
+      "id": "1-enoch-022-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 22,
+      "contentVersion": "2026.08.11.14",
+      "url": "1-enoch-022.json"
+    },
+    {
+      "id": "1-enoch-023-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 23,
+      "contentVersion": "2026.08.11.15",
+      "url": "1-enoch-023.json"
+    },
+    {
+      "id": "1-enoch-024-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 24,
+      "contentVersion": "2026.08.11.16",
+      "url": "1-enoch-024.json"
+    },
+    {
+      "id": "1-enoch-025-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 25,
+      "contentVersion": "2026.08.11.17",
+      "url": "1-enoch-025.json"
+    },
+    {
+      "id": "1-enoch-026-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 26,
+      "contentVersion": "2026.08.11.18",
+      "url": "1-enoch-026.json"
+    },
+    {
+      "id": "1-enoch-027-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 27,
+      "contentVersion": "2026.08.11.19",
+      "url": "1-enoch-027.json"
+    },
+    {
+      "id": "1-enoch-028-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 28,
+      "contentVersion": "2026.08.11.20",
+      "url": "1-enoch-028.json"
+    },
+    {
+      "id": "1-enoch-029-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 29,
+      "contentVersion": "2026.08.11.21",
+      "url": "1-enoch-029.json"
+    },
+    {
+      "id": "1-enoch-030-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 30,
+      "contentVersion": "2026.08.11.22",
+      "url": "1-enoch-030.json"
+    },
+    {
+      "id": "1-enoch-031-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 31,
+      "contentVersion": "2026.08.11.23",
+      "url": "1-enoch-031.json"
+    },
+    {
+      "id": "1-enoch-032-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 32,
+      "contentVersion": "2026.08.11.24",
+      "url": "1-enoch-032.json"
+    },
+    {
+      "id": "1-enoch-033-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 33,
+      "contentVersion": "2026.08.11.25",
+      "url": "1-enoch-033.json"
+    },
+    {
+      "id": "1-enoch-034-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 34,
+      "contentVersion": "2026.08.11.26",
+      "url": "1-enoch-034.json"
+    },
+    {
+      "id": "1-enoch-035-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 35,
+      "contentVersion": "2026.08.11.27",
+      "url": "1-enoch-035.json"
+    },
+    {
+      "id": "1-enoch-036-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 36,
+      "contentVersion": "2026.08.11.28",
+      "url": "1-enoch-036.json"
+    },
+    {
+      "id": "1-enoch-037-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 37,
+      "contentVersion": "2026.08.11.29",
+      "url": "1-enoch-037.json"
+    },
+    {
+      "id": "1-enoch-038-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 38,
+      "contentVersion": "2026.08.11.30",
+      "url": "1-enoch-038.json"
+    },
+    {
+      "id": "1-enoch-039-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 39,
+      "contentVersion": "2026.08.11.31",
+      "url": "1-enoch-039.json"
+    },
+    {
+      "id": "1-enoch-040-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 40,
+      "contentVersion": "2026.08.11.32",
+      "url": "1-enoch-040.json"
+    },
+    {
+      "id": "1-enoch-041-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 41,
+      "contentVersion": "2026.08.11.33",
+      "url": "1-enoch-041.json"
+    },
+    {
+      "id": "1-enoch-042-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 42,
+      "contentVersion": "2026.08.11.34",
+      "url": "1-enoch-042.json"
+    },
+    {
+      "id": "1-enoch-043-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 43,
+      "contentVersion": "2026.08.11.35",
+      "url": "1-enoch-043.json"
+    },
+    {
+      "id": "1-enoch-044-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 44,
+      "contentVersion": "2026.08.11.36",
+      "url": "1-enoch-044.json"
+    },
+    {
+      "id": "1-enoch-045-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 45,
+      "contentVersion": "2026.08.11.37",
+      "url": "1-enoch-045.json"
+    },
+    {
+      "id": "1-enoch-046-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 46,
+      "contentVersion": "2026.08.11.38",
+      "url": "1-enoch-046.json"
+    },
+    {
+      "id": "1-enoch-047-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 47,
+      "contentVersion": "2026.08.11.39",
+      "url": "1-enoch-047.json"
+    },
+    {
+      "id": "1-enoch-048-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 48,
+      "contentVersion": "2026.08.11.40",
+      "url": "1-enoch-048.json"
+    },
+    {
+      "id": "1-enoch-049-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 49,
+      "contentVersion": "2026.08.11.41",
+      "url": "1-enoch-049.json"
+    },
+    {
+      "id": "1-enoch-050-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 50,
+      "contentVersion": "2026.08.11.42",
+      "url": "1-enoch-050.json"
+    },
+    {
+      "id": "1-enoch-051-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 51,
+      "contentVersion": "2026.08.11.43",
+      "url": "1-enoch-051.json"
+    },
+    {
+      "id": "1-enoch-052-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 52,
+      "contentVersion": "2026.08.11.44",
+      "url": "1-enoch-052.json"
+    },
+    {
+      "id": "1-enoch-053-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 53,
+      "contentVersion": "2026.08.11.45",
+      "url": "1-enoch-053.json"
+    },
+    {
+      "id": "1-enoch-054-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 54,
+      "contentVersion": "2026.08.11.46",
+      "url": "1-enoch-054.json"
+    },
+    {
+      "id": "1-enoch-055-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 55,
+      "contentVersion": "2026.08.11.47",
+      "url": "1-enoch-055.json"
+    },
+    {
+      "id": "1-enoch-056-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 56,
+      "contentVersion": "2026.08.11.48",
+      "url": "1-enoch-056.json"
+    },
+    {
+      "id": "1-enoch-057-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 57,
+      "contentVersion": "2026.08.11.49",
+      "url": "1-enoch-057.json"
+    },
+    {
+      "id": "1-enoch-058-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 58,
+      "contentVersion": "2026.08.11.50",
+      "url": "1-enoch-058.json"
+    },
+    {
+      "id": "1-enoch-059-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 59,
+      "contentVersion": "2026.08.11.51",
+      "url": "1-enoch-059.json"
+    },
+    {
+      "id": "1-enoch-060-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 60,
+      "contentVersion": "2026.08.11.52",
+      "url": "1-enoch-060.json"
+    },
+    {
+      "id": "1-enoch-061-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 61,
+      "contentVersion": "2026.08.11.53",
+      "url": "1-enoch-061.json"
+    },
+    {
+      "id": "1-enoch-062-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 62,
+      "contentVersion": "2026.08.11.54",
+      "url": "1-enoch-062.json"
+    },
+    {
+      "id": "1-enoch-063-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 63,
+      "contentVersion": "2026.08.11.55",
+      "url": "1-enoch-063.json"
+    },
+    {
+      "id": "1-enoch-064-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 64,
+      "contentVersion": "2026.08.11.56",
+      "url": "1-enoch-064.json"
+    },
+    {
+      "id": "1-enoch-065-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 65,
+      "contentVersion": "2026.08.11.57",
+      "url": "1-enoch-065.json"
+    },
+    {
+      "id": "1-enoch-066-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 66,
+      "contentVersion": "2026.08.11.58",
+      "url": "1-enoch-066.json"
+    },
+    {
+      "id": "1-enoch-067-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 67,
+      "contentVersion": "2026.08.11.59",
+      "url": "1-enoch-067.json"
+    },
+    {
+      "id": "1-enoch-068-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 68,
+      "contentVersion": "2026.08.11.60",
+      "url": "1-enoch-068.json"
+    },
+    {
+      "id": "1-enoch-069-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 69,
+      "contentVersion": "2026.08.11.61",
+      "url": "1-enoch-069.json"
+    },
+    {
+      "id": "1-enoch-070-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 70,
+      "contentVersion": "2026.08.11.62",
+      "url": "1-enoch-070.json"
+    },
+    {
+      "id": "1-enoch-071-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 71,
+      "contentVersion": "2026.08.11.63",
+      "url": "1-enoch-071.json"
+    },
+    {
+      "id": "1-enoch-072-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 72,
+      "contentVersion": "2026.08.11.64",
+      "url": "1-enoch-072.json"
+    },
+    {
+      "id": "1-enoch-073-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 73,
+      "contentVersion": "2026.08.11.65",
+      "url": "1-enoch-073.json"
+    },
+    {
+      "id": "1-enoch-074-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 74,
+      "contentVersion": "2026.08.11.66",
+      "url": "1-enoch-074.json"
+    },
+    {
+      "id": "1-enoch-075-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 75,
+      "contentVersion": "2026.08.11.67",
+      "url": "1-enoch-075.json"
+    },
+    {
+      "id": "1-enoch-076-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 76,
+      "contentVersion": "2026.08.11.68",
+      "url": "1-enoch-076.json"
+    },
+    {
+      "id": "1-enoch-077-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 77,
+      "contentVersion": "2026.08.11.69",
+      "url": "1-enoch-077.json"
+    },
+    {
+      "id": "1-enoch-078-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 78,
+      "contentVersion": "2026.08.11.70",
+      "url": "1-enoch-078.json"
+    },
+    {
+      "id": "1-enoch-079-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 79,
+      "contentVersion": "2026.08.11.71",
+      "url": "1-enoch-079.json"
+    },
+    {
+      "id": "1-enoch-080-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 80,
+      "contentVersion": "2026.08.11.72",
+      "url": "1-enoch-080.json"
+    },
+    {
+      "id": "1-enoch-081-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 81,
+      "contentVersion": "2026.08.11.73",
+      "url": "1-enoch-081.json"
+    },
+    {
+      "id": "1-enoch-082-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 82,
+      "contentVersion": "2026.08.11.74",
+      "url": "1-enoch-082.json"
     }
   ]
 }

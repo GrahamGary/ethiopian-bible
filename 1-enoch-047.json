@@ -1,0 +1,86 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-047-2026-08-11",
+  "contentVersion": "2026.08.11.39",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 47,
+      "title": "Chapter 47 — The Prayer and Blood of the Righteous",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all four verses, including the ascent of the righteous community's prayer and blood, the united intercession of the holy ones, the Head of Days upon the throne, and the opening of the books of the living. The witness's courtroom sequence and its declaration that prolonged forbearance ends are retained. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days the prayer of the righteous and the blood of the righteous will ascend from the earth before the Lord of Spirits.",
+          "study": "Prayer and shed blood rise together as testimony. The suffering of righteous people is neither mute nor earthbound; it comes before the Lord of Spirits as a claim for justice.",
+          "crossReferences": [
+            "Genesis 4:10 — Abel's blood cries from the ground",
+            "Psalm 79:10–12 — God is asked to avenge His servants' shed blood",
+            "Revelation 6:9–10 — the slain call from beneath the altar for judgment"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "In those days the holy ones who dwell above the heavens will unite with one voice. They will petition, pray, praise, give thanks, and bless the name of the Lord of Spirits because of the blood of the righteous that has been poured out, and because the prayer of the righteous must not disappear before the Lord of Spirits, so that judgment may be carried out for them and forbearance may not continue forever.",
+          "study": "Heavenly worship includes solidarity with victims on earth. Praise and petition converge in a request that patient delay give way to righteous judgment.",
+          "crossReferences": [
+            "Psalm 9:12 — God remembers bloodshed and does not forget the afflicted cry",
+            "Daniel 7:22 — judgment is given for the holy ones",
+            "Revelation 8:3–4 — the prayers of the holy rise before God's throne"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "In those days I saw the Head of Days sit upon the throne of His glory. The books of the living were opened before Him, and all His host above the heavens and His court stood before Him.",
+          "study": "The appeal reaches a fully assembled court. Open books signify that life, identity and testimony are already known before the enthroned Head of Days.",
+          "crossReferences": [
+            "Daniel 7:9–10 — the Ancient of Days sits and books are opened",
+            "Malachi 3:16 — a book of remembrance is written before the LORD",
+            "Revelation 20:12 — the heavenly court opens the books for judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "The hearts of the holy ones were filled with joy because the full measure of righteousness had arrived, the prayer of the righteous had been heard, and the blood of the righteous had been accepted before the Lord of Spirits.",
+          "study": "Joy comes when delayed justice reaches its appointed fullness. Heard prayer and accepted blood mean that righteous suffering has been received as testimony and will not be left unanswered.",
+          "crossReferences": [
+            "Psalm 56:8–9 — God records grief and answers the cry of His servant",
+            "Luke 18:7–8 — God brings justice for His chosen who cry to Him",
+            "Revelation 19:1–2 — heaven rejoices because God's judgments vindicate His servants' blood"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 47 turns from the overthrow of oppressive rulers to the testimony of their victims. Prayer and blood ascend from earth, carrying the righteous community's appeal into the heavenly court.",
+          "The holy ones above heaven do not remain detached. Their united voice joins petition, worship and thanksgiving, showing that justice for the oppressed belongs within the praise of the Lord of Spirits.",
+          "The Head of Days sits, the living books open and the court stands ready. Divine judgment is portrayed as informed, public and ordered rather than impulsive.",
+          "The holy rejoice because a measured time of forbearance has reached its end. The chapter assures suffering people that neither prayer nor blood disappears before God; both are received until the appointed judgment arrives."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 4:10; Revelation 6:9–10 — righteous blood crying for justice",
+        "Daniel 7:9–10 — the enthroned Ancient of Days and opened books",
+        "Malachi 3:16; Revelation 20:12 — heavenly records before judgment",
+        "Luke 18:7–8 — justice for those who cry continually",
+        "Revelation 19:1–2 — heavenly joy at the vindication of shed blood"
+      ]
+    }
+  ]
+}

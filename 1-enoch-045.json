@@ -1,0 +1,106 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-045-2026-08-11",
+  "contentVersion": "2026.08.11.37",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 45,
+      "title": "Chapter 45 — The Chosen One and the Renewed Creation",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all six verses, including the opening of the second parable, the Chosen One seated on the throne of glory, and the transformation of heaven and earth into lasting blessing. The distinct groups—chosen, righteous and those who deny the Lord's name—are retained without being collapsed. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "This is the second parable, concerning those who deny the name of the dwelling of the holy ones and the name of the Lord of Spirits.",
+          "study": "The second parable begins with denial of both the holy dwelling and its Lord. The issue is not ignorance of a heavenly curiosity but repudiation of the name that gives the dwelling its holiness.",
+          "crossReferences": [
+            "Psalm 74:7 — enemies profane the dwelling of God's name",
+            "Daniel 7:25 — arrogant power speaks against the Most High",
+            "Jude 8 — rebels reject authority and slander heavenly glories"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "They will not ascend into heaven, nor will they come upon the earth. Such will be the lot of the sinners who deny the name of the Lord of Spirits, who are kept for the day of suffering and distress.",
+          "study": "Those who reject the Lord find no secure realm. Their present preservation is not safety but reservation for a day when denial receives its appointed judgment.",
+          "crossReferences": [
+            "Isaiah 24:21–22 — rebels are gathered and kept for punishment",
+            "Daniel 12:1 — an unparalleled time of distress precedes deliverance",
+            "2 Peter 2:9 — the unrighteous are kept for the day of judgment"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "On that day My Chosen One will sit upon the throne of glory and will test their deeds. Their places of rest will be beyond number, and their spirits will grow strong within them when they see My Chosen One and those who have appealed to My holy and glorious name.",
+          "study": "The Chosen One judges deeds from the throne while the faithful are strengthened by seeing him. Judgment and encouragement occur together: exposed works for some, innumerable rest and renewed courage for others.",
+          "crossReferences": [
+            "Isaiah 42:1 — God's chosen servant brings forth judgment",
+            "Matthew 25:31–32 — the Son of Man sits on a glorious throne to judge",
+            "Hebrews 4:9–11 — a rest remains for God's people"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "On that day I will make My Chosen One dwell among them, and I will transform heaven and make it an eternal blessing and light.",
+          "study": "The promise centers on presence: the Chosen One dwells among the faithful. Heaven itself is transformed so that blessing and light become enduring conditions rather than passing experiences.",
+          "crossReferences": [
+            "Isaiah 65:17 — God creates new heavens and a new earth",
+            "John 1:14 — the divine Word dwells among humanity",
+            "Revelation 21:3, 23 — God's dwelling and glory fill the renewed creation"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I will transform the dry ground and make it a blessing, and I will cause My chosen ones to dwell upon it; but those who commit sin and wrongdoing will not set foot upon it.",
+          "study": "Renewal reaches the earth as well as heaven. The promised land becomes a dwelling for the chosen, while persistent wrongdoing is excluded so that the blessing cannot again be corrupted.",
+          "crossReferences": [
+            "Psalm 37:29 — the righteous inherit and dwell in the land",
+            "Isaiah 35:1–2 — dry ground is transformed into glad abundance",
+            "Revelation 21:27 — evil is excluded from the renewed holy dwelling"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "For I have seen My righteous ones and satisfied them with peace; I have placed them before Me. But judgment has drawn near to the sinners, so that I may destroy them from the face of the earth.",
+          "study": "The Lord's sight leads to peace for the righteous and judgment for sinners. Nearness to God is the righteous community's placement and satisfaction, while unrepented evil approaches removal.",
+          "crossReferences": [
+            "Psalm 34:15–16 — the LORD watches the righteous and opposes evildoers",
+            "Isaiah 57:19–21 — peace belongs to God's people, not persistent wickedness",
+            "Revelation 22:4–5 — God's servants see His face and live in His light"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 45 announces the second parable and sets its two outcomes side by side. Denial of the Lord's name ends in distress, while appeal to that name ends in strength, rest and presence.",
+          "The Chosen One sits on the throne of glory to test deeds. His rule is therefore active and moral, not merely ceremonial; it uncovers what people have done and establishes where they will dwell.",
+          "Renewal embraces both heaven and dry ground. Lasting blessing is not escape from creation but its transformation into a place where the Chosen One and the chosen dwell together.",
+          "Peace and judgment arise from the same holy rule. Removing entrenched wrongdoing protects the renewed dwelling, while the righteous are seen, satisfied and placed before the Lord."
+        ]
+      },
+      "crossReferences": [
+        "Isaiah 42:1; Matthew 25:31–32 — the chosen judge upon the throne",
+        "Isaiah 65:17; Revelation 21:1–5 — heaven and earth renewed",
+        "Psalm 37:29; Isaiah 35:1–2 — the righteous dwelling on transformed ground",
+        "Hebrews 4:9–11 — promised rest for God's people",
+        "Revelation 21:23, 27 — eternal light and exclusion of evil"
+      ]
+    }
+  ]
+}

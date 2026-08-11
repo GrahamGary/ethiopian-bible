@@ -1,0 +1,79 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-031-2026-08-11",
+  "contentVersion": "2026.08.11.23",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 31,
+      "title": "Chapter 31 — Groves of Precious Aromatics",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic of 4Q206 (4QEnoch e) governs the preserved text of 31:2–3, including the aloe trees, their almond-tree likeness and the fragrance released when their substance is burned. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete three-verse chapter and supplies verse 1, including the ancient names sarara and galbanum. Sarara is retained as an ancient aromatic name because its exact identification is not secure; no additional species is supplied. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I saw other mountains, and among them were groves of trees. From them flowed nectar called sarara and galbanum.",
+          "study": "The aromatic journey expands from individual trees to mountain groves that yield flowing substances. Galbanum is a known fragrant resin; sarara remains an ancient name whose exact modern identification is uncertain. Retaining the name respects the limit of the witness while preserving the text's emphasis on valuable fragrance.",
+          "crossReferences": [
+            "Exodus 30:34–38 — galbanum belongs to the sacred incense compound",
+            "Psalm 104:16 — mountain trees are sustained as the LORD's planting",
+            "Song of Songs 4:13–15 — a garden of aromatic plants is compared to flowing water",
+            "1 Enoch 29–30 — the preceding places contain frankincense, myrrh, mastic and cinnamon"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Beyond these mountains I saw another mountain toward the eastern ends of the earth. On it were aloe trees, and all the trees were full of stacte, resembling almond trees.",
+          "study": "The early Aramaic fragment helps identify the fragrant trees where the Greek text is difficult. Aloes and stacte continue the sequence of precious aromatics, while resemblance to almond trees describes visible form. The verse distinguishes appearance, substance and location without forcing all three into one botanical label.",
+          "crossReferences": [
+            "Numbers 24:6 — aloes planted by the LORD picture spreading beauty",
+            "Psalm 45:8 — aloes and fragrant garments accompany royal splendor",
+            "Song of Songs 4:14 — aloes appear among the finest spices",
+            "John 19:39 — aloes are joined with myrrh in honorable burial"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "When their aromatic substance was burned, its fragrance was sweeter than every perfume.",
+          "study": "The trees' excellence becomes evident when their substance is burned. Fire does not merely destroy; in this case it releases fragrance. The chapter makes a sensory comparison—sweeter than every perfume—without turning the aroma into an object of devotion.",
+          "crossReferences": [
+            "Exodus 30:7–8 — fragrant incense releases its aroma through burning",
+            "Leviticus 2:1–2 — frankincense is burned as part of an offering",
+            "Psalm 141:2 — prayer is compared to incense before God",
+            "Revelation 8:3–4 — incense smoke rises with the prayers of the holy ones"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 31 reaches groves whose aromatic abundance flows like nectar. Sarara and galbanum come from the first mountain groves; farther east, aloe trees filled with stacte resemble almond trees and release surpassing fragrance when their substance is burned.",
+          "The chapter is a catalogue of created value, but it remains carefully sensory and concrete. Enoch sees mountains and groves, observes resins and likenesses, and smells fragrance. Where an ancient plant name cannot be identified securely, the translation retains it rather than substituting a familiar modern species.",
+          "Several of these substances appear elsewhere in biblical worship, poetry and burial. Those connections show how fragrance can mark holiness, royal beauty, prayer and honor. Chapter 31 itself, however, records their place in creation before describing any human use.",
+          "The Aramaic fragment is decisive for the second half of the chapter. It allows the difficult Greek plant wording to be read with greater confidence and keeps the translation grounded in the earliest surviving language rather than in later botanical speculation."
+        ]
+      },
+      "crossReferences": [
+        "Exodus 30:7–8, 34–38 — galbanum and fragrant incense",
+        "Numbers 24:6; Psalm 45:8 — aloe trees and royal fragrance",
+        "Song of Songs 4:13–15 — aromatic groves and flowing garden abundance",
+        "Psalm 141:2; Revelation 8:3–4 — burning fragrance and prayer",
+        "John 19:39 — aloes and myrrh used in burial honor"
+      ]
+    }
+  ]
+}

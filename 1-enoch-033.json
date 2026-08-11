@@ -1,0 +1,90 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-033-2026-08-11",
+  "contentVersion": "2026.08.11.25",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 33,
+      "title": "Chapter 33 — The Gates and Courses of the Stars",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic of 4Q206 (4QEnoch e) governs the preserved portions of 33:3 concerning the gates, names, courses and appointed times of the stars. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 supplies 33:1–2, the continuity of 33:3 and the complete wording of 33:4. The Greek Codex Panopolitanus ends in the preceding chapter and is not used as a source for this unit. The ancient cosmographic language of the earth's ends, heaven's resting place and opened gates is retained as the wording of the vision. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I went to the ends of the earth. There I saw great animals, each different from the others, and birds that likewise differed from one another in form, beauty and voice.",
+          "study": "Enoch's attention returns from aromatic trees to living creatures. Diversity marks both land animals and birds: appearance, beauty and sound distinguish one from another. The vision presents variety as a feature of created life rather than disorder.",
+          "crossReferences": [
+            "Genesis 1:20–25 — birds and land animals are created according to their kinds",
+            "Job 12:7–10 — animals and birds testify that life is in God's hand",
+            "Psalm 50:10–11 — every beast and every bird belong to God",
+            "Psalm 148:7, 10 — beasts, livestock, creeping things and birds join creation's praise"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "East of those animals I saw the ends of the earth, where heaven rests, and the gates of heaven stood open.",
+          "study": "The vision uses ancient cosmographic language to describe a boundary where earth and heaven meet. Open gates prepare for the ordered emergence of the stars in the next verse. The imagery conveys access to hidden heavenly operations rather than a construction diagram for the physical universe.",
+          "crossReferences": [
+            "Genesis 28:17 — Jacob calls the revealed place the gate of heaven",
+            "Job 38:17–20 — God asks about gates, darkness and the boundaries of light",
+            "Psalm 19:4–6 — the sun emerges and follows an appointed course",
+            "Revelation 4:1 — an open door in heaven introduces a revealed heavenly scene"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I saw how the stars of heaven came out. I counted the gates from which they emerged and wrote down all their exits, each one separately, according to their number and names, their courses and positions, their times and months, as Uriel, the holy angel who was with me, showed me.",
+          "study": "The early Aramaic witness preserves the chapter's central catalogue language. Stars have counted gates, individual names, courses, stations and appointed times. Uriel's instruction turns the spectacle into recorded order: heavenly lights are known by disciplined observation of their assignments.",
+          "crossReferences": [
+            "Genesis 1:14 — the lights are appointed for signs, seasons, days and years",
+            "Job 38:31–33 — constellations and heavenly ordinances lie under divine command",
+            "Psalm 147:4 — God counts the stars and calls each by name",
+            "Isaiah 40:26 — the heavenly host comes out by number and name"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He showed me everything and wrote it down for me. He also wrote for me their names, their laws and their companies.",
+          "study": "Uriel's disclosure is preserved as a written record, not left to memory or impression. Names identify, laws define ordered behavior and companies place the stars within groups. The verse closes the chapter by stressing intelligible structure throughout the heavenly host.",
+          "crossReferences": [
+            "Exodus 34:27 — revealed words are committed to writing",
+            "Daniel 7:10 — heavenly judgment is accompanied by opened books",
+            "Habakkuk 2:2 — a vision is written plainly for preservation",
+            "Revelation 1:19 — the seer is commanded to write what has been shown"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 33 moves from the diversity of earthly creatures to the ordered companies of heaven. Great animals and birds differ in form, beauty and voice; stars differ in names, paths, stations and appointed times.",
+          "The open heavenly gates form the chapter's visual center. Through them the stars emerge according to a countable order. Ancient boundary language gives the vision its shape, while the theological claim is that the heavenly lights do not wander without law.",
+          "Uriel shows and records the details for Enoch. Knowledge here is received, measured and written. The chapter therefore values careful attention without presenting the stars as rulers independent of the Creator who numbers and appoints them.",
+          "This unit also marks a textual transition. The continuous Greek manuscript has ended, but an early Aramaic fragment preserves part of the stellar catalogue and the complete Geʽez witness carries the chapter as a whole. The translation follows that actual state of preservation."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:14–25 — ordered heavenly lights and diverse living creatures",
+        "Job 38:17–20, 31–33 — cosmic gates, boundaries and ordinances",
+        "Psalm 147:4; Isaiah 40:26 — stars counted and called by name",
+        "Habakkuk 2:2; Revelation 1:19 — revealed visions committed to writing",
+        "1 Enoch 23:2–4 — heavenly lights follow an appointed course"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-021-2026-08-11",
+  "contentVersion": "2026.08.11.13",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 21,
+      "title": "Chapter 21 — The Prison of the Stars and Angels",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic text of 4Q206 (4QEnoch e), fragment 1, column xxi, lines 1–4 preserves portions of 21:2–4 and is followed wherever its letters are legible. The Greek Codex Panopolitanus (Cairo Papyrus 10759) is the continuous translation base: its principal copy preserves 21:1–10, while its duplicated copy of 19:3–21:9 independently confirms 21:1–9. The complete Ethiopic (Geʽez) tradition, including Rylands Ethiopic MS 23, confirms the full ten-verse sequence and supplies a continuity and variant check. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I journeyed as far as the unformed region.",
+          "study": "Enoch moves beyond ordered, familiar creation into a region described by what it lacks: formation. The transition prepares for a place of confinement at the boundaries of the created order rather than a normal dwelling within it.",
+          "crossReferences": [
+            "Genesis 1:2 — the earth is unformed before God orders and fills it",
+            "Jeremiah 4:23–26 — the prophet sees the land unformed and empty beneath darkened heavens",
+            "1 Enoch 18:9–12 — Enoch previously reaches the place where heaven and earth end",
+            "Hebrews 11:3 — the visible order is formed by the word of God"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "There I saw a terrifying work: I saw neither a heaven above nor a founded earth, but an unformed and terrifying place.",
+          "study": "The scene lacks the two stable realms by which ordinary location is known—heaven above and earth established below. Its terror comes partly from this absence of created stability. The prison is portrayed as a boundary-place outside normal habitation.",
+          "crossReferences": [
+            "Genesis 1:1–2 — heaven and earth frame creation before its ordering",
+            "Job 38:4–6 — God alone lays the earth’s foundations and determines its measures",
+            "Jeremiah 4:23 — the absence of formed earth and ordered heavens signals desolation",
+            "Revelation 20:11 — earth and heaven flee before the great throne"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "There I saw seven of the stars of heaven, bound and cast into it together, like great mountains and burning in fire.",
+          "study": "The stars are not merely distant lights in this vision; they are bound offenders whose immense appearance is compared to mountains. Their fiery condition turns heavenly brilliance into an image of confinement and judgment.",
+          "crossReferences": [
+            "Job 38:7 — the morning stars and sons of God appear together in heavenly praise",
+            "Isaiah 24:21–22 — the host of heaven is gathered as prisoners into a pit",
+            "1 Enoch 18:13–16 — seven stars burn like mountains because they transgressed their appointed time",
+            "Jude 13 — wandering stars are associated with darkness kept for judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Then I said, ‘For what cause were they bound, and why were they cast here?’",
+          "study": "Enoch does not assign guilt from appearance alone; he asks for the cause of the punishment. The question allows the interpreting angel to identify both the offense and the measured term of confinement.",
+          "crossReferences": [
+            "Genesis 18:20–21 — judgment is presented with attention to the truth of the offense",
+            "Daniel 7:16 — Daniel asks for the truth concerning what he has seen",
+            "Daniel 8:15–17 — a troubling vision leads to a request for understanding",
+            "1 Peter 1:10–12 — prophets search carefully into what was revealed to them"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then Uriel, one of the holy angels who was with me and was in charge of them, said to me, ‘Enoch, why do you inquire, and why are you so eager for the truth?’",
+          "study": "Uriel again serves as the authorized guide to the prison of the stars. His question draws attention to Enoch’s desire for a true account. Revelation in this journey is given through inquiry and angelic explanation, not through speculation.",
+          "crossReferences": [
+            "Daniel 8:16 — Gabriel is commanded to make Daniel understand the vision",
+            "Daniel 10:12 — Daniel’s resolve to understand is heard before God",
+            "1 Enoch 18:14–16 — Uriel explains why the seven burning stars are bound",
+            "1 Enoch 19:1 — Uriel interprets the place appointed for the rebellious angels"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "These are among the stars of heaven that transgressed the Lord’s command, and they were bound here until ten thousand years are fulfilled—the term of their sins.",
+          "study": "Uriel identifies the prisoners’ offense as transgression of the Lord’s command. Their confinement has a divinely measured term corresponding to their sins. Even the enormous span of ten thousand years remains bounded by God’s determination.",
+          "crossReferences": [
+            "1 Enoch 18:15–16 — the stars failed to appear at their appointed times and were bound",
+            "2 Peter 2:4 — angels who sinned are confined and kept for judgment",
+            "Jude 6 — angels who abandoned their proper dwelling are held in bonds for the great day",
+            "Revelation 20:1–3 — a heavenly being binds and confines the dragon for an appointed period"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "From there I journeyed to another place, more terrifying than this one, and I saw a still more terrifying work: a great fire burned and blazed there, and the place had a cleft reaching to the abyss, filled with great descending pillars of fire. I could neither see nor estimate its measure or breadth.",
+          "study": "The journey moves from the prison of the seven stars to a deeper and more dreadful confinement. Fire descends through a cleft reaching the abyss, and the place exceeds Enoch’s ability to measure it. The vision stresses the scale and inaccessibility of the prison without inviting a geographic calculation.",
+          "crossReferences": [
+            "Deuteronomy 32:22 — divine judgment kindles a fire reaching to the depths below",
+            "Isaiah 30:33 — a place of burning is prepared and kindled by the breath of the LORD",
+            "Revelation 9:1–2 — the opened abyss releases smoke like that of a great furnace",
+            "Revelation 20:1–3 — the abyss is shut and sealed as a place of confinement"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Then I said, ‘How terrifying this place is, and how dreadful to behold!’",
+          "study": "Enoch responds honestly to what he sees. His fear is not treated as mastery or fascination; it is the fitting reaction of a human witness confronted by a place of divine confinement far beyond ordinary experience.",
+          "crossReferences": [
+            "Exodus 19:16 — the manifestation at Sinai causes the people to tremble",
+            "Isaiah 6:5 — Isaiah is undone by the vision of divine holiness",
+            "Daniel 10:7–9 — Daniel loses strength before an overwhelming vision",
+            "Revelation 1:17 — John falls as though dead before the glorified figure"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Then one of the holy angels who was with me answered and said, ‘Enoch, why were you so afraid and terrified?’ I answered, ‘Because of this dreadful place and its terrible appearance.’",
+          "study": "The angel requires Enoch to name the source of his fear. His answer stays with the revelation actually before him: the place and its appearance are dreadful. The exchange prepares for the final interpretation of the scene.",
+          "crossReferences": [
+            "Daniel 8:17–19 — an angel addresses Daniel’s terror and explains the vision",
+            "Daniel 10:10–12 — angelic speech addresses Daniel’s trembling and restores attention",
+            "Matthew 28:5 — an angel answers the fear of witnesses before giving explanation",
+            "Revelation 1:17–18 — fear is met by words that interpret the revealed figure"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "He said, ‘This place is a prison for angels. Here they will be confined for age upon age.’",
+          "study": "The final explanation identifies the second place as an angelic prison. The chapter therefore distinguishes the stars’ measured ten-thousand-year term from the enduring confinement described here. Rebellion does not escape accountability by being heavenly rather than human.",
+          "crossReferences": [
+            "Isaiah 24:21–22 — heavenly powers are gathered into a prison and later visited",
+            "Matthew 25:41 — everlasting fire is described as prepared for the devil and his angels",
+            "2 Peter 2:4 — sinning angels are kept in confinement for judgment",
+            "Jude 6 — rebellious angels are held in eternal bonds until the judgment of the great day"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 21 revisits and expands the prison landscape first seen in Chapter 18. Enoch is shown two terrifying places: one holds seven stars that violated the Lord’s command, and the other is identified as a prison for angels. The repeated journey is not redundant; it separates the offenders, their places and the stated terms of confinement.",
+          "The central theological claim is that heavenly status does not place a creature beyond obedience. The stars are bound because they transgressed a command, and the angels are held in a prison whose dimensions Enoch cannot measure. Created power remains accountable to the Creator’s order.",
+          "Uriel’s explanation also keeps judgment from being portrayed as arbitrary. Enoch asks for the cause, and the answer names both the transgression and its term. The ten thousand years sound immense from a human perspective, yet the wording still presents a fixed period governed by the Lord.",
+          "Enoch’s fear marks the boundary between witnessing and mastering the revelation. He can see, ask and receive an explanation, but he cannot measure the abyss or reduce it to familiar geography. The chapter teaches reverent attention to what is disclosed while refusing unsupported detail about what remains unseen."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:1–2; Job 38:4–7 — the ordering of earth, heaven and the morning stars",
+        "Isaiah 24:21–22 — the host of heaven gathered into confinement",
+        "Daniel 7:16; 8:15–19; 10:10–12 — visions clarified through angelic explanation",
+        "1 Enoch 18:9–16 — the first vision of the bound stars and the abyss",
+        "2 Peter 2:4; Jude 6, 13 — sinning angels, bonds and wandering stars under judgment",
+        "Revelation 9:1–2; 20:1–3 — the abyss as a place of fiery terror and confinement"
+      ]
+    }
+  ]
+}

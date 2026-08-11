@@ -1,0 +1,136 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-041-2026-08-11",
+  "contentVersion": "2026.08.11.33",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 41,
+      "title": "Chapter 41 — The Secrets of Heaven and the Ordered Lights",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all nine verses, including the weighing of human deeds, the chambers of wind and weather, and the ordered courses of sun and moon. The witness's language of heavenly storehouses, blessing and curse, light and darkness is retained as transmitted. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "After this I saw all the secrets of the heavens, how the kingdom is divided, and how the deeds of humankind are weighed in the balance.",
+          "study": "Heaven's hidden order includes moral judgment. Human deeds are not treated as weightless or forgotten; they are measured beneath a kingdom whose authority is already apportioned in perfect order.",
+          "crossReferences": [
+            "Daniel 5:27 — a human reign is weighed in the balance",
+            "Proverbs 16:2 — the LORD weighs human motives",
+            "Revelation 20:12 — the dead are judged according to their deeds"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "There I saw the dwellings of the chosen and the dwellings of the holy. My eyes saw there all the sinners who deny the name of the Lord of Spirits being driven away and dragged off. They could not remain because of the punishment that proceeds from the Lord of Spirits.",
+          "study": "The dwellings prepared for the chosen are incompatible with persistent denial of the Lord. Exclusion is presented as the consequence of divine judgment, not as a failure of the holy community to protect its place.",
+          "crossReferences": [
+            "Psalm 1:5 — the wicked do not stand in the congregation of the righteous",
+            "Matthew 25:31–33 — the king separates people at judgment",
+            "Revelation 21:27 — nothing defiling enters the holy city"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "There my eyes saw the secrets of lightning and thunder, the secrets of the winds and how they are divided so that they may blow over the earth, and the secrets of the clouds and dew. There I saw where they come forth in that place and how from there they saturate the dust of the earth.",
+          "study": "Weather that appears untamed is shown as ordered and allotted. Wind, cloud and dew serve the earth by appointed paths, placing ordinary provision within the Creator's hidden governance.",
+          "crossReferences": [
+            "Job 28:25–26 — God gives weight to wind and a path to thunder",
+            "Psalm 135:7 — God brings wind from His storehouses",
+            "Jeremiah 10:13 — thunder, clouds and wind answer God's command"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "There I saw closed storehouses from which the winds are distributed: the storehouse of hail, the storehouse of mist, and the storehouse of clouds. Its cloud has rested above the earth from the beginning of the world.",
+          "study": "The vision pictures weather in storehouses to emphasize custody and release. Even forces associated with danger or obscurity remain held within boundaries older than human memory.",
+          "crossReferences": [
+            "Job 37:9–12 — weather turns about under divine direction",
+            "Job 38:22 — storehouses of snow and hail are shown to Job",
+            "Psalm 33:7 — God gathers and stores the waters"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I saw the storehouses of the sun and moon, from where they go out and where they return, and their glorious return. I saw how one is more honored than the other, while each has a splendid course. They do not leave their course, nor add to it or diminish from it, but keep faith with one another according to the oath by which they are bound.",
+          "study": "Sun and moon differ in honor yet share covenant-like faithfulness to their assigned courses. Created distinction does not produce rivalry; both lights serve through constancy.",
+          "crossReferences": [
+            "Genesis 1:16–18 — the greater and lesser lights receive distinct rule",
+            "Psalm 19:4–6 — the sun runs its appointed course",
+            "Jeremiah 31:35 — sun, moon and stars operate by fixed ordinances"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "First the sun goes out and completes its course at the command of the Lord of Spirits, whose name is mighty forever and ever.",
+          "study": "The sun's apparent power is obedience. Its daily journey displays the enduring might of the One who commands it, keeping worship directed toward the Lord rather than the light.",
+          "crossReferences": [
+            "Joshua 10:12–14 — the sun's motion remains subject to the LORD",
+            "Psalm 74:16 — God established both moon and sun",
+            "Habakkuk 3:11 — sun and moon stand at divine command"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "After this comes the hidden and visible course of the moon, and it completes the path of its course in that place by day and by night. One faces the other before the Lord of Spirits, and they give thanks and praise without resting, for their thanksgiving is rest to them.",
+          "study": "The moon's changing visibility does not interrupt its appointed service. Sun and moon stand in complementary relation, and their unceasing praise is described not as exhaustion but as true rest.",
+          "crossReferences": [
+            "Psalm 104:19 — the moon marks appointed seasons",
+            "Psalm 148:3 — sun and moon are summoned to praise",
+            "Revelation 4:8 — heavenly praise continues without ceasing"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "For the shining sun makes many revolutions, for blessing and for curse, while the path of the moon's course is light to the righteous and darkness to the sinners, in the name of the Lord who made a separation between light and darkness, divided the spirits of humankind, and strengthened the spirits of the righteous in the name of His righteousness.",
+          "study": "The regular lights become moral signs within the vision: blessing and curse, illumination and darkness. The decisive separation belongs to the Creator, who strengthens righteous people by His own righteousness.",
+          "crossReferences": [
+            "Genesis 1:4 — God separates light from darkness",
+            "Malachi 4:1–2 — the coming day burns for the wicked and heals the righteous",
+            "Colossians 1:12–13 — God brings His people from darkness into the kingdom of light"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "For no angel can hinder, and no power can prevent, because the Judge sees them all and judges them all before Him.",
+          "study": "No intermediate power can obstruct the universal Judge. The chapter ends where it began—with every hidden order and every human deed exposed before His sight.",
+          "crossReferences": [
+            "Job 34:21–23 — no darkness hides a person from God's judgment",
+            "Daniel 4:35 — none can restrain God's hand",
+            "Hebrews 4:13 — every creature is exposed before the One to whom account is due"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 41 moves from the four heavenly presences to the wider order of heaven. The same Lord of Spirits who governs worship and intercession also governs judgment, weather and the courses of the lights.",
+          "The vision joins cosmic and moral order. Winds are divided, storehouses are opened, the sun and moon keep their oath, and human deeds are weighed. Nothing visible or hidden lies outside accountable structure.",
+          "Sun and moon are honored yet subordinate. Their faithful movement and praise point beyond themselves to the mighty name of the Lord who commands them.",
+          "For people, the chapter's central question is whether divine order becomes light or darkness. The righteous are strengthened in God's righteousness, while no angel or power can shield denial from the Judge who sees all."
+        ]
+      },
+      "crossReferences": [
+        "Daniel 5:27; Revelation 20:12 — deeds weighed and judged",
+        "Job 28:25–26; 38:22; Psalm 135:7 — ordered weather and heavenly storehouses",
+        "Genesis 1:14–18; Psalm 19:4–6 — appointed courses of sun and moon",
+        "Genesis 1:4; Malachi 4:1–2 — separation of light and darkness",
+        "Daniel 4:35; Hebrews 4:13 — the Judge whom no power can hinder"
+      ]
+    }
+  ]
+}

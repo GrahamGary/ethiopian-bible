@@ -1,0 +1,78 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-028-2026-08-11",
+  "contentVersion": "2026.08.11.20",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 28,
+      "title": "Chapter 28 — Water and Dew in the Wilderness",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic of 4Q206 (4QEnoch e) governs the preserved wording of 28:3 concerning abundant water and dew. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete three-verse chapter and supplies the continuous text. Its form Mandobara in verse 1 transliterates the Aramaic word for wilderness and is translated by that meaning. The complete Ethiopic (Geʽez) tradition confirms the water springing from above in verse 2 where the Greek contains a secondary, textually uncertain phrase. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I journeyed into the middle of the wilderness, and I saw that it was desolate and solitary.",
+          "study": "The journey leaves the judgment valley and enters an isolated wilderness. The ancient Greek preserves the Aramaic wilderness term in transliteration, but the scene itself confirms its sense. Desolation here is the setting for unexpected trees and water rather than the chapter's final word.",
+          "crossReferences": [
+            "Exodus 3:1–2 — a remote wilderness becomes a place of revelation",
+            "Deuteronomy 32:10 — God finds and cares for His people in a desolate wilderness",
+            "Isaiah 35:1 — the wilderness is promised joy and renewed growth",
+            "1 Enoch 27:1–2 — the journey departs from the accursed, barren valley"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "It was full of trees, and water gushed forth from above.",
+          "study": "The solitary wilderness contains both trees and a water source descending from above. The contrast turns desolation into abundance without attributing the life to the land itself. Water is received, and the trees flourish where ordinary expectation would see only barrenness.",
+          "crossReferences": [
+            "Exodus 17:5–6 — water is provided in the wilderness",
+            "Psalm 78:15–16 — God brings streams from rock in a dry place",
+            "Isaiah 41:18–19 — water and trees are placed together in the wilderness",
+            "John 3:27 — a person can receive only what is given from heaven"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The water rushed abundantly toward the northwest, bringing up water and dew from every side.",
+          "study": "The early Aramaic fragment confirms the pairing of water and dew in this abundant flow. Its direction is named, but its effect spreads on every side. The wilderness is therefore pictured as supplied by a source that moves, rises and refreshes beyond one narrow channel.",
+          "crossReferences": [
+            "Genesis 27:28 — the dew of heaven is named among God's gifts of abundance",
+            "Psalm 133:3 — dew becomes an image of blessing and life",
+            "Isaiah 35:6–7 — waters break out and dry ground becomes springs",
+            "Hosea 14:5–7 — divine dew brings rooted growth, beauty and fragrance"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 28 is short but deliberately surprising. Enoch enters a solitary wilderness and finds it full of trees, with water gushing from above and dew spreading through an abundant northwestward flow.",
+          "The chapter's theological emphasis is provision where life appears least likely. Desolation does not prevent God-given water, and isolation does not prevent growth. The source from above sustains what the wilderness could not produce by itself.",
+          "Water and dew are concrete features of the vision, yet they also resonate with biblical language of blessing, renewal and life. Those connections should illuminate the chapter's imagery without turning its three verses into an allegory more detailed than the text.",
+          "This scene also opens a new sequence. Chapters 29–32 continue among fragrant trees, precious aromatic substances and the garden of righteousness. Chapter 28 establishes the life-giving water that makes such growth in the wilderness possible."
+        ]
+      },
+      "crossReferences": [
+        "Exodus 17:5–6; Psalm 78:15–16 — water provided in the wilderness",
+        "Isaiah 35:1–7; 41:18–19 — desert renewal through water and trees",
+        "Psalm 133:3; Hosea 14:5–7 — dew as life-giving blessing",
+        "Ezekiel 47:1–12 — water from above the land's ordinary resources sustains abundant trees"
+      ]
+    }
+  ]
+}

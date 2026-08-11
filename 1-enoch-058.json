@@ -1,0 +1,106 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-058-2026-08-11",
+  "contentVersion": "2026.08.11.50",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 58,
+      "title": "Chapter 58 — The Unending Light of the Righteous",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language text responsibly available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text in August Dillmann's 1851 critical edition, Liber Henoch Aethiopice, is the translation base for all six verses: the opening of the third Parable, the glorious portion of the righteous and chosen, their life in the light, the heavenly secrets of righteousness and inheritance of faith, and the permanent disappearance of darkness before the Lord of Spirits. The repeated light language and the distinction between the righteous, chosen and holy are retained. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I began to speak the third Parable concerning the righteous and the chosen.",
+          "study": "The third Parable begins by naming its beneficiaries before describing their future. After visions centered on the judgment of oppressive powers, attention turns toward the life prepared for the faithful.",
+          "crossReferences": [
+            "Psalm 1:6 — the LORD knows the way of the righteous",
+            "Matthew 24:31 — the chosen are gathered from the ends of heaven",
+            "Revelation 14:12 — the holy persevere in faithfulness"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Blessed are you, righteous and chosen ones, because your portion is glorious.",
+          "study": "The blessing defines glory as the allotted future of those who remain righteous. Their portion contrasts with the valley, chains and Sheol assigned to violent rulers in the preceding visions.",
+          "crossReferences": [
+            "Psalm 16:5–6 — the LORD is the believer's secure and beautiful portion",
+            "Matthew 5:6–8 — blessing belongs to those who hunger for righteousness and remain pure",
+            "1 Peter 1:3–4 — an imperishable inheritance is kept for the faithful"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The righteous will be in the light of the sun, and the chosen in the light of eternal life. The days of their life will have no end, and the days of the holy will be beyond number.",
+          "study": "Solar brightness becomes an image of enduring life rather than a temporary earthly day. The chosen are not merely rescued from death; their life is placed within a light whose duration cannot be counted.",
+          "crossReferences": [
+            "Daniel 12:3 — the wise shine like the brightness of heaven",
+            "Matthew 13:43 — the righteous shine like the sun in the Father's kingdom",
+            "Revelation 22:5 — God's servants live in His light and reign forever"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "They will seek the light and find righteousness with the Lord of Spirits. There will be peace for the righteous with the Lord of the world.",
+          "study": "Seeking reaches its answer in God's presence: light is found together with righteousness and peace. These gifts are relational, located with the Lord rather than secured by human strength.",
+          "crossReferences": [
+            "Psalm 34:14 — seek peace and pursue it",
+            "Isaiah 9:2, 6–7 — light dawns and the reign of peace is established in righteousness",
+            "Matthew 7:7–8 — those who seek receive and find"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "After this it will be said to the holy that they should seek in heaven the hidden things of righteousness, the portion of faith; for it has risen like the sun upon the dry ground, and darkness has passed away.",
+          "study": "The holy are summoned to seek what heaven has kept: righteousness and the inheritance belonging to faith. Their hope is no longer concealed when it rises over the earth like sunrise and displaces darkness.",
+          "crossReferences": [
+            "Psalm 97:11 — light is sown for the righteous",
+            "Isaiah 60:1–2 — light rises while darkness covers the earth",
+            "Colossians 1:12–13 — the holy share an inheritance in light and are rescued from darkness"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "There will be a light that never ends, and they will not enter into a numbered span of days, because darkness will first have been destroyed. Light will remain firm before the Lord of Spirits, and the light of uprightness will remain forever before the Lord of Spirits.",
+          "study": "The closing promise moves beyond a long life to life no longer measured by passing days. Darkness is removed first, while light and uprightness endure permanently in the Lord's presence.",
+          "crossReferences": [
+            "Isaiah 60:19–20 — the LORD becomes an everlasting light and days of mourning end",
+            "John 8:12 — those who follow the Lord have the light of life",
+            "Revelation 21:23–25 — divine glory supplies unending light and there is no night"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 58 opens the third Parable with blessing rather than threat. Its subject is the glorious portion reserved for the righteous, chosen and holy after the second Parable's exposure of violent power.",
+          "Light gathers several promises into one image: divine presence, righteousness, peace and eternal life. The righteous do not manufacture this light; they seek and find it with the Lord of Spirits.",
+          "The heavenly inheritance is called the portion of faith. What was hidden becomes visible like sunrise over dry ground, showing faith's hope moving from promise into open reality.",
+          "The final contrast is absolute. Darkness has an end, but the light of uprightness does not. The future of the faithful is therefore measured not merely by survival, but by enduring life before the Lord of Spirits."
+        ]
+      },
+      "crossReferences": [
+        "Daniel 12:3 — the righteous shining with heavenly brightness",
+        "Isaiah 60:1–2, 19–20 — light rises and becomes everlasting",
+        "Matthew 13:43 — the righteous shine like the sun",
+        "Colossians 1:12–13 — the inheritance of the holy in light",
+        "Revelation 21:23–25 — unending light in God's presence"
+      ]
+    }
+  ]
+}

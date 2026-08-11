@@ -1,0 +1,101 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-037-2026-08-11",
+  "contentVersion": "2026.08.11.29",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 37,
+      "title": "Chapter 37 — The Second Vision and Three Parables",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables beginning in 1 Enoch 37. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is therefore the translation base for all five verses, including Enoch's genealogy, the address to earlier and later hearers, the wisdom granted by the Lord of Spirits and the announcement of three parables. The title Lord of Spirits is retained consistently as transmitted. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "The second vision that he saw was a vision of wisdom—Enoch son of Jared, son of Mahalalel, son of Kenan, son of Enosh, son of Seth, son of Adam.",
+          "study": "A new vision cycle begins by identifying both its character and its recipient. It is called a vision of wisdom, and Enoch is located within the human line from Adam. The genealogy ties the coming revelation to the primeval history already recalled in Chapter 32.",
+          "crossReferences": [
+            "Genesis 5:1–24 — the genealogy from Adam through Seth to Enoch",
+            "1 Chronicles 1:1–3 — Adam, Seth, Enosh, Kenan, Mahalalel, Jared and Enoch form a continuous line",
+            "Daniel 1:17 — visions and wisdom can be given together",
+            "1 Enoch 32:6 — the first parents are named immediately before the new vision cycle"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "This is the beginning of the words of wisdom that I raised my voice to speak and say to those who dwell on the earth: Hear, you people of earlier times, and see, you who will come later, the words of the Holy One that I will speak before the Lord of Spirits.",
+          "study": "Enoch addresses two audiences across time: those before and those after. The words are attributed to the Holy One and spoken in the presence of the Lord of Spirits, so the speaker presents himself as a transmitter rather than the origin of the wisdom.",
+          "crossReferences": [
+            "Deuteronomy 32:1 — heaven and earth are summoned to hear revealed words",
+            "Psalm 49:1–4 — all peoples and generations are called to hear wisdom",
+            "Isaiah 34:1 — earth and its peoples are summoned to listen",
+            "Revelation 2:7 — those who have ears are called to hear what the Spirit says"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "It would have been enough to declare them to the people of earlier times; yet we will not withhold the beginning of wisdom from those who come later.",
+          "study": "Wisdom is not confined to the first audience. The verse acknowledges earlier hearers while deliberately preserving the revelation for future generations. Transmission is an act of generosity and responsibility, not a claim that later readers possess the whole of divine wisdom.",
+          "crossReferences": [
+            "Deuteronomy 6:6–9 — revealed words are taught continually to later generations",
+            "Psalm 78:3–7 — what earlier generations knew is told to those yet to come",
+            "Joel 1:3 — a message is passed from one generation to another",
+            "2 Timothy 2:2 — received teaching is entrusted to people able to teach others"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Until now such wisdom has not been given by the Lord of Spirits as I have received according to my understanding and according to the pleasure of the Lord of Spirits, by whom the portion of eternal life was given to me.",
+          "study": "Enoch describes wisdom and eternal life as gifts governed by the Lord of Spirits' pleasure. His understanding is received rather than self-produced, and his portion is assigned rather than earned through secrecy. The verse grounds the vision's authority in the Giver.",
+          "crossReferences": [
+            "Genesis 5:24 — Enoch's life ends through God's taking him rather than ordinary death",
+            "Daniel 2:20–23 — wisdom and revealed mysteries come from God",
+            "Matthew 11:25–27 — revelation is given according to the Father's gracious will",
+            "Hebrews 11:5 — Enoch is taken by God and does not see death"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Three parables were given to me, and I raised my voice and recounted them to those who dwell on the earth.",
+          "study": "The chapter closes with the structure of the new revelation: three parables. Enoch receives them and then speaks them publicly to earth's inhabitants. The following chapters should therefore be read as a deliberately ordered set, not disconnected sayings.",
+          "crossReferences": [
+            "Numbers 23:7 — Balaam takes up a parable as a received utterance",
+            "Psalm 78:1–2 — instruction opens in a parable for the people to hear",
+            "Ezekiel 17:2 — the prophet is commanded to present a parable",
+            "Matthew 13:34–35 — parables disclose what has been hidden"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 37 opens the second major vision cycle of 1 Enoch. The Book of the Watchers ended with praise for the Creator's works; the Parables begin with a genealogy, an address across generations and a declaration that wisdom has been given by the Lord of Spirits.",
+          "Authority is presented as received. Enoch did not originate the holy words, appoint his own portion or create the three parables. He receives understanding and eternal life according to the Lord of Spirits' pleasure, then becomes responsible to transmit what he has received.",
+          "The chapter also insists that revelation serves later hearers. Wisdom could have remained with earlier generations, but its beginning is deliberately not withheld from those who come after. Preservation across time is part of the prophetic task.",
+          "The announced three-parable structure governs the chapters ahead. Readers should attend to the distinct movements and repeated titles within that structure, allowing the Geʽez text to establish its own claims before drawing broader Biblical Connections."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 5:1–24; Hebrews 11:5 — Enoch's genealogy and exceptional divine taking",
+        "Psalm 49:1–4; 78:1–7 — wisdom addressed broadly and preserved for later generations",
+        "Daniel 2:20–23 — wisdom and mysteries granted by God",
+        "Matthew 13:34–35 — revelation structured through parables",
+        "1 Enoch 36:4 — praise concludes the first vision cycle before this second vision begins"
+      ]
+    }
+  ]
+}

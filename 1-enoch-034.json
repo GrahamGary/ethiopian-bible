@@ -1,0 +1,79 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-034-2026-08-11",
+  "contentVersion": "2026.08.11.26",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 34,
+      "title": "Chapter 34 — The Three Northern Gates",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic of 4Q206 (4QEnoch e) governs the preserved opening of 34:1 concerning Enoch's journey northward to the earth's ends. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 supplies the remainder of 34:1 and all of 34:2–3, including the three heavenly gates, the northern winds and their beneficial or destructive effects. No continuous Greek witness survives for this chapter. The ancient gate-and-wind cosmography is retained as the form of the vision. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I went northward to the ends of the earth, and there I saw a great and glorious arrangement at the boundary of the whole earth.",
+          "study": "The early Aramaic fragment confirms the northward movement that opens the chapter. At the boundary Enoch sees not chaos but an impressive arrangement. The following verses identify its ordered gates and winds.",
+          "crossReferences": [
+            "Job 26:7 — God stretches out the north over empty space",
+            "Job 37:9 — storm and cold come from appointed directions",
+            "Psalm 48:2 — the far north appears in language of height and royal glory",
+            "Isaiah 40:28 — the Creator rules to the ends of the earth"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "There I saw three gates of heaven standing open. Through each of them the northern winds go out. When they blow, there are cold, hail, frost, snow, dew and rain.",
+          "study": "Weather proceeds through three opened gates in the vision's cosmography. Cold and precipitation are listed together as effects of the northern winds. The gates portray these forces as released through appointed channels rather than acting without order.",
+          "crossReferences": [
+            "Job 37:6–10 — snow, rain, cold and ice answer divine command",
+            "Job 38:22–29 — storehouses of snow and hail belong to God's governance",
+            "Psalm 147:16–18 — snow, frost, ice and wind move at God's word",
+            "Jeremiah 10:13 — God brings wind from storehouses and rain with the clouds"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "From one gate the winds blow for good; but when they blow through the other two gates, they bring force and affliction upon the earth, and they blow with violence.",
+          "study": "The same broad created force can bring benefit or harm according to the gate through which it is released. One wind serves good, while two strike the earth violently. The distinction reinforces that the vision is about assigned functions and measured channels, not a claim that every wind has one moral quality.",
+          "crossReferences": [
+            "Genesis 8:1 — a wind passes over the earth and causes the floodwaters to subside",
+            "Exodus 10:13, 19 — winds both bring and remove the plague of locusts",
+            "Psalm 107:25–29 — storm winds threaten, then God brings calm",
+            "Jonah 1:4; 4:8 — winds can serve correction and severe affliction"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 34 begins a four-direction survey of heavenly gates and winds. In the north, Enoch sees a glorious boundary arrangement with three gates through which weather-bearing winds emerge.",
+          "The chapter lists cold, hail, frost, snow, dew and rain as ordered effects. Its ancient cosmography pictures the weather as passing through gates, while its theological claim is stable: powerful forces are channeled and assigned rather than independent.",
+          "The final verse preserves an important distinction. One northern gate releases wind for good, while two release violent affliction. Created power is not simplistic; the same category of force may sustain, correct or devastate according to its appointed operation.",
+          "Biblical connections to divine weather governance help readers hear the chapter professionally. They should not be used to convert the gate imagery into modern meteorological mechanics. Enoch is shown the world's order in the conceptual form of his vision."
+        ]
+      },
+      "crossReferences": [
+        "Job 37:6–10; 38:22–29 — snow, hail, cold and rain under divine authority",
+        "Psalm 147:16–18; Jeremiah 10:13 — frost, ice, rain and wind responding to God's word",
+        "Genesis 8:1; Exodus 10:13, 19 — winds serving both relief and judgment",
+        "Psalm 107:25–29 — violent storm and divinely granted calm",
+        "1 Enoch 33:2–4 — open gates and the ordered emergence of heavenly bodies"
+      ]
+    }
+  ]
+}

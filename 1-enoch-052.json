@@ -1,0 +1,136 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-052-2026-08-11",
+  "contentVersion": "2026.08.11.44",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 52,
+      "title": "Chapter 52 — The Mountains of Metal before the Chosen One",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all nine verses, including Enoch's westward transport, the six mountains of iron, copper, silver, gold, soft metal and lead, their relation to the Anointed One's authority, and their dissolution before the Chosen One. The fifth material is rendered cautiously as soft metal because its precise ancient identification is uncertain; no specific metal is inserted into the Scripture text. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "After those days, in the place where I had seen every hidden vision—for I had been carried off in a whirlwind, and they had borne me toward the west—",
+          "study": "The vision's setting is itself disclosed through divine transport. Enoch does not travel west by his own power; he is carried to the place where hidden realities are shown.",
+          "crossReferences": [
+            "2 Kings 2:11 — Elijah is carried in a whirlwind",
+            "Ezekiel 3:12–14 — the Spirit lifts and carries the prophet",
+            "Acts 8:39–40 — Philip is carried away after completing his witness"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "there my eyes saw all the hidden things of heaven that will come to pass upon the earth: a mountain of iron, a mountain of copper, a mountain of silver, a mountain of gold, a mountain of soft metal, and a mountain of lead.",
+          "study": "Heaven's hidden future appears in earthly materials associated with wealth, weapons and power. Their mountainous scale makes human systems look immovable before the explanation comes.",
+          "crossReferences": [
+            "Daniel 2:31–35 — a sequence of metals represents earthly kingdoms",
+            "Zechariah 6:1 — heavenly agents emerge from between bronze mountains",
+            "Revelation 18:11–13 — precious materials embody the wealth of a doomed world system"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I asked the angel who went with me, saying, 'What are these things that I have seen in secret?'",
+          "study": "Enoch again refuses to assign meaning without revelation. The mountains are visible, but their role remains secret until the accompanying angel explains it.",
+          "crossReferences": [
+            "Daniel 8:15–17 — an angel explains an obscure vision",
+            "Zechariah 4:4–5 — the prophet asks what the symbols mean",
+            "Revelation 17:7 — an angel promises to disclose a mystery"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He said to me, 'All these things that you have seen will serve the authority of His Anointed One, so that he may be strong and mighty upon the earth.'",
+          "study": "The mountains do not rival the Anointed One; even the powers symbolized by metals are made to serve his granted authority. His earthly strength comes within the Lord's purpose.",
+          "crossReferences": [
+            "Psalm 2:2, 6–9 — the LORD establishes His Anointed One over earthly rulers",
+            "Daniel 7:14 — all peoples and dominions serve the humanlike ruler",
+            "Ephesians 1:20–22 — every power is placed under the chosen ruler's feet"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then the angel of peace answered me, saying, 'Wait a little, and everything hidden that the Lord of Spirits has established will be revealed to you.'",
+          "study": "Understanding unfolds by appointed stages. Waiting is part of revelation, and the angel directs attention to what the Lord of Spirits has established rather than to private ingenuity.",
+          "crossReferences": [
+            "Habakkuk 2:3 — the vision awaits its appointed time",
+            "Daniel 12:9 — some revealed words remain sealed until their time",
+            "John 16:12–13 — fuller truth is disclosed according to readiness"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "These mountains that your eyes have seen—the mountain of iron, the mountain of copper, the mountain of silver, the mountain of gold, the mountain of soft metal, and the mountain of lead—all these will be before the Chosen One like wax before fire and like water flowing down from above upon those mountains, and they will become weak beneath his feet.",
+          "study": "What looked mountainous melts and flows before the Chosen One. The paired images remove every illusion of permanence from military, economic and material power.",
+          "crossReferences": [
+            "Psalm 97:5 — mountains melt like wax before the Lord",
+            "Micah 1:4 — mountains dissolve and valleys split like wax and poured water",
+            "1 Corinthians 15:25 — every hostile power is placed beneath the appointed ruler's feet"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "In those days no one will be saved by gold or silver, and no one will be able to escape.",
+          "study": "Wealth loses its supposed saving power when judgment arrives. The metals valued as security cannot purchase deliverance or create an exit from accountability.",
+          "crossReferences": [
+            "Proverbs 11:4 — riches do not profit in the day of wrath",
+            "Ezekiel 7:19 — silver and gold cannot deliver in the LORD's day",
+            "Zephaniah 1:18 — neither silver nor gold saves from judgment"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Iron will no longer serve for war, nor will anyone clothe himself in a breastplate. Copper will be of no use, the soft metal will not be valued, and lead will not be desired.",
+          "study": "The materials of weapons, armor, exchange and craft all lose function and desirability. The Chosen One's victory makes the infrastructure of violent security obsolete.",
+          "crossReferences": [
+            "Psalm 46:9 — God brings wars to an end and breaks weapons",
+            "Isaiah 2:4 — weapons are remade when nations cease learning war",
+            "Hosea 2:18 — God abolishes the instruments of battle and grants safety"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "All these things will be denied and destroyed from the face of the earth when the Chosen One appears before the face of the Lord of Spirits.",
+          "study": "The chapter ends with disappearance, not merely redistribution, of the powers represented by the metals. Their end occurs when the Chosen One appears in the Lord's presence, the true source of authority.",
+          "crossReferences": [
+            "Daniel 2:34–35 — the metal image is crushed until no trace remains",
+            "2 Thessalonians 2:8 — lawless power is destroyed by the appearing of the Lord",
+            "Revelation 21:22–27 — the holy order replaces systems of violence and false glory"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 52 follows resurrection with the collapse of structures that once appeared permanent. Six metal mountains gather images of strength, wealth, weaponry and political power.",
+          "The angel identifies them in relation to the Anointed One. They exist to serve his authority and then become weak before him, so their apparent independence is exposed as temporary.",
+          "Wax, flowing water and useless metals all make the same theological claim: created resources cannot rival the Chosen One or rescue people from righteous judgment.",
+          "The vision does not condemn material creation itself; it reveals the end of metals as instruments of domination and false salvation. When the Chosen One appears before the Lord of Spirits, coercive power and purchased security give way to his established rule."
+        ]
+      },
+      "crossReferences": [
+        "Daniel 2:31–35 — metal powers crushed by God's kingdom",
+        "Psalm 2:2, 6–9 — authority of the Lord's Anointed One",
+        "Psalm 97:5; Micah 1:4 — mountains melting before divine presence",
+        "Ezekiel 7:19; Zephaniah 1:18 — wealth unable to save",
+        "Isaiah 2:4; Psalm 46:9 — the end of weapons and war"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-019-2026-08-11",
+  "contentVersion": "2026.08.11.11",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 19,
+      "title": "Chapter 19 — Uriel Explains the Place of Judgment",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witnesses available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 19. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete three-verse chapter and is the principal translation base. The complete Ethiopic (Geʽez) tradition, including Rylands Ethiopic MS 23, confirms the chapter's sequence and preserves its own textual variants. The Greek term seirēnas in verse 2 is rendered by its direct English descendant ‘sirens’ rather than being replaced with a different creature. No missing text was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Uriel said to me, ‘Here the angels who joined themselves to women will stand. Their spirits, taking many forms, corrupt humanity and lead people astray to sacrifice to demons until the great judgment, in which they will be judged to final completion.’",
+          "study": "Uriel identifies the place seen in Chapter 18 with the angels who crossed the boundary between heavenly beings and human women. Their influence continues through deceptive, many-formed spirits that turn worship toward demons. The sentence nevertheless has an appointed limit: the great judgment will bring their corruption to its final reckoning.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly sons take human women before the spread of violence",
+            "Leviticus 17:7 — Israel is forbidden to sacrifice to goat-demons",
+            "Deuteronomy 32:17 — sacrifices offered to demons are contrasted with worship of God",
+            "1 Corinthians 10:19–21 — Paul warns that pagan sacrifices involve demons",
+            "Jude 6 — angels who abandoned their proper dwelling are kept for judgment"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "The women of the angels who transgressed will become sirens.",
+          "study": "The Greek witness uses the word ‘sirens’ for the women's transformed state, an ominous creature-name also found in ancient Greek renderings of prophetic desolation imagery. The terse line places the women within the consequences of the same transgression. It describes their judgment without expanding beyond the single image the text supplies.",
+          "crossReferences": [
+            "Genesis 6:2 — the women are taken by the sons of God in the Watchers narrative's scriptural setting",
+            "Isaiah 13:21–22 — uncanny creatures inhabit devastated Babylon in judgment imagery",
+            "Isaiah 34:13–15 — desolate Edom becomes a dwelling for creatures of the wilderness",
+            "Jeremiah 50:39 — Babylon's desolation is populated by wild and haunting creatures"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I, Enoch, alone saw the visions—the ends of all things—and no one among humanity will see as I saw.",
+          "study": "Enoch closes the tour by stressing the singular character of what he was shown. His claim concerns received sight, not self-achieved access: throughout the journey he was led, shown and instructed. The statement marks the completion of this visionary section before the book names the holy angels in Chapter 20.",
+          "crossReferences": [
+            "Numbers 12:6 — God makes Himself known to a prophet in visions and dreams",
+            "Daniel 8:15–19 — Daniel sees a vision and receives angelic explanation",
+            "Daniel 10:7 — Daniel alone sees the vision though others sense terror",
+            "Revelation 22:8 — John identifies himself as the one who heard and saw the revealed things"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 19 supplies Uriel's interpretation of the prison landscape at the end of Chapter 18. The remote place of fire and confinement is connected directly to the angels who joined themselves to women and violated the order assigned to them.",
+          "The chapter distinguishes continuing corrupt influence from final judgment. Many-formed spirits lead human beings toward demonic sacrifice, but their activity is not endless. A great judgment remains appointed, and the transgressors will be brought to final completion there.",
+          "The single sentence about the women is deliberately brief. The Greek term ‘sirens’ evokes the haunting creatures of desolate places without explaining their form or activity. Responsible reading preserves that restraint instead of building a larger account from one ancient image.",
+          "Enoch's closing testimony returns attention to revelation as a gift. He did not master the ends of all things; he was uniquely permitted to see them under angelic guidance. Chapter 20 follows by naming the holy angels and their appointed responsibilities, providing a contrast with the disordered powers judged here."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:1–4 — the union of heavenly sons and human women",
+        "Leviticus 17:7; Deuteronomy 32:17 — sacrifice to demons forbidden",
+        "Isaiah 13:21–22; 34:13–15 — uncanny creatures within prophetic scenes of desolation",
+        "Daniel 8:15–19; 10:7 — singular visions interpreted by an angelic guide",
+        "1 Corinthians 10:19–21 — demonic participation behind idolatrous sacrifice",
+        "2 Peter 2:4; Jude 6 — rebellious angels confined until judgment"
+      ]
+    }
+  ]
+}

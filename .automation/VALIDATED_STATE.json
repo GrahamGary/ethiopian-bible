@@ -4,14 +4,14 @@
   "lastValidated": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 17
+    "chapter": 82
   },
   "nextUnfinished": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 18
+    "chapter": 83
   },
-  "validatedAt": "2026-08-11T05:05:19Z",
+  "validatedAt": "2026-08-11T12:47:33Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -91,6 +91,331 @@
     {
       "path": "1-enoch-017.json",
       "sha256": "8bb6010d81f1b25d3486f8c39600c28314610f14a0af0e7b58c4401031a7fc2e",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-018.json",
+      "sha256": "9e51cd0e7684c770bce261c374f5599be48f1b9ad6935450d186ea73cbb97d1f",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-019.json",
+      "sha256": "3bbfc7f67e07a30f4851986c02efaf181a57a00ae609d94b26ae1afaff440903",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-020.json",
+      "sha256": "5de244a8dc3e7ad2c0082aa3ea1f9a058c5a3eb0da2cd2e56b1bef16b5a341a7",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-021.json",
+      "sha256": "29e2dc3ce6f09ebf58448e115b047c28010ddda8c12d4a9b4e477ed8dccbbce0",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-022.json",
+      "sha256": "aac364d0501ee8d820231c81413a3084230c76307ae258026c0e9b122715f746",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-023.json",
+      "sha256": "7470da779d426404a1c615ad632bc7acc0ae72fa1568acc00e14c7e13e5de7ec",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-024.json",
+      "sha256": "68d88262378855c64ea79685a818a1acd94a67ffc62ad4ef239ba3ca6d92c448",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-025.json",
+      "sha256": "450a2fd541f685df5065d82b461474fc3b084b6201b452ec9e591446b08b6996",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-026.json",
+      "sha256": "b0ea130eface5f8a8a67863222bd24827f534c209ccac7eb9a10b2a4eccf78bf",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-027.json",
+      "sha256": "b3ede8e8910778505bb03278782498732780e41d2ceb3a505cccdfb7d580fb12",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-028.json",
+      "sha256": "c2655e405638198644e18a4054c2125e8eaf68e1f1497a2fef1820b1e1508d01",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-029.json",
+      "sha256": "c43975289287285b5ade9dbc570b84c624b337efb6cd39ed6a517d832df776aa",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-030.json",
+      "sha256": "6da4ecb9bd049d687538b254a63e676dd2f023503d11653e5555e9e276231090",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-031.json",
+      "sha256": "1c9773af0f92399001b303fc54c97bffed313fdb56edd7c4a33094dfa8bd4832",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-032.json",
+      "sha256": "3962357fffe72ed024cc39c3c14acac07b2fbe09e0b02b6a55f3787ae33dd313",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-033.json",
+      "sha256": "0ed4af89f2311990a6da9eb39156057f938bd65033c4fb7e2e4e96cb7b408af9",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-034.json",
+      "sha256": "44404007e0c353522d23e934f0f4ae89dbe6ee9f6772ed7eaf8de1d15ed580cf",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-035.json",
+      "sha256": "e4249d24abc0471d6f7fca72863eb0811fcd2134ea7385a68300971b9fad913b",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-036.json",
+      "sha256": "0977e690b8635827732dbd5d3f7846fbc4accc2044acf7eb8cf229cc3751b06d",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-037.json",
+      "sha256": "a0bbc4e71826df9f1e2dcbc9b9f9eddd13a340506409d15038ad8aaaaaec5f35",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-038.json",
+      "sha256": "d74f44561df47efce51962c1567f8bd71208552c9ed567caf8095c5feddc65ea",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-039.json",
+      "sha256": "001d39e0a01c21ba70bea612b917472bfa9dd93cfdfb395ae19572210b1c2e84",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-040.json",
+      "sha256": "970b01dde0844709bb0fa40cb4d12b4b6cbeeb22db47b52dd52d7eaf6760b7d3",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-041.json",
+      "sha256": "b2debf084b714bf690cba1ff86f064a34ae772593568bb0759f3974a84016019",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-042.json",
+      "sha256": "0d7d1ecbdbc154500d1fa55131a63f52a482f4a6e9041f5a106e3702fd17cd1d",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-043.json",
+      "sha256": "4fd6cf401eeb1079f76a11b9db948c6dfd26f1e64f9be9d979ba2bde45e90bd1",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-044.json",
+      "sha256": "fcb3e6f70046000ae90dde247e0bfd52211d60dc323f5389529c78b744a68413",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-045.json",
+      "sha256": "4dc319573d93d7ffb336ae4db88eaee56e725fe3e180b2e29149a4e128f810b4",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-046.json",
+      "sha256": "1269d75545e42cc87ea530f748caa05f286bbef805e3dc2f98760ef3dc20c7d2",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-047.json",
+      "sha256": "998864e692c368f66ca9f5332350b66a0e32fb7be9bb9f4c8648cd265e6f4345",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-048.json",
+      "sha256": "09cf6208ce49584857e5e453d4dcf4256c6145225f06b3c04b26b1d15cbee88c",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-049.json",
+      "sha256": "3dec9517190b4ac913a2c6b7266fc1c0efbe0f57c39f95c83d43e9d75b9eac0a",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-050.json",
+      "sha256": "c7c14d7c138c514029cdbc2815cfed37a09a80cb71512f2f6edbfd25cb819ca1",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-051.json",
+      "sha256": "9657e7407f7e3f24ee1839d6acd383aaf5de0395836941592640805c955f7eec",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-052.json",
+      "sha256": "eaf4af0a73b14c7e7bf37f71361b40efd7111744d4eddf4f68c91498b005cb4c",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-053.json",
+      "sha256": "dd30d277813ab58e815c2f5639a595e7005bd4a6042cc85095a470354105e33c",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-054.json",
+      "sha256": "633a81b71e14a07b6be86a846ecf7945bfe5c7e438ce0111ee72fd35cff8ee11",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-055.json",
+      "sha256": "1604fa8902ea635de2254fa9df648ea849cf8331073870ac3ddefccb0e00276b",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-056.json",
+      "sha256": "f873b3b07ab3c444065b2bd69686c238166162077cca8b82d73557148bd39d14",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-057.json",
+      "sha256": "daeaf675eacf1d228650ecd1fe8a851fcdb0ca4b95a106422bb34b9dd5332985",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-058.json",
+      "sha256": "d2829c1978090b5a11b433a1fe29f6f34f1d6d4ee9ea12d95c0be4ed5fb23c9c",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-059.json",
+      "sha256": "0c5499d4e217897d12b0ae62ba250b2d879307e3bb4e5d2d2923994c7574f080",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-060.json",
+      "sha256": "0103628998f856a2a2caeb12957999eabb1f391ac2699fe9a45e882d2ce4ab56",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-061.json",
+      "sha256": "9263f24f1d405b2074f94e356478ddc084f1b785c1b0ba941d421b91c51440bd",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-062.json",
+      "sha256": "81f5e0ef97aaea234477da3f1dfdf2c8dbc7fc6d1ae46b3f50df320d3e71c469",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-063.json",
+      "sha256": "948ae8b017aae4910595e0ac8b1652de5ba486e92cb17e5a7570fe4017a778aa",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-064.json",
+      "sha256": "8a7bb926580aadf6c1552049d3f497113a4996a1cc752bd41500cfbf9b75e3b6",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-065.json",
+      "sha256": "48002b8933973766e1da34754f8fb3ee6e6d0f7aff3f21fd6b191f68db4e6072",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-066.json",
+      "sha256": "e7e0ad90bd45f92ea0f2af607f25650bf38f36f2fb2364086eb95d90a8400cf2",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-067.json",
+      "sha256": "e29e0fe8ed156d5286802f0d3903a81b0673576b567df0a2b607abb4b79c1141",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-068.json",
+      "sha256": "b628c8e661dfbd23bb41e05cea31feaa7e13b3a83474906ffc35c84553412026",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-069.json",
+      "sha256": "9796abd4a00606710cece384559703da696121c7eefa76917c5ad7361d1758a0",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-070.json",
+      "sha256": "63eec8f125867f15f8b0503ad50506a65256e10a09a93ede50cde9dde9085586",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-071.json",
+      "sha256": "1b3446aebd9d29eb0bb729b625959be1a36f15e732ae06c109717227c1fd33e7",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-072.json",
+      "sha256": "2ab3b2f18662f1f6bc8f007a9af7836de81e6e365b70b66456eae79e117780e9",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-073.json",
+      "sha256": "1f5564237302e0677f275da6c035a734e4f61f52576b1c182f90e8b4a63662b1",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-074.json",
+      "sha256": "3618252429d0a47c4a937386543813bce3d2fe8137405f7149f67a50ce88daf8",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-075.json",
+      "sha256": "9e6665a7adcf745dff134a43fd2dcf14a26ece05574c87163f59364258dd8908",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-076.json",
+      "sha256": "8223c5efa2049f720bdf88904b365202a9e6a343589b9d869820de2e699eaf1a",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-077.json",
+      "sha256": "6924c5aa9ad074de3e69387400cc1a65db50af520d29912f163625b06eeae22d",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-078.json",
+      "sha256": "b83802c1f4c07c172bc21ddb70bc0ec33040067bd430d29e867aebef077ef658",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-079.json",
+      "sha256": "ad521ba53f6093a93403e27e6946fe5d6c9ed2b9def5e38a7125a8bf80269f4f",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-080.json",
+      "sha256": "e38970230365506c3bbb3ae32b9ef65b6ee12262fa96ab7c780d4451cacd78f6",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-081.json",
+      "sha256": "189bc197d5d7ad59100b3583c72422334470b6aa695f104b5e28a79a4bf26c36",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-082.json",
+      "sha256": "4b151327a5b019c906f02cf48233d64525d758cf617421538c78cff51642b0ff",
       "scope": "validated Scripture"
     }
   ]

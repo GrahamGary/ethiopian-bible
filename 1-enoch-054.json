@@ -1,0 +1,146 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-054-2026-08-11",
+  "contentVersion": "2026.08.11.46",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 54,
+      "title": "Chapter 54 — The Chains of Azazel and the Released Waters",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all ten verses, including the fiery valley, the immeasurable iron chains prepared for Azazel's hosts, their seizure by Michael, Gabriel, Raphael and Phanuel, and the released upper and lower waters. The transmitted shift from final judgment imagery to a flood judgment in verses 7–10 is preserved without harmonizing the two scenes. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I looked and turned toward another part of the earth, and there I saw a deep valley burning with fire.",
+          "study": "The vision turns from the assembly's rest to the place prepared for judgment. Depth and fire together picture confinement and consuming consequence.",
+          "crossReferences": [
+            "Isaiah 30:33 — a deep burning place is prepared for judgment",
+            "Daniel 7:11 — arrogant power is given over to burning fire",
+            "Revelation 20:10 — the deceiver is cast into the lake of fire"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "They brought the kings and the mighty and cast them into that deep valley.",
+          "study": "The rulers named in Chapter 53 are no longer able to command others. They are brought and cast down, showing the complete reversal of coercive earthly power.",
+          "crossReferences": [
+            "Psalm 110:5 — kings are struck down in the day of judgment",
+            "Isaiah 24:21–22 — earthly kings are gathered into a pit",
+            "Revelation 19:20 — rulers allied with deception are thrown into fiery judgment"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "There my eyes saw them making instruments for these rulers—iron chains of immeasurable weight.",
+          "study": "The chains fit the magnitude of the rulers' oppressive strength. What they cannot measure or break will restrain those who treated other people as objects under their control.",
+          "crossReferences": [
+            "Psalm 149:8–9 — kings and nobles are bound with chains",
+            "2 Peter 2:4 — rebellious angels are held in chains for judgment",
+            "Revelation 20:1–2 — a great chain restrains the ancient deceiver"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I asked the angel of peace who went with me, 'For whom are these chains being prepared?'",
+          "study": "A second question distinguishes the valley's rulers from the deeper source of their corruption. The angel of peace will identify the spiritual hosts for whom the chains are prepared.",
+          "crossReferences": [
+            "Daniel 8:13 — a heavenly question clarifies the scope of judgment",
+            "Zechariah 1:9 — the interpreting angel answers the seer's question",
+            "Revelation 17:7 — a heavenly guide explains the mystery of oppressive power"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "He said to me, 'These are being prepared for the hosts of Azazel, so that they may be taken and thrown into the lowest part of the place of judgment. Rough stones will cover their jaws, just as the Lord of Spirits commanded.'",
+          "study": "The judgment reaches Azazel's hosts, the spiritual agents behind deception. Chains, depth and rough stones end their speech and influence under the Lord's explicit command.",
+          "crossReferences": [
+            "Leviticus 16:8–10 — Azazel is associated with removal into the wilderness",
+            "1 Enoch 10:4–6 — Raphael binds Azazel beneath rough stones",
+            "Jude 6 — rebellious angels are kept in bonds for the great day's judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Michael, Gabriel, Raphael, and Phanuel will seize them on that great day and cast them that day into the furnace of burning fire, so that the Lord of Spirits may take vengeance on them for their unrighteousness, because they became servants of the Satan and led astray those who dwell upon the dry ground.",
+          "study": "The four named angels act as servants of divine justice against servants of the accuser. The charge is both rebellion and the corruption of earth's inhabitants.",
+          "crossReferences": [
+            "Daniel 12:1 — Michael rises in a decisive time of distress",
+            "Matthew 13:41–42 — angels remove causes of sin into a fiery furnace",
+            "Revelation 12:7–9 — Michael's host casts down the deceiver and his angels"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "In those days the punishment of the Lord of Spirits will go forth, and all the storehouses of water above the heavens, all the springs beneath heaven, and those beneath the earth will be opened.",
+          "study": "The scene shifts to judgment by released waters. What had been stored and bounded is opened by the Lord, recalling the world-consuming flood.",
+          "crossReferences": [
+            "Genesis 7:11 — the fountains of the deep and windows of heaven open",
+            "Job 38:8–11 — God ordinarily shuts the sea within boundaries",
+            "Psalm 104:6–9 — waters cover the earth yet remain under divine limit"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "All the waters will be joined: the water above heaven is male, and the water beneath the earth is female.",
+          "study": "The witness personifies upper and lower waters by gender as they unite. The ancient imagery emphasizes total convergence without requiring a mechanism beyond the transmitted vision.",
+          "crossReferences": [
+            "Genesis 1:6–7 — waters above and below are divided by the expanse",
+            "Genesis 7:11–12 — upper rain and lower deep converge in the flood",
+            "Psalm 148:4 — waters above the heavens are summoned within creation's praise"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "They will wipe out all who dwell upon the dry ground and all who dwell beneath the ends of heaven.",
+          "study": "The joined waters reach the entire inhabited world of the vision. Judgment reverses the habitable separation of land and water when violence has filled the earth.",
+          "crossReferences": [
+            "Genesis 6:11–13 — a violence-filled earth faces destruction",
+            "Genesis 7:21–23 — the flood wipes out land-dwelling life",
+            "2 Peter 3:6 — the ancient world is deluged and destroyed"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "By this they will recognize the unrighteousness they committed upon the earth, and because of it they will perish.",
+          "study": "The judgment exposes its moral cause: wrongdoing committed on earth. Recognition comes too late to avert the consequence, reinforcing Chapter 50's urgent call to repent while mercy remains open.",
+          "crossReferences": [
+            "Genesis 6:5–7 — pervasive human evil precedes the flood judgment",
+            "Ezekiel 7:27 — people know the LORD through judgment according to their ways",
+            "Romans 2:5–6 — unrepentance stores up judgment according to deeds"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 54 moves behind judged rulers to the hosts of Azazel who served the Satan and led earth's inhabitants astray. Human and spiritual oppression are distinguished but both are held accountable.",
+          "The same four angels whose ministries were named in Chapter 40 now seize the deceiving hosts. Heavenly service protects the created order by restraining powers that corrupted it.",
+          "Verses 7–10 turn abruptly from fiery final judgment to released floodwaters. Preserving that shift keeps the transmitted chapter's layered warning: the coming judgment recalls an earlier world judged for pervasive unrighteousness.",
+          "Fire, chains, stones and water all remain instruments under the Lord of Spirits. The chapter's center is not destructive force itself but the Lord's resolve to end deception and expose the earthly wrongdoing it produced."
+        ]
+      },
+      "crossReferences": [
+        "Isaiah 24:21–22 — kings and heavenly powers confined for judgment",
+        "1 Enoch 10:4–6 — Azazel bound beneath rough stones",
+        "Jude 6; Revelation 20:1–3 — spiritual rebels restrained in chains",
+        "Genesis 7:11, 21–23 — upper and lower waters in the flood",
+        "Revelation 12:7–9 — Michael and the defeat of the deceiver"
+      ]
+    }
+  ]
+}

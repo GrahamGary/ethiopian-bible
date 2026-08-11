@@ -1,0 +1,146 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-048-2026-08-11",
+  "contentVersion": "2026.08.11.40",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 48,
+      "title": "Chapter 48 — The Fountain of Righteousness and the Chosen Son of Man",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all ten verses, including the inexhaustible fountain of righteousness, the naming of the Son of Man before the heavenly lights, his ministry as support, light and hope, and the judgment of kings who deny the Lord of Spirits and His Anointed One. The titles Son of Man, Head of Days, Lord of Spirits and Anointed One are retained according to their separate occurrences. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In that place I saw a fountain of righteousness that could not be exhausted. Many fountains of wisdom surrounded it, and all the thirsty drank from them, were filled with wisdom, and made their dwellings with the righteous, the holy, and the chosen.",
+          "study": "Righteousness and wisdom are pictured as abundant water rather than scarce privilege. The thirsty receive fullness and a dwelling among God's people, joining desire, instruction and community.",
+          "crossReferences": [
+            "Psalm 36:8–9 — God's people drink from His river of delight and fountain of life",
+            "Isaiah 55:1 — all who thirst are invited to the waters",
+            "John 7:37–38 — the thirsty come and drink from a living source"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "At that hour that Son of Man was named in the presence of the Lord of Spirits, and his name was before the Head of Days.",
+          "study": "The Son of Man's identity is established within the divine presence. His name does not arise from earthly acclaim but stands before the Lord of Spirits and the Head of Days.",
+          "crossReferences": [
+            "Daniel 7:13–14 — the humanlike figure approaches the Ancient of Days",
+            "Isaiah 49:1 — the servant's name is called before birth",
+            "Luke 1:31–33 — the appointed ruler receives his name and kingdom from God"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Before the sun and the signs were created, before the stars of heaven were made, his name was called before the Lord of Spirits.",
+          "study": "The naming precedes the ordered lights described in earlier chapters. The Son of Man's appointment therefore belongs to the Lord's purpose before the visible measures of time.",
+          "crossReferences": [
+            "Proverbs 8:22–27 — divine wisdom is present before the ordered heavens",
+            "Micah 5:2 — the ruler's origins reach back to ancient days",
+            "1 Peter 1:20 — the chosen deliverer is foreknown before the world's foundation"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He will be a staff for the righteous and the holy, so that they may lean upon him and not fall. He will be the light of the nations and the hope of those whose hearts are troubled.",
+          "study": "The preappointed Son of Man serves vulnerable people as support, illumination and hope. His greatness is expressed through sustaining the righteous and bringing light beyond one people.",
+          "crossReferences": [
+            "Isaiah 42:6 — the chosen servant is a light for the nations",
+            "Isaiah 49:6 — salvation reaches to the ends of the earth",
+            "Matthew 12:21 — the nations place hope in the appointed servant's name"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "All who dwell upon the dry ground will fall down and worship before him. They will bless, praise, and sing to the name of the Lord of Spirits.",
+          "study": "Universal homage to the Son of Man leads into praise of the Lord of Spirits. The vision presents his rule as the means by which earth's inhabitants acknowledge the Lord's name.",
+          "crossReferences": [
+            "Psalm 72:11 — all kings and nations bow before the righteous ruler",
+            "Isaiah 45:23 — every knee bows before the LORD",
+            "Philippians 2:10–11 — universal homage culminates in God's glory"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "For this purpose he was chosen and hidden before Him, before the world was created and forever.",
+          "study": "Hiddenness does not mean uncertainty; it guards an already chosen purpose until disclosure. The Son of Man's mission rests in divine intention before creation and remains valid forever.",
+          "crossReferences": [
+            "Isaiah 49:2 — the servant is concealed until his appointed work",
+            "Ephesians 3:9–11 — an eternal purpose once hidden is made known",
+            "Colossians 1:26 — a mystery hidden through ages is revealed"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "The wisdom of the Lord of Spirits has revealed him to the holy and the righteous, for He has preserved the portion of the righteous. They have hated and rejected this world of unrighteousness and have hated all its deeds and ways in the name of the Lord of Spirits. By his name they are saved, and his will has become their life.",
+          "study": "Revelation of the Son of Man accompanies preservation of the righteous. Their salvation produces a moral break with unrighteous ways, while his will becomes the positive shape of their life.",
+          "crossReferences": [
+            "Psalm 97:10 — those who love the LORD hate evil and are preserved",
+            "John 17:6 — the divine name is revealed to a chosen people",
+            "Acts 4:12 — salvation is bound to the appointed saving name"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "In those days the kings of the earth and the strong who possess the dry ground will be downcast because of the deeds of their own hands, for on the day of their anguish and distress they will not save themselves.",
+          "study": "The rulers' own works become the ground of their shame. Possession, strength and rank cannot deliver them when accountable deeds return in judgment.",
+          "crossReferences": [
+            "Psalm 2:10–12 — earthly rulers are warned before divine wrath",
+            "Isaiah 2:11, 17 — human pride is brought low in the LORD's day",
+            "Revelation 6:15–17 — rulers cannot hide from the day of judgment"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "I will deliver them into the hands of My chosen ones. As grass burns in fire and as lead sinks in water, so they will burn before the faces of the righteous and sink before the faces of the holy, and no trace of them will be found.",
+          "study": "Grass and lead portray rapid, irreversible collapse. The oppressors who made the righteous disappear are themselves removed from power and memory before the vindicated community.",
+          "crossReferences": [
+            "Psalm 37:10, 20 — the wicked vanish like smoke",
+            "Isaiah 1:31 — the mighty and their work burn together",
+            "Exodus 15:10 — enemies sink like lead in mighty waters"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "On the day of their distress there will be rest upon the earth. They will fall before him and will not rise, and no one will be found to take them by the hand and raise them, because they denied the Lord of Spirits and His Anointed One. Blessed be the name of the Lord of Spirits.",
+          "study": "The oppressors' distress becomes the earth's rest because their destructive rule has ended. The chapter closes not with fascination over their fall but with blessing directed to the Lord whose Anointed One establishes justice.",
+          "crossReferences": [
+            "Psalm 2:2–6 — rulers oppose the LORD and His Anointed One",
+            "Isaiah 14:7 — the earth rests after the oppressor's fall",
+            "2 Thessalonians 1:6–10 — relief for the afflicted accompanies judgment of oppressors"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 48 answers the prayer of Chapter 47 with an inexhaustible fountain and a preappointed deliverer. Wisdom satisfies the thirsty while the named Son of Man sustains the righteous.",
+          "His name stands before the Lord of Spirits before sun and stars exist. The vision grounds his mission in divine purpose rather than in the political circumstances that later reveal it.",
+          "The Son of Man is staff, light and hope. These images define authority through support and salvation, especially for righteous people whose hearts have been troubled by the rule of the mighty.",
+          "Judgment reverses the rulers' world: possessors cannot save themselves, the oppressed receive rest and the earth is released from destructive power. The final word is blessing of the Lord of Spirits, whose Anointed One brings the ancient purpose into view."
+        ]
+      },
+      "crossReferences": [
+        "Isaiah 55:1; John 7:37–38 — inexhaustible water for the thirsty",
+        "Daniel 7:13–14 — the Son of Man before the Ancient of Days",
+        "Isaiah 42:6; 49:6 — the chosen servant as light to the nations",
+        "Psalm 2:2–12 — the Lord's Anointed One and the warning to kings",
+        "Isaiah 14:7; 2 Thessalonians 1:6–10 — earth's rest and relief after judgment"
+      ]
+    }
+  ]
+}

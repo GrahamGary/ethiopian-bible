@@ -1,0 +1,86 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-043-2026-08-11",
+  "contentVersion": "2026.08.11.35",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 43,
+      "title": "Chapter 43 — The Named Lights and the Names of the Righteous",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all four verses, including the naming and weighing of the heavenly lights, their measured courses, and the angel's explanation that they correspond to the names of the faithful righteous. The witness's balance, measure and mutual-faithfulness language is retained. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I saw other lightnings and the stars of heaven, and I saw how He called them all by their names, and they listened to Him.",
+          "study": "The heavenly lights are individually named and responsive. Their vast number does not make them anonymous to the Lord or independent of His voice.",
+          "crossReferences": [
+            "Psalm 147:4 — God counts the stars and calls each by name",
+            "Isaiah 40:26 — the heavenly host comes forth by name",
+            "Baruch 3:34–35 — the stars answer gladly when called"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I saw how they were weighed in a righteous balance according to their brightness, the breadth of their places, the day of their appearing, and their revolutions. Lightning produces lightning, and their revolutions accord with the number of the angels; they keep faith with one another.",
+          "study": "Brightness, position, timing and motion are all measured by a righteous standard. The lights' mutual faithfulness echoes the ordered sun and moon of Chapter 41 and presents creation as a community of reliable service.",
+          "crossReferences": [
+            "Job 38:31–33 — the constellations and ordinances of heaven have fixed bonds",
+            "Psalm 19:1–6 — the heavens follow an ordered course",
+            "Wisdom 11:20 — God orders all things by measure, number and weight"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I asked the angel who went with me and showed me what was hidden, 'What are these?'",
+          "study": "Enoch does not assume the meaning of what he sees. His direct question keeps interpretation dependent on revealed explanation rather than visual speculation.",
+          "crossReferences": [
+            "Zechariah 4:4–5 — the prophet asks the interpreting angel what the vision means",
+            "Daniel 7:16 — Daniel requests the truth from a heavenly attendant",
+            "Revelation 7:13–14 — a heavenly elder supplies the vision's interpretation"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He said to me, 'The Lord of Spirits has shown you their likeness. These are the names of the righteous who dwell upon the dry ground and believe in the name of the Lord of Spirits forever and ever.'",
+          "study": "The named lights correspond to named righteous people on earth. Their enduring faith mirrors the lights' faithful courses, while the Lord of Spirits remains the One who knows, reveals and sustains both.",
+          "crossReferences": [
+            "Daniel 12:3 — the wise shine like the brightness of heaven",
+            "Philippians 2:15 — God's children shine as lights in the world",
+            "Revelation 3:5 — the faithful person's name is confessed before the heavenly court"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 43 extends the ordered-light vision of Chapter 41. Stars and lightnings are named, measured and faithful, showing a heaven responsive in every detail to the Lord's voice.",
+          "The righteous balance does more than quantify brightness. It assigns place, time and movement, so created glory appears as disciplined obedience rather than uncontrolled power.",
+          "The angel then joins heaven and earth through likeness. The names of the lights signify the names of righteous people who continue to believe while dwelling on dry ground.",
+          "The chapter offers hope after Wisdom's rejection in Chapter 42. Even on an earth where unrighteousness has found a dwelling, the Lord knows faithful people by name and sets their fidelity within the luminous order of heaven."
+        ]
+      },
+      "crossReferences": [
+        "Psalm 147:4; Isaiah 40:26 — every heavenly light called by name",
+        "Job 38:31–33; Wisdom 11:20 — cosmic order by measure and ordinance",
+        "Daniel 12:3 — the righteous shining like heaven",
+        "Philippians 2:15 — faithful people as lights in the world",
+        "Revelation 3:5 — the names of the faithful acknowledged in heaven"
+      ]
+    }
+  ]
+}

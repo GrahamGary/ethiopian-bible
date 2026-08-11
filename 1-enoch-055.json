@@ -1,0 +1,86 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-055-2026-08-11",
+  "contentVersion": "2026.08.11.47",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 55,
+      "title": "Chapter 55 — The Heavenly Sign and the Chosen Judge",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all four verses, including the Head of Days' response after the flood scene, the oath and sign in heaven, the future angelic seizure in a day of anguish, and the Chosen One's judgment of Azazel and his entire company. The witness's abrupt movement from flood covenant to final judgment is retained. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "After this the Head of Days relented and said, 'In vain I have destroyed all who dwell upon the dry ground.'",
+          "study": "The divine response marks grief after destruction rather than delight in it. The statement turns the vision from released waters toward a covenantal restraint on repeating that judgment.",
+          "crossReferences": [
+            "Genesis 6:6 — God is grieved over the earth's corruption",
+            "Genesis 8:21 — after the flood God resolves not to strike all living things again",
+            "Isaiah 54:9 — the days of Noah become the pattern for a sworn promise"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "He swore by His great name, 'From now on I will not do this again to all who dwell upon the dry ground. I will place a sign in the heavens, and it will be a pledge of faithfulness between Me and them forever, for as long as heaven is above the earth.'",
+          "study": "The sign in heaven anchors a lasting pledge between God and earth's inhabitants. The oath by the great name makes mercy part of the world's continuing order.",
+          "crossReferences": [
+            "Genesis 9:11–17 — the bow in the cloud is the sign of the flood covenant",
+            "Psalm 89:34–37 — God's sworn covenant is as enduring as the heavens",
+            "Isaiah 54:9–10 — the Noahic oath supports a promise of steadfast peace"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "'After this it will happen by My command: when I desire to seize them by the hands of the angels on the day of anguish and suffering, My wrath and My punishment will first rest upon them,' says God, the Lord of Spirits.",
+          "study": "The flood promise does not abolish moral judgment. Future punishment comes by explicit command and angelic action against appointed offenders, not by another indiscriminate destruction of all earth-dwellers.",
+          "crossReferences": [
+            "Isaiah 13:6–9 — the day of the LORD brings anguish and wrath",
+            "Matthew 13:40–42 — angels gather offenders at the appointed judgment",
+            "2 Peter 3:7 — the post-flood world remains reserved for judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "'You mighty kings who dwell upon the dry ground will see My Chosen One sit upon the throne of My glory and judge Azazel, all his companions, and all his hosts in the name of the Lord of Spirits.'",
+          "study": "The promised restraint leads to focused judgment by the Chosen One. Earthly kings witness the spiritual deceiver and his whole company answer before the throne they denied.",
+          "crossReferences": [
+            "Daniel 7:13–14, 26 — the humanlike ruler receives dominion as the hostile court is judged",
+            "Matthew 25:31–32 — the chosen judge sits on the throne of glory",
+            "Revelation 20:10 — the deceiver reaches his final judgment"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 55 interprets the flood scene through divine grief, oath and sign. The Head of Days establishes that world-destroying waters will not be the repeated pattern for everyone who dwells on earth.",
+          "The heavenly sign is a pledge of faithfulness as enduring as heaven over earth. Judgment is therefore framed within a covenantal commitment to sustain creation.",
+          "That commitment does not excuse evil. A future day of anguish targets those seized by angels under the Lord's command, distinguishing focused moral judgment from the universal flood.",
+          "The chapter ends with the Chosen One on the throne of glory. He judges Azazel and the whole network of deception while earthly rulers look on, joining divine faithfulness to decisive accountability."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 8:21; 9:11–17 — the post-flood promise and heavenly sign",
+        "Isaiah 54:9–10 — the oath of Noah and enduring peace",
+        "Matthew 13:40–42 — angels executing appointed judgment",
+        "Daniel 7:13–14, 26 — the humanlike judge and defeated hostile powers",
+        "Revelation 20:10 — final judgment of the deceiver"
+      ]
+    }
+  ]
+}

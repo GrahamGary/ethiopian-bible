@@ -1,0 +1,186 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-039-2026-08-11",
+  "contentVersion": "2026.08.11.31",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 39,
+      "title": "Chapter 39 — The Dwellings of the Holy and the Chosen One",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all fourteen verses, including the books of judgment, Enoch's transport, the dwellings of the righteous, the Chosen One, heavenly intercession, the unceasing attendants and the threefold acclamation of the Lord of Spirits. The distinct titles Chosen One, Lord of Spirits and those who do not sleep are retained as transmitted. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days the chosen and holy children will descend from the heights of heaven, and their offspring will become one with the children of humankind.",
+          "study": "The chapter opens with a future union described through descent from heaven. It names the descending group chosen and holy but postpones explanation of their role. The translation preserves that restraint.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly beings and human offspring appear in the primeval narrative",
+            "Daniel 7:27 — the holy ones receive a kingdom under all heaven",
+            "1 Enoch 6–7 — an earlier descent produces a very different, rebellious union"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "In those days Enoch received books of zeal and wrath, and books of turmoil and expulsion. Mercy will not be granted to them, says the Lord of Spirits.",
+          "study": "Written records announce settled judgment through zeal, wrath, turmoil and removal. The denied mercy concerns those addressed by the judgment books, emphasizing that the parable has moved beyond warning to verdict.",
+          "crossReferences": [
+            "Deuteronomy 29:20 — covenant rebellion meets divine zeal and wrath",
+            "Daniel 7:10 — books are opened in the heavenly court",
+            "Revelation 20:12 — opened books accompany final judgment"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "In those days a whirlwind carried me away from the earth and set me down at the end of the heavens.",
+          "study": "Enoch does not reach the next vision by ordinary travel. A whirlwind removes and relocates him, marking the scene as revelation granted from beyond normal human access.",
+          "crossReferences": [
+            "2 Kings 2:11 — Elijah is taken up in a whirlwind",
+            "Ezekiel 3:12–14 — the Spirit lifts the prophet and carries him",
+            "Acts 8:39–40 — Philip is carried away and found elsewhere"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "There I saw another vision: the dwelling places of the holy and the resting places of the righteous.",
+          "study": "The new vision centers on enduring habitation rather than displacement. Holy and righteous people are shown with dwellings and rest, reversing the insecurity described for the judged.",
+          "crossReferences": [
+            "Psalm 15:1–2 — the righteous are associated with dwelling on God's holy mountain",
+            "Isaiah 32:17–18 — righteousness yields quiet and secure dwellings",
+            "Hebrews 4:9–11 — a rest remains for God's people"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "There my eyes saw their dwellings with the righteous angels and their resting places with the holy. They petitioned, interceded and prayed for the children of humankind. Righteousness flowed before them like water, and mercy like dew upon the earth; so it is among them forever and ever.",
+          "study": "The holy community is active in prayer, not isolated in private rest. Flowing righteousness and dew-like mercy surround their intercession, making the heavenly dwelling a place of sustained concern for humanity.",
+          "crossReferences": [
+            "Isaiah 45:8 — righteousness and salvation are pictured as descending and springing up",
+            "Amos 5:24 — justice and righteousness flow like waters",
+            "Revelation 8:3–4 — heavenly incense rises with the prayers of the holy ones"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "In that place my eyes saw the Chosen One of righteousness and faith. Righteousness will prevail in his days, and the righteous and chosen will be without number before him forever and ever.",
+          "study": "The Chosen One is characterized by righteousness and faithfulness, and his time is marked by righteousness prevailing. The innumerable righteous stand before him in an enduring assembly.",
+          "crossReferences": [
+            "Isaiah 42:1–4 — God's chosen servant establishes justice faithfully",
+            "Daniel 7:13–14 — an enduring dominion is given before the heavenly court",
+            "Revelation 7:9 — an uncountable multitude stands before the throne"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "I saw his dwelling beneath the wings of the Lord of Spirits. All the righteous and chosen before him were strong like fiery lights, their mouths were full of blessing and their lips praised the name of the Lord of Spirits. Righteousness never failed before him, and uprightness never failed before him.",
+          "study": "Protection, light, praise and moral constancy define the Chosen One's dwelling. The chosen shine but direct their speech to the Lord of Spirits; their strength does not displace worship.",
+          "crossReferences": [
+            "Psalm 17:8 — protection is sought beneath God's wings",
+            "Daniel 12:3 — the wise shine like heavenly brightness",
+            "Matthew 13:43 — the righteous shine in the kingdom"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "There I desired to dwell, and my spirit longed for that dwelling place. There my portion had been appointed before, for this had been established concerning me before the Lord of Spirits.",
+          "study": "Enoch's longing responds to the holiness he sees. He understands the dwelling as an appointed portion, not a place he can claim by force or curiosity.",
+          "crossReferences": [
+            "Psalm 27:4 — the worshiper longs to dwell in the LORD's house",
+            "Psalm 73:25–26 — God is the believer's enduring portion",
+            "Colossians 1:12 — the holy ones receive a divinely granted inheritance"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "In those days I praised and exalted the name of the Lord of Spirits with blessings and songs of praise, because he had appointed me for blessing and glory according to the pleasure of the Lord of Spirits.",
+          "study": "Appointment produces praise rather than self-exaltation. Enoch attributes both blessing and glory to the gracious pleasure of the Lord of Spirits.",
+          "crossReferences": [
+            "Psalm 34:1–3 — continual blessing and exaltation are directed to the LORD",
+            "Ephesians 1:5–6 — gracious appointment results in praise of divine grace",
+            "1 Peter 2:9 — a chosen people proclaim the excellencies of the One who called them"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "For a long time my eyes gazed upon that place, and I blessed him, saying, 'Blessed is he, and may he be blessed from the beginning and forever.'",
+          "study": "Prolonged seeing becomes prolonged blessing. Enoch's praise reaches from creation's beginning into eternity, matching the permanence of the dwelling he beholds.",
+          "crossReferences": [
+            "1 Chronicles 16:36 — the LORD is blessed from everlasting to everlasting",
+            "Psalm 41:13 — blessing extends from age to age",
+            "Revelation 5:13 — blessing is offered to the enthroned One forever"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Before him there is no ceasing. He knows what the world was before it was created and what will be from generation to generation.",
+          "study": "The Lord of Spirits is neither interrupted nor surprised. His knowledge encompasses what preceded creation and the entire unfolding of generations.",
+          "crossReferences": [
+            "Psalm 90:1–2 — God is God before the mountains and from everlasting",
+            "Isaiah 46:9–10 — God declares the end from the beginning",
+            "Acts 15:18 — God's works are known from long ago"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Those who do not sleep bless you. They stand before your glory and bless, praise and exalt, saying, 'Holy, holy, holy is the Lord of Spirits; he fills the earth with spirits.'",
+          "study": "The wakeful heavenly attendants offer ceaseless threefold holiness. Their praise joins transcendent glory with the Lord's filling of the earth, keeping heaven and creation within one worshipful order.",
+          "crossReferences": [
+            "Isaiah 6:2–3 — heavenly attendants proclaim threefold holiness",
+            "Psalm 121:3–4 — Israel's Keeper neither slumbers nor sleeps",
+            "Revelation 4:8 — living creatures repeat 'holy' day and night"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "There my eyes saw all those who do not sleep standing before him, blessing and saying, 'Blessed are you, and blessed is the name of the Lord forever and ever.'",
+          "study": "Enoch sees the unceasing worshipers whose words match their standing before God. They bless both the Lord and His name without end.",
+          "crossReferences": [
+            "Nehemiah 9:5 — God's glorious name is blessed above all blessing",
+            "Psalm 113:2 — the LORD's name is blessed now and forever",
+            "Revelation 7:11–12 — heavenly beings stand before the throne in worship"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "My face was changed, for I could no longer look.",
+          "study": "The vision ends at the limit of Enoch's capacity. Glory transforms his appearance and overwhelms sustained sight, reminding the reader that revelation is received by a finite witness.",
+          "crossReferences": [
+            "Exodus 34:29–35 — Moses' face changes after speaking with God",
+            "Daniel 10:7–8 — visionary glory drains the prophet's strength",
+            "Revelation 1:17 — John falls before overwhelming heavenly glory"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 39 moves from books of judgment to a heavenly community defined by rest, prayer, righteousness and praise. Enoch is carried by a whirlwind and shown dwellings of holy people with righteous angels.",
+          "At the center stands the Chosen One of righteousness and faith. His days are marked by prevailing righteousness, an innumerable assembly and unwavering uprightness beneath the wings of the Lord of Spirits.",
+          "The chapter joins heavenly worship with concern for earth. The holy intercede for humanity, righteousness flows like water, mercy descends like dew and wakeful attendants declare the Lord's holiness.",
+          "Enoch longs for the dwelling appointed as his portion, yet the vision ends by emphasizing human limitation. His face changes and he can no longer look. Gift, praise and reverent boundary remain together."
+        ]
+      },
+      "crossReferences": [
+        "Isaiah 6:1–3; 42:1–4 — threefold holiness and the chosen servant of justice",
+        "Daniel 7:9–14; 12:3 — heavenly court, enduring rule and shining righteous ones",
+        "Psalm 27:4; 73:25–26 — longing for God's dwelling and appointed portion",
+        "Revelation 4:8; 7:9–12; 8:3–4 — ceaseless praise, innumerable assembly and heavenly intercession",
+        "Exodus 34:29–35 — a human face changed by encounter with divine glory"
+      ]
+    }
+  ]
+}

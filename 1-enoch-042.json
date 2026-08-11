@@ -1,0 +1,76 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-042-2026-08-11",
+  "contentVersion": "2026.08.11.34",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 42,
+      "title": "Chapter 42 — Wisdom Returns to Heaven",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all three verses, including Wisdom's unsuccessful search for a human dwelling, her return among the angels, and unrighteousness finding an eager home. The feminine personifications and the witness's rain-and-dew comparison are retained. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Wisdom found no place where she could dwell, so her dwelling was in the heavens.",
+          "study": "Wisdom is personified as seeking a home yet finding none on earth. Her heavenly dwelling exposes a rupture between divine wisdom and human life rather than any lack within wisdom herself.",
+          "crossReferences": [
+            "Job 28:12–14 — wisdom's dwelling cannot be found in the land of the living",
+            "Proverbs 8:1–3 — Wisdom calls publicly for hearers",
+            "James 3:17 — wisdom from above bears holy qualities"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Wisdom came to make her dwelling among the children of humankind, but she found no dwelling. Then Wisdom returned to her place and took her seat among the angels.",
+          "study": "Wisdom approaches humanity, but people provide no settled welcome. Her return to the angels turns human refusal into an indictment: heaven receives what earth declines.",
+          "crossReferences": [
+            "Proverbs 1:20–29 — Wisdom calls but is refused",
+            "Matthew 11:19 — wisdom is vindicated by her deeds",
+            "John 1:10–11 — the One who came into the world was not received by His own"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Then unrighteousness came out from her chambers. She found those whom she had not sought, and she dwelt among them like rain in a wilderness and like dew upon a thirsty land.",
+          "study": "Unrighteousness meets ready reception without even searching. The normally life-giving images of rain and dew become unsettling here, showing how thoroughly evil settles into a humanity that refused wisdom.",
+          "crossReferences": [
+            "Genesis 4:7 — sin waits at the door and desires mastery",
+            "Proverbs 4:16–17 — the wicked feed upon wrongdoing",
+            "Romans 1:28–32 — rejection of true knowledge yields a settled practice of evil"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 42 compresses a moral history into two contrasting movements. Wisdom comes toward humanity and is given no dwelling; unrighteousness comes forth and immediately finds inhabitants.",
+          "The contrast explains the light and darkness of Chapter 41 in relational terms. Darkness is not forced upon people who desired wisdom; it grows where wisdom's offered presence is refused.",
+          "Wisdom's seat among the angels confirms her heavenly origin and honor. The vision does not present wisdom as destroyed, only absent from the human home that would not receive her.",
+          "The chapter calls readers to reverse the contrast by becoming a dwelling for wisdom. What finds a home in human life will shape that life—either the wisdom from above or unrighteousness that readily occupies thirsty ground."
+        ]
+      },
+      "crossReferences": [
+        "Job 28:12–28 — the hidden dwelling and divine source of wisdom",
+        "Proverbs 1:20–29; 8:1–3 — personified Wisdom seeks human hearers",
+        "Genesis 4:7 — sin seeks entrance and rule",
+        "James 3:13–18 — wisdom from above contrasted with earthly disorder",
+        "John 1:10–11 — divine approach met by human refusal"
+      ]
+    }
+  ]
+}

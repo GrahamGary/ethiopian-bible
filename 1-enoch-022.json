@@ -1,0 +1,202 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-022-2026-08-11",
+  "contentVersion": "2026.08.11.14",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 22,
+      "title": "Chapter 22 — The Hollows for the Spirits of the Dead",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses available for this chapter. The extant Aramaic of 4Q206 (4QEnoch e), fragment 2, column ii, governs the preserved portions of 22:3–7, including the language of confinement, accusation and Abel's plea. The extant Aramaic of 4Q205 (4QEnoch d), fragments 1–2, governs the surviving wording of 22:13–14 concerning judgment, rising and the judgment of the True One. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete fourteen-verse chapter and supplies the continuous text where the Aramaic is absent or broken. The transmitted count of four hollows in verse 2 and three divisions in verse 9 is retained without conjectural correction. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I journeyed to another place, and he showed me, toward the west, another great and high mountain made of hard rock.",
+          "study": "Enoch's guided journey now turns westward to a massive rock mountain. Its height and hardness prepare for a place intended to hold the dead until judgment. The guide shows the place; Enoch does not discover its purpose by speculation.",
+          "crossReferences": [
+            "Job 38:16–17 — God asks whether Job has seen the gates of deep darkness and death",
+            "Psalm 90:2 — mountains belong to the created order under the everlasting God",
+            "Isaiah 14:9 — Sheol below is stirred to meet the descending dead",
+            "1 Enoch 21:7–10 — the preceding journey reaches a dreadful prison for angels"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Within it were four hollow places, deep and exceedingly smooth. Three of them were dark and one was bright, with a spring of water in its midst. I said, 'How smooth these hollows are—how entirely deep and dark to the sight!'",
+          "study": "The mountain contains distinct chambers rather than one undifferentiated realm. Darkness marks three hollows, while light and flowing water distinguish one. The surviving text later speaks of three divisions, leaving an ancient numerical tension that should be acknowledged rather than harmonized by inserting a correction.",
+          "crossReferences": [
+            "Psalm 23:4 — deep darkness describes the valley traversed under God's care",
+            "Psalm 36:9 — life and light are found with God",
+            "Isaiah 26:19 — awakening and dew are associated with God's care for the dead",
+            "Luke 16:22–26 — the dead are portrayed in separated conditions awaiting final resolution"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Then Raphael, one of the holy angels who was with me, answered and said, 'These hollow places were appointed so that the spirits of the souls of the dead might be gathered into them. For this they were appointed: that all the souls of humankind should be gathered here.'",
+          "study": "Raphael identifies the hollows as appointed gathering places for the dead. Their existence and purpose are not accidental; they belong to an ordered custody. The expression 'spirits of the souls' emphasizes continued personal existence without describing the final resurrection as already accomplished.",
+          "crossReferences": [
+            "Genesis 35:29 — death is described as being gathered to one's people",
+            "Job 30:23 — death is the house appointed for all the living",
+            "Ecclesiastes 12:7 — the spirit returns to God who gave it",
+            "Hebrews 9:27 — death is followed by judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "These hollows are the place of their confinement. They were made for this until the day when they are judged, until the appointed time—the day of the end of the great judgment prepared for them.",
+          "study": "The dead are held for a defined purpose and duration: judgment at an appointed time. The chapter therefore distinguishes the present custody of spirits from the great judgment still to come. Delay does not mean absence of judgment; the day is already prepared.",
+          "crossReferences": [
+            "Daniel 12:2 — sleepers in the dust awake to differing outcomes",
+            "Acts 17:31 — God has appointed a day to judge the world",
+            "2 Peter 2:9 — the unrighteous are kept for punishment on the day of judgment",
+            "Revelation 20:11–13 — the dead are brought before the final throne for judgment"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "There I saw the spirit of a dead man bringing a legal complaint. His outcry rose as far as heaven, crying aloud and pleading his case.",
+          "study": "One spirit is singled out from the gathered dead because his unresolved complaint reaches heaven. The Aramaic legal language presents the cry as an accusation brought before the divine court. Death has not silenced the wrong done to him or removed it from God's hearing.",
+          "crossReferences": [
+            "Genesis 4:10 — Abel's blood cries from the ground to God",
+            "Exodus 3:7–9 — the cry of the oppressed comes before God",
+            "Job 16:18–21 — innocent blood and a witness in heaven are invoked together",
+            "Revelation 6:9–10 — slain witnesses cry out for just judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Then I asked Raphael, the Watcher and Holy One who was with me, and I said to him, 'Whose is this human spirit, whose complaint rises, cries aloud and pleads its case as far as heaven?'",
+          "study": "Enoch seeks the identity of the complainant before drawing a conclusion. Raphael is called both Watcher and Holy One here, titles that distinguish his faithful service from the rebellion of the fallen Watchers. Authorized explanation again follows careful inquiry.",
+          "crossReferences": [
+            "Daniel 7:16 — Daniel approaches an attendant and asks for the truth of the vision",
+            "Daniel 8:15–17 — an angel is commanded to explain what the prophet has seen",
+            "Zechariah 1:9 — the prophet asks his angelic guide for the meaning of a vision",
+            "1 Enoch 21:5–6 — Enoch's question receives an explanation from a holy angel"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "He answered me, saying, 'This is the spirit that went out from Abel, whom Cain his brother killed. Abel pleads against him until Cain's offspring are destroyed from the face of the earth and his line is wiped out from among the offspring of humankind.'",
+          "study": "Raphael identifies the complainant as Abel, the first person murdered in the biblical narrative. His plea gives personal voice to the blood crying from the ground. The judgment sought extends to the violent line associated with Cain, while the text leaves the timing and execution to the divine court.",
+          "crossReferences": [
+            "Genesis 4:8–11 — Cain kills Abel and Abel's blood cries from the ground",
+            "Matthew 23:35 — Abel is named as righteous and murdered",
+            "Hebrews 11:4 — Abel's faithful witness continues to speak after death",
+            "Hebrews 12:24 — Abel's blood is contrasted with the better-speaking blood of Jesus"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Then I asked about all the hollow places: 'Why have they been separated one from another?'",
+          "study": "Enoch's next question concerns the reason for separation. The distinct chambers correspond to distinctions in the moral and judicial condition of the dead. The question moves the vision from the identity of Abel to the larger order of awaiting judgment.",
+          "crossReferences": [
+            "Psalm 1:5–6 — the righteous and wicked have distinct ways and outcomes",
+            "Daniel 12:2 — resurrection leads to sharply different destinies",
+            "Matthew 25:31–33 — judgment includes separation according to the judge's verdict",
+            "Revelation 22:11–12 — moral distinction remains relevant as recompense approaches"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "He answered me, saying, 'These three were made so that the spirits of the dead might be separated. In this way a place was set apart for the spirits of the righteous, where the spring of water within it is bright.'",
+          "study": "The text first names the chamber for the righteous, marked by light and living water. It also transmits 'three' after verse 2 described four hollows. The wording is preserved as received; the chapter's clear point is ordered separation, not a reconstructed diagram beyond the surviving witnesses.",
+          "crossReferences": [
+            "Psalm 36:8–9 — God's people drink from the river of His delights and see light",
+            "Isaiah 58:11 — the one guided by the LORD is like a spring whose waters do not fail",
+            "Luke 16:22–25 — the righteous dead receive comfort",
+            "Revelation 7:16–17 — the redeemed are led to springs of living water"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "In this way a place was created for sinners when they die and are buried in the earth, and judgment was not carried out upon them during their life.",
+          "study": "A second condition is reserved for sinners whose earthly lives ended without judgment overtaking them. Apparent impunity in life is not the final verdict. The vision answers the moral problem of unpunished wrongdoing by locating its resolution in the coming judgment.",
+          "crossReferences": [
+            "Psalm 73:3–19 — the apparent ease of the wicked is reinterpreted in light of their end",
+            "Ecclesiastes 8:11–13 — delayed sentence does not make lasting well-being for the wicked",
+            "Luke 16:19–25 — earthly prosperity does not determine the condition after death",
+            "Romans 2:4–6 — stored-up judgment answers unrepentant persistence in evil"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Here their spirits are separated for this great torment until the great day of judgment, for the scourges and torments of the accursed spirits. There he will bind them for the age.",
+          "study": "The sinners' chamber is already a place of anguish, yet the great day of judgment remains future. Their custody is expressed through binding and an age-long term. The verse holds present consequence and final judgment together without treating them as the same event.",
+          "crossReferences": [
+            "Isaiah 24:21–22 — prisoners are gathered in a pit and visited after many days",
+            "Matthew 25:41 — enduring fire is prepared for the devil and his angels",
+            "2 Peter 2:4, 9 — confinement precedes the day of judgment",
+            "Jude 6 — rebellious angels are kept in bonds for the judgment of the great day"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "In this way a place was set apart for the spirits of those who bring accusations, who make the coming destruction known because they were killed in the days of sinners.",
+          "study": "The murdered dead occupy a distinct chamber as complainants whose deaths testify against their killers. Their accusation exposes why destruction is coming: violence committed in the age of sinners has entered the divine case. Abel is the named example, but the chamber includes others killed unjustly.",
+          "crossReferences": [
+            "Genesis 4:10 — the murdered Abel's blood bears witness before God",
+            "2 Kings 9:26 — God declares that He has seen murdered blood and will repay",
+            "Psalm 9:12 — the One who avenges blood remembers the cry of the afflicted",
+            "Revelation 6:9–11 — the slain await judgment and vindication"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "In this way a place was made for the spirits of people who will not be holy but sinners, who are ungodly and share the lot of the lawless. Their spirits will not be punished on the day of judgment, nor will they rise from there.",
+          "study": "The final group is characterized by settled participation in lawlessness. The fragmentary Aramaic and the continuous Greek agree that they do not rise from their place on judgment day. The verse distinguishes their outcome from both the bright chamber of the righteous and the sinners reserved for further punishment.",
+          "crossReferences": [
+            "Psalm 1:5 — the wicked do not stand in the judgment",
+            "Isaiah 26:14 — some dead are described as not rising",
+            "Daniel 12:2 — the awakened dead face everlasting life or contempt",
+            "John 5:28–29 — resurrection discloses distinct outcomes for good and evil"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Then I blessed the Lord of majesty and said, 'Blessed is the judgment of the True One.'",
+          "study": "Enoch ends in worship rather than fascination with the chambers themselves. The earliest surviving Aramaic wording praises both the Judge's majesty and the truth of His judgment. The vision's divisions are therefore presented as expressions of righteous judgment, not arbitrary fate.",
+          "crossReferences": [
+            "Deuteronomy 32:4 — all God's ways are justice, faithful and without wrong",
+            "Psalm 19:9 — the judgments of the LORD are true and righteous altogether",
+            "Psalm 96:10–13 — the LORD comes to judge the world in righteousness and truth",
+            "Revelation 16:7 — God's judgments are declared true and just"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 22 moves from the prison of rebellious heavenly beings to the appointed custody of human spirits. Inside a hard western mountain, Enoch sees separated hollows for the dead. Raphael explains that these places hold them until the great judgment, so the chapter distinguishes death, an intermediate condition and the final judicial day.",
+          "Abel stands at the chapter's center. The Aramaic witness describes his cry with legal verbs: he raises a complaint and pleads his case as far as heaven. This develops Genesis 4 without replacing it. Blood that cried from the ground is here heard as the murdered man's continuing appeal before the Judge.",
+          "The separate hollows insist that death does not erase moral distinction. The righteous are associated with light and a spring of water; unjudged sinners await the great judgment in torment; murdered people bear witness against violence; and those joined to lawlessness remain confined. Earthly appearances are therefore not the final measure of justice.",
+          "The surviving witnesses also require restraint. The text says there are four hollows and later speaks of three divisions, and the wording of the final category is difficult. Rather than manufacture a seamless scheme, the translation retains what the ancient witnesses preserve. The chapter's theological conclusion remains explicit in its closing blessing: the judgment of the True One is worthy of praise."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 4:8–11 — Abel's murder and the blood that cries from the ground",
+        "Psalm 9:12; 19:9; 36:8–9 — remembered blood, true judgments, light and living water",
+        "Isaiah 24:21–22; 26:14, 19 — confinement, judgment and differing descriptions of the dead",
+        "Daniel 12:2 — awakening to life or shame",
+        "Luke 16:19–26 — separated conditions of the dead before final judgment",
+        "Hebrews 11:4; 12:24 — Abel still speaks and his blood is contrasted with Jesus' blood",
+        "Revelation 6:9–11; 20:11–13 — murdered witnesses await vindication and the dead face judgment"
+      ]
+    }
+  ]
+}

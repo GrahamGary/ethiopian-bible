@@ -1,0 +1,277 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-060-2026-08-11",
+  "contentVersion": "2026.08.11.52",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 60,
+      "title": "Chapter 60 — The Great Shaking and the Secrets of Creation",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language text responsibly available for this chapter. No extant Aramaic or Greek wording has been identified for this Noahic unit within the Parables. The complete Ethiopic (Geʽez) text in August Dillmann's 1851 critical edition, Liber Henoch Aethiopice, is the translation base for all twenty-five verses: the dated heavenly shaking, Michael's explanation of mercy and judgment, Leviathan and Behemoth, and the ordered treasuries of wind, thunder, lightning, sea, frost, hail, snow, mist, dew and rain. The inherited speaker shift that calls Enoch 'my grandfather' is retained, as is the compressed and difficult wording in verses 24–25 about the two monsters and the resting of punishment, without inventing a missing object or explanatory event. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the five-hundredth year, in the seventh month, on the fourteenth day of the month, in the life of Enoch, I saw in that parable the heaven of heavens shaken with a mighty shaking. The host of the Most High and the angels—thousands of thousands and ten thousand times ten thousand—were thrown into great agitation.",
+          "study": "The precise date anchors an overwhelming vision in remembered time. Even the immense heavenly host is shaken, showing that the coming disclosure exceeds the stability of created powers.",
+          "crossReferences": [
+            "Daniel 7:10 — thousands upon thousands attend the heavenly court",
+            "Haggai 2:6 — heaven and earth are shaken at the appointed time",
+            "Revelation 5:11 — myriads of angels surround the throne"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Then I saw the Head of Days sitting upon the throne of His glory, while the angels and the righteous stood around Him.",
+          "study": "The throne remains fixed amid universal agitation. Angels and righteous people stand around the Head of Days, locating security in His rule rather than in an unshaken creation.",
+          "crossReferences": [
+            "Daniel 7:9–10 — the Ancient of Days sits as the court assembles",
+            "Revelation 7:9–11 — the redeemed and angels stand before the throne"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "A great trembling seized me, fear took hold of me, my loins gave way and were loosened, my whole body collapsed, and I fell upon my face.",
+          "study": "The seer's body cannot master the vision. Fear, weakness and prostration mark an honest human response to the unveiled heavenly court.",
+          "crossReferences": [
+            "Daniel 10:8–9 — strength leaves Daniel and he falls before the vision",
+            "Revelation 1:17 — John falls down when confronted by heavenly glory"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Holy Michael sent another holy angel, one of the holy angels, and he raised me. When he raised me, my spirit returned, for I had not been able to endure the sight of that host, its agitation, and the shaking of heaven.",
+          "study": "The same heaven that overwhelms also sends help. The seer is restored by angelic ministry so that revelation may continue beyond fear.",
+          "crossReferences": [
+            "Daniel 10:10–11, 18–19 — an angel touches and strengthens the fallen prophet",
+            "Luke 22:43 — an angel from heaven strengthens the one in anguish"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Holy Michael said to me, ‘Why are you disturbed by such a vision? Until today the day of His mercy has continued, and He has been merciful and slow to anger toward those who dwell upon the dry ground.’",
+          "study": "Michael interprets the present age as a day of mercy. Divine patience toward earth's inhabitants precedes judgment and explains why the final reckoning has not yet arrived.",
+          "crossReferences": [
+            "Exodus 34:6 — the LORD is merciful and slow to anger",
+            "2 Peter 3:9 — divine patience leaves room for repentance"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "‘But the day, power, punishment and judgment will come which the Lord of Spirits has prepared for those who bow before righteous judgment, those who deny righteous judgment, and those who take His name in vain. That day is prepared as a covenant for the chosen and as an inquiry for sinners.’",
+          "study": "The coming day reaches both those aligned with righteous judgment and those who deny it, distinguishing covenant from inquiry. Mercy's delay does not erase the examination of contempt for God's name.",
+          "crossReferences": [
+            "Isaiah 10:1–3 — makers of unjust decrees face a day of visitation",
+            "Malachi 3:16–18 — the day distinguishes those who honor God's name from the wicked",
+            "2 Thessalonians 1:6–10 — one appearing brings relief and judgment"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "On that day two monsters will be separated: a female monster named Leviathan, to dwell in the abysses of the sea above the fountains of the waters.",
+          "study": "Leviathan embodies the untamed depth yet receives a defined dwelling. The monster remains a creature assigned to the sea's abyss, not a rival outside God's order.",
+          "crossReferences": [
+            "Job 41:1–10 — Leviathan exceeds human control but not the Creator's",
+            "Isaiah 27:1 — the LORD judges Leviathan at the appointed time",
+            "Psalm 104:25–26 — Leviathan belongs within God's created sea"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The male is named Behemoth, who occupies with his breast an unseen wilderness named Dendain, east of the garden where the chosen and righteous dwell, where my grandfather was taken up—the seventh from Adam, the first man made by the Lord of Spirits.",
+          "study": "Behemoth is assigned to an unseen dry wilderness opposite Leviathan's sea. Calling Enoch ‘my grandfather’ exposes the received Noahic voice within the chapter and is preserved rather than harmonized away.",
+          "crossReferences": [
+            "Job 40:15–24 — Behemoth is a mighty land creature made by God",
+            "Genesis 5:22–24 — Enoch, seventh from Adam, is taken by God",
+            "Jude 14 — Enoch is identified as the seventh from Adam"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "I asked that other angel to show me the power of those two monsters and how they were separated on one day and cast apart, one into the abyss of the sea and one onto the dry ground of the wilderness.",
+          "study": "The question concerns both power and separation. Sea and dry land become bounded realms for creatures whose strength would otherwise appear immeasurable.",
+          "crossReferences": [
+            "Genesis 1:9–10, 21 — God separates sea and dry land and creates the great sea creatures",
+            "Job 38:8–11 — the sea is shut within an appointed boundary"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "He said to me, ‘Son of man, you seek here to know what is hidden.’",
+          "study": "The angel names the inquiry for what it is: a search into concealed reality. Revelation answers human seeking only to the extent that hidden things are shown.",
+          "crossReferences": [
+            "Deuteronomy 29:29 — hidden things belong to God while revealed things are given",
+            "Daniel 2:22 — God reveals deep and hidden things"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "The other angel who went with me and showed me hidden things told me what is first and last: in the heights of heaven, in the depth beneath the dry ground, at the extremities of heaven, at heaven's foundation, and in the storehouses of the winds.",
+          "study": "The angel's survey spans origin and end, height and depth, edge and foundation. The storehouses of the winds introduce a creation whose forces are arranged rather than autonomous.",
+          "crossReferences": [
+            "Job 38:22–24 — heavenly storehouses and the paths of weather are questioned",
+            "Jeremiah 10:13 — God brings wind from His storehouses"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "He showed how the spirits are divided and balanced, how the springs and winds are counted according to the power of each spirit, the power of the moon's light in its proper measure, and the divisions of the stars according to their names, with every division assigned its part.",
+          "study": "Number, weight, measure and name portray cosmic order. Each force and light has an allotted power, rejecting the idea that the heavens operate by aimless collision.",
+          "crossReferences": [
+            "Psalm 147:4 — God counts and names the stars",
+            "Isaiah 40:26 — the heavenly host is brought out by number and called by name",
+            "Wisdom 11:20 — creation is arranged by measure, number and weight"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "He showed the thunders according to the places where they fall, every division assigned so that lightning may flash, and their host, so that they obey at once.",
+          "study": "Thunder and lightning have places, divisions and responsive hosts. Their immediacy is obedience to appointment, not evidence of disorder.",
+          "crossReferences": [
+            "Job 38:35 — lightning answers when God sends it",
+            "Psalm 104:4 — winds and flames serve as God's messengers"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "For the thunder has resting places assigned while it waits for its voice. Thunder and lightning are not separated; though the two do not move as one through a single spirit, they go together and are not divided.",
+          "study": "The paired storm signs retain distinction without separation. Their coordinated waiting and movement picture diverse created operations held within one ordered event.",
+          "crossReferences": [
+            "Job 37:2–5 — thunder and lightning proceed together in God's storm",
+            "Psalm 77:17–18 — clouds, thunder and lightning act in concert"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "When lightning flashes, thunder gives its voice, and the spirit makes it pause at the proper time and divides equally between them. Their storehouse of appointed times is like sand. Each is held by a bridle at its time, turned by the power of the spirit, and driven onward according to the many regions of the earth.",
+          "study": "Timing is as ordered as power. Bridle and storehouse imagery portray restraint, while the comparison to sand suggests appointments beyond human counting.",
+          "crossReferences": [
+            "Job 28:25–27 — God weighs the wind and appoints a decree for rain and thunder",
+            "Psalm 148:7–8 — storm wind fulfills God's word"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "The spirit of the sea is male and strong. According to the power of its strength, it is drawn back by a bridle; then it is driven forward and scattered among all the mountains of the earth.",
+          "study": "The sea's force is real but reined. Advance and withdrawal remain under restraint, recalling the boundary that prevents the waters from reclaiming the inhabited land.",
+          "crossReferences": [
+            "Job 38:8–11 — God sets bars and doors for the sea",
+            "Psalm 104:6–9 — the waters retreat to boundaries they may not cross"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "The spirit of hoarfrost has its own angel, and the spirit of hail is a good angel.",
+          "study": "Even harsh cold and hail are placed within angelic administration. Calling the hail angel good distinguishes the servant's character from the painful effects a storm may carry.",
+          "crossReferences": [
+            "Job 38:22–23 — snow and hail are kept for appointed purposes",
+            "Psalm 148:8 — hail fulfills God's word"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "The spirit of snow has left its chamber because of its strength, and within it is a special spirit. What rises from it is like smoke, and its name is frost.",
+          "study": "Snow and frost are distinguished within the vision's ancient weather description. Smoke-like rising gives visible form to a hidden spirit without claiming a modern physical mechanism.",
+          "crossReferences": [
+            "Job 37:6, 10 — God commands snow and ice forms by His breath",
+            "Psalm 147:16–17 — God gives snow like wool and scatters frost"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "The spirit of mist is not joined with them in their storehouses; it has a storehouse of its own. Its course is glorious in light and darkness, in winter and summer. Its storehouse is bright, and its angel is there.",
+          "study": "Mist receives its own place and seasonal course. Its movement through light and darkness displays glory in conditions that can obscure ordinary human sight.",
+          "crossReferences": [
+            "Genesis 2:6 — mist rises and waters the ground",
+            "Job 36:27–29 — vapor and clouds belong to God's wondrous work"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "The spirit of dew has its dwelling at the extremities of heaven and is connected with the storehouses of rain. Its course is in winter and summer; its cloud and the cloud of mist are joined, and each gives to the other.",
+          "study": "Dew, rain and mist are related without being collapsed into one. Their mutual giving makes the weather cycle an image of coordinated provision across seasons.",
+          "crossReferences": [
+            "Genesis 27:28 — heaven's dew is a gift of abundance",
+            "Hosea 14:5 — the LORD's life-giving presence is compared to dew"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "When the spirit of rain moves from its storehouse, the angels come, open the storehouse and lead it out. When it is scattered over all the dry ground, it joins at every time with the water upon the dry ground.",
+          "study": "Rain is released and distributed as a managed gift. Heavenly water joins earthly water, connecting the storehouses above with the land that receives them.",
+          "crossReferences": [
+            "Deuteronomy 28:12 — the LORD opens His good storehouse to give rain",
+            "Psalm 65:9–10 — rain waters the earth and enriches it"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "For the waters are for those who dwell upon the dry ground, because they are nourishment for the dry ground from the Most High who is in heaven. Therefore rain has a measure, and the angels receive charge of it.",
+          "study": "The purpose of measured rain is life. Provision comes from the Most High through an ordered administration that gives the land neither meaningless excess nor accidental nourishment.",
+          "crossReferences": [
+            "Leviticus 26:4 — rain in its season makes the land yield produce",
+            "Acts 14:17 — rain and fruitful seasons testify to divine goodness"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "I saw all these things as far as the garden of the righteous.",
+          "study": "The long tour ends at the righteous garden, joining cosmic order to the promised dwelling of the faithful. Creation's hidden administration forms the setting for their future.",
+          "crossReferences": [
+            "Genesis 2:8–10 — a garden and its waters belong to God's ordered provision",
+            "Revelation 22:1–5 — the servants of God dwell by life-giving water in the restored city"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "The angel of peace who was with me said, ‘These two monsters are prepared in accordance with the greatness of God; they will be fed, so that God's punishment may not be in vain. Children will be killed with their mothers, and offspring with their fathers.’",
+          "study": "The witness returns abruptly from ordered weather to the monsters and a severe judgment scene. Its compressed statement does not identify what feeds them; preserving that silence avoids inventing a mechanism the text does not supply.",
+          "crossReferences": [
+            "Isaiah 27:1 — Leviathan is reserved for the LORD's day of judgment",
+            "Revelation 19:17–18 — judgment imagery includes a dreadful summons to feed upon the defeated"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "‘When the punishment of the Lord of Spirits rests upon them, it will rest so that the punishment of the Lord of Spirits may not come in vain upon these. Afterward judgment will take place according to His mercy and His patience.’",
+          "study": "The chapter refuses to separate judgment from divine character. Punishment reaches its intended end, yet the final statement places the judgment that follows within mercy and patience.",
+          "crossReferences": [
+            "Isaiah 28:21–22 — the LORD completes His decreed work of judgment",
+            "Habakkuk 3:2 — mercy is remembered in the midst of wrath",
+            "James 2:13 — mercy triumphs over judgment"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 60 combines a dated heavenly vision, a Noahic speaker shift, two primeval monsters and a long survey of the created order. Its layers are held together by one theme: powers that overwhelm human beings remain measured before the Head of Days.",
+          "Michael interprets the present as a day of mercy and patience, while affirming a coming day that becomes covenant for the chosen and inquiry for sinners. Delay is therefore mercy, not indifference to corrupted judgment.",
+          "Leviathan and Behemoth occupy separated realms, while winds, lights, thunder, sea, frost, hail, snow, mist, dew and rain receive storehouses, measures, names, angels and appointed times. The vision presents creation as powerful but governed throughout.",
+          "Verses 24–25 turn sharply back to punishment in language the witness leaves compressed. The chapter's final word nevertheless joins judgment to mercy and patience, refusing both the denial of accountability and the portrayal of God as arbitrary."
+        ]
+      },
+      "crossReferences": [
+        "Daniel 7:9–10 — the Head of Days and the assembled heavenly court",
+        "Job 38–41 — the ordered weather, bounded sea, Behemoth and Leviathan",
+        "Genesis 5:22–24 — Enoch, seventh from Adam, taken by God",
+        "Isaiah 27:1 — judgment of Leviathan",
+        "Habakkuk 3:2 — mercy remembered within judgment"
+      ]
+    }
+  ]
+}

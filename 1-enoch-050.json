@@ -1,0 +1,96 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-050-2026-08-11",
+  "contentVersion": "2026.08.11.42",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 50,
+      "title": "Chapter 50 — Light, Repentance, and the End of Mercy",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all five verses, including the changed condition of the holy and chosen, victory of the righteous, a final summons for others to repent and abandon the works of their hands, salvation in the Lord's name, and the stated end of mercy for those who remain unrepentant. The tension between abundant mercy and its appointed limit is preserved. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days a change will come upon the holy and the chosen. The light of days will dwell upon them, and glory and honor will return to the holy.",
+          "study": "The promised change reverses affliction without erasing identity: the holy remain the holy, but light, glory and honor now settle upon those who were dishonored.",
+          "crossReferences": [
+            "Isaiah 60:1–2 — divine light rises upon God's people",
+            "Daniel 12:3 — the wise shine with heavenly brightness",
+            "Matthew 13:43 — the righteous shine in their Father's kingdom"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "On the day of distress, evil will be heaped upon the sinners, but the righteous will triumph in the name of the Lord of Spirits. He will show this to the others so that they may repent and abandon the works of their hands.",
+          "study": "Judgment also functions as disclosure. Before the final limit, others are shown the contrast so they may turn away from practices—and likely idols—made by their own hands.",
+          "crossReferences": [
+            "Isaiah 2:18–20 — people cast away the idols their hands made",
+            "Ezekiel 18:30–32 — sinners are called to turn and live",
+            "Acts 17:30 — God commands all people to repent"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "They will have no honor before the Lord of Spirits, yet through His name they will be saved, and the Lord of Spirits will have mercy on them, for His mercy is abundant.",
+          "study": "Repentant people bring no claim to honor; salvation rests in the Lord's name and abundant mercy. The verse joins humility with real hope rather than treating repentance as self-rescue.",
+          "crossReferences": [
+            "Psalm 130:3–7 — forgiveness and abundant redemption are with the LORD",
+            "Joel 2:13 — God is gracious and abundant in steadfast love",
+            "Acts 2:21 — everyone who calls upon the Lord's name will be saved"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He is righteous in His judgment, and unrighteousness will not stand before His glory. Whoever does not repent before Him will perish.",
+          "study": "Abundant mercy does not make judgment arbitrary or empty. Repentance is the offered path out of unrighteousness, while refusal leaves a person identified with what cannot stand before divine glory.",
+          "crossReferences": [
+            "Psalm 1:5–6 — the wicked do not stand in judgment",
+            "Ezekiel 18:23, 32 — God calls the wicked to turn rather than die",
+            "Luke 13:3 — refusal to repent leads to perishing"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "'From now on I will not have mercy on them,' says the Lord of Spirits.",
+          "study": "The final declaration gives repentance urgency. Mercy is genuinely abundant, but the witness does not allow endless presumption after the appointed opportunity to turn has been rejected.",
+          "crossReferences": [
+            "Proverbs 1:24–29 — repeated refusal reaches a point when Wisdom's call is no longer available",
+            "Jeremiah 13:14 — judgment arrives without pity after persistent rebellion",
+            "Hebrews 3:13–15 — hear God's voice today and do not harden the heart"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 50 places transformation, repentance and final judgment in one short sequence. Light returns to the chosen, evil overtakes sinners, and others are shown enough to abandon the works of their hands.",
+          "The righteous triumph specifically in the Lord's name. Likewise, repentant outsiders are saved through that name rather than through honor or accomplishment of their own.",
+          "Mercy is described as abundant, making the summons to repentance sincere. Yet righteousness also defines the Lord's judgment, so mercy cannot be converted into permission for unending refusal.",
+          "The closing word establishes an appointed boundary. The proper response to abundant mercy is timely repentance—turning from handmade loyalties and taking refuge in the name of the Lord of Spirits while the way remains open."
+        ]
+      },
+      "crossReferences": [
+        "Isaiah 60:1–2; Daniel 12:3 — light and glory for the righteous",
+        "Isaiah 2:18–20 — abandoning the works of human hands",
+        "Ezekiel 18:30–32; Acts 17:30 — the call to repent",
+        "Psalm 130:3–7; Joel 2:13 — abundant mercy and redemption",
+        "Luke 13:3; Hebrews 3:13–15 — urgency before the limit of repentance"
+      ]
+    }
+  ]
+}

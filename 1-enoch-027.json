@@ -1,0 +1,102 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-027-2026-08-11",
+  "contentVersion": "2026.08.11.19",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 27,
+      "title": "Chapter 27 — The Accursed Valley and True Judgment",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witnesses available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 27. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete five-verse chapter and is the principal translation base. The complete Ethiopic (Geʽez) tradition, including Rylands Ethiopic MS 23, preserves the explicit 'spectacle of righteous judgment' clause in verse 3 where the surviving Greek construction is compressed, and supplies a continuity check for the whole unit. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Then I said, 'Why is this land blessed and entirely full of trees, while this ravine is accursed?'",
+          "study": "Enoch names the contrast established in Chapter 26: flourishing blessed land stands beside a barren valley under curse. His question is moral as well as geographic. The interpreting answer will explain the ravine according to the people and speech assigned to it.",
+          "crossReferences": [
+            "Deuteronomy 11:26–28 — blessing and curse are set in direct contrast",
+            "Psalm 1:3–6 — a fruitful tree and the perishing way of the wicked form opposing images",
+            "Jeremiah 17:5–8 — cursed barrenness is contrasted with a blessed watered tree",
+            "1 Enoch 26:1, 4–6 — blessed growth stands beside deep, dry and treeless ravines"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "This accursed land is for those who are accursed forever. Here all the accursed will be gathered—those who utter with their mouths an improper word against the Lord and speak harsh things against his glory. Here they will be gathered, and here will be their dwelling.",
+          "study": "The valley is assigned to persistent verbal rebellion against the Lord. Speech is treated as morally weighty because it expresses defiance of divine glory. Repetition of 'here' emphasizes gathering and confinement: the speakers meet a place corresponding to the words they chose.",
+          "crossReferences": [
+            "Numbers 15:30–31 — high-handed defiance reviles the LORD",
+            "Psalm 12:3–4 — boastful lips speak as though no lord rules over them",
+            "Daniel 7:8, 11 — arrogant words against heaven precede judgment",
+            "Jude 14–16 — judgment comes upon hard words spoken by ungodly sinners"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "In the last days there will be a spectacle of true judgment upon them before the righteous for all time. Here the devout will bless the Lord of glory, the King of the age.",
+          "study": "The concealed valley becomes a public display of true judgment. The righteous witness a verdict that answers arrogant speech, and their response is not self-congratulation but blessing directed to the eternal King. Judgment vindicates divine truth and glory.",
+          "crossReferences": [
+            "Psalm 58:10–11 — the righteous see judgment and confess that God judges the earth",
+            "Isaiah 66:23–24 — worshipers behold the outcome of rebellion",
+            "Malachi 3:18 — the distinction between righteous and wicked becomes visible",
+            "Revelation 15:3–4 — the saints praise the King because His judgments are revealed"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "In the days of their judgment, the righteous will bless him for the mercy with which he assigned their portion to them.",
+          "study": "The righteous interpret their own portion as mercy. Even while judgment falls upon rebellion, blessing arises because God has allotted a different inheritance to those who honor Him. The verse joins justice and mercy without making either cancel the other.",
+          "crossReferences": [
+            "Psalm 16:5–6 — the LORD assigns a secure and pleasant portion",
+            "Psalm 103:8–10 — God's mercy is praised alongside His just rule",
+            "Lamentations 3:22–24 — the LORD's mercy and the believer's portion are linked",
+            "1 Peter 1:3–4 — mercy gives an imperishable inheritance to God's people"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then I blessed the Lord of glory, proclaimed his glory and praised him with majesty.",
+          "study": "Enoch joins the praise he has just heard described. He blesses, proclaims and sings, turning the revelation of judgment into worship of the Judge's glory. The chapter ends with divine majesty rather than the condemned speakers' harsh words.",
+          "crossReferences": [
+            "Exodus 15:1–7 — deliverance and judgment lead to majestic praise",
+            "Psalm 96:2–6 — God's glory is proclaimed and His majesty praised",
+            "Isaiah 24:14–16 — songs of glory arise in response to the righteous One",
+            "Revelation 19:1–2 — praise follows the revelation of true and just judgments"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 27 explains the severe contrast Enoch saw in Chapter 26. The blessed, tree-filled land stands beside an accursed ravine because the valley is appointed for people whose speech remains defiantly opposed to the Lord and His glory.",
+          "The chapter treats words as deeds of allegiance. Improper and harsh speech against God is not dismissed as harmless sound; it reveals a posture that belongs with curse and confinement. The repetition of gathering makes the valley a judicial answer to persistent arrogance.",
+          "True judgment is presented publicly before the righteous, but their response is directed upward. They bless the Lord of glory and confess that their own portion comes through mercy. The text therefore refuses both denial of judgment and pride in salvation.",
+          "Enoch's final praise reverses the offenders' speech. Where they spoke harshly against divine glory, he proclaims that glory and praises with majesty. The chapter's theological movement is from curse through judgment to worship, with the eternal King shown as true in judgment and merciful in the portion He assigns."
+        ]
+      },
+      "crossReferences": [
+        "Deuteronomy 11:26–28; Jeremiah 17:5–8 — blessing and curse, fruitful life and barrenness",
+        "Psalm 12:3–4; Daniel 7:8–11 — arrogant speech brought under judgment",
+        "Psalm 16:5–6; Lamentations 3:22–24 — a mercifully assigned portion",
+        "Isaiah 66:23–24 — worship and the visible result of rebellion",
+        "Jude 14–16 — hard words against God included in the judgment of the ungodly",
+        "Revelation 15:3–4; 19:1–2 — praise for the King's revealed and righteous judgments"
+      ]
+    }
+  ]
+}

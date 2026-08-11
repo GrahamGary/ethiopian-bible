@@ -1,0 +1,79 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-030-2026-08-11",
+  "contentVersion": "2026.08.11.22",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 30,
+      "title": "Chapter 30 — The Watered Valley and Cinnamon",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 30. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete three-verse chapter and is the translation base. Its Greek plant terms are rendered as mastic and cinnamon according to their direct ancient senses, without adding unidentified species or substances. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Beyond these I journeyed far toward the east and saw another great place, a valley with water.",
+          "study": "The eastward journey continues from the frankincense and myrrh grove into a large watered valley. Distance and scale widen the vision, while the water sustains the aromatic growth described next. The place is observed as part of an ordered sequence rather than an isolated wonder.",
+          "crossReferences": [
+            "Genesis 2:8–10 — an eastern garden is sustained by a river",
+            "Psalm 65:9–13 — divine water makes valleys fruitful",
+            "Isaiah 41:18–19 — water and fragrant trees appear together in renewed wilderness",
+            "1 Enoch 28:2–3 — water and dew sustain the earlier wilderness landscape"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "There were aromatic trees in it, like mastic trees.",
+          "study": "The valley's trees are identified through aromatic character and resemblance to mastic. The comparison gives a responsible point of recognition without claiming that every tree is botanically identical. Fragrance remains a recurring sign of the richness of this eastern landscape.",
+          "crossReferences": [
+            "Genesis 43:11 — aromatic resin is counted among the land's choice products",
+            "Song of Songs 4:13–14 — a garden is filled with aromatic plants and spices",
+            "Ezekiel 27:17 — valued resin appears among traded produce",
+            "1 Enoch 29:2 — the preceding grove exhales frankincense and myrrh"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Along the banks of these valleys I saw fragrant cinnamon. Beyond these I journeyed toward the east.",
+          "study": "Cinnamon grows along the valley edges, where water and land meet. The verse names the ancient aromatic directly, then keeps the journey moving east. Enoch receives each place as one stage within a larger disclosure rather than stopping at its valuable produce.",
+          "crossReferences": [
+            "Exodus 30:23–25 — cinnamon belongs to the sacred anointing mixture",
+            "Proverbs 7:17 — cinnamon is recognized for its fragrance",
+            "Song of Songs 4:14 — cinnamon appears among the garden's finest spices",
+            "Revelation 18:13 — cinnamon is listed among costly goods, showing its recognized value"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 30 continues the eastward botanical journey in three compact movements: a great watered valley, aromatic trees resembling mastic and fragrant cinnamon growing along the banks.",
+          "Water and fragrance remain joined. The valley's abundance is not presented as human manufacture but as part of a created landscape Enoch is allowed to see. Its valuable substances belong first to the order of creation before they appear in worship, trade or royal settings.",
+          "The biblical use of cinnamon and aromatic resin gives the scene familiar associations with consecration, beauty and costly gift. Those connections should be made professionally while respecting the chapter's own form: it is a travel vision, not a recipe or commercial inventory.",
+          "The repeated eastward movement prevents the reader from treating any one grove as the journey's goal. Chapter 31 will continue to other aromatic trees, and Chapter 32 will finally reach the garden of righteousness."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 2:8–10 — an eastern, river-watered garden",
+        "Exodus 30:23–25 — cinnamon in holy anointing oil",
+        "Song of Songs 4:13–14 — a watered garden rich in aromatic plants",
+        "Isaiah 41:18–19 — valleys, water and planted trees in renewed wilderness",
+        "1 Enoch 28–29 — water, dew, frankincense and myrrh in the preceding eastern places"
+      ]
+    }
+  ]
+}

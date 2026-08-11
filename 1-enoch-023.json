@@ -1,0 +1,90 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-023-2026-08-11",
+  "contentVersion": "2026.08.11.15",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 23,
+      "title": "Chapter 23 — The Fire That Drives the Heavenly Lights",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 23. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete four-verse chapter and is the translation base. Its wording presents the fire as continuously following its appointed course toward the west and driving after all the heavenly lights. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I journeyed to another place, toward the westward end of the earth.",
+          "study": "The journey continues west, beyond the mountain chambers of the dead. The expression 'end of the earth' locates the vision at the perceived boundary of Enoch's ordered world. It is visionary geography, directing attention to the setting of the heavenly lights rather than giving a travel route for ordinary exploration.",
+          "crossReferences": [
+            "Deuteronomy 33:17 — the ends of the earth describe the farthest extent of the world",
+            "Psalm 19:4–6 — the sun's course reaches from one end of heaven to the other",
+            "Isaiah 40:28 — the LORD is Creator of the ends of the earth",
+            "1 Enoch 22:1 — the preceding journey also moves toward the west"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I saw a fire running without rest and never leaving its course, remaining the same by day and by night.",
+          "study": "The fire is defined by constancy: it does not stop, stray or change with day and night. What appears fierce is nevertheless ordered. The chapter portrays cosmic motion as faithful to an assigned course, not as the independent activity of divine heavenly bodies.",
+          "crossReferences": [
+            "Genesis 1:14–18 — the heavenly lights are appointed to govern times and seasons",
+            "Psalm 19:5–6 — the sun runs its course with strength and regularity",
+            "Jeremiah 31:35 — the sun, moon and stars operate by ordinances given by the LORD",
+            "1 Enoch 18:4 — winds bring the sun and stars toward their setting"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I asked, saying, 'What is this that has no rest?'",
+          "study": "Enoch again responds to an unfamiliar sight by asking rather than guessing. His question is brief because the observed feature is clear: the fire never rests. The interpreting angel will identify its function within the heavenly order.",
+          "crossReferences": [
+            "Daniel 7:16 — Daniel asks an attendant for the truth about what he sees",
+            "Zechariah 1:9 — the prophet asks his angelic guide what the vision means",
+            "1 Enoch 21:4–6 — a question about bound stars receives an angelic explanation",
+            "1 Enoch 22:8–9 — Enoch asks why the hollows are separated"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Then Raguel, one of the holy angels who was with me, answered me: 'This course of fire toward the west is the fire that drives after all the lights of heaven.'",
+          "study": "Raguel identifies the unceasing fire by its task: it follows the westward course and drives after the heavenly lights. The lights therefore move within an ordered system of service. The verse does not present the fire as a rival power; both fire and lights occupy roles within the created order Enoch is shown.",
+          "crossReferences": [
+            "Job 38:12–13 — morning is commanded to take hold of the earth's edges",
+            "Job 38:31–33 — the constellations and ordinances of heaven remain under divine rule",
+            "Psalm 148:3–6 — sun, moon and stars praise the Creator who established their order",
+            "Habakkuk 3:11 — sun and moon stand in relation to the brightness of divine action"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 23 is a compact vision of ceaseless cosmic motion. At the westward boundary, Enoch sees a running fire that does not rest, change or abandon its course. Raguel explains that it drives after the heavenly lights as they move toward the west.",
+          "The chapter's central theological emphasis is ordered service. Fire, sun, moon and stars are not autonomous gods; they follow courses within creation. The unceasing motion that might first seem untamed is revealed as regular and purposeful.",
+          "Enoch's question also models restraint before the mysteries of creation. He records what he sees and asks the appointed guide what it is. The answer names the fire's function but does not invite unsupported claims about its physical mechanism.",
+          "Within the surrounding journey, this vision forms a transition from the western chambers of the dead to the fragrant mountains and the throne-like mountain of Chapter 24. The same created world contains places of custody, moving heavenly lights and signs of divine majesty, all disclosed under angelic guidance."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:14–18 — the heavenly lights appointed for times, seasons and rule",
+        "Job 38:12–13, 31–33 — morning, constellations and heavenly ordinances under command",
+        "Psalm 19:4–6; 148:3–6 — the sun's course and the praise of the heavenly lights",
+        "Jeremiah 31:35 — fixed ordinances for sun, moon and stars",
+        "1 Enoch 17:4–5; 18:4 — western fire, setting places and the movement of the lights"
+      ]
+    }
+  ]
+}

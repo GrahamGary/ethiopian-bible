@@ -1,0 +1,76 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-057-2026-08-11",
+  "contentVersion": "2026.08.11.49",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 57,
+      "title": "Chapter 57 — The Chariots and the End of the Second Parable",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language text responsibly available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text in August Dillmann's 1851 critical edition, Liber Henoch Aethiopice, is the translation base for all three verses: the wind-borne chariots arriving from east and west toward the south, the cosmic shaking heard from earth's extremities to heaven's, and the universal prostration before the Lord of Spirits that closes the second Parable. The text's compressed sequence and geographical directions are retained without expansion or harmonization. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "After this I saw another host of chariots, with people riding upon them. They came upon the wind from the east and from the west toward the south.",
+          "study": "The new host arrives by the winds rather than by an ordinary road. Its movement from opposite horizons toward the south broadens the scope of the preceding upheaval beyond a single eastern invasion.",
+          "crossReferences": [
+            "Jeremiah 4:13 — advancing chariots are compared to a whirlwind",
+            "Daniel 7:2 — the winds of heaven stir the great sea before kingdoms appear",
+            "Zechariah 6:1–8 — heavenly chariots go out toward the regions of the earth"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "The sound of their chariots was heard. When this tumult arose, the holy ones in heaven perceived it, the pillar of the earth was shaken from its foundation, and the sound was heard in one day from the extremities of the earth to the extremities of heaven.",
+          "study": "The disturbance joins earthly motion to heavenly awareness. The shaken pillar and world-spanning sound portray an event that touches the ordered structure of creation and cannot remain hidden from the holy ones.",
+          "crossReferences": [
+            "Job 9:6 — God shakes the earth and its pillars tremble",
+            "Haggai 2:6 — heaven and earth are shaken at the appointed time",
+            "Hebrews 12:26–27 — cosmic shaking exposes what cannot remain"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Then they will all fall down and worship the Lord of Spirits. This is the end of the second Parable.",
+          "study": "The second Parable ends not with the chariot host's power but with universal worship. Every threatening movement is brought beneath the authority of the Lord of Spirits, before whom all finally bow.",
+          "crossReferences": [
+            "Psalm 22:27–29 — all the families of the nations bow before the LORD",
+            "Isaiah 45:23 — every knee bows before God",
+            "Philippians 2:10–11 — every knee bows and every tongue acknowledges the Lord"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 57 is a short conclusion to the second Parable. A further host of wind-borne chariots gathers from broad horizons, carrying the political turmoil of Chapter 56 into a cosmic frame.",
+          "The chariots' sound is heard across the full vertical and horizontal span of the vision: from earth's farthest edges to heaven, while the pillar of the earth shakes at its foundation. No realm is insulated from the approaching reckoning.",
+          "The holy ones perceive the disturbance, but the chapter's decisive action belongs to the assembled host: all fall down before the Lord of Spirits. Military movement ends in worship rather than conquest.",
+          "By explicitly closing the second Parable, the final sentence marks a literary threshold. The judgment of rulers, deceiving powers and invading armies has been gathered beneath one theological claim: the Lord of Spirits alone holds final sovereignty."
+        ]
+      },
+      "crossReferences": [
+        "Zechariah 6:1–8 — chariots sent across the earth",
+        "Job 9:6 — the pillars of earth shaken",
+        "Haggai 2:6 — heaven and earth shaken together",
+        "Isaiah 45:23 — every knee bows before God",
+        "Philippians 2:10–11 — universal worship before the Lord"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-026-2026-08-11",
+  "contentVersion": "2026.08.11.18",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 26,
+      "title": "Chapter 26 — The Blessed Land and the Deep Ravines",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 26. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete six-verse chapter and is the translation base. The difficult secondary clause about a felled tree in verse 1 is not inserted into the Scripture text; the continuous Greek wording concerning living shoots, the holy mountain, flowing water and the deep dry ravines is retained without speculative geographic names. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From there I journeyed to the middle of the earth, and I saw a blessed place where trees had shoots that remained and sprouted.",
+          "study": "The vision turns from the future tree of life to a blessed land already marked by persistent growth. The trees' shoots remain and continue to sprout. The place is called blessed, but the surviving text does not name it, so its identity should not be supplied by conjecture.",
+          "crossReferences": [
+            "Genesis 12:2–3 — divine blessing is connected with land, people and life",
+            "Psalm 104:16 — the trees of the LORD are richly supplied",
+            "Isaiah 11:1 — a shoot springs from a cut-down line",
+            "Ezekiel 17:22–24 — God plants a shoot that grows and bears branches"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "There I saw a holy mountain. Beneath the mountain was water from the east, and its flow was toward the south.",
+          "study": "Holiness, mountain and flowing water are brought together in one landscape. The water has a definite source and direction, continuing the journey's emphasis on ordered creation. The chapter describes what Enoch sees without yet interpreting the valley beside it.",
+          "crossReferences": [
+            "Psalm 46:4 — a river gladdens the holy dwelling of God",
+            "Isaiah 2:2–3 — the mountain of the LORD is called holy and becomes a source of instruction",
+            "Ezekiel 47:1–2 — water flows from the temple toward the east and then outward",
+            "Joel 3:17–18 — a fountain flows from the house of the LORD"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Toward the east I saw another mountain, higher than this one. Between them was a deep, narrow ravine, and through it water flowed below the mountain.",
+          "study": "A higher eastern mountain and a narrow ravine frame the course of water. The water passes through a place that is deep and constricted, showing that blessing can move through severe terrain. The geography remains part of the vision's ordered arrangement rather than a basis for an exact map.",
+          "crossReferences": [
+            "Deuteronomy 8:7 — the good land contains streams flowing through valleys and hills",
+            "Psalm 104:10 — God sends springs into valleys between mountains",
+            "Isaiah 43:19–20 — God provides rivers through desolate terrain",
+            "Habakkuk 3:9–10 — mountains, deep waters and divided earth appear under divine rule"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Toward the west of this was another mountain, lower than it and not high. Between them was a deep, dry ravine, and another deep, dry ravine lay at the outer edges of the three mountains.",
+          "study": "The western mountain completes a group of three around dry ravines. Unlike the watered channel, these ravines are emphatically dry. The contrast prepares for Chapter 27, where the accursed valley's judicial purpose is explained.",
+          "crossReferences": [
+            "Deuteronomy 11:11 — hills and valleys distinguish the land's terrain",
+            "Psalm 107:33–34 — flowing waters can become dry ground under judgment",
+            "Isaiah 34:9–10 — a judged land is portrayed through burning and desolation",
+            "Joel 3:12–14 — a valley becomes the setting for divine judgment"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "All the ravines were deep and formed of hard rock, and no tree was planted upon them.",
+          "study": "Depth, hard rock and the absence of planted trees make the ravines places without the life seen in verse 1. The wording stresses sterility rather than accidental barrenness: these channels contain neither soil-grown abundance nor cultivated life.",
+          "crossReferences": [
+            "Deuteronomy 29:22–23 — judged ground is described as unsown and unproductive",
+            "Psalm 107:34 — fruitful land becomes barren because of wickedness",
+            "Jeremiah 17:6 — the one under curse inhabits dry places where good does not come",
+            "Ezekiel 47:11 — some places remain given over to salt rather than healing water"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "I marveled at the rocky ground and at the ravine, and I marveled greatly.",
+          "study": "Enoch's repeated wonder signals that the contrast between blessed growth, holy water and barren stone is not ordinary landscape. Yet he again withholds his own explanation. Chapter 27 will turn his wonder into a question and provide the judicial meaning of the valley.",
+          "crossReferences": [
+            "Job 38:16–18 — the earth's depths and breadth exceed ordinary human knowledge",
+            "Daniel 8:27 — a vision leaves Daniel astonished and seeking understanding",
+            "Habakkuk 1:5 — divine work can provoke astonishment beyond expectation",
+            "Revelation 17:6–7 — visionary amazement is followed by angelic explanation"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 26 brings Enoch to a blessed central land where living shoots remain and grow. A holy mountain stands above flowing water, while higher and lower mountains frame ravines of sharply different character.",
+          "The strongest contrast is between life and barrenness. Trees grow in the blessed place, and water flows through one narrow ravine; the other ravines are deep, dry, rocky and without planted trees. The landscape prepares a moral and judicial distinction that the interpreting angel will make explicit in Chapter 27.",
+          "The chapter remains careful about location. It speaks of the middle of the earth and a holy mountain but does not provide a proper name in the surviving text. Biblical passages about holy mountains, sanctuary water and judgment valleys illuminate the imagery without authorizing a geographic identification beyond what Enoch records.",
+          "Enoch ends in great wonder, not explanation. His restraint is part of the chapter's teaching: created signs may awaken awe, but their revealed purpose must come from the One who appointed them. The next chapter will answer the question raised by the barren ravine."
+        ]
+      },
+      "crossReferences": [
+        "Psalm 46:4; 104:10, 16 — holy water, mountain streams and flourishing trees",
+        "Isaiah 2:2–3; 11:1 — the holy mountain and the enduring shoot",
+        "Jeremiah 17:6–8 — barren ground contrasted with a watered tree",
+        "Ezekiel 17:22–24; 47:1–12 — planted growth and water flowing from the holy place",
+        "Joel 3:12–18 — judgment in a valley and water flowing from the LORD's house"
+      ]
+    }
+  ]
+}

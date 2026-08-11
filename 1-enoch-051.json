@@ -1,0 +1,96 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-051-2026-08-11",
+  "contentVersion": "2026.08.11.43",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 51,
+      "title": "Chapter 51 — The Earth Gives Back the Dead",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all five verses, including earth, Sheol and destruction returning what was entrusted to them, the Chosen One seated on his throne, wisdom issuing from his mouth, and the rejoicing earth inhabited by the raised righteous. The vivid leaping-mountain and milk-fed-lamb imagery is retained without a supplied cosmological explanation. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days the earth will give back what has been entrusted to her, Sheol will give back what it has received, and destruction will return what it owes.",
+          "study": "Earth, Sheol and destruction are temporary custodians, not final owners. The dead are described as entrusted and owed back, making restoration an act of rightful divine claim.",
+          "crossReferences": [
+            "Isaiah 26:19 — the earth gives birth to the dead",
+            "Daniel 12:2 — those sleeping in the dust awaken",
+            "Revelation 20:13 — death and Hades give up the dead within them"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "He will choose the righteous and the holy from among them, for the day when they are to be saved has drawn near.",
+          "study": "The returning multitude is met by discerning choice. Salvation is near for those identified as righteous and holy, joining resurrection to the Chosen One's just judgment.",
+          "crossReferences": [
+            "Psalm 50:5 — God gathers His faithful ones",
+            "Matthew 24:31 — the chosen are gathered at the appointed coming",
+            "Romans 13:11 — salvation is nearer than before"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "In those days the Chosen One will sit upon his throne, and all the secrets of wisdom will come forth from the counsel of his mouth, for the Lord of Spirits has given them to him and glorified him.",
+          "study": "The enthroned Chosen One speaks wisdom received from the Lord of Spirits. His glory and knowledge are gifts exercised in counsel, keeping judgment rooted in revealed wisdom.",
+          "crossReferences": [
+            "Isaiah 11:2–4 — the chosen ruler judges by the Spirit's wisdom",
+            "Daniel 2:21–22 — God gives wisdom and reveals hidden things",
+            "John 5:22–23 — judgment and honor are granted to the Son"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "In those days the mountains will leap like rams and the hills will skip like lambs satisfied with milk, and they will all become angels in heaven.",
+          "study": "Creation responds to deliverance with exuberant movement. The startling final clause extends the transformation heavenward; the witness states the change but does not define its mechanism.",
+          "crossReferences": [
+            "Psalm 114:4–6 — mountains and hills leap before the Lord",
+            "Isaiah 55:12 — mountains and hills rejoice at restoration",
+            "Luke 20:35–36 — those raised to the coming age are like angels"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Their faces will shine with joy, because in those days the Chosen One has risen. The earth will rejoice, the righteous will dwell upon her, and the chosen will walk and travel upon her.",
+          "study": "Resurrection produces embodied joy within a rejoicing creation. The promised future is not an empty earth but a restored home where righteous and chosen people dwell and move freely.",
+          "crossReferences": [
+            "Psalm 97:11–12 — light and joy are sown for the righteous",
+            "Isaiah 35:10 — the redeemed return with everlasting joy",
+            "Matthew 13:43 — the righteous shine in the kingdom"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 51 follows the end of mercy with a vision of restoration. Earth, Sheol and destruction must surrender those held within them; none has permanent possession of the dead.",
+          "The Chosen One both selects and teaches. Seated on the throne, he brings hidden wisdom into speech because the Lord of Spirits has granted and glorified him.",
+          "Mountains, hills and faces all respond with movement or light. Resurrection is presented as creation-wide joy rather than a private escape from the world.",
+          "The final picture fulfills the renewed-earth promise of Chapter 45. The righteous dwell and travel upon an earth that rejoices with them, under the risen Chosen One whose wisdom orders the restored life."
+        ]
+      },
+      "crossReferences": [
+        "Isaiah 26:19; Revelation 20:13 — earth and the realm of death giving back the dead",
+        "Daniel 12:2 — awakening from the dust",
+        "Isaiah 11:2–4 — wisdom and judgment of the chosen ruler",
+        "Psalm 114:4–6; Isaiah 55:12 — creation leaping and rejoicing",
+        "Luke 20:35–36 — resurrected people and angels"
+      ]
+    }
+  ]
+}

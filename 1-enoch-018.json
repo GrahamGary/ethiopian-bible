@@ -1,0 +1,224 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-018-2026-08-11",
+  "contentVersion": "2026.08.11.10",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 18,
+      "title": "Chapter 18 — The Seven Mountains and the Prison of the Stars",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary-language witnesses for this chapter. The extant Aramaic wording of 4Q204 (4QEnoch c), fragment 1 viii, lines 27–30, governs the preserved portions of 18:8–12. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the continuous sixteen-verse chapter and is the principal source where the Aramaic is absent. The complete Ethiopic (Geʽez) tradition, including Rylands Ethiopic MS 23, preserves the chapter's sequence and short clauses lost from the Greek by scribal omission in verses 2–3 and 5. The rare mineral names taben and pouka in verses 7–8 are retained as ancient transliterations because their exact identifications are uncertain. No missing text was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I saw the treasuries of all the winds. I saw that through them he set all created things in order, along with the foundation of the earth.",
+          "study": "The vision treats the winds as forces kept in appointed treasuries rather than as independent powers. Their work belongs to the ordering of creation itself, down to the earth's foundation. The unnamed divine subject is known by what he has arranged, while Enoch remains an observer of that order.",
+          "crossReferences": [
+            "Job 37:9–12 — winds and weather move under divine direction",
+            "Job 38:4–6 — God questions Job about the laying of the earth's foundations",
+            "Psalm 135:7 — God brings wind out from His storehouses",
+            "Jeremiah 10:12–13 — wisdom establishes the world and brings wind from storehouses"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I saw the cornerstone of the earth. I saw the four winds bearing the earth and the firmament of heaven.",
+          "study": "Cornerstone and four winds give the vision architectural and cosmic imagery at once. The earth and heaven are pictured as upheld within a coherent structure. The verse does not turn the winds into creators; they serve within the created arrangement Enoch is permitted to see.",
+          "crossReferences": [
+            "Job 26:7 — God stretches the north over emptiness and suspends the earth",
+            "Job 38:6 — the earth's bases and cornerstone are named in God's questions",
+            "Psalm 75:3 — God steadies the pillars when earth and its inhabitants totter",
+            "Zechariah 2:6 — the four winds of heaven describe the full compass of the world"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I saw how the winds stretch out the height of heaven. They stand between earth and heaven, and these are the pillars of heaven.",
+          "study": "The complete Ethiopic tradition preserves the clauses about heaven's height and pillars that dropped from the surviving Greek line. Together they present the winds as servants stationed in the space between earth and heaven. The pillar image stresses stability and assigned place, not divine identity.",
+          "crossReferences": [
+            "Job 26:11 — the pillars of heaven tremble at God's rebuke",
+            "Psalm 104:2–4 — God stretches out the heavens and makes winds His messengers",
+            "Isaiah 40:22 — God stretches out the heavens like a curtain",
+            "Amos 9:6 — God builds His upper chambers in the heavens"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I saw the winds turning the heaven and bringing the wheel of the sun, and all the stars, to their setting.",
+          "study": "The daily and nightly courses of the lights are shown as coordinated movements. Sun and stars do not choose their own paths; winds serve in bringing their cycles toward the west. The verse extends Chapter 17's picture of a creation governed by appointed routes and times.",
+          "crossReferences": [
+            "Genesis 1:14–18 — the heavenly lights are appointed for signs, seasons, days and years",
+            "Psalm 19:4–6 — the sun runs its course across the heavens",
+            "Ecclesiastes 1:5 — the sun sets and returns to the place of its rising",
+            "Job 38:31–33 — the constellations and ordinances of heaven lie under God's rule"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I saw the winds over the earth bearing the clouds. I saw the paths of the angels, the ends of the earth, and the support of heaven above.",
+          "study": "Clouds, angelic paths, earth's ends and heaven's support are seen within one ordered field. The phrase about the angels' paths is preserved by the Ethiopic witness where the Greek copy has a short omission. Enoch sees routes and boundaries, but he is not given possession of them.",
+          "crossReferences": [
+            "Job 22:14 — the vault of heaven and thick clouds mark the height above the earth",
+            "Psalm 104:3–4 — clouds, winds and messengers serve God's purposes",
+            "Isaiah 40:28 — the Creator is Lord of the ends of the earth",
+            "Daniel 4:11 — the ends of the whole earth appear in visionary description"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "I passed toward the south and saw a place burning night and day, where there were seven mountains made of precious stones—three extending toward the east and three toward the south.",
+          "study": "The journey turns south to a place of unceasing fire and seven jewel-like mountains. Six are grouped by direction, while the central seventh is described separately in verse 8. The precious materials heighten the place's splendor, but the continual fire also prepares for the judgment scene that follows.",
+          "crossReferences": [
+            "Exodus 24:10, 17 — sapphire-like pavement and consuming fire accompany the Sinai vision",
+            "Ezekiel 1:26–28 — precious-stone brilliance and fire frame the throne vision",
+            "Daniel 7:9–10 — fire surrounds the heavenly court",
+            "Revelation 21:19–21 — precious stones characterize the holy city's foundations"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Of those toward the east, one was of a many-colored stone, one of pearl-stone, and one of taben stone; those toward the south were of red stone.",
+          "study": "The stones are distinguished by color and material. Taben is retained from the ancient wording because the precise mineral cannot be established securely from the surviving witnesses. The description invites careful attention to what is seen without replacing an uncertain ancient name with a confident modern identification.",
+          "crossReferences": [
+            "Exodus 28:17–20 — varied precious stones are set in the high priest's breastpiece",
+            "1 Chronicles 29:2 — precious and many-colored stones are prepared for the temple",
+            "Ezekiel 28:13 — a range of precious stones appears in Edenic imagery",
+            "Revelation 4:3 — gemstone colors describe the brilliance around the throne"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The one in their midst reached to heaven like the throne of God; it was of pouka stone, and the summit of the throne was of sapphire stone.",
+          "study": "The central mountain completes the group of seven and rises like a throne toward heaven. Pouka is an ancient Aramaic mineral term carried into Greek, so its name is preserved rather than assigned an uncertain equivalent. The comparison is to the form and height of a throne; the mountain is not itself identified as God.",
+          "crossReferences": [
+            "Exodus 24:10 — beneath the God of Israel appears something like sapphire pavement",
+            "Ezekiel 1:26 — above the expanse is the likeness of a sapphire throne",
+            "Ezekiel 10:1 — a sapphire-like throne appears above the cherubim",
+            "Revelation 4:2–3 — the heavenly throne is described with gemstone brilliance"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "I saw a fire burning beyond these mountains.",
+          "study": "The brief verse moves the vision from jeweled splendor to the fire beyond it. The fire marks that Enoch is approaching a place of confinement and judgment. Its position beyond the mountains emphasizes that the journey continues past the visible grandeur to a more fearful boundary.",
+          "crossReferences": [
+            "Deuteronomy 4:24 — the LORD is described as a consuming fire",
+            "Psalm 97:3 — fire goes before God and burns up His adversaries",
+            "Daniel 7:10 — a stream of fire issues before the Judge",
+            "Hebrews 12:29 — the divine holiness is again described as consuming fire"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "This place is the boundary of the great earth; there the heavens come to their end.",
+          "study": "Enoch reaches an extremity where the earth's expanse and the heavens' visible structure terminate within the vision. The statement defines a limit, not a place for ordinary human travel. Creation has boundaries, and the disclosure of those boundaries remains under the guide's authority.",
+          "crossReferences": [
+            "Deuteronomy 4:32 — Moses speaks of searching from one end of heaven to the other",
+            "Job 38:12–13 — dawn takes hold of the ends of the earth",
+            "Psalm 19:4–6 — the sun's course reaches the ends of the heavens",
+            "Isaiah 40:28 — the LORD is Creator of the ends of the earth"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Then I saw a great chasm between the pillars of the fire of heaven, and I saw in it pillars of fire descending toward the earth. There was no measure to their depth or their height.",
+          "study": "Here the fragmentary Aramaic witness is directly preserved and governs the wording. The chasm lies among immeasurable pillars of heavenly fire that descend toward the earth. Its scale denies Enoch any ordinary measure, while the surrounding fire links this remote place with the chapter's coming account of confinement.",
+          "crossReferences": [
+            "Job 11:7–9 — the dimensions of divine mysteries exceed human measurement",
+            "Psalm 97:3–5 — fire and trembling mountains accompany God's presence",
+            "Daniel 7:10 — an immense river of fire flows before the throne",
+            "Luke 16:26 — a great chasm marks an impassable separation in Jesus' parable"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Beyond that chasm I saw a place where there was no firmament of heaven above, no firmly founded earth below it, no water beneath it, and no bird. The place was desolate and fearsome.",
+          "study": "The vision describes a place stripped of the familiar structures and creatures of the inhabited world. Heaven's firmament, founded earth, water and birds are all absent. Its desolation makes it fitting as a prison outside the ordered courses assigned to faithful heavenly beings.",
+          "crossReferences": [
+            "Genesis 1:6–10, 20 — firmament, earth, waters and birds belong to the ordered inhabited world",
+            "Jeremiah 4:23–26 — judgment is portrayed as a land emptied of light, people and birds",
+            "Isaiah 34:9–10 — desolation and unquenched burning mark a scene of judgment",
+            "2 Peter 2:4 — sinning angels are kept in gloomy confinement for judgment"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "There I saw seven stars like great burning mountains, and I asked about them.",
+          "study": "The seven stars appear as enormous burning mountains, joining the chapter's mountain and heavenly-light imagery. Enoch does not decide their meaning for himself; he asks his angelic guide. The question prepares an explicit explanation in the next verses and models restraint before an unfamiliar vision.",
+          "crossReferences": [
+            "Job 38:7 — the morning stars are paired with heavenly sons in creation imagery",
+            "Isaiah 14:12 — a fallen morning star images proud descent",
+            "Daniel 12:3 — stars can symbolize those who shine in the heavenly order",
+            "Jude 13 — wandering stars are associated with reserved darkness"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "The angel said, ‘This is the place at the end of heaven and earth. It became a prison for the stars and for the powers of heaven.’",
+          "study": "The guide identifies the boundary place as a prison for heavenly rebels. The stars are interpreted within the vision as powers of heaven, so their confinement is moral and judicial rather than merely astronomical. Assigned heavenly authority does not place its bearers beyond accountability.",
+          "crossReferences": [
+            "Isaiah 24:21–22 — the host of heaven is gathered like prisoners in a pit",
+            "Daniel 4:35 — the host of heaven remains under God's sovereign will",
+            "2 Peter 2:4 — angels who sinned are held for judgment",
+            "Jude 6 — angels who abandoned their proper dwelling are kept in bonds"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "The stars rolling about in the fire are those that transgressed the Lord's command at the beginning of their rising, because they did not come out at their appointed times.",
+          "study": "Their offense is stated as refusal of the order governing their rising. Earlier chapters contrasted obedient heavenly lights with human and angelic transgression; here disordered motion becomes a visible sign of disobedience. The Lord's command and appointed times define faithful service.",
+          "crossReferences": [
+            "Job 38:12 — the morning is commanded and dawn knows its place",
+            "Psalm 104:19 — the moon marks seasons and the sun knows its setting",
+            "Psalm 148:3–6 — sun, moon and stars praise God within an established decree",
+            "Jude 6, 13 — heavenly abandonment and wandering stars are linked with reserved judgment"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "He was angry with them and bound them until the time when their sin is completed—for ten thousand years.",
+          "study": "The chapter ends with a fixed period of restraint. Anger leads to binding, but the duration is neither undefined nor controlled by the prisoners; it lasts until the appointed completion associated with their sin. The ten-thousand-year expression underscores the immense reach of the sentence within the vision.",
+          "crossReferences": [
+            "Isaiah 24:22 — imprisoned heavenly powers are punished after many days",
+            "Daniel 7:22 — judgment arrives at an appointed time",
+            "2 Peter 2:4, 9 — rebellious angels are kept for judgment",
+            "Jude 6 — disobedient angels are held in lasting bonds until the great day's judgment"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 18 continues Enoch's tour of creation's remote boundaries. Winds, clouds, the courses of the sun and stars, the earth's cornerstone and heaven's pillars all occupy assigned places. The repeated ‘I saw’ keeps the account grounded in received vision rather than human mastery.",
+          "The seven precious-stone mountains combine beauty, height and fire. Their central mountain rises like a sapphire-crowned throne, yet beyond them lies a great chasm and a desolate region outside the familiar structures of the inhabited world. Splendor and judgment stand close together in the landscape Enoch is shown.",
+          "The guide explains the burning stars as heavenly powers that violated the Lord's command by refusing their appointed times. The chapter's theological center is therefore ordered obedience: high station and cosmic power remain accountable to the One who appoints their course.",
+          "The chapter also teaches restraint in the presence of mystery. Enoch asks about what he cannot interpret, the angel explains only what is given, and rare ancient mineral names remain rare rather than being forced into uncertain equivalents. Chapter 19 will continue the explanation of judgment upon the angels who joined themselves to women."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:6–18 — the firmament and heavenly lights receive ordered places and functions",
+        "Job 26:7–11; 38:4–13, 31–33 — earth's foundations, heaven's pillars and celestial ordinances",
+        "Psalm 104:2–4, 19; 135:7; 148:3–6 — winds, clouds, sun and stars serving within God's decree",
+        "Isaiah 24:21–22 — heavenly powers gathered and confined for judgment",
+        "Ezekiel 1:26–28; 10:1 — sapphire throne imagery joined with heavenly fire",
+        "Daniel 7:9–10 — the fiery heavenly court and judgment",
+        "2 Peter 2:4; Jude 6, 13 — rebellious angels and wandering stars kept for judgment"
+      ]
+    }
+  ]
+}

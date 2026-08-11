@@ -1,0 +1,124 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-025-2026-08-11",
+  "contentVersion": "2026.08.11.17",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 25,
+      "title": "Chapter 25 — The Tree Prepared for the Righteous",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 25. The Greek Codex Panopolitanus (Cairo Papyrus 10759) preserves the complete seven-verse chapter and is the translation base. Michael's explanation of the throne-like mountain, the reserved fragrant tree, the great judgment and the tree's future gift to the righteous is rendered from that continuous Greek witness. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "He said to me, 'Enoch, why do you ask, and why did you marvel at the fragrance of this tree? Why do you desire to learn the truth?'",
+          "study": "Michael begins by drawing out Enoch's desire for understanding. The tree's fragrance prompted wonder, but wonder alone is not knowledge. The question prepares Enoch to receive the truth about the mountain and tree from an authorized guide.",
+          "crossReferences": [
+            "Daniel 10:12 — Daniel's resolve to understand is heard before God",
+            "Proverbs 2:3–6 — understanding is sought, but wisdom and knowledge come from the LORD",
+            "Matthew 7:7–8 — asking and seeking are linked with receiving",
+            "1 Peter 1:10–12 — prophets search carefully into the salvation revealed to them"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Then I answered him, 'I want to know about everything, but especially about this tree.'",
+          "study": "Enoch states his question directly. His broad desire to understand narrows to the unique tree whose unfading life and fragrance set it apart. The response is candid but remains dependent on what Michael is permitted to disclose.",
+          "crossReferences": [
+            "Daniel 7:19 — Daniel desires to know the truth about a particular feature of the vision",
+            "Daniel 8:15 — the prophet seeks understanding of what he has seen",
+            "Zechariah 4:4–5 — a specific visionary object prompts a request for meaning",
+            "1 Enoch 24:4–6 — the exceptional tree provokes Enoch's wonder and Michael's response"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "He answered, saying, 'This high mountain, whose summit resembles the throne of God, is the seat where the great Lord, the Holy One of glory, the King of the age, will sit when he descends to visit the earth with goodness.'",
+          "study": "Michael interprets the central mountain as the seat of the divine King. The Lord's descent is described as a visitation in goodness, joining royal majesty with beneficent action toward the earth. The mountain resembles a throne because it is appointed for the enthroned presence.",
+          "crossReferences": [
+            "Exodus 19:18–20 — the LORD descends upon a mountain",
+            "Psalm 47:7–8 — God reigns as King and sits upon His holy throne",
+            "Isaiah 6:1–3 — the holy Lord of glory is seen enthroned",
+            "Zechariah 14:4, 9 — the LORD comes to the earth and is King over all"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "As for this fragrant tree, no flesh has authority to touch it until the great judgment, when he brings vengeance upon all and completes everything for the age. Then it will be given to the righteous and holy.",
+          "study": "The tree is reserved; present humanity cannot seize what God has appointed for a later gift. Its release follows the great judgment, when wrongdoing is answered and the divine purpose is brought to completion. Access is therefore grounded in God's timing and verdict, not human power.",
+          "crossReferences": [
+            "Genesis 3:22–24 — access to the tree of life is barred after human rebellion",
+            "Deuteronomy 32:35–36 — vengeance and vindication belong to God",
+            "Daniel 7:22 — judgment is given and the holy ones receive the kingdom",
+            "Revelation 22:14 — the cleansed are granted access to the tree of life"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Its fruit will be food for the chosen, for life, and it will be transplanted to the holy place beside the house of God, the King of the age.",
+          "study": "The tree's fruit is explicitly connected with life and with the chosen. Its future location beside God's house places nourishment near holy presence. The image brings together garden, sanctuary and kingship without suggesting that life can be obtained apart from God's gift.",
+          "crossReferences": [
+            "Genesis 2:9 — the tree of life stands within God's garden",
+            "Psalm 36:8–9 — life and abundant provision are found in God's presence",
+            "Ezekiel 47:12 — sanctuary waters sustain trees whose fruit is food",
+            "Revelation 22:1–2 — the tree of life grows beside the river flowing from God's throne"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Then they will rejoice with great joy and be glad, and they will enter the holy place. Its fragrances will be in their bones, and they will live a longer life upon the earth than their ancestors lived. In their days neither torments, plagues nor scourges will touch them.",
+          "study": "The promise extends from food to joy, holy access, bodily renewal and freedom from affliction. Fragrance reaching the bones portrays life permeating the whole person. Longevity is measured against the ancestors, while the absence of plagues and scourges marks release from the conditions of judgment.",
+          "crossReferences": [
+            "Isaiah 35:10 — the redeemed enter with gladness as sorrow and sighing flee",
+            "Isaiah 65:20–23 — restored life includes longevity and freedom from calamity",
+            "Proverbs 3:7–8 — reverence for the LORD is described as healing and refreshment to the bones",
+            "Revelation 21:3–4 — God's dwelling with humanity brings an end to death, pain and mourning"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Then I blessed the God of glory, the King of the age, who prepared such things for the righteous, created them and promised to give them to them.",
+          "study": "Enoch's final response is blessing directed to the One who prepares, creates and promises the gift. The righteous do not manufacture the holy place or the tree of life; both provision and fulfillment belong to the King. The chapter ends with trust in a promise grounded in the Creator's own work.",
+          "crossReferences": [
+            "Psalm 31:19 — God stores up goodness for those who fear Him",
+            "Isaiah 64:4 — God acts for the one who waits for Him",
+            "1 Corinthians 2:9 — God has prepared what human sight and hearing did not discover",
+            "Revelation 21:5–7 — the enthroned One makes all things new and gives the inheritance"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 25 supplies the interpretation withheld at the end of Chapter 24. The central mountain is a future seat for the great and holy King, and the exceptional tree is reserved until the great judgment. Its beauty is therefore not merely ornamental; it belongs to God's future provision for the righteous.",
+          "The tree cannot be taken by human authority. It is given only after judgment and completion, and its fruit becomes life-giving food for the chosen beside God's house. The chapter presents life as gift, not seizure—a reversal of the barred access to the tree of life after Eden.",
+          "The promised result reaches the whole life of God's people: joy, holy access, fragrance in the bones, lengthened days and freedom from torment, plague and scourge. These blessings are concrete within the vision, yet their timing remains attached to divine visitation and judgment.",
+          "Enoch closes by blessing the God of glory because promise rests on God's action. He prepared these things, created them and declared that they would be given. The chapter's theological center is therefore the reliability and generosity of the eternal King who brings justice to completion and shares life with the righteous."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 2:9; 3:22–24 — the tree of life and barred human access",
+        "Psalm 36:8–9; 47:7–8 — life near God and the King upon His throne",
+        "Isaiah 35:10; 65:20–23 — joy, long life and the end of affliction",
+        "Ezekiel 47:12 — life-giving fruit beside the sanctuary",
+        "Daniel 7:22 — judgment and inheritance for the holy ones",
+        "Revelation 21:3–7; 22:1–2, 14 — renewed life, God's dwelling and access to the tree"
+      ]
+    }
+  ]
+}

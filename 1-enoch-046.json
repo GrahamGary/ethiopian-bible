@@ -1,0 +1,126 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-046-2026-08-11",
+  "contentVersion": "2026.08.11.38",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 46,
+      "title": "Chapter 46 — The Head of Days and the Son of Man",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic or Greek wording has been identified for the Parables. The complete Ethiopic (Geʽez) text preserved in Rylands Ethiopic MS 23 is the translation base for all eight verses, including the Head of Days, the humanlike Son of Man, his righteousness and chosen status, and the overthrow of rulers who trust wealth and handmade gods. The transmitted titles Head of Days, Son of Man and Lord of Spirits are kept distinct. The difficult statement about rulers judging the stars is rendered as transmitted without a supplied explanation. No unattested wording was supplied, and no modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "There I saw One who had a Head of Days, and His head was white like wool. With Him was another whose face had the appearance of a human being, and his face was full of graciousness, like one of the holy angels.",
+          "study": "The vision places an eternal, white-haired figure beside a gracious humanlike figure. Difference is maintained even in proximity: the Son of Man stands with the Head of Days without being confused with Him.",
+          "crossReferences": [
+            "Daniel 7:9, 13 — the Ancient of Days and one like a son of man appear together",
+            "Ezekiel 1:26 — a humanlike appearance is seen above the heavenly throne",
+            "Revelation 1:13–14 — a humanlike heavenly figure bears radiant white hair"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I asked one of the angels who went with me and showed me every hidden thing about that Son of Man: who he was, from where he came, and why he went with the Head of Days.",
+          "study": "Enoch's questions concern identity, origin and relationship. The guide's answer, not appearance alone, will define the Son of Man's role in the vision.",
+          "crossReferences": [
+            "Daniel 7:16 — the seer asks a heavenly attendant for interpretation",
+            "Zechariah 1:9 — an angel explains what the prophet sees",
+            "John 7:27–29 — questions of the appointed one's origin become central"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "He answered me and said, 'This is the Son of Man to whom righteousness belongs, and righteousness dwells with him. He will reveal all the treasuries of what is hidden, for the Lord of Spirits has chosen him, and his portion has surpassed everything before the Lord of Spirits in uprightness forever.'",
+          "study": "The Son of Man is characterized first by indwelling righteousness, disclosure of hidden things and divine choice. His preeminence is a granted portion lived in enduring uprightness before the Lord of Spirits.",
+          "crossReferences": [
+            "Isaiah 11:1–5 — the chosen ruler judges in righteousness",
+            "Daniel 2:22 — God reveals deep and hidden things",
+            "Colossians 2:3 — treasures of wisdom and knowledge are hidden in the chosen one"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "This Son of Man whom you have seen will raise the kings and the mighty from their couches, and the strong from their thrones. He will loosen the reins of the strong and break the teeth of sinners.",
+          "study": "Entrenched rulers are made to rise and answer before the Son of Man. Reins and teeth picture control and predatory power; both are broken so that strength can no longer secure injustice.",
+          "crossReferences": [
+            "Psalm 3:7 — God breaks the teeth of the wicked",
+            "Psalm 110:5 — kings fall in the day of divine wrath",
+            "Luke 1:52 — the mighty are brought down from thrones"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "He will cast the kings down from their thrones and from their kingdoms, because they do not exalt Him or praise Him, nor humbly acknowledge where their kingdom was given to them.",
+          "study": "The rulers' deepest offense is treating received authority as self-created possession. Their fall answers ingratitude, pride and refusal to recognize the true giver of rule.",
+          "crossReferences": [
+            "Daniel 2:21 — God removes kings and sets up kings",
+            "Daniel 5:18–23 — a king is judged for failing to honor the giver of sovereignty",
+            "Romans 13:1 — governing authority exists only by divine ordering"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "He will cast down the faces of the strong and fill them with shame. Darkness will be their dwelling and worms their bed, and they will have no hope of rising from their beds, because they did not exalt the name of the Lord of Spirits.",
+          "study": "Public glory gives way to shame, darkness and decay. The rulers who would not exalt the Lord's name are brought low beyond the reach of their former privilege.",
+          "crossReferences": [
+            "Isaiah 14:11 — royal pomp descends to a bed of worms",
+            "Daniel 12:2 — some rise to shame and everlasting contempt",
+            "Acts 12:21–23 — a ruler who accepts divine honor is struck and consumed by worms"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "These are the ones who judge the stars of heaven, raise their hands against the Most High, tread upon the dry ground, and dwell upon it. All their deeds display unrighteousness, and their power rests upon their riches. Their faith is in the gods they have made with their own hands, and they deny the name of the Lord of Spirits.",
+          "study": "The witness gathers cosmic presumption, earthly oppression, wealth and idolatry into one portrait. Power grounded in riches and handmade gods becomes open denial of the Most High.",
+          "crossReferences": [
+            "Isaiah 2:7–8 — wealth, power and handmade idols fill a proud land",
+            "Daniel 8:10–11 — arrogant power reaches toward the host of heaven",
+            "Revelation 13:6–8 — oppressive rule blasphemes heaven and demands false worship"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "They will be driven from the houses of His assembly and from the faithful who depend upon the name of the Lord of Spirits.",
+          "study": "The final exclusion protects the worshiping community. Those who denied the Lord's name cannot continue to dominate the assembly of people whose whole confidence rests upon that name.",
+          "crossReferences": [
+            "Psalm 1:5 — the wicked do not stand in the assembly of the righteous",
+            "Isaiah 14:20 — destructive rulers are separated from the gathered people",
+            "2 Thessalonians 1:9 — the wicked are excluded from the Lord's presence and glory"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 46 identifies the Chosen One of Chapter 45 as the Son of Man who walks with the Head of Days. His humanlike face is gracious, while his defining quality is righteousness that dwells within him.",
+          "The Lord of Spirits chooses him to reveal hidden treasuries and confront the hidden assumptions of political power. Kings are judged because they treated a received kingdom as though it had no giver.",
+          "The chapter exposes the supports of oppressive rule: strength, riches, manufactured gods and denial of the Lord's name. When these supports are removed, proud thrones yield to shame and darkness.",
+          "The Son of Man's judgment also restores the faithful assembly. Those who depended on the Lord's name are separated from rulers who denied it, making righteous presence possible within the renewed dwelling promised in Chapter 45."
+        ]
+      },
+      "crossReferences": [
+        "Daniel 7:9–14 — the Ancient of Days and the humanlike ruler",
+        "Isaiah 11:1–5 — the righteous chosen judge",
+        "Daniel 2:21; 5:18–23 — kings receive and lose authority from God",
+        "Isaiah 2:7–8 — riches and handmade idols supporting pride",
+        "Luke 1:52 — mighty rulers brought down from thrones"
+      ]
+    }
+  ]
+}
