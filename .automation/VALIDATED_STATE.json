@@ -4,14 +4,14 @@
   "lastValidated": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 82
+    "chapter": 85
   },
   "nextUnfinished": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 83
+    "chapter": 86
   },
-  "validatedAt": "2026-08-11T12:47:33Z",
+  "validatedAt": "2026-08-11T16:49:57Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -416,6 +416,21 @@
     {
       "path": "1-enoch-082.json",
       "sha256": "4b151327a5b019c906f02cf48233d64525d758cf617421538c78cff51642b0ff",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-083.json",
+      "sha256": "b5b91e8f949a33ced71fa248bbf3c171b8c3eb9ae4e13f8c69bee34591eeb52c",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-084.json",
+      "sha256": "2d6d81f4300a7a5cffbfd1e4d70fab6c8a2f99f66a590cd5af19b5d9bc41639f",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-085.json",
+      "sha256": "8c59c6e4db2bb711272bd455ac489cd3dd66d7689c9050edbca8ad13e4adb28d",
       "scope": "validated Scripture"
     }
   ]

@@ -1,0 +1,146 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-083-2026-08-11",
+  "contentVersion": "2026.08.11.75",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 83,
+      "title": "Chapter 83 — Enoch’s First Dream of the Flood",
+      "sourceNote": "Translated afresh into clear modern English from the complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 59–60. No surviving Aramaic or Greek manuscript preserves wording from Chapter 83; the extant Aramaic fragments of the Dream Visions preserve portions of later chapters. The Geʽez witness therefore supplies the entire eleven-verse unit, including the collapse of heaven, the earth’s descent into the abyss, Mahalalel’s interpretation, Enoch’s intercession and the restored heavenly order. No modern English translation was used as the translation base, and no text absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "And now, my son Methuselah, I will show you all the visions that I saw, recounting them before you.",
+          "study": "Enoch addresses Methuselah as the next guardian of his testimony. Revelation is recounted personally so that it can be preserved faithfully.",
+          "crossReferences": [
+            "Genesis 5:21–22 — Methuselah belongs to Enoch’s family line",
+            "Joel 1:3 — one generation recounts what it has received to the next"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I saw two visions before I took a wife, and one was unlike the other. The first came when I was learning to write, and the second before I took your mother. I saw a terrifying vision, and concerning it I pleaded with the Lord.",
+          "study": "The two visions belong to Enoch’s early life, before marriage. The terror of the second vision drives him toward prayer rather than silent fear.",
+          "crossReferences": [
+            "Daniel 7:1 — a dream is written down and its substance recounted",
+            "Habakkuk 2:2 — a vision is recorded clearly"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I lay down in the house of my grandfather Mahalalel, and in a vision I saw heaven collapse, be torn away and fall upon the earth.",
+          "study": "The vision begins in the safety of a family home but opens onto cosmic upheaval. The collapse of heaven signals judgment that overturns the world’s apparent stability.",
+          "crossReferences": [
+            "Genesis 5:12–17 — Mahalalel stands in Enoch’s ancestral line",
+            "Isaiah 34:4 — the heavens are rolled up in a vision of judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "When it fell upon the earth, I saw the earth swallowed in a great abyss. Mountains hung upon mountains, hills sank upon hills, and tall trees were torn from their trunks, hurled down and swallowed in the abyss.",
+          "study": "Every level of the created landscape is undone: mountains, hills and trees lose their places. The abyss receives what had seemed highest and most firmly rooted.",
+          "crossReferences": [
+            "Genesis 7:19–20 — the flood covers even the high mountains",
+            "Nahum 1:5 — mountains quake and hills melt before divine judgment"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then a word came into my mouth. I raised my voice to cry out and said, ‘The earth is destroyed!’",
+          "study": "Enoch’s first response is an involuntary cry of grief. The brief proclamation gives words to the total devastation shown in the dream.",
+          "crossReferences": [
+            "Jeremiah 4:23–26 — a prophetic vision sees the ordered earth laid waste",
+            "Habakkuk 3:16 — revelation of judgment produces trembling and distress"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "My grandfather Mahalalel woke me as I lay near him and said to me, ‘Why are you crying out like this, my son, and why are you lamenting so?’",
+          "study": "Mahalalel’s questions draw the hidden dream into spoken testimony. Family presence becomes the setting in which fear can be named and examined.",
+          "crossReferences": [
+            "1 Samuel 3:6–9 — an elder helps a younger hearer respond to revelation",
+            "Job 33:14–16 — instruction may come in a dream during deep sleep"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "I recounted to him the whole vision I had seen. He said to me, ‘You have seen a terrifying thing, my son, and the vision in your dream is weighty. It concerns the mystery of all the sin of the earth: the earth will be swallowed in the abyss and destroyed with a great destruction.’",
+          "study": "Mahalalel interprets the cosmic disaster as judgment on the earth’s sin. The vision’s weight lies in the moral cause behind the physical catastrophe.",
+          "crossReferences": [
+            "Genesis 6:11–13 — the corrupted earth faces comprehensive destruction",
+            "Daniel 2:28 — God discloses mysteries through a dream"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "‘And now, my son, rise and plead with the Lord of glory, for you are faithful. Ask that a remnant may remain upon the earth and that he may not destroy the whole earth.’",
+          "study": "The proper response to announced judgment is intercession. Mahalalel urges Enoch to appeal for a surviving remnant, trusting the Lord of glory to show mercy.",
+          "crossReferences": [
+            "Genesis 18:23–33 — Abraham intercedes when destruction is announced",
+            "Isaiah 10:20–22 — a remnant returns and survives"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "‘My son, all this will come from heaven upon the earth, and great destruction will take place upon the earth.’",
+          "study": "The warning is certain and its source is above human power. Judgment descends from heaven and reaches the earth where sin has spread.",
+          "crossReferences": [
+            "Genesis 7:11–12 — the floodwaters come as the windows of heaven open",
+            "Isaiah 24:18–20 — judgment shakes the earth from its foundations"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "After this I rose, prayed, pleaded and made supplication. I wrote down my prayer for the generations of the world, and I will show you everything, my son Methuselah.",
+          "study": "Enoch acts on Mahalalel’s counsel immediately. His prayer is both offered to God and written for later generations, joining intercession with faithful transmission.",
+          "crossReferences": [
+            "Psalm 102:18 — a testimony is written for a future generation",
+            "Philippians 4:6 — prayer and supplication bring every concern before God"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Then I went out below and saw heaven, the sun rising in the east, the moon setting in the west, a few stars and the whole creation proceeding as it had been known from the beginning. I blessed the Lord of judgment and exalted him because he makes the sun come out through the windows of the east. It rises and ascends upon the face of heaven, then sets out and continues along the path shown to it.",
+          "study": "After the night vision, Enoch sees the familiar order of the heavens continuing. He worships the Judge whose authority governs both catastrophic judgment and the sun’s dependable course.",
+          "crossReferences": [
+            "Genesis 8:22 — ordered days and seasons continue by God’s promise",
+            "Psalm 19:4–6 — the sun follows its appointed course across heaven"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 83 opens the Book of Dream Visions. Enoch tells Methuselah about two early dreams and recounts the first, a terrifying disclosure of the destruction that will come upon the sinful earth.",
+          "The vision presents judgment as the undoing of created stability. Heaven collapses, mountains and hills lose their places, and great trees are uprooted and swallowed by the abyss. Mahalalel identifies the moral cause: the mystery of the earth’s pervasive sin.",
+          "Mahalalel does not counsel resignation. He commands Enoch to appeal to the Lord of glory for a remnant, making intercession the faithful response to revealed judgment.",
+          "The chapter ends beneath an ordered sky. The sun still follows the path appointed to it, and Enoch blesses the Lord of judgment. The same sovereign authority that judges corruption preserves order, hears supplication and provides hope for future generations."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:11–13 — the earth’s corruption brings announced destruction",
+        "Genesis 7:11–24 — the flood overwhelms the earth",
+        "Genesis 8:22 — created rhythms continue after judgment",
+        "Isaiah 24:18–20 — the earth reels under divine judgment",
+        "Daniel 7:1 — a dream vision is written and recounted",
+        "Psalm 102:18 — testimony is preserved for a coming generation"
+      ]
+    }
+  ]
+}

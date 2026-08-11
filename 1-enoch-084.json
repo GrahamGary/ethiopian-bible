@@ -1,0 +1,101 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-084-2026-08-11",
+  "contentVersion": "2026.08.11.76",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 84,
+      "title": "Chapter 84 — Enoch’s Prayer for a Righteous Remnant",
+      "sourceNote": "Translated afresh into clear modern English from the complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 60–61. No surviving Aramaic or Greek manuscript preserves wording from Chapter 84; the extant earlier-language fragments of the Dream Visions cover portions of later chapters. The Geʽez witness therefore supplies the entire six-verse prayer, including its praise of the Creator, confession of heavenly guilt, appeal for surviving descendants and petition for a seed of righteousness. No modern English translation was used as the translation base, and no text absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I lifted my hands in righteousness and blessed the Holy and Great One. I spoke with the breath of my mouth and with the tongue of flesh that God made for the mortal children of humanity, so that they might speak. He gave them breath, a tongue and a mouth with which to speak.",
+          "study": "Enoch begins prayer by recognizing speech itself as God’s gift. Breath, tongue and mouth are entrusted to mortal people so that they may direct truthful praise to their Maker.",
+          "crossReferences": [
+            "Psalm 63:4 — hands are lifted while God is blessed",
+            "Exodus 4:11 — the Lord is maker of the human mouth"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Blessed are you, Lord, great and mighty King in your greatness, Lord of the whole creation of heaven, King of kings and God of the whole world. Your power, kingship and greatness remain forever and ever, and your dominion throughout every generation. All the heavens are your throne forever, and the whole earth is your footstool forever and ever.",
+          "study": "The prayer rests on God’s universal and enduring reign. Heaven and earth are not competing realms; both stand under the authority of the King whose dominion outlasts every generation.",
+          "crossReferences": [
+            "Isaiah 66:1 — heaven is God’s throne and earth his footstool",
+            "Psalm 145:13 — divine kingship endures through every generation"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "For you made everything and rule over everything; nothing is too difficult for you. Wisdom does not depart from the place of your throne or turn away from your presence. You know, see and hear everything, and nothing is hidden from you, for you see everything.",
+          "study": "Creation, sovereignty, wisdom and complete knowledge belong together in Enoch’s confession. His petition is offered to the One who both can act and already sees every concealed wrong.",
+          "crossReferences": [
+            "Jeremiah 32:17 — nothing is too difficult for the Creator",
+            "Hebrews 4:13 — nothing in creation is hidden from God’s sight"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "And now the angels of your heavens have become guilty of transgression, and your wrath remains upon mortal humanity until the great day of judgment.",
+          "study": "Enoch names guilt in both heavenly and earthly dimensions. The rebellious angels transgressed, while humanity lives under the continuing consequences until the appointed judgment.",
+          "crossReferences": [
+            "Genesis 6:1–5 — heavenly rebellion and human corruption precede the flood",
+            "Jude 6 — disobedient angels are kept for the judgment of the great day"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "And now, God, Lord and Great King, I plead with you and implore you to fulfill my prayer: leave descendants for me upon the earth. Do not destroy all mortal flesh or make the earth empty of inhabitants, so that its destruction would be eternal.",
+          "study": "The intercession asks for continuity rather than escape from justice. Enoch appeals for descendants and for an inhabited earth, seeking mercy that carries life beyond judgment.",
+          "crossReferences": [
+            "Genesis 8:1 — God remembers Noah and those preserved with him",
+            "Habakkuk 3:2 — mercy is sought in the midst of wrath"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "And now, my Lord, destroy from the earth the flesh that has provoked your wrath, but establish righteous and upright flesh as a plant whose seed endures forever. Do not hide your face from the prayer of your servant, Lord.",
+          "study": "The final petition distinguishes unrepentant corruption from the righteous life Enoch asks God to establish. The image of an enduring plant turns the hope of a remnant toward future fruitfulness.",
+          "crossReferences": [
+            "Isaiah 61:3 — the righteous are called a planting of the Lord",
+            "Psalm 27:9 — a servant pleads that God not hide his face"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 84 records the intercession prompted by Enoch’s first dream. He lifts his hands and begins with praise, treating even the human ability to speak as a gift meant for blessing the Holy and Great One.",
+          "The prayer builds its appeal on God’s character. The Creator rules heaven and earth forever, possesses wisdom that never leaves his throne, and sees, hears and knows everything. Nothing is hidden and nothing is too difficult for him.",
+          "Enoch confesses the transgression of the heavenly angels and the wrath resting on mortal humanity. He does not deny guilt or ask God to ignore corruption; he asks that judgment not erase every inhabitant and every future generation.",
+          "The closing image is a plant of righteous and upright flesh whose seed endures. Mercy preserves a remnant so that righteousness may take root beyond catastrophe, while the servant’s prayer remains wholly dependent on God turning his face toward him."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:1–8 — rebellion, corruption, judgment and preserving favor",
+        "Genesis 8:1 — God remembers those preserved through the flood",
+        "Isaiah 66:1 — heaven is God’s throne and earth his footstool",
+        "Psalm 145:13 — God’s dominion endures through all generations",
+        "Habakkuk 3:2 — mercy is sought in the midst of wrath",
+        "Jude 6 — rebellious angels await the great day of judgment"
+      ]
+    }
+  ]
+}
