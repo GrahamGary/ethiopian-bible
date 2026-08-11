@@ -1,0 +1,58 @@
+{
+  "format": "ethiopian-bible-correction-evidence",
+  "schemaVersion": 1,
+  "authorizationId": "owner-authorized-1-enoch-085-poxy-2069-2026-08-11",
+  "bookId": "1-enoch",
+  "chapter": 85,
+  "chapterFile": "1-enoch-085.json",
+  "sourceChecks": {
+    "earliestPrimaryWitnessesUsed": true,
+    "modernTranslationNotUsed": true,
+    "commentaryNotUsedAsScripture": true,
+    "missingTextNotGuessed": true,
+    "completeSourceEstablished": true
+  },
+  "primaryWitnesses": [
+    {
+      "language": "Ethiopic (Geʽez)",
+      "witness": "August Dillmann, Liber Henoch Aethiopice (Leipzig, 1851)",
+      "scope": "Complete 1 Enoch 85:1–10 on printed pages 61–62"
+    },
+    {
+      "language": "Greek",
+      "witness": "P.Oxy. XVII 2069, fragments 1r–2r",
+      "scope": "1 Enoch 85:10–86:2; Chapter 85 overlap is fragmentary verse 10"
+    }
+  ],
+  "primarySourceRecords": [
+    {
+      "repository": "Oxford University, Papyrology Rooms / Sustainable Digital Scholarship",
+      "record": "P.Oxy. XVII 2069. Enoch 85. 10-86. 2; 87. 1-3",
+      "locator": "https://doi.org/10.25446/oxford.21162298.v2",
+      "scopeVerified": "Greek papyrus witness spanning 1 Enoch 85:10–86:2; official recto and verso images inspected"
+    },
+    {
+      "repository": "August Dillmann critical edition",
+      "record": "Liber Henoch Aethiopice (Leipzig: T. O. Weigel / F. A. Brockhaus, 1851)",
+      "locator": "Printed pages 61–62",
+      "scopeVerified": "Complete Ethiopic (Geʽez) text of 1 Enoch 85:1–10, including verse 10"
+    },
+    {
+      "repository": "DCLP / papyri.info",
+      "record": "DCLP 59975, P.Oxy. 17 2069",
+      "locator": "https://papyri.info/dclp/59975",
+      "scopeVerified": "Catalogued Henoch material including 1 Enoch 85:10–86:2"
+    }
+  ],
+  "affectedVerses": [
+    10
+  ],
+  "scriptureWordingChanged": false,
+  "scriptureWordingAssessment": "The surviving P.Oxy. XVII 2069 wording in 1 Enoch 85:10 is fragmentary but agrees with the existing sequence and multiplicity expressed by ‘one following another’; it provides no demonstrable basis for changing the current Scripture wording.",
+  "sourceAttestationChanges": [
+    "Removed the false claim that no surviving Greek manuscript preserves wording from Chapter 85.",
+    "Recorded P.Oxy. XVII 2069, fragments 1r–2r, as a fragmentary Greek witness spanning 1 Enoch 85:10–86:2, with Chapter 85 overlap limited to verse 10.",
+    "Corrected the Dillmann page scope for Chapter 85 from printed pages 61–63 to printed pages 61–62.",
+    "Clarified that the complete Geʽez witness supplies Chapter 85 wording not preserved in the fragmentary Greek witness."
+  ]
+}

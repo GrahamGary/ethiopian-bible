@@ -22,6 +22,9 @@ LOCK = AUTOMATION / "PRODUCTION_LOCK.json"
 STATE = AUTOMATION / "VALIDATED_STATE.json"
 READY = AUTOMATION / "PUBLISH_READY.json"
 TRANSACTION = AUTOMATION / "FINALIZE_TRANSACTION.json"
+CORRECTION_AUTHORIZATION = AUTOMATION / "CORRECTION_AUTHORIZATION.json"
+CORRECTION_CANDIDATE = AUTOMATION / "VALIDATION_CANDIDATE.json"
+CORRECTION_EVIDENCE = AUTOMATION / "CORRECTION_1_ENOCH_085_EVIDENCE.json"
 PUBLISH_LOCK = AUTOMATION / "PUBLISH_LOCK.json"
 PUBLICATION_STATE = AUTOMATION / "PUBLICATION_STATE.json"
 PUBLICATION_PENDING = AUTOMATION / "PUBLICATION_STATE.pending.json"
@@ -41,6 +44,18 @@ REQUIRED_CHECKS = (
     "navigation",
     "mobileLayout",
     "previousContentIntegrity",
+)
+AUTHORIZED_CORRECTION_TARGET = ("1-enoch", 85)
+AUTHORIZED_CORRECTION_FILE = "1-enoch-085.json"
+AUTHORIZED_CORRECTION_ID = "owner-authorized-1-enoch-085-poxy-2069-2026-08-11"
+CORRECTION_PERMITTED_FILES = (
+    ".automation/CORRECTION_1_ENOCH_085_EVIDENCE.json",
+    ".automation/PUBLISH_READY.json",
+    ".automation/README.md",
+    ".automation/VALIDATED_STATE.json",
+    ".gitignore",
+    AUTHORIZED_CORRECTION_FILE,
+    "scripts/validation-gate.py",
 )
 
 
@@ -396,7 +411,64 @@ def protected_entries(last):
     return entries
 
 
-def validate_state(expected_last=None):
+def validate_correction_history(state):
+    corrections = state.get("corrections", [])
+    if not isinstance(corrections, list):
+        raise GateError("VALIDATED_STATE.json corrections history is invalid")
+    if len(corrections) > 1:
+        raise GateError("VALIDATED_STATE.json records more than the one authorized protected correction")
+    protected = {
+        entry.get("path"): entry.get("sha256")
+        for entry in state.get("protectedFiles", [])
+        if isinstance(entry, dict)
+    }
+    seen = set()
+    for correction in corrections:
+        if not isinstance(correction, dict):
+            raise GateError("VALIDATED_STATE.json has an invalid correction record")
+        authorization = correction.get("authorization")
+        target = correction.get("target")
+        authorization_id = authorization.get("id") if isinstance(authorization, dict) else None
+        if authorization_id != AUTHORIZED_CORRECTION_ID or authorization_id in seen:
+            raise GateError("VALIDATED_STATE.json has an invalid or duplicate correction authorization")
+        seen.add(authorization_id)
+        if not isinstance(target, dict) or (
+            target.get("bookId"), target.get("chapter"), target.get("path")
+        ) != ("1-enoch", 85, AUTHORIZED_CORRECTION_FILE):
+            raise GateError("VALIDATED_STATE.json correction target is invalid")
+        parse_iso(correction.get("correctedAt"))
+        if not re.fullmatch(r"[0-9a-f]{64}", authorization.get("sha256") or ""):
+            raise GateError("VALIDATED_STATE.json correction authorization hash is invalid")
+        old_hash = correction.get("oldSha256")
+        new_hash = correction.get("newSha256")
+        if (
+            not re.fullmatch(r"[0-9a-f]{64}", old_hash or "")
+            or not re.fullmatch(r"[0-9a-f]{64}", new_hash or "")
+            or old_hash == new_hash
+            or protected.get(AUTHORIZED_CORRECTION_FILE) != new_hash
+        ):
+            raise GateError("VALIDATED_STATE.json correction hashes are invalid")
+        if correction.get("permittedChapterChanges") != ["sourceNote"]:
+            raise GateError("VALIDATED_STATE.json correction field scope is invalid")
+        if correction.get("affectedVerses") != [10] or correction.get("scriptureWordingChanged") is not False:
+            raise GateError("VALIDATED_STATE.json correction verse scope is invalid")
+        if type(correction.get("unrelatedProtectedFilesVerified")) is not int:
+            raise GateError("VALIDATED_STATE.json correction integrity count is invalid")
+        witnesses = correction.get("primaryWitnesses")
+        changes = correction.get("sourceAttestationChanges")
+        if not isinstance(witnesses, list) or len(witnesses) < 2 or not isinstance(changes, list) or not changes:
+            raise GateError("VALIDATED_STATE.json correction evidence is incomplete")
+        evidence = correction.get("evidence")
+        if (
+            not isinstance(evidence, dict)
+            or evidence.get("path") != relative(CORRECTION_EVIDENCE)
+            or protected.get(evidence.get("path")) != evidence.get("sha256")
+        ):
+            raise GateError("VALIDATED_STATE.json correction evidence hash is invalid")
+
+
+def validate_state(expected_last=None, allowed_hash_drift=None):
+    allowed_hash_drift = set(allowed_hash_drift or ())
     state = read_json(STATE)
     if state.get("format") != "ethiopian-bible-validated-state" or state.get("schemaVersion") != 1:
         raise GateError("VALIDATED_STATE.json has the wrong format or schema")
@@ -418,12 +490,16 @@ def validate_state(expected_last=None):
         seen.add(entry.get("path"))
         path = safe_path(entry.get("path"))
         expected_hash = entry.get("sha256")
-        if not re.fullmatch(r"[0-9a-f]{64}", expected_hash or "") or sha256(path) != expected_hash:
+        if not re.fullmatch(r"[0-9a-f]{64}", expected_hash or ""):
+            raise GateError(f"invalid protected hash: {entry.get('path')}")
+        if entry.get("path") not in allowed_hash_drift and sha256(path) != expected_hash:
             raise GateError(f"previous validated content changed: {entry.get('path')}")
+    validate_correction_history(state)
     return state
 
 
-def validate_ready(expected_last=None):
+def validate_ready(expected_last=None, allowed_hash_drift=None):
+    allowed_hash_drift = set(allowed_hash_drift or ())
     ready = read_json(READY)
     if ready.get("format") != "ethiopian-bible-publish-ready" or ready.get("schemaVersion") != 1:
         raise GateError("PUBLISH_READY.json has the wrong format or schema")
@@ -456,7 +532,9 @@ def validate_ready(expected_last=None):
                 raise GateError("PUBLISH_READY.json must use self-validation for its own READY entry")
             continue
         expected_hash = entry.get("sha256")
-        if not re.fullmatch(r"[0-9a-f]{64}", expected_hash or "") or sha256(path) != expected_hash:
+        if not re.fullmatch(r"[0-9a-f]{64}", expected_hash or ""):
+            raise GateError(f"READY file hash is invalid: {path_text}")
+        if path_text not in allowed_hash_drift and sha256(path) != expected_hash:
             raise GateError(f"READY file hash mismatch: {path_text}")
     if relative(READY) not in seen:
         raise GateError("PUBLISH_READY.json does not list itself as publication control")
@@ -611,6 +689,134 @@ def create_lock_atomic(payload):
     return True
 
 
+def validate_correction_authorization(state, ready):
+    authorization = read_json(CORRECTION_AUTHORIZATION)
+    if (
+        authorization.get("format") != "ethiopian-bible-correction-authorization"
+        or authorization.get("schemaVersion") != 1
+    ):
+        raise GateError("correction authorization has the wrong format or schema")
+    authorization_id = authorization.get("authorizationId")
+    target = authorization.get("target")
+    if authorization_id != AUTHORIZED_CORRECTION_ID:
+        raise GateError("correction authorization ID is not the one authorized operation")
+    if state.get("corrections"):
+        raise GateError("the one authorized protected Chapter 85 correction is already recorded")
+    if not isinstance(target, dict) or (
+        target.get("bookId"), target.get("book"), target.get("chapter"), target.get("path")
+    ) != ("1-enoch", "1 Enoch", 85, AUTHORIZED_CORRECTION_FILE):
+        raise GateError("correction authorization is not narrowly scoped to 1 Enoch 85")
+    if authorization.get("permittedChapterChanges") != ["sourceNote"]:
+        raise GateError("correction authorization permits more than the sourceNote correction")
+    permitted_files = authorization.get("permittedFiles")
+    if not isinstance(permitted_files, list) or sorted(permitted_files) != sorted(CORRECTION_PERMITTED_FILES):
+        raise GateError("correction authorization file allow-list is not exact")
+    require_text(authorization.get("reason"), "correction authorization reason")
+    if "P.Oxy. XVII 2069" not in authorization["reason"]:
+        raise GateError("correction authorization does not identify P.Oxy. XVII 2069")
+    if authorization.get("nextUnfinished") != {"bookId": "1-enoch", "book": "1 Enoch", "chapter": 86}:
+        raise GateError("correction authorization does not preserve Chapter 86 as next unfinished")
+    witnesses = authorization.get("requiredPrimaryWitnesses")
+    if not isinstance(witnesses, list) or len(witnesses) != 2:
+        raise GateError("correction authorization must name exactly the two required primary witnesses")
+    witness_text = json.dumps(witnesses, ensure_ascii=False)
+    if (
+        "August Dillmann" not in witness_text
+        or "P.Oxy. XVII 2069" not in witness_text
+        or not re.search(r"85:10\s*[–—-]\s*86:2", witness_text)
+    ):
+        raise GateError("correction authorization primary-witness scope is incomplete")
+    if (state["lastValidated"], state["nextUnfinished"]) != (
+        {"bookId": "1-enoch", "book": "1 Enoch", "chapter": 85},
+        {"bookId": "1-enoch", "book": "1 Enoch", "chapter": 86},
+    ) or (ready["lastValidated"], ready["nextUnfinished"]) != (
+        state["lastValidated"],
+        state["nextUnfinished"],
+    ):
+        raise GateError("validated markers do not permit the authorized Chapter 85 correction")
+    protected = {entry["path"]: entry for entry in state["protectedFiles"]}
+    if AUTHORIZED_CORRECTION_FILE not in protected:
+        raise GateError("authorized Chapter 85 target is not a protected validated file")
+    return authorization
+
+
+def acquire_correction_lock(args):
+    if not args.run_id:
+        raise GateError("run ID is required")
+    if PUBLISH_LOCK.exists():
+        raise GateError("a controlled publication is in progress; correction lock acquisition refused")
+    if TRANSACTION.exists():
+        raise GateError("a correction/finalization transaction must be recovered before acquiring a correction")
+    if LOCK.exists():
+        existing = read_json(LOCK)
+        if existing.get("mode") != "CONTROLLED_CORRECTION" or (
+            existing.get("bookId"), existing.get("chapter")
+        ) != AUTHORIZED_CORRECTION_TARGET:
+            raise GateError("the production lock belongs to a different operation")
+        if not CORRECTION_AUTHORIZATION.exists() or sha256(CORRECTION_AUTHORIZATION) != existing.get(
+            "authorizationSha256"
+        ):
+            raise GateError("the locked correction authorization is missing or changed")
+        age = (utc_now() - parse_iso(existing.get("heartbeatAt"))).total_seconds()
+        stale_after = existing.get("staleAfterSeconds", STALE_SECONDS)
+        if type(stale_after) is not int or stale_after < STALE_SECONDS:
+            stale_after = STALE_SECONDS
+        if age < stale_after:
+            remaining = max(0, int(stale_after - age))
+            print(
+                "ACTIVE CORRECTION LOCK: resume/wait only for 1-enoch 85; "
+                f"stale recovery unavailable for {remaining}s",
+                file=sys.stderr,
+            )
+            raise SystemExit(75)
+        existing["recoveredFromRunId"] = existing.get("runId")
+        existing["runId"] = args.run_id
+        existing["host"] = socket.gethostname()
+        existing["heartbeatAt"] = iso_now()
+        existing["phase"] = "RECOVERED"
+        atomic_write(LOCK, json_bytes(existing))
+        print(f"STALE CORRECTION LOCK RECOVERED: resume 1-enoch 85 ({args.run_id})")
+        return
+    try:
+        _, _, _, _, state, ready = validate_repository_records()
+    except GateError as exc:
+        raise GateError(f"records must be valid before correction lock acquisition: {exc}") from exc
+    authorization = validate_correction_authorization(state, ready)
+    target_path = safe_path(AUTHORIZED_CORRECTION_FILE)
+    original = target_path.read_bytes()
+    protected = {entry["path"]: entry for entry in state["protectedFiles"]}
+    if sha256_bytes(original) != protected[AUTHORIZED_CORRECTION_FILE]["sha256"]:
+        raise GateError("Chapter 85 no longer matches its protected pre-correction hash")
+    payload = lock_payload("1-enoch", 85, args.run_id)
+    payload.update(
+        {
+            "mode": "CONTROLLED_CORRECTION",
+            "authorizationId": authorization["authorizationId"],
+            "authorizationPath": relative(CORRECTION_AUTHORIZATION),
+            "authorizationSha256": sha256(CORRECTION_AUTHORIZATION),
+            "permittedChapterChanges": ["sourceNote"],
+            "permittedFiles": list(CORRECTION_PERMITTED_FILES),
+            "originalChapterSha256": sha256_bytes(original),
+            "originalChapterBase64": base64.b64encode(original).decode("ascii"),
+            "recordHashes": {
+                relative(STATE): sha256(STATE),
+                relative(READY): sha256(READY),
+                relative(MANIFEST): sha256(MANIFEST),
+                relative(PROGRESS): sha256(PROGRESS),
+            },
+            "protectedFileCount": len(state["protectedFiles"]),
+        }
+    )
+    if not create_lock_atomic(payload):
+        raise GateError("a production lock appeared concurrently; correction acquisition refused")
+    if PUBLISH_LOCK.exists():
+        current = read_json(LOCK)
+        if current.get("runId") == args.run_id:
+            LOCK.unlink()
+        raise GateError("a controlled publication started concurrently; correction acquisition refused")
+    print(f"CONTROLLED CORRECTION LOCK ACQUIRED: 1-enoch 85 ({args.run_id})")
+
+
 def lock_command(args):
     if args.lock_action == "status":
         if not LOCK.exists():
@@ -618,6 +824,9 @@ def lock_command(args):
             return
         lock = read_json(LOCK)
         print(json.dumps(lock, ensure_ascii=False, indent=2))
+        return
+    if args.lock_action == "acquire-correction":
+        acquire_correction_lock(args)
         return
     if args.lock_action == "acquire":
         if args.chapter < 1 or not args.book_id or not args.run_id:
@@ -713,6 +922,107 @@ def validate_evidence(path, book_id, chapter_number, chapter_file):
     return evidence
 
 
+def validate_correction_evidence(path, authorization):
+    if path != CORRECTION_EVIDENCE:
+        raise GateError("correction evidence must use the permanent authorized evidence path")
+    evidence = read_json(path)
+    if (
+        evidence.get("format") != "ethiopian-bible-correction-evidence"
+        or evidence.get("schemaVersion") != 1
+    ):
+        raise GateError("correction evidence has the wrong format or schema")
+    if evidence.get("authorizationId") != authorization["authorizationId"]:
+        raise GateError("correction evidence does not match the authorization")
+    if (evidence.get("bookId"), evidence.get("chapter"), evidence.get("chapterFile")) != (
+        "1-enoch",
+        85,
+        AUTHORIZED_CORRECTION_FILE,
+    ):
+        raise GateError("correction evidence does not match protected Chapter 85")
+    source_checks = evidence.get("sourceChecks")
+    required = (
+        "earliestPrimaryWitnessesUsed",
+        "modernTranslationNotUsed",
+        "commentaryNotUsedAsScripture",
+        "missingTextNotGuessed",
+        "completeSourceEstablished",
+    )
+    if not isinstance(source_checks, dict) or any(source_checks.get(name) is not True for name in required):
+        raise GateError("correction evidence does not attest every source rule")
+    if evidence.get("primaryWitnesses") != authorization.get("requiredPrimaryWitnesses"):
+        raise GateError("correction evidence does not exactly match the authorized primary witnesses")
+    if evidence.get("affectedVerses") != [10] or evidence.get("scriptureWordingChanged") is not False:
+        raise GateError("correction evidence does not preserve the authorized verse/wording scope")
+    assessment = evidence.get("scriptureWordingAssessment")
+    if not isinstance(assessment, str) or "P.Oxy. XVII 2069" not in assessment or "agrees" not in assessment:
+        raise GateError("correction evidence does not explain why Scripture wording is unchanged")
+    changes = evidence.get("sourceAttestationChanges")
+    if not isinstance(changes, list) or not changes or any(not isinstance(item, str) or not item.strip() for item in changes):
+        raise GateError("correction evidence has no source-attestation change record")
+    records = evidence.get("primarySourceRecords")
+    record_text = json.dumps(records, ensure_ascii=False) if isinstance(records, list) else ""
+    if (
+        len(records or []) < 2
+        or "10.25446/oxford.21162298.v2" not in record_text
+        or "Liber Henoch Aethiopice" not in record_text
+        or not re.search(r"85:10\s*[–—-]\s*86:2", record_text)
+    ):
+        raise GateError("correction evidence lacks the direct primary-source records")
+    return evidence
+
+
+def build_corrected_chapter(lock, authorization):
+    candidate = read_json(CORRECTION_CANDIDATE)
+    if (
+        candidate.get("format") != "ethiopian-bible-correction-candidate"
+        or candidate.get("schemaVersion") != 1
+        or candidate.get("authorizationId") != authorization["authorizationId"]
+    ):
+        raise GateError("correction candidate has the wrong format, schema, or authorization")
+    if candidate.get("target") != authorization["target"]:
+        raise GateError("correction candidate target does not match the authorization")
+    changes = candidate.get("changes")
+    if not isinstance(changes, dict) or list(changes) != ["sourceNote"]:
+        raise GateError("correction candidate changes more than the authorized sourceNote")
+    source_note = changes.get("sourceNote")
+    require_text(source_note, "corrected sourceNote", 80)
+    if (
+        "P.Oxy. XVII 2069" not in source_note
+        or "fragments 1r–2r" not in source_note
+        or not re.search(r"85:10\s*[–—-]\s*86:2", source_note)
+        or "verse 10" not in source_note
+        or "printed pages 61–62" not in source_note
+    ):
+        raise GateError("corrected sourceNote does not accurately state the Greek and Ethiopic witness scope")
+    if re.search(r"no surviving[^.]*Greek[^.]*Chapter 85", source_note, re.I):
+        raise GateError("corrected sourceNote retains the disproved no-Greek attestation")
+    try:
+        original_bytes = base64.b64decode(lock.get("originalChapterBase64"), validate=True)
+    except Exception as exc:
+        raise GateError("correction lock has invalid original Chapter 85 bytes") from exc
+    if sha256_bytes(original_bytes) != lock.get("originalChapterSha256"):
+        raise GateError("correction lock original Chapter 85 snapshot hash is invalid")
+    try:
+        original = json.loads(original_bytes.decode("utf-8"), object_pairs_hook=unique_object)
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise GateError("correction lock original Chapter 85 snapshot is invalid JSON") from exc
+    corrected = json.loads(json.dumps(original, ensure_ascii=False))
+    old_note = corrected["chapters"][0].get("sourceNote")
+    if old_note == source_note:
+        raise GateError("correction candidate does not change the protected sourceNote")
+    corrected["chapters"][0]["sourceNote"] = source_note
+    comparison = json.loads(json.dumps(corrected, ensure_ascii=False))
+    comparison["chapters"][0]["sourceNote"] = old_note
+    if comparison != original:
+        raise GateError("correction candidate changes content outside sourceNote")
+    corrected_bytes = json_bytes(corrected)
+    with tempfile.TemporaryDirectory(prefix=".correction-verify-", dir=str(AUTOMATION)) as temp_dir:
+        validation_path = Path(temp_dir) / AUTHORIZED_CORRECTION_FILE
+        validation_path.write_bytes(corrected_bytes)
+        validate_payload(validation_path, "1-enoch", 85)
+    return corrected, corrected_bytes, old_note, source_note
+
+
 def dirty_paths():
     result = subprocess.run(
         ["git", "status", "--porcelain=v1", "-z", "--untracked-files=all"],
@@ -770,6 +1080,78 @@ def prepare_transaction(files, target, run_id, validated_at):
     return transaction
 
 
+def prepare_correction_transaction(files, lock, authorization, corrected_at):
+    transaction = {
+        "format": "ethiopian-bible-correction-transaction",
+        "schemaVersion": 1,
+        "validationPassed": True,
+        "target": authorization["target"],
+        "runId": lock["runId"],
+        "authorizationId": authorization["authorizationId"],
+        "authorizationSha256": lock["authorizationSha256"],
+        "correctedAt": corrected_at,
+        "files": [],
+    }
+    for path, data in files:
+        transaction["files"].append(
+            {
+                "path": relative(path),
+                "sha256": sha256_bytes(data),
+                "contentBase64": base64.b64encode(data).decode("ascii"),
+            }
+        )
+    atomic_write(TRANSACTION, json_bytes(transaction))
+    return transaction
+
+
+def apply_correction_transaction(transaction):
+    if (
+        transaction.get("format") != "ethiopian-bible-correction-transaction"
+        or transaction.get("schemaVersion") != 1
+        or transaction.get("validationPassed") is not True
+    ):
+        raise GateError("correction transaction is invalid or was not validated")
+    lock = read_json(LOCK)
+    if lock.get("mode") != "CONTROLLED_CORRECTION" or lock.get("runId") != transaction.get("runId"):
+        raise GateError("correction transaction does not match its controlled correction lock")
+    if (
+        transaction.get("authorizationId") != lock.get("authorizationId")
+        or transaction.get("authorizationSha256") != lock.get("authorizationSha256")
+        or not CORRECTION_AUTHORIZATION.exists()
+        or sha256(CORRECTION_AUTHORIZATION) != lock.get("authorizationSha256")
+    ):
+        raise GateError("correction transaction authorization is missing or changed")
+    target = transaction.get("target")
+    if not isinstance(target, dict) or (
+        target.get("bookId"), target.get("chapter"), target.get("path")
+    ) != ("1-enoch", 85, AUTHORIZED_CORRECTION_FILE):
+        raise GateError("correction transaction target is invalid")
+    entries = transaction.get("files")
+    expected_paths = {AUTHORIZED_CORRECTION_FILE, relative(STATE), relative(READY)}
+    if not isinstance(entries, list) or {entry.get("path") for entry in entries if isinstance(entry, dict)} != expected_paths:
+        raise GateError("correction transaction does not contain the exact atomic file set")
+    for entry in entries:
+        path = safe_path(entry.get("path"))
+        try:
+            data = base64.b64decode(entry.get("contentBase64"), validate=True)
+        except Exception as exc:
+            raise GateError(f"invalid correction transaction payload for {entry.get('path')}") from exc
+        if sha256_bytes(data) != entry.get("sha256"):
+            raise GateError(f"correction transaction hash mismatch for {entry.get('path')}")
+        atomic_write(path, data)
+    _, _, _, last, state, ready = validate_repository_records()
+    if (last["bookId"], last["chapter"], ready["nextUnfinished"]["chapter"]) != ("1-enoch", 85, 86):
+        raise GateError("correction transaction advanced or changed the validated chapter markers")
+    corrections = state.get("corrections", [])
+    if not corrections or corrections[-1]["authorization"]["id"] != transaction["authorizationId"]:
+        raise GateError("corrected state does not contain the transaction audit record")
+    TRANSACTION.unlink()
+    LOCK.unlink()
+    for temporary in (CORRECTION_CANDIDATE, CORRECTION_AUTHORIZATION):
+        if temporary.exists():
+            temporary.unlink()
+
+
 def apply_transaction(transaction):
     if transaction.get("format") != "ethiopian-bible-finalize-transaction" or transaction.get("validationPassed") is not True:
         raise GateError("finalization transaction is invalid or was not validated")
@@ -798,10 +1180,136 @@ def apply_transaction(transaction):
         candidate.unlink()
 
 
+def finalize_correction(args):
+    if TRANSACTION.exists():
+        raise GateError("a correction/finalization transaction already exists; recover it first")
+    lock = read_json(LOCK)
+    if lock.get("mode") != "CONTROLLED_CORRECTION":
+        raise GateError("the production lock is not an authorized correction lock")
+    if lock.get("runId") != args.run_id:
+        raise GateError("run ID does not own the controlled correction lock")
+    if (lock.get("bookId"), lock.get("chapter")) != AUTHORIZED_CORRECTION_TARGET:
+        raise GateError("controlled correction lock is not scoped to 1 Enoch 85")
+    if not CORRECTION_AUTHORIZATION.exists() or sha256(CORRECTION_AUTHORIZATION) != lock.get(
+        "authorizationSha256"
+    ):
+        raise GateError("controlled correction authorization is missing or changed")
+    snapshots = lock.get("recordHashes")
+    current_records = {
+        relative(STATE): sha256(STATE),
+        relative(READY): sha256(READY),
+        relative(MANIFEST): sha256(MANIFEST),
+        relative(PROGRESS): sha256(PROGRESS),
+    }
+    if not isinstance(snapshots, dict) or snapshots != current_records:
+        raise GateError("protected dependent records changed after correction lock acquisition")
+    progress, manifest, _, last, state, ready = validate_repository_records()
+    if (last["bookId"], last["chapter"], progress["nextChapter"]) != ("1-enoch", 85, 86):
+        raise GateError("repository markers changed during the Chapter 85 correction")
+    authorization = validate_correction_authorization(state, ready)
+    evidence = validate_correction_evidence(safe_path(args.evidence), authorization)
+    corrected, corrected_bytes, old_note, new_note = build_corrected_chapter(lock, authorization)
+    target_path = safe_path(AUTHORIZED_CORRECTION_FILE)
+    if sha256(target_path) != lock.get("originalChapterSha256"):
+        raise GateError("protected Chapter 85 changed outside the correction transaction")
+    original_bytes = base64.b64decode(lock["originalChapterBase64"], validate=True)
+    changed_lines = [
+        (old, new)
+        for old, new in zip(original_bytes.splitlines(), corrected_bytes.splitlines())
+        if old != new
+    ]
+    if len(original_bytes.splitlines()) != len(corrected_bytes.splitlines()) or len(changed_lines) != 1:
+        raise GateError("corrected Chapter 85 does not have a one-line sourceNote-only byte diff")
+    if b'"sourceNote"' not in changed_lines[0][0] or b'"sourceNote"' not in changed_lines[0][1]:
+        raise GateError("corrected Chapter 85 byte diff is not confined to sourceNote")
+    validate_app_contracts()
+    validate_manifest(manifest)
+    corrected_hash = sha256_bytes(corrected_bytes)
+    old_hash = lock["originalChapterSha256"]
+    corrected_at = iso_now()
+    protected_files = json.loads(json.dumps(state["protectedFiles"]))
+    target_entries = [entry for entry in protected_files if entry["path"] == AUTHORIZED_CORRECTION_FILE]
+    if len(target_entries) != 1 or target_entries[0]["sha256"] != old_hash:
+        raise GateError("protected Chapter 85 old hash does not match the correction lock")
+    target_entries[0]["sha256"] = corrected_hash
+    evidence_hash = sha256(CORRECTION_EVIDENCE)
+    protected_files.append(
+        {
+            "path": relative(CORRECTION_EVIDENCE),
+            "sha256": evidence_hash,
+            "scope": "controlled correction validation evidence",
+        }
+    )
+    correction_record = {
+        "authorization": {
+            "id": authorization["authorizationId"],
+            "sha256": lock["authorizationSha256"],
+        },
+        "target": authorization["target"],
+        "correctedAt": corrected_at,
+        "reason": authorization["reason"],
+        "permittedChapterChanges": ["sourceNote"],
+        "affectedVerses": evidence["affectedVerses"],
+        "scriptureWordingChanged": False,
+        "oldSha256": old_hash,
+        "newSha256": corrected_hash,
+        "primaryWitnesses": evidence["primaryWitnesses"],
+        "sourceAttestationChanges": evidence["sourceAttestationChanges"],
+        "evidence": {"path": relative(CORRECTION_EVIDENCE), "sha256": evidence_hash},
+        "unrelatedProtectedFilesVerified": len(state["protectedFiles"]) - 1,
+    }
+    new_state = json.loads(json.dumps(state, ensure_ascii=False))
+    new_state["validatedAt"] = corrected_at
+    new_state["protectedFiles"] = protected_files
+    new_state.setdefault("corrections", []).append(correction_record)
+    state_bytes = json_bytes(new_state)
+    overrides = {
+        AUTHORIZED_CORRECTION_FILE: corrected_bytes,
+        relative(STATE): state_bytes,
+    }
+    ready_entries = []
+    for path_text in sorted(CORRECTION_PERMITTED_FILES):
+        if path_text == relative(READY):
+            ready_entries.append(
+                {"path": path_text, "validation": "self", "role": "publication-control-record"}
+            )
+            continue
+        data = overrides.get(path_text)
+        digest = sha256_bytes(data) if data is not None else sha256(safe_path(path_text))
+        ready_entries.append({"path": path_text, "sha256": digest, "role": file_role(path_text)})
+    new_ready = {
+        "format": "ethiopian-bible-publish-ready",
+        "schemaVersion": 1,
+        "status": "VALIDATED",
+        "lastValidated": state["lastValidated"],
+        "nextUnfinished": state["nextUnfinished"],
+        "validatedAt": corrected_at,
+        "checks": {name: "PASSED" for name in REQUIRED_CHECKS},
+        "correction": {
+            "authorizationId": authorization["authorizationId"],
+            "target": authorization["target"],
+            "affectedVerses": [10],
+            "scriptureWordingChanged": False,
+        },
+        "files": ready_entries,
+    }
+    ready_bytes = json_bytes(new_ready)
+    transaction = prepare_correction_transaction(
+        [(target_path, corrected_bytes), (STATE, state_bytes), (READY, ready_bytes)],
+        lock,
+        authorization,
+        corrected_at,
+    )
+    apply_correction_transaction(transaction)
+    print("CONTROLLED CORRECTION VALIDATED: 1 Enoch 85; next unfinished chapter 86")
+
+
 def finalize(args):
     if TRANSACTION.exists():
         raise GateError("a finalization transaction already exists; recover it first")
     lock = read_json(LOCK)
+    if lock.get("mode") == "CONTROLLED_CORRECTION":
+        raise GateError("use finalize-correction for the controlled Chapter 85 correction lock")
     if lock.get("runId") != args.run_id:
         raise GateError("run ID does not own the production lock")
     book_id = lock.get("bookId")
@@ -902,6 +1410,11 @@ def recover_finalize(_args):
     if not LOCK.exists():
         raise GateError("recovery transaction exists without its production lock")
     transaction = read_json(TRANSACTION)
+    if transaction.get("format") == "ethiopian-bible-correction-transaction":
+        apply_correction_transaction(transaction)
+        target = transaction["target"]
+        print(f"RECOVERED CONTROLLED CORRECTION: {target['book']} {target['chapter']}")
+        return
     apply_transaction(transaction)
     target = transaction["target"]
     print(f"RECOVERED VALIDATED FINALIZATION: {target['book']} {target['chapter']}")
@@ -1311,6 +1824,11 @@ def parser():
     acquire_parser.add_argument("chapter", type=int)
     acquire_parser.add_argument("run_id")
     acquire_parser.set_defaults(func=lock_command)
+    correction_acquire_parser = lock_subparsers.add_parser(
+        "acquire-correction", help="acquire the authorized protected Chapter 85 correction lock"
+    )
+    correction_acquire_parser.add_argument("run_id")
+    correction_acquire_parser.set_defaults(func=lock_command)
     heartbeat_parser = lock_subparsers.add_parser("heartbeat")
     heartbeat_parser.add_argument("run_id")
     heartbeat_parser.add_argument("--phase")
@@ -1323,6 +1841,13 @@ def parser():
     finalize_parser.add_argument("--evidence", required=True)
     finalize_parser.add_argument("--run-id", required=True)
     finalize_parser.set_defaults(func=finalize)
+
+    correction_finalize_parser = subparsers.add_parser(
+        "finalize-correction", help="validate and atomically finalize the authorized Chapter 85 correction"
+    )
+    correction_finalize_parser.add_argument("--evidence", required=True)
+    correction_finalize_parser.add_argument("--run-id", required=True)
+    correction_finalize_parser.set_defaults(func=finalize_correction)
 
     recover_parser = subparsers.add_parser("recover-finalize", help="finish a validated interrupted transaction")
     recover_parser.set_defaults(func=recover_finalize)

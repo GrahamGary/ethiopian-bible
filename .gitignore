@@ -1,6 +1,7 @@
 .automation/PRODUCTION_LOCK.json
 .automation/FINALIZE_TRANSACTION.json
 .automation/VALIDATION_CANDIDATE.json
+.automation/CORRECTION_AUTHORIZATION.json
 .automation/PUBLISH_LOCK.json
 .automation/PUBLICATION_STATE.json
 .automation/PUBLICATION_STATE.pending.json

@@ -12,7 +12,7 @@
     "book": "1 Enoch",
     "chapter": 86
   },
-  "validatedAt": "2026-08-11T16:49:57Z",
+  "validatedAt": "2026-08-11T18:01:05Z",
   "checks": {
     "source": "PASSED",
     "structure": "PASSED",
@@ -24,41 +24,54 @@
     "mobileLayout": "PASSED",
     "previousContentIntegrity": "PASSED"
   },
+  "correction": {
+    "authorizationId": "owner-authorized-1-enoch-085-poxy-2069-2026-08-11",
+    "target": {
+      "bookId": "1-enoch",
+      "book": "1 Enoch",
+      "chapter": 85,
+      "path": "1-enoch-085.json"
+    },
+    "affectedVerses": [
+      10
+    ],
+    "scriptureWordingChanged": false
+  },
   "files": [
+    {
+      "path": ".automation/CORRECTION_1_ENOCH_085_EVIDENCE.json",
+      "sha256": "645b3aaee4b39af40f984564525457efefec54a738ba19e2bab6053a9248f3cb",
+      "role": "validation-infrastructure"
+    },
     {
       "path": ".automation/PUBLISH_READY.json",
       "validation": "self",
       "role": "publication-control-record"
     },
     {
-      "path": ".automation/VALIDATED_STATE.json",
-      "sha256": "a3af9ec2b6512d3a0ce9b6b8ab7b4157e46081c8c05c5fa0aabda8a4139cd037",
+      "path": ".automation/README.md",
+      "sha256": "d31acbce15e497dc4caa0a11de8149f02f05d975d874648cd406e52dfc2df091",
       "role": "validation-infrastructure"
     },
     {
-      "path": "1-enoch-083.json",
-      "sha256": "b5b91e8f949a33ced71fa248bbf3c171b8c3eb9ae4e13f8c69bee34591eeb52c",
-      "role": "scripture"
+      "path": ".automation/VALIDATED_STATE.json",
+      "sha256": "8511c1eca4c68fd7ea2db4a8bb69d96151d7988cff96a9be010688c47675172f",
+      "role": "validation-infrastructure"
     },
     {
-      "path": "1-enoch-084.json",
-      "sha256": "2d6d81f4300a7a5cffbfd1e4d70fab6c8a2f99f66a590cd5af19b5d9bc41639f",
-      "role": "scripture"
+      "path": ".gitignore",
+      "sha256": "2d4b3923e4429f7d4f6acb5e3e1ff7d40f37db3d90714cbc7c02c23236203916",
+      "role": "automation-infrastructure"
     },
     {
       "path": "1-enoch-085.json",
-      "sha256": "8c59c6e4db2bb711272bd455ac489cd3dd66d7689c9050edbca8ad13e4adb28d",
+      "sha256": "e50764140db2bcdda1079e53287933f08f37daf15d98f70b4ee73c63b81734ab",
       "role": "scripture"
     },
     {
-      "path": "PROGRESS.md",
-      "sha256": "8f97f4efba803dd98d029d8c48319aef855a856731762a938b619c48c50fb4cc",
-      "role": "publication-metadata"
-    },
-    {
-      "path": "content-manifest.json",
-      "sha256": "05573f006eddf5e6134959b8e2aff5c36c49ebfd509b1c9a89ebb39cb8a73ed1",
-      "role": "publication-metadata"
+      "path": "scripts/validation-gate.py",
+      "sha256": "d7c42fe1c8d7b0a0aacea83fd9c3c8483ada62cc702e4ecaf2177c1df203375d",
+      "role": "automation-infrastructure"
     }
   ]
 }

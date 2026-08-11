@@ -11,7 +11,7 @@
     "book": "1 Enoch",
     "chapter": 86
   },
-  "validatedAt": "2026-08-11T16:49:57Z",
+  "validatedAt": "2026-08-11T18:01:05Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -430,8 +430,61 @@
     },
     {
       "path": "1-enoch-085.json",
-      "sha256": "8c59c6e4db2bb711272bd455ac489cd3dd66d7689c9050edbca8ad13e4adb28d",
+      "sha256": "e50764140db2bcdda1079e53287933f08f37daf15d98f70b4ee73c63b81734ab",
       "scope": "validated Scripture"
+    },
+    {
+      "path": ".automation/CORRECTION_1_ENOCH_085_EVIDENCE.json",
+      "sha256": "645b3aaee4b39af40f984564525457efefec54a738ba19e2bab6053a9248f3cb",
+      "scope": "controlled correction validation evidence"
+    }
+  ],
+  "corrections": [
+    {
+      "authorization": {
+        "id": "owner-authorized-1-enoch-085-poxy-2069-2026-08-11",
+        "sha256": "7959eadb51a60730589b618f9ab5aaae3550080a1c5b30117195129c368ede28"
+      },
+      "target": {
+        "bookId": "1-enoch",
+        "book": "1 Enoch",
+        "chapter": 85,
+        "path": "1-enoch-085.json"
+      },
+      "correctedAt": "2026-08-11T18:01:05Z",
+      "reason": "Correct the verified false source attestation that Chapter 85 has no surviving Greek wording: P.Oxy. XVII 2069 preserves Greek witness material spanning 1 Enoch 85:10–86:2.",
+      "permittedChapterChanges": [
+        "sourceNote"
+      ],
+      "affectedVerses": [
+        10
+      ],
+      "scriptureWordingChanged": false,
+      "oldSha256": "8c59c6e4db2bb711272bd455ac489cd3dd66d7689c9050edbca8ad13e4adb28d",
+      "newSha256": "e50764140db2bcdda1079e53287933f08f37daf15d98f70b4ee73c63b81734ab",
+      "primaryWitnesses": [
+        {
+          "language": "Ethiopic (Geʽez)",
+          "witness": "August Dillmann, Liber Henoch Aethiopice (Leipzig, 1851)",
+          "scope": "Complete 1 Enoch 85:1–10 on printed pages 61–62"
+        },
+        {
+          "language": "Greek",
+          "witness": "P.Oxy. XVII 2069, fragments 1r–2r",
+          "scope": "1 Enoch 85:10–86:2; Chapter 85 overlap is fragmentary verse 10"
+        }
+      ],
+      "sourceAttestationChanges": [
+        "Removed the false claim that no surviving Greek manuscript preserves wording from Chapter 85.",
+        "Recorded P.Oxy. XVII 2069, fragments 1r–2r, as a fragmentary Greek witness spanning 1 Enoch 85:10–86:2, with Chapter 85 overlap limited to verse 10.",
+        "Corrected the Dillmann page scope for Chapter 85 from printed pages 61–63 to printed pages 61–62.",
+        "Clarified that the complete Geʽez witness supplies Chapter 85 wording not preserved in the fragmentary Greek witness."
+      ],
+      "evidence": {
+        "path": ".automation/CORRECTION_1_ENOCH_085_EVIDENCE.json",
+        "sha256": "645b3aaee4b39af40f984564525457efefec54a738ba19e2bab6053a9248f3cb"
+      },
+      "unrelatedProtectedFilesVerified": 83
     }
   ]
 }
