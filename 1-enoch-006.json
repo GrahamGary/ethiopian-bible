@@ -1,0 +1,126 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-006-2026-08-10",
+  "contentVersion": "2026.08.10.3",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 6,
+      "title": "Chapter 6 — The Watchers' Covenant on Hermon",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The extant Aramaic text of 4Q201, compared with the parallel readings of 4Q202 and 4Q204, is primary where preserved, especially for the oath, the descent on Mount Hermon and the names of the chiefs. The Greek witnesses preserved by Syncellus and Codex Panopolitanus supply the complete narrative where the Aramaic fragments are damaged or absent, and the Ethiopic (Geʽez) textual tradition confirms the chapter's full sequence. No modern English translation was used as the translation base. Verse numbering follows the conventional eight-verse division.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "When the human family had multiplied, in those days beautiful and attractive daughters were born to them.",
+          "study": "The narrative moves from creation's ordered obedience to a crisis within the human world. The multiplication of humanity and the birth of daughters are ordinary goods; the wrongdoing that follows comes from the Watchers' response, not from the existence or beauty of the women.",
+          "crossReferences": [
+            "Genesis 6:1 — humanity multiplies on the earth and daughters are born",
+            "Genesis 1:27–28 — human fruitfulness belongs to God's created blessing"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "The angels, the sons of heaven, saw them and desired them. They said to one another, \"Come, let us choose wives for ourselves from the daughters of humanity, and let us father children for ourselves.\"",
+          "study": "The Watchers turn sight into covetous desire and then into a shared plan. The repeated words 'for ourselves' expose the self-directed character of the decision: heavenly servants intend to seize a human relationship and produce offspring according to their own will.",
+          "crossReferences": [
+            "Genesis 6:2 — the sons of God see the daughters of humanity and take wives",
+            "James 1:14–15 — desire, when embraced, gives birth to sin",
+            "Jude 6 — angels abandon their own domain and proper dwelling"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Shemihazah, who was their chief, said to them, \"I fear that you may refuse to carry out this deed, and I alone will be held responsible for a great sin.\"",
+          "study": "Shemihazah identifies the proposed deed as sin before it happens. His concern is not that the plan is righteous, but that the others may withdraw and leave him bearing its guilt. Awareness of guilt therefore does not produce repentance; it produces a demand for shared liability.",
+          "crossReferences": [
+            "Genesis 4:7 — sin waits at the door, but the hearer is called to master it",
+            "Numbers 32:23 — deliberate sin brings personal accountability",
+            "James 4:17 — knowing the good and refusing to do it is sin"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "They all answered him, \"Let every one of us swear an oath, and let us all bind one another under a curse not to turn back from this plan until we have completed it and carried out this deed.\"",
+          "study": "The group answers a warning about guilt by making retreat more difficult. Their oath does not sanctify the plan; it binds them more tightly to what they already know is wrong. Collective agreement cannot turn rebellion into obedience.",
+          "crossReferences": [
+            "Exodus 23:2 — a person must not follow a crowd in doing evil",
+            "Psalm 2:1–2 — rulers join together in counsel against God's rule",
+            "Acts 23:12–14 — conspirators bind themselves by an oath to complete violence"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then they all swore together and bound one another under the curse.",
+          "study": "The proposal becomes a solemn conspiracy. The short statement emphasizes consent: no one is presented as being carried along unknowingly. They deliberately convert shared desire into a binding commitment.",
+          "crossReferences": [
+            "Psalm 64:5 — evildoers strengthen one another in a harmful plan",
+            "Proverbs 1:10–16 — sinners invite others into a united course of violence"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "They were two hundred in all. They descended in the days of Jared onto the summit of Mount Hermon, and they called the mountain Hermon because there they had sworn and bound one another under the curse.",
+          "study": "The text locates the rebellion in the days of Jared and at Mount Hermon. In the underlying Aramaic, the mountain's name is linked by sound with the act of binding under a ban or curse. The place is remembered not because the oath was noble, but because a large company made rebellion mutual and deliberate there.",
+          "crossReferences": [
+            "Genesis 5:15–20 — Jared belongs to the generations before the flood",
+            "Deuteronomy 3:8–9 — Mount Hermon is a known northern landmark",
+            "Jude 6 — the angels who left their proper place are kept for judgment"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "These are the names of their chiefs: Shemihazah, their chief; Arattaqoph; Ramtel; Kokabel; Orammame; Ramiel; Daniel; Ziqiel; Baraqel; Asael; Hermoni; Matrael; Ananel; Setael; Shamsiel; Sahariel; Tamiel; Turiel; Yamiel; and Yehadiel.",
+          "study": "The leaders are named rather than left as an anonymous force. The Aramaic scrolls preserve most of this ordered list, while a Greek witness supplies the damaged fifth name. Naming the chiefs makes the account one of accountable agents and organized leadership, not an impersonal outbreak of evil.",
+          "crossReferences": [
+            "Numbers 1:5–16 — named leaders bear identifiable responsibility within a larger company",
+            "Daniel 10:13, 20–21 — heavenly conflict includes ordered spiritual powers",
+            "Ephesians 6:12 — evil is described in terms of rulers and spiritual powers"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "These were their chiefs, each appointed over ten.",
+          "study": "The final line explains the structure behind the list: twenty chiefs stand over the company of two hundred. Organization and authority are morally accountable; leadership used to coordinate rebellion increases rather than removes responsibility.",
+          "crossReferences": [
+            "Exodus 18:21, 25 — groups of ten can be arranged under appointed leaders",
+            "Luke 12:47–48 — greater entrusted responsibility brings greater accountability"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 6 begins the Book of the Watchers narrative. The contrast with Chapters 2–5 is immediate: the created works keep their appointed order, but heavenly beings knowingly plan to cross a boundary. The women are not blamed for being born or for being beautiful; the moral initiative belongs to the Watchers who see, desire, plan and bind themselves to act.",
+          "Shemihazah's words show that the company recognizes the deed as a great sin before carrying it out. Yet the warning does not turn them back. They answer fear of guilt with an oath that distributes guilt across the group. The chapter therefore exposes a false use of solidarity: fellowship becomes corrupt when people use it to silence conscience and make repentance costly.",
+          "Mount Hermon becomes the location and memorial of their mutual ban. The Aramaic wording connects the name Hermon with their act of binding one another under a curse. This is a literary wordplay grounded in the preserved text, not a claim that every biblical reference to Hermon carries the same meaning.",
+          "The list of twenty chiefs and the statement that each stood over ten show ordered rebellion. Scripture elsewhere recognizes ranks among both faithful and hostile spiritual powers, but hierarchy never excuses sin. The chapter's theological warning is direct: knowledge, power, agreement and organization are not holiness; they must remain under God's appointed order."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:1–4 — the sons of God, the daughters of humanity and the pre-flood crisis",
+        "Genesis 5:15–20 — the days of Jared in the pre-flood genealogy",
+        "Exodus 23:2 — refusing to join a crowd in wrongdoing",
+        "Deuteronomy 3:8–9 — Mount Hermon as a geographic landmark",
+        "Psalm 64:5 — people strengthening one another in an evil purpose",
+        "Daniel 10:13, 20–21 — ordered heavenly powers and conflict",
+        "James 1:14–15 — desire developing into sin",
+        "Jude 6 — angels abandoning their proper domain and coming under judgment"
+      ]
+    }
+  ]
+}

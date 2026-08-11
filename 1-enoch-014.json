@@ -1,0 +1,274 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-014-2026-08-11",
+  "contentVersion": "2026.08.11.6",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 14,
+      "title": "Chapter 14 — The Reproof and the Throne of the Great Glory",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The Aramaic manuscript 4Q204 (4QEnoch c), fragment 1, columns vi–vii, is primary for the substantial surviving text of verses 1–16 and the beginning of the throne vision; 4Q202 (4QEnoch b) also preserves fragmentary wording from verses 4–6. The Greek Codex Panopolitanus preserves the complete twenty-five-verse chapter and supplies wording where the Aramaic is damaged or absent. The full Ethiopic (Geʽez) textual tradition confirms the complete sequence. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "This is the book of the words of righteousness and the reproof of the Watchers who are from eternity, according to the command of the Great Holy One in the vision.",
+          "study": "The answer to the Watchers is identified as both righteous and corrective. Its authority comes from the command of the Great Holy One, not from Enoch's anger. Writing fixes the message as a faithful record of the judgment shown in the vision.",
+          "crossReferences": [
+            "Habakkuk 2:2 — a revealed vision is written plainly",
+            "Ezekiel 3:17 — the appointed messenger gives warning from God's word"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "In my sleep I saw what I now tell with a tongue of flesh and with the breath of my mouth, which the Great One gave to human beings so that they might speak with it and understand with the heart.",
+          "study": "Enoch emphasizes the human means by which a heavenly vision is communicated. Speech and understanding are gifts of the Creator. The phrase does not erase the distance between the vision and its hearers; it explains how divine disclosure can be expressed through mortal language.",
+          "crossReferences": [
+            "Exodus 4:11–12 — the Creator gives the mouth and teaches His messenger what to say",
+            "Daniel 7:1 — a prophet records the substance of visions seen in sleep"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Just as He created and gave human beings the ability to understand a word of knowledge, so He created and appointed me to reprove the Watchers, the sons of heaven.",
+          "study": "Enoch's ability and appointment both come from God. The Watchers misused knowledge by teaching corruption; Enoch receives knowledge for the opposite purpose, to expose their rebellion and communicate a righteous verdict.",
+          "crossReferences": [
+            "Proverbs 2:6 — the LORD gives wisdom, knowledge, and understanding",
+            "Jeremiah 1:9–10 — God gives words and appoints a prophetic task"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I wrote down your petition, Watchers, but this was shown to me in my vision: your petition will not be accepted.",
+          "study": "The written request has been heard and answered, but not granted. Enoch reports the decision without claiming that intercession must always secure the desired result. The heavenly court remains free and just in its judgment.",
+          "crossReferences": [
+            "Deuteronomy 3:23–26 — an earnest request can receive a final refusal",
+            "Jeremiah 14:11–12 — God may reject intercession when judgment has been fixed"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "The sentence has been decreed: from now on you will not return or ascend to heaven through all the ages, and it has been decreed that you be bound within the earth for all the generations of the age.",
+          "study": "The verdict reverses the Watchers' abandoned privilege. They left heaven by choice, and now return is closed by decree. Their confinement within the earth corresponds to the binding commands already given to Raphael and Michael.",
+          "crossReferences": [
+            "Jude 6 — angels who left their dwelling are kept in bonds for judgment",
+            "2 Peter 2:4 — rebellious angels are committed to confinement awaiting judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Before this, you will see the destruction of your beloved sons. You will have no joy in them, for they will fall before you by the sword.",
+          "study": "The Watchers will witness the violent end of the violent offspring they loved. Their power cannot preserve their sons from the sentence announced in Chapter 10. The consequence stands in direct relation to the bloodshed with which the giants filled the earth.",
+          "crossReferences": [
+            "Genesis 6:11–13 — the earth filled with violence comes under destruction",
+            "Matthew 26:52 — those who take the sword perish by the sword"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Your petition concerning them will not be granted, nor will your petition concerning yourselves, even though you weep and make supplication. You will not receive even one word from the writing I have written.",
+          "study": "The refusal covers both the Watchers and their offspring. Weeping does not compel a different judgment, and the written answer offers no hidden promise of release. Enoch must leave the verdict as it was given rather than create a comforting word.",
+          "crossReferences": [
+            "1 Samuel 3:18 — a severe word from God is received without alteration",
+            "Hebrews 12:17 — tears do not necessarily reverse an irreversible judgment"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "This is how the vision appeared to me: clouds called to me, mists summoned me, the courses of the stars and the flashes of lightning hurried and alarmed me, and winds in the vision made me fly.",
+          "study": "The vision begins with elements associated with the heavenly realm: cloud, mist, stars, lightning, and wind. Enoch is not portrayed as reaching heaven by his own strength. The winds carry him as the vision opens before him.",
+          "crossReferences": [
+            "Psalm 104:3–4 — clouds and winds serve the Creator's heavenly majesty",
+            "Ezekiel 1:4 — wind, cloud, and flashing fire accompany a throne vision"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "They lifted me upward and carried me into heaven. I went in until I drew near a wall built of hailstones, with tongues of fire surrounding it, and they began to terrify me.",
+          "study": "The boundary of the heavenly structure joins frozen brightness and living fire. Enoch's fear is appropriate to the overwhelming holiness of what he approaches. The scene does not make heaven familiar or controllable; every step increases reverence.",
+          "crossReferences": [
+            "Exodus 24:17 — the glory of the LORD appears like consuming fire",
+            "Ezekiel 1:22 — an awe-inspiring expanse shines like crystal above the living beings"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "I entered among the tongues of fire and drew near a great house built of hailstones. The walls of that house were like stone slabs, all of snow, and its floor was snow.",
+          "study": "The first house is described through images of whiteness, hardness, cold, and fire. These contrasts communicate a realm beyond ordinary earthly construction. The purity and danger of the place prepare for the greater house within.",
+          "crossReferences": [
+            "Psalm 147:16–18 — snow, frost, hail, and fire remain under God's command",
+            "Revelation 15:2 — a heavenly surface appears like glass mingled with fire"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Its ceiling was like the courses of the stars and flashes of lightning, and between them were fiery cherubim; above them was something like water.",
+          "study": "Stars, lightning, cherubim, and heavenly water fill the upper structure. The cherubim signal proximity to divine holiness and throne imagery. The description uses created signs to point beyond themselves to the order of the heavenly sanctuary.",
+          "crossReferences": [
+            "Genesis 3:24 — cherubim and flaming fire guard the holy boundary",
+            "Ezekiel 1:22–26 — living beings stand beneath a shining expanse and throne"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Blazing fire surrounded the walls, and its doors burned with fire.",
+          "study": "Fire marks both the perimeter and the entrance. Access to the divine court is not casual. Enoch enters only because the vision and commission bring him forward, underscoring that holy presence is approached by divine permission.",
+          "crossReferences": [
+            "Exodus 3:2–5 — divine presence appears in flame and makes the place holy",
+            "Psalm 97:3 — fire goes before the LORD"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "I entered that house. It was hot like fire and cold like snow, and none of the delights of life were in it. Fear covered me, and trembling seized me.",
+          "study": "The house combines extremes that mortal life cannot master. Enoch finds no ordinary comfort there and is overcome by fear. The response distinguishes genuine encounter with heavenly majesty from curiosity about hidden things.",
+          "crossReferences": [
+            "Exodus 20:18–19 — the people tremble before the manifestations at Sinai",
+            "Hebrews 12:21 — even Moses responds to the holy manifestation with fear and trembling"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "As I shook and trembled, I fell upon my face; then I saw this in my vision:",
+          "study": "Falling facedown is the bodily response of a mortal overwhelmed by the revealed glory. The posture is not worship of the house or its signs; it is humility before the divine presence toward which the vision is moving.",
+          "crossReferences": [
+            "Ezekiel 1:28 — the prophet falls on his face when he sees the likeness of the LORD's glory",
+            "Daniel 8:17 — Daniel falls on his face in fear during a vision"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Look, another door stood open before me, and beyond it was a house greater than the first, entirely built of tongues of fire.",
+          "study": "The open door reveals a greater inner house. Its construction of fire intensifies the imagery of holy power. Enoch advances only as access is opened before him, never by forcing entry into the divine court.",
+          "crossReferences": [
+            "Isaiah 6:1–4 — the prophet sees the exalted throne within the temple",
+            "Revelation 4:1–5 — an opened door leads to a heavenly throne surrounded by lightning and fire"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "In every way it surpassed the first in glory, honor, and majesty, so that I cannot describe to you its glory and majesty.",
+          "study": "Enoch openly acknowledges the limit of his words. The greatest heavenly realities exceed complete description in human speech. His restraint protects the account from pretending to explain more than the vision allowed him to express.",
+          "crossReferences": [
+            "1 Kings 8:27 — even the highest heaven cannot contain God",
+            "2 Corinthians 12:4 — heavenly realities can exceed what a person may express"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "Its floor was fire; above it were flashes of lightning and the courses of stars, and its ceiling was blazing fire.",
+          "study": "The entire inner house is filled with ordered light and fire. The courses of stars remain part of the Creator's ordered realm, unlike the Watchers who departed from their appointed place. The imagery joins cosmic order with sanctuary holiness.",
+          "crossReferences": [
+            "Psalm 19:1–6 — the ordered heavens declare divine glory",
+            "Daniel 7:9–10 — the heavenly throne is surrounded by flame and flowing fire"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "I looked and saw a high throne. Its appearance was like crystal; its wheels shone like the sun, and there was a vision of cherubim.",
+          "study": "The throne reveals sovereign rule at the center of the vision. Crystal brightness, radiant wheels, and cherubim connect mobility, purity, and royal presence. The One enthroned is not confined by the house that displays His glory.",
+          "crossReferences": [
+            "Ezekiel 1:15–21, 26 — radiant wheels, living beings, and a throne appear together",
+            "Daniel 7:9 — the Ancient of Days sits on a throne with burning wheels"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "From beneath the throne flowed streams of blazing fire, and I was unable to look at it.",
+          "study": "Fire flows from the throne as an expression of active holiness and judgment. Enoch's inability to look marks the distance between the human seer and the glory before him. The throne authorizes the verdict delivered to the Watchers.",
+          "crossReferences": [
+            "Daniel 7:10 — a river of fire flows from before the divine throne",
+            "Exodus 33:20 — mortal sight cannot bear the unveiled divine face"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "The Great Glory sat upon the throne. His robe looked like the sun and was brighter and whiter than all snow.",
+          "study": "The title Great Glory reverently names the enthroned God without reducing Him to the visible forms. Radiance and whiteness communicate incomparable holiness. The throne's occupant is the Judge whose majesty stands behind every decree in the chapter.",
+          "crossReferences": [
+            "Daniel 7:9 — the enthroned Ancient of Days wears clothing white as snow",
+            "Psalm 104:1–2 — the LORD is clothed with splendor and wraps Himself in light"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "No angel could enter this house and look upon His face because of its honor and glory, and no flesh could look upon Him.",
+          "study": "Even angels do not possess unrestricted access to the divine face. Holiness establishes order within heaven itself, exposing the Watchers' error in treating heavenly privilege as freedom from boundaries. Mortal flesh is still more limited before this glory.",
+          "crossReferences": [
+            "Exodus 33:20 — no human can see God's face and live",
+            "1 Timothy 6:16 — God dwells in unapproachable light whom no one has seen"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "Blazing fire surrounded Him, and a great fire stood before Him; no one could draw near. Ten thousand times ten thousand stood before Him, and every word of His became a deed.",
+          "study": "The court is immeasurably vast, yet its countless attendants stand before one Sovereign. Divine speech is immediately effective: the word becomes deed. That authority explains why the Watchers' sentence cannot be negotiated away.",
+          "crossReferences": [
+            "Daniel 7:10 — myriads stand before the Judge as the court sits",
+            "Psalm 33:9 — God speaks, and what He commands comes into being"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "The holy angels who were near Him did not leave by night or depart from Him.",
+          "study": "The holy angels remain faithfully at their appointed station. Their constancy contrasts sharply with the Watchers, who abandoned heaven. Nearness to God is shown through continuing service rather than self-directed power.",
+          "crossReferences": [
+            "Isaiah 6:2–3 — heavenly beings remain before the throne in worship",
+            "Revelation 7:15 — heavenly servants remain before God's throne day and night"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "Until then I had been lying on my face and trembling. Then the Lord called me with His own mouth and said to me, ‘Come near, Enoch, and hear My word.’",
+          "study": "Enoch does not rise on his own initiative. The Lord calls him near and commands him to listen. The invitation joins grace with commission: the trembling human is admitted so that he can faithfully receive and carry the divine word.",
+          "crossReferences": [
+            "Ezekiel 2:1–2 — the fallen prophet is addressed and raised to hear God's words",
+            "Daniel 10:9–11 — a trembling seer is strengthened and told to understand the words spoken"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "One of the holy ones came to me, raised me up, made me stand, and brought me to the door; but I kept my face bowed down.",
+          "study": "A holy attendant enables Enoch to stand and approach, while Enoch keeps a posture of humility. The chapter ends at the threshold, ready for the Lord's direct answer in Chapter 15. Access is given, but reverence remains.",
+          "crossReferences": [
+            "Daniel 8:18 — a heavenly messenger touches the fallen seer and makes him stand",
+            "Ezekiel 2:2 — the Spirit raises the prophet so that he can hear the divine commission"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 14 first gives the written refusal of the Watchers' petition and then discloses the throne vision that authorizes that refusal. The structure matters: their request is not denied by an offended human messenger but by the Great Holy One whose court Enoch is allowed to see.",
+          "The chapter repeatedly contrasts faithful and unfaithful use of heavenly privilege. The fallen Watchers abandoned their station, while the holy angels remain before the throne. The Watchers disclosed knowledge that multiplied injustice, while Enoch receives knowledge in order to speak righteousness and reproof.",
+          "Fire, snow, crystal, stars, lightning, cherubim, wheels, and streams of flame are not presented as independent objects of devotion. Together they communicate holiness, ordered power, judgment, and royal majesty. At the center stands the high throne and the Great Glory whose word becomes deed.",
+          "Enoch's posture supplies the human response to the vision. He fears, trembles, falls facedown, listens when called, and approaches only when raised by a holy one. The chapter therefore presents revelation as a gift joined to humility and responsibility. Chapter 15 will give the direct word he must carry back to the Watchers."
+        ]
+      },
+      "crossReferences": [
+        "Exodus 24:17 — divine glory appearing like consuming fire",
+        "Exodus 33:20 — the limit of mortal sight before God's face",
+        "Psalm 104:1–4 — light, cloud, wind, and fire surrounding divine majesty",
+        "Isaiah 6:1–4 — the heavenly throne and holy attendants",
+        "Ezekiel 1:4–28 — cloud, fire, cherubim, wheels, expanse, and throne",
+        "Daniel 7:9–10 — fiery throne, river of fire, and countless attendants",
+        "Jude 6 — angels abandoning their proper dwelling and kept in bonds",
+        "Revelation 4:1–8 — the opened heavenly court, throne, lightning, and living beings"
+      ]
+    }
+  ]
+}

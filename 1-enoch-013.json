@@ -1,0 +1,149 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-013-2026-08-11",
+  "contentVersion": "2026.08.11.5",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 13,
+      "title": "Chapter 13 — The Watchers' Petition and Enoch's Vision",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The Aramaic manuscript 4Q204 (4QEnoch c), fragment 1, column vi, is primary for the surviving text of verses 6–10, including the petition, the waters of Dan, the dream of judgment, the mourning Watchers, and Enoch's reproof. The Greek Codex Panopolitanus preserves the complete ten-verse chapter and supplies verses 1–5 and wording lost from the Aramaic fragments. The full Ethiopic (Geʽez) textual tradition confirms the chapter's sequence and the geographic setting near Hermon. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Then Enoch said to Asael, ‘Go. You will have no peace. A great sentence has gone out against you, to bind you.’",
+          "study": "Enoch first addresses Asael personally with the verdict already given through Raphael. The sentence has gone out from higher authority; Enoch merely announces it. Peace is denied because Asael's teaching spread injustice and because the appointed binding has already been decreed.",
+          "crossReferences": [
+            "Isaiah 48:22 — there is no peace for the wicked",
+            "Daniel 4:17 — a sentence is issued by decree in the heavenly court",
+            "2 Peter 2:4 — sinning angels are confined for judgment"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "‘Neither relief nor an answer to your plea will be granted because of the wrongs you taught and because of all the works of godlessness, injustice, and sin that you showed to humanity.’",
+          "study": "The judgment includes Asael's instruction as well as his deeds. Teaching is morally accountable because it shapes what others practice. The list of godlessness, injustice, and sin gathers the corrupt skills of Chapter 8 under their ethical result rather than treating forbidden knowledge as harmless information.",
+          "crossReferences": [
+            "Deuteronomy 13:1–5 — teaching that leads others away from God comes under judgment",
+            "Matthew 5:19 — teaching others to break God's commands carries accountability",
+            "James 3:1 — teachers face a stricter judgment"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Then I went and spoke to all of them. Fear seized them all, and trembling and terror took hold of them.",
+          "study": "The Watchers who once appeared powerful now tremble before the announced judgment. Their fear fulfills the opening prophecy that the Watchers would shake when the Great Holy One came to judge. Their reaction confirms that they understand the gravity of the message.",
+          "crossReferences": [
+            "1 Enoch 1:5 — the Watchers are foretold to tremble before divine judgment",
+            "Psalm 2:11 — earthly powers are told to serve with fear and trembling",
+            "James 2:19 — rebellious spirits believe and shudder"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "They asked me to write a record of petition for them, so that forgiveness might be granted to them, and to read the record of their petition before the Lord of heaven.",
+          "study": "The condemned Watchers seek Enoch as an intermediary because he is the scribe commissioned by heaven. Their request recognizes that forgiveness cannot be seized or declared by themselves; it would have to be granted by the Lord of heaven. The narrative does not yet treat the request as accepted.",
+          "crossReferences": [
+            "Exodus 32:30–32 — Moses goes before God concerning the people's great sin",
+            "1 Samuel 12:19 — guilty people ask a faithful prophet to pray for them",
+            "Job 33:23–26 — an appointed mediator pleads before God"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "For from that time they could no longer speak, nor could they lift their eyes toward heaven, because of shame over the sins for which they had been condemned.",
+          "study": "Their lowered eyes and silence express disgrace before the heavenly court. Shame, however, does not itself overturn a verdict. The Watchers are unable to approach the heaven they abandoned and therefore rely on Enoch to carry their written request.",
+          "crossReferences": [
+            "Ezra 9:6 — shame makes the guilty unable to lift their face toward God",
+            "Daniel 9:7–8 — open shame belongs to those who rebelled",
+            "Luke 18:13 — a sinner will not lift his eyes toward heaven"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "So I wrote the record of their petition and their supplication concerning their spirits, concerning each of their deeds, and concerning all they requested—that forgiveness and length of days might be granted to them.",
+          "study": "Enoch records the request fully and specifically. The petition concerns their own fate, their deeds, forgiveness, and continued life. Faithful mediation requires accurately presenting the plea, but presenting it does not guarantee that the requested outcome will be granted.",
+          "crossReferences": [
+            "Exodus 34:9 — Moses asks for pardon while acknowledging guilt",
+            "Habakkuk 2:2 — a revelation is written clearly as a record",
+            "1 John 5:14 — a request is heard according to God's will, not merely because it is made"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Then I went and sat beside the waters of Dan, in the land of Dan, southwest of Hermon, and I read the record of their supplications until I fell asleep.",
+          "study": "The setting links the petition to the region of Hermon where the Watchers bound themselves by oath. Enoch reads their plea beside the waters of Dan and waits. The answer comes by revelation rather than through his own judgment of what should happen.",
+          "crossReferences": [
+            "Joshua 19:47 — Dan receives territory in the northern land",
+            "Psalm 42:6 — the land of Jordan and the heights of Hermon form a setting for prayer",
+            "Daniel 8:2 — a prophetic vision comes beside a watercourse"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Then sleep came upon me, and dreams descended upon me. Visions fell upon me, and I saw visions of wrath. A voice came, saying, ‘Speak to the sons of heaven in order to reprove them.’",
+          "study": "The response is not the requested assurance of forgiveness but a vision of wrath and a commission of reproof. Dreams and visions are presented as the means by which Enoch receives the decision. The voice directs the message back to the Watchers, making him accountable to deliver it.",
+          "crossReferences": [
+            "Numbers 12:6 — God makes Himself known to a prophet in dreams and visions",
+            "Job 33:14–18 — warning may come in a dream when deep sleep falls",
+            "Daniel 7:1 — a dream and visions disclose divine judgment"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "When I awoke, I went to them. They were all gathered together, sitting and mourning at Ebelsata, which is between Lebanon and Senir, with their faces covered.",
+          "study": "The Watchers wait together in mourning, hidden behind covered faces. Lebanon and Senir place the scene in the northern mountain region associated with their descent. Their grief forms the immediate audience for the answer Enoch must now announce.",
+          "crossReferences": [
+            "Deuteronomy 3:9 — Senir is an ancient name associated with Hermon",
+            "2 Samuel 15:30 — a mourner goes with head covered and weeping",
+            "Esther 6:12 — a condemned and humiliated person covers his head"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "I reported before them all the visions I had seen in my sleep, and I began to speak the words of righteousness, reproving the Watchers of heaven.",
+          "study": "Enoch completes his commission by reporting everything and beginning the reproof. The words are called righteous because they communicate the just decision of the heavenly court. Their severity does not permit the messenger to conceal or revise them.",
+          "crossReferences": [
+            "Jeremiah 23:28 — the one who has God's word must speak it faithfully",
+            "Ezekiel 3:17–19 — a watchman is responsible to deliver the warning received",
+            "Acts 20:26–27 — a faithful messenger does not shrink from declaring the whole counsel entrusted to him"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 13 follows the movement of a formal petition. Enoch announces Asael's sentence, the Watchers respond in terror, and they ask the scribe of righteousness to place their request before the Lord of heaven. Their shame prevents them from lifting their eyes, but their desire for relief remains explicit.",
+          "The chapter distinguishes faithful intercession from control over the outcome. Enoch writes their request, includes the matters they ask about, and reads it in the region where their rebellion began. He does not promise forgiveness or decide the case. He waits for the heavenly answer.",
+          "That answer comes through dreams and visions of wrath. The voice commands Enoch to reprove the sons of heaven, not to reassure them. This reversal is central to the narrative: heavenly beings who taught humanity now must receive correction through a righteous human scribe.",
+          "The chapter also connects place and responsibility. Hermon recalls the Watchers' oath, Dan becomes the place where their plea is read, and the mourning assembly between Lebanon and Senir receives the verdict. Chapter 14 will present the written reproof and the throne vision that authorizes it."
+        ]
+      },
+      "crossReferences": [
+        "Exodus 32:30–32 — intercession after grave rebellion",
+        "Deuteronomy 3:9 — Senir and Hermon",
+        "Ezra 9:6 — shame before heaven because of sin",
+        "Psalm 42:6 — prayer in the region of Hermon",
+        "Daniel 7:1 — dreams and visions of judgment",
+        "Habakkuk 2:2 — revelation committed to writing",
+        "Ezekiel 3:17–19 — responsibility to deliver divine warning",
+        "James 3:1 — judgment upon corrupt teaching"
+      ]
+    }
+  ]
+}

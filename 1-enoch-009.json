@@ -1,0 +1,161 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-009-2026-08-11",
+  "contentVersion": "2026.08.11.1",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 9,
+      "title": "Chapter 9 — The Cry Reaches the Most High",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The fragmentary Aramaic text of 4Q202 (4QEnoch b), fragment 1, is primary where it survives in verses 1–4. The complete eleven-verse sequence is preserved in the Greek Codex Panopolitanus; the two Greek forms transmitted by Syncellus preserve the fuller opening concerning lawlessness on the earth, which is supported by the Aramaic evidence and the Ethiopic (Geʽez) textual tradition. The angelic name Uriel follows the complete Greek witnesses; the damaged Aramaic line has a variant reading. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Then Michael, Uriel, Raphael, and Gabriel looked down from heaven. They saw much blood being poured out upon the earth, and all the lawlessness and ungodliness being committed upon it.",
+          "study": "The scene shifts from the human cry to heaven's view of the earth. Bloodshed and lawlessness are not hidden by distance. The four holy angels see the consequences of the Watchers' rebellion and stand in contrast to the heavenly beings who caused the corruption.",
+          "crossReferences": [
+            "Genesis 6:11–13 — God sees an earth corrupted and filled with violence",
+            "Genesis 4:10 — shed blood cries from the ground",
+            "Psalm 33:13–15 — the LORD looks from heaven and sees all humanity"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "They said to one another, ‘The voice of those crying out from the earth reaches as far as the gates of heaven.’",
+          "study": "The victims' cry crosses the boundary between earth and heaven. The gates mark the heavenly court before which their complaint is heard. Suffering that powerful beings ignore below becomes a matter brought before divine authority above.",
+          "crossReferences": [
+            "Exodus 3:7–9 — the cry of the oppressed comes before God",
+            "Psalm 18:6 — a cry of distress reaches God's dwelling",
+            "James 5:4 — the cries of those wronged reach the Lord of hosts"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The souls of human beings make their plea, saying, ‘Bring our case before the Most High.’",
+          "study": "The language is judicial: the dead ask that their cause be presented before the supreme Judge. Their appeal is not for private revenge but for a hearing before the Most High, whose judgment is greater than every earthly or heavenly power.",
+          "crossReferences": [
+            "Psalm 35:1 — the sufferer asks God to contend with those who contend against him",
+            "Psalm 140:12 — the LORD maintains the cause of the afflicted",
+            "Revelation 6:9–10 — the slain call for the righteous Judge to address their blood"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "The angels said to the Lord of the ages, ‘You are Lord of lords, God of gods, King of kings, and God of the ages. The throne of your glory endures through every generation of the ages, and your name is holy, great, glorious, and blessed through all the ages.’",
+          "study": "The appeal begins with God's identity rather than the rebels' apparent strength. Every lord, god, king, and age remains under His rule. His throne and holy name outlast the violent powers whose deeds seem overwhelming within one generation.",
+          "crossReferences": [
+            "Deuteronomy 10:17 — the LORD is God of gods and Lord of lords",
+            "Psalm 145:13 — God's kingdom endures through all generations",
+            "Daniel 4:34 — the dominion of the Most High is everlasting"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "‘You made all things and possess authority over everything. All things are visible and uncovered before you. You see everything, and nothing can hide itself from you.’",
+          "study": "Creation, authority, and knowledge belong together in the angels' confession. Because God made all things, no part of creation lies outside His jurisdiction; because all is uncovered before Him, the guilty cannot conceal what they have done.",
+          "crossReferences": [
+            "Job 34:21–22 — no darkness can hide those who do wrong from God's sight",
+            "Psalm 139:7–12 — no place is hidden from God's presence",
+            "Hebrews 4:13 — all things are exposed before the One to whom account must be given"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "‘You see what Asael has done: he taught every kind of injustice upon the earth and disclosed the mysteries of the age that were kept in heaven, which human beings sought to learn.’",
+          "study": "Asael's guilt lies in both corrupt instruction and the unauthorized disclosure of heavenly mysteries. The verse does not praise human eagerness for secret knowledge. It presents the disclosure as a source of injustice because it comes through rebellion rather than God's appointed revelation.",
+          "crossReferences": [
+            "Deuteronomy 29:29 — hidden things belong to God, while what He reveals guides obedience",
+            "Isaiah 47:12–14 — occult arts and hidden counsel cannot deliver from judgment",
+            "Acts 8:18–23 — spiritual power must not be grasped or used through corrupt desire"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "‘You also see Shemihazah, to whom you gave authority to rule over those who were with him.’",
+          "study": "Shemihazah's authority increases his accountability. Leadership was entrusted to him, but he used it to organize transgression. The text therefore refuses to treat rank as moral approval: authority remains answerable to the One who permits it.",
+          "crossReferences": [
+            "Numbers 16:1–3, 31–33 — leaders who organize rebellion remain accountable to God",
+            "Luke 12:47–48 — greater responsibility brings greater accountability",
+            "Romans 13:1 — authority exists only under God's higher authority"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "‘They went to the daughters of human beings on the earth, lay with the women, defiled themselves with them, and disclosed to them every kind of sin.’",
+          "study": "The angels summarize the boundary-crossing acts of Chapters 6–8. Union, defilement, and teaching are joined in a single movement of rebellion. The fault is assigned to the Watchers who went, acted, and disclosed what corrupted human life.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly beings take the daughters of humanity",
+            "Leviticus 18:24–30 — defilement follows the violation of God-given boundaries",
+            "Jude 6–7 — angels abandon their proper domain and come under judgment"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "‘The women gave birth to giants, and through them the whole earth was filled with blood and injustice.’",
+          "study": "The unions bear public, violent fruit. The earth's condition is not an unrelated background detail; bloodshed and injustice are the direct outcome of the Watchers' acts and the giants' appetite described in Chapter 7.",
+          "crossReferences": [
+            "Genesis 6:4–5, 11 — mighty offspring, pervasive wickedness, and an earth filled with violence",
+            "Numbers 35:33 — shed blood pollutes the land",
+            "Habakkuk 2:8 — violence against people calls forth answering judgment"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "‘And now the souls of those who have died are crying out and pleading as far as the gates of heaven. Their groaning has risen and cannot be silenced because of the lawless deeds being committed upon the earth.’",
+          "study": "The dead are not erased from the moral account. Their groaning reaches the heavenly court and persists because the wrong continues. The repeated cry makes clear that judgment answers real victims and real bloodshed, not an abstract violation alone.",
+          "crossReferences": [
+            "Genesis 4:10 — the blood of the murdered Abel continues to cry",
+            "Exodus 22:22–23 — God surely hears the cry of those who are afflicted",
+            "Revelation 6:9–10 — the slain remain witnesses before God's throne"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "‘You know all things before they happen, and you see these things and allow them for a time; yet you have not told us what we must do to them concerning all this.’",
+          "study": "The angels confess divine foreknowledge while asking for instruction. They do not act independently, even in response to terrible evil. Their question prepares Chapter 10, where the Most High assigns a distinct task to each messenger and sets the terms of judgment and preservation.",
+          "crossReferences": [
+            "Genesis 18:20–21 — the outcry of grave sin comes before divine judgment",
+            "Psalm 103:20–21 — angels carry out God's word and will",
+            "Habakkuk 1:2–3 — the faithful may ask why God permits violence while awaiting His answer"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 9 turns the cry at the end of Chapter 8 into a hearing before the heavenly court. Michael, Uriel, Raphael, and Gabriel see the bloodshed, hear the victims, and bring the case before the Most High. Their response contrasts with the Watchers: both groups are heavenly beings, but the holy angels remain within God's order and wait for His command.",
+          "The prayer is built upon God's character. He is Creator, universal ruler, eternal King, and the One before whom nothing is covered. These titles establish why the victims' cause can be heard. Violence may be hidden from human courts, but it is neither invisible nor beyond the authority of the Lord of the ages.",
+          "The indictment traces earthly corruption back through teaching and leadership. Asael disclosed mysteries in a way that multiplied injustice, while Shemihazah used entrusted authority to lead companions into defilement. The chapter therefore treats knowledge and rank as accountable gifts. Their moral value depends upon faithfulness to God rather than secrecy, power, or prestige.",
+          "The chapter ends before judgment is announced. This pause is important: the angels do not decide the penalty themselves. They state the wrong, present the victims' plea, confess God's knowledge, and ask what they are commanded to do. Chapter 10 will answer with both judgment upon the corrupters and preservation for the future of humanity."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 4:10 — blood crying from the earth",
+        "Genesis 6:1–13 — forbidden unions, giants, corruption, and violence",
+        "Exodus 3:7–9 — the cry of the oppressed reaching God",
+        "Deuteronomy 10:17 — the God of gods and Lord of lords",
+        "Psalm 33:13–15 — God's sight extending over humanity",
+        "Psalm 103:20–21 — angels acting under God's command",
+        "Daniel 4:34 — the enduring rule of the Most High",
+        "Hebrews 4:13 — all things uncovered before God",
+        "James 5:4 — the cry of victims reaching the Lord of hosts",
+        "Revelation 6:9–10 — the slain appealing to the righteous Judge"
+      ]
+    }
+  ]
+}

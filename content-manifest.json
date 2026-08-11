@@ -1,8 +1,8 @@
 {
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
-  "contentVersion": "2026.08.10.1",
-  "updatedAt": "2026-08-10T18:24:00+02:00",
+  "contentVersion": "2026.08.11.8",
+  "updatedAt": "2026-08-11T04:30:01+02:00",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -20,6 +20,90 @@
       "chapter": 4,
       "contentVersion": "2026.08.10.1",
       "url": "1-enoch-004.json"
+    },
+    {
+      "id": "1-enoch-005-2026-08-10",
+      "bookId": "1-enoch",
+      "chapter": 5,
+      "contentVersion": "2026.08.10.2",
+      "url": "1-enoch-005.json"
+    },
+    {
+      "id": "1-enoch-006-2026-08-10",
+      "bookId": "1-enoch",
+      "chapter": 6,
+      "contentVersion": "2026.08.10.3",
+      "url": "1-enoch-006.json"
+    },
+    {
+      "id": "1-enoch-007-2026-08-10",
+      "bookId": "1-enoch",
+      "chapter": 7,
+      "contentVersion": "2026.08.10.4",
+      "url": "1-enoch-007.json"
+    },
+    {
+      "id": "1-enoch-008-2026-08-10",
+      "bookId": "1-enoch",
+      "chapter": 8,
+      "contentVersion": "2026.08.10.5",
+      "url": "1-enoch-008.json"
+    },
+    {
+      "id": "1-enoch-009-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 9,
+      "contentVersion": "2026.08.11.1",
+      "url": "1-enoch-009.json"
+    },
+    {
+      "id": "1-enoch-010-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 10,
+      "contentVersion": "2026.08.11.2",
+      "url": "1-enoch-010.json"
+    },
+    {
+      "id": "1-enoch-011-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 11,
+      "contentVersion": "2026.08.11.3",
+      "url": "1-enoch-011.json"
+    },
+    {
+      "id": "1-enoch-012-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 12,
+      "contentVersion": "2026.08.11.4",
+      "url": "1-enoch-012.json"
+    },
+    {
+      "id": "1-enoch-013-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 13,
+      "contentVersion": "2026.08.11.5",
+      "url": "1-enoch-013.json"
+    },
+    {
+      "id": "1-enoch-014-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 14,
+      "contentVersion": "2026.08.11.6",
+      "url": "1-enoch-014.json"
+    },
+    {
+      "id": "1-enoch-015-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 15,
+      "contentVersion": "2026.08.11.7",
+      "url": "1-enoch-015.json"
+    },
+    {
+      "id": "1-enoch-016-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 16,
+      "contentVersion": "2026.08.11.8",
+      "url": "1-enoch-016.json"
     }
   ]
 }

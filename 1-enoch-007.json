@@ -1,0 +1,109 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-007-2026-08-10",
+  "contentVersion": "2026.08.10.4",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 7,
+      "title": "Chapter 7 — Violence Fills the Earth",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The substantial Aramaic text preserved in 4Q201 and 4Q202 is primary for the Watchers' unions, the forbidden instruction, the giants and the earth's complaint. The Greek witnesses preserved by Syncellus and Codex Panopolitanus establish the complete six-verse sequence where the Aramaic manuscripts are broken, and the Ethiopic (Geʽez) textual tradition confirms the chapter as a continuous unit. The ancient witnesses explicitly state the giant height in verse 2; it is translated as transmitted rather than reduced, rationalized or silently omitted. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "They took wives for themselves, each choosing a wife. They began to go in to them and to defile themselves with them, and they taught them sorcery, incantations, the cutting of roots, and the properties of plants.",
+          "study": "The plan of Chapter 6 is now carried out. The verse joins the boundary-crossing unions with instruction in practices the narrative treats as corrupting. Knowledge is not condemned merely because it concerns plants; the problem is that heavenly beings disclose and employ it within an act of rebellion and defilement.",
+          "crossReferences": [
+            "Genesis 6:2, 4 — the sons of God take wives and produce offspring",
+            "Leviticus 19:26, 31 — divination and spirit practices are forbidden to God's people",
+            "Deuteronomy 18:10–12 — sorcery, spells and occult inquiry are rejected"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "The women conceived by them and gave birth to great giants, whose height was three thousand cubits.",
+          "study": "The result of the unions is presented as monstrous in scale. The figure of three thousand cubits belongs to the ancient textual witnesses and is retained without attempting to make it physically ordinary. Within the narrative, the impossible excess prepares for the giants' equally excessive appetite and violence.",
+          "crossReferences": [
+            "Genesis 6:4 — mighty offspring are associated with the unions before the flood",
+            "Numbers 13:32–33 — giant stature becomes an image of overwhelming human fear"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The giants consumed all the labor and produce of humanity, until the people were no longer able to sustain them.",
+          "study": "Their size becomes an appetite that devours what people have worked to produce. Instead of exercising power as stewardship, the giants consume without limit. The human community is exhausted by demands it cannot satisfy.",
+          "crossReferences": [
+            "Deuteronomy 28:30–33 — hostile power consumes the produce and labor of others",
+            "Isaiah 5:8 — unchecked appetite takes what should sustain a wider community",
+            "Micah 3:1–3 — violent rulers are pictured as consuming the people"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Then the giants turned against the people in order to kill and devour them.",
+          "study": "When ordinary provision fails, appetite becomes direct violence. Those who first consume human labor now consume human life. The progression shows sin multiplying: unlawful desire produces corrupted offspring, exploitation and finally murder.",
+          "crossReferences": [
+            "Genesis 6:5, 11–13 — wickedness and violence fill the pre-flood earth",
+            "Genesis 9:5–6 — God requires an accounting for human blood",
+            "Habakkuk 2:8 — violence against people brings answering judgment"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "They began to sin against birds, land animals, reptiles, and fish. They devoured one another's flesh and drank the blood.",
+          "study": "Violence spreads beyond humanity across the living world and turns inward upon the violent themselves. Flesh and blood are treated as objects for appetite rather than life belonging under God's authority. The result is the undoing of ordered relationships among creatures.",
+          "crossReferences": [
+            "Genesis 1:20–25 — birds, sea creatures, land animals and creeping things belong to God's ordered creation",
+            "Genesis 9:4 — flesh with its lifeblood is not to be eaten",
+            "Leviticus 17:10–14 — the life of flesh is in the blood, which is not to be consumed"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Then the earth brought an accusation against the lawless ones for everything that had been done upon it.",
+          "study": "The earth is portrayed as a witness and complainant. Violence may appear to silence its victims, but the created world itself testifies that bloodshed and lawlessness have occurred. This complaint prepares the appeal to heaven and the divine judgment that follow.",
+          "crossReferences": [
+            "Genesis 4:10–11 — Abel's blood cries from the ground",
+            "Numbers 35:33 — bloodshed pollutes the land",
+            "Habakkuk 2:11 — creation is pictured as testifying against wrongdoing",
+            "James 5:4 — the cries produced by exploitation reach the Lord"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 7 traces the consequences of the Watchers' covenant. The sequence is deliberate: they take wives, cross their appointed boundary, disclose corrupting practices, produce giants, exhaust human provision, kill people, violate animal life and consume blood. Rebellion does not remain private; it expands through relationships, teaching, appetite and violence.",
+          "The chapter presents knowledge as morally accountable. The Watchers teach sorcery, incantations, root-cutting and plant lore inside a program of defilement. The text therefore does not support contempt for ordinary learning about creation. It condemns the use and disclosure of knowledge in service of forbidden power and rebellion.",
+          "The transmitted height of the giants is intentionally left intact. The narrative uses overwhelming scale to portray appetite and violence that human society cannot sustain or restrain. Whether read as measurement within the story or as deliberate enormity, the text's claim must be heard before any later attempt to explain it.",
+          "The earth's accusation is the chapter's final theological word. Victims may be devoured and blood may be consumed, yet violence is not hidden from creation or from God. As in Genesis 4 and Numbers 35, shed blood affects the land and calls for judgment. Chapter 8 will show corrupt instruction spreading further, while Chapter 9 carries the cry into heaven."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:1–5, 11–13 — forbidden unions, mighty offspring, wickedness and a violence-filled earth",
+        "Genesis 4:10–11 — blood crying from the ground",
+        "Genesis 9:4–6 — the sanctity of lifeblood and accountability for murder",
+        "Leviticus 17:10–14 — life in the blood and the prohibition on consuming it",
+        "Deuteronomy 18:10–12 — rejection of sorcery and spells",
+        "Numbers 35:33 — bloodshed polluting the land",
+        "Habakkuk 2:8, 11 — violence answered and creation testifying",
+        "James 5:4 — the cry of the exploited reaching God"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-016-2026-08-11",
+  "contentVersion": "2026.08.11.8",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 16,
+      "title": "Chapter 16 — The Limit of the Evil Spirits and the Watchers' Verdict",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witnesses available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 16. The Greek Codex Panopolitanus preserves the complete four-verse chapter and is the principal translation base; the full Ethiopic (Geʽez) textual tradition confirms the sequence and continuity from Chapter 15, while preserving a variant expression in verse 3. The translation follows the readable Greek construction there without inventing a resolution beyond the surviving witnesses. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From the day of the giants' slaughter, destruction and death, the spirits that come forth from the life of their flesh will continue bringing destruction without being judged. Thus they will bring destruction until the day when the great judgment is completed, when the great age reaches its consummation.",
+          "study": "The activity described at the end of Chapter 15 is given a firm limit. The spirits proceeding from the dead giants continue their destructive work for a time, but they do not escape the great judgment. The repeated language of completion places both their activity and the present age under God's final authority.",
+          "crossReferences": [
+            "Genesis 6:5–7 — spreading evil is real, yet God appoints a judgment that brings it to an end",
+            "Matthew 25:41 — final judgment includes the devil and his angels",
+            "2 Peter 2:4 — sinful angels are kept for judgment rather than placed beyond divine accountability"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Now say to the Watchers who sent you to petition concerning themselves, those who formerly were in heaven:",
+          "study": "The sentence turns again from the spirits of the giants to their fathers. The Watchers' former heavenly station is recalled because it measures the seriousness of their abandonment. Enoch is not authorized to negotiate a different outcome; he is commissioned to deliver the judgment he has heard.",
+          "crossReferences": [
+            "Jeremiah 1:7 — God's messenger must go and speak what God commands",
+            "Ezekiel 2:7 — the appointed watchman speaks the divine word whether the hearers accept it or refuse it",
+            "Jude 6 — angels who abandoned their proper dwelling are kept for judgment"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "You were in heaven, but not every mystery had been revealed to you. You learned a mystery that came from God, and in the hardness of your hearts you disclosed it to the women. Through this mystery women and men multiply evils upon the earth.",
+          "study": "The Watchers did not possess unlimited knowledge, and what they did know did not give them permission to disclose it according to their own will. The fault is joined to hardness of heart: knowledge separated from faithful obedience becomes an instrument for multiplying evil. The verse therefore condemns rebellious use and transmission of heavenly knowledge, not truth or learning in themselves.",
+          "crossReferences": [
+            "Deuteronomy 29:29 — hidden things belong to the LORD, while revealed things carry the duty of obedience",
+            "Daniel 2:20–22 — God is the One who possesses wisdom and reveals deep and hidden things",
+            "1 Corinthians 8:1–3 — knowledge by itself can produce pride, while knowledge rightly held remains accountable to love for God",
+            "James 3:13–17 — true wisdom is shown by humble conduct, whereas corrupted wisdom produces disorder and evil"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Therefore say to them, ‘You will have no peace.’",
+          "study": "The final word repeats the verdict already spoken to Asael and the other Watchers. Peace cannot be obtained while the rebellion and its destructive fruit are treated as though they carried no consequence. This concise sentence closes the Watchers' petition and prepares the next section, in which Enoch is shown the ordered places and judgments of the created world.",
+          "crossReferences": [
+            "Isaiah 48:22 — there is no peace for the wicked",
+            "Isaiah 57:20–21 — restless wickedness is contrasted with the peace it cannot produce",
+            "James 3:17–18 — peace belongs to wisdom from above and to the fruit of righteousness, not to corrupting knowledge"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 16 closes the judgment speech that began with the throne vision. First it completes the explanation of the spirits proceeding from the dead giants: their destructive activity continues within history, but only until the appointed completion of the great judgment.",
+          "The focus then returns to the Watchers. Their former place in heaven increases their accountability, because they abandoned an honored dwelling and used heavenly knowledge in the hardness of their hearts. Their petition does not erase that deliberate responsibility.",
+          "The chapter carefully distinguishes possession of knowledge from faithful wisdom. The Watchers did not know every mystery, and the mystery they did learn was not theirs to disclose rebelliously. Knowledge that is detached from obedience and concern for others multiplies harm rather than life.",
+          "The closing verdict, ‘You will have no peace,’ answers the petition directly. Yet the chapter also limits evil by the final judgment: destructive spirits and fallen Watchers remain accountable to the God whose great age will reach its appointed completion. Chapter 17 begins a new movement as Enoch is taken through the places of the created order."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:5–7 — multiplying evil and appointed judgment",
+        "Deuteronomy 29:29 — divine mysteries, revelation and accountable obedience",
+        "Daniel 2:20–22 — God as the revealer of hidden things",
+        "Isaiah 48:22; 57:20–21 — no peace for persistent wickedness",
+        "Matthew 25:41 — final judgment of rebellious spiritual powers",
+        "Jude 6 — abandoned heavenly dwelling and reserved judgment",
+        "2 Peter 2:4 — sinful angels kept for judgment",
+        "James 3:13–18 — the contrast between corrupting knowledge and peaceable wisdom"
+      ]
+    }
+  ]
+}

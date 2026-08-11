@@ -1,0 +1,272 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-010-2026-08-11",
+  "contentVersion": "2026.08.11.2",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 10,
+      "title": "Chapter 10 — Judgment, Preservation, and the Healing of the Earth",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The Aramaic manuscript 4Q202 (4QEnoch b) is primary where it preserves portions of verses 8–12, including the close of the charge concerning Asael's works, Gabriel's sentence against the giants, and the beginning of Michael's commission concerning Shemihazah. The Greek Codex Panopolitanus preserves the complete twenty-two-verse chapter and supplies the wording where the Aramaic is broken or absent; its parallel recension confirms the names Uriel, Raphael, Gabriel, and Michael and the chapter's full sequence. The Ethiopic (Geʽez) textual tradition confirms the continuous unit. The spelling Dudael follows the Greek place-name. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Then the Most High answered concerning these things. The Great Holy One spoke and sent Uriel to the son of Lamech.",
+          "study": "The heavenly appeal receives a direct answer. Judgment begins not with uncontrolled retaliation but with the word of the Most High and the commissioning of a faithful messenger. The son of Lamech is Noah, through whom preservation will accompany judgment.",
+          "crossReferences": [
+            "Genesis 5:28–29 — Noah is introduced as the son of Lamech",
+            "Genesis 6:13 — God announces His response to the earth's violence",
+            "Daniel 9:21–23 — a heavenly messenger is sent with an answer"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "He said to Uriel, ‘Go to Noah and tell him in my name, “Hide yourself.” Reveal to him the end that is approaching: the whole earth is going to be destroyed, and a flood is about to come upon all the earth and destroy everything upon it.’",
+          "study": "Noah is warned before the flood arrives. The command to hide is joined to revelation, giving him a concrete response to the approaching judgment. Divine warning creates a path of obedience rather than leaving the righteous without direction.",
+          "crossReferences": [
+            "Genesis 6:17 — God announces the flood that will destroy life under heaven",
+            "Genesis 7:1 — Noah is told to enter the ark before judgment",
+            "Isaiah 26:20–21 — God's people are told to hide while judgment passes"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "‘Teach the righteous man what he must do so that he may escape, and so that his offspring may be preserved through all the generations of the age.’",
+          "study": "Preservation requires obedient action. Noah is called righteous, yet he must still receive and follow instruction. His rescue also looks beyond one individual: the survival of his offspring carries human life into future generations.",
+          "crossReferences": [
+            "Genesis 6:18–22 — Noah receives covenant instruction and does what God commands",
+            "Genesis 7:5 — Noah acts according to the divine warning",
+            "Hebrews 11:7 — by faith Noah prepares for the saving of his household"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Then the Lord said to Raphael, ‘Bind Asael by his hands and feet and cast him into darkness. Open a place in the wilderness that is in Dudael, and cast him there.’",
+          "study": "The one who used forbidden freedom to corrupt others is restrained. Hands and feet, the means of action and movement, are bound. The wilderness prison shows that heavenly rebellion does not place Asael beyond God's authority or sentence.",
+          "crossReferences": [
+            "Leviticus 16:10, 21–22 — the wilderness is associated with the removal of sin through the goat for Azazel",
+            "Jude 6 — rebellious angels are kept in bonds for judgment",
+            "Revelation 20:1–3 — a heavenly agent binds and confines a deceiving power"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "‘Place rough and jagged stones beneath him, cover him with darkness, and let him remain there for the ages. Cover his face so that he may not see light.’",
+          "study": "Asael's confinement is pictured as isolation from light beneath harsh stone. The teacher who claimed to disclose heavenly secrets is now denied sight. The reversal emphasizes that knowledge seized in rebellion ends not in illumination but in darkness.",
+          "crossReferences": [
+            "Job 10:21–22 — deep darkness is portrayed as a realm without light",
+            "Isaiah 8:20–22 — those who reject God's word are driven into distress and darkness",
+            "2 Peter 2:4 — sinning angels are confined in gloomy darkness for judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "‘On the day of the great judgment he will be led away into the burning fire.’",
+          "study": "Present confinement is not the final sentence. The text distinguishes restraint now from the great judgment to come. Fire represents the decisive end of rebellion under God's judicial authority.",
+          "crossReferences": [
+            "Daniel 7:9–11 — the heavenly court sits and the rebellious power is given to burning fire",
+            "Matthew 25:41 — eternal fire is prepared for the devil and his angels",
+            "Revelation 20:10 — the deceiver is cast into the lake of fire"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "‘Heal the earth that the Watchers have devastated, and announce the healing of its wound, so that all the children of humanity may not perish through the whole mystery that the Watchers disclosed and taught to their sons.’",
+          "study": "Judgment on the corrupters is paired with healing for the damaged earth. Raphael's task is restorative: the spread of destructive teaching is to be stopped so that humanity is not entirely consumed by it. Divine justice seeks the removal of corruption and the preservation of life.",
+          "crossReferences": [
+            "2 Chronicles 7:14 — forgiveness and the healing of the land are joined",
+            "Isaiah 24:4–6, 21–23 — the earth suffers under sin and the powers above are judged",
+            "Romans 8:19–21 — creation awaits release from corruption"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "‘The whole earth has been devastated by the works taught by Asael. Charge every sin to him.’",
+          "study": "Asael is held accountable for the destructive reach of his teaching. The verse does not remove responsibility from those who practiced evil; it identifies the special guilt of the one who introduced and spread the corrupting instruction.",
+          "crossReferences": [
+            "Genesis 6:11–13 — corruption and violence bring judgment upon the earth",
+            "Leviticus 16:21–22 — sins are confessed over the goat sent away into the wilderness",
+            "James 3:1 — teachers face a stricter judgment"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Then the Lord said to Gabriel, ‘Go against the corrupt offspring, the counterfeit ones, and the children born from sexual immorality. Destroy the children of the Watchers from among humanity. Send them against one another in a war of destruction, for they will have no length of days.’",
+          "study": "The giants' violence is turned back upon themselves. The command removes the predatory offspring from among humanity and denies them the long life they seek. Their power cannot secure their future when the Lord sets a limit upon it.",
+          "crossReferences": [
+            "Judges 7:22 — hostile forces turn their swords against one another",
+            "Ezekiel 38:21 — divine judgment causes every sword to turn against its companion",
+            "Psalm 55:23 — violent and deceitful people do not complete their days"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "‘No plea that their fathers make concerning them will be granted, for they hope that their sons will live an eternal life and that each one will live five hundred years.’",
+          "study": "The Watchers' desired future for their sons is refused. Their intercession cannot overturn the sentence, because their hope is bound to the unlawful offspring produced by their own rebellion. The specific five-hundred-year expectation is preserved as part of the ancient judgment speech.",
+          "crossReferences": [
+            "Genesis 6:3 — human life before the flood is placed under a divine limit",
+            "Ezekiel 14:14–20 — even exemplary intercessors cannot deliver others from a determined judgment",
+            "Psalm 49:7–9 — no one can pay a ransom that lets another live forever"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Then the Lord said to Michael, ‘Go and make known to Shemihazah and the others with him, who joined themselves to women and defiled themselves with them in all their uncleanness.’",
+          "study": "The charge is stated before the sentence: the Watchers joined themselves to women and became defiled. Their act is neither forgotten nor disguised. Michael's commission brings the leaders face to face with the nature and consequence of their rebellion.",
+          "crossReferences": [
+            "Genesis 6:2 — the sons of God take wives from the daughters of humanity",
+            "Leviticus 18:24–30 — forbidden unions are described as defiling",
+            "Jude 6–7 — abandonment of a proper domain and sexual transgression lead to judgment"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "‘When their sons have slaughtered one another and they have seen the destruction of those they loved, bind them for seventy generations in the valleys of the earth, until the day of their judgment and consummation, until the judgment of the age of ages is completed.’",
+          "study": "The Watchers witness the collapse of what their rebellion produced before being bound. Seventy generations marks a divinely fixed period rather than an escape from judgment. Their confinement lasts until the appointed court reaches its final decision.",
+          "crossReferences": [
+            "Daniel 9:24 — a measured period of seventy is set until transgression is addressed",
+            "2 Peter 2:4 — rebellious angels are held until judgment",
+            "Jude 6 — heavenly transgressors are kept for the judgment of the great day"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "‘Then they will be led away into the abyss of fire, into torment, and into the prison where they will be confined for the ages.’",
+          "study": "Temporary binding gives way to final confinement. Fire, torment, and prison express the completeness of the sentence. The authority that the Watchers abused is replaced by an irreversible loss of freedom under judgment.",
+          "crossReferences": [
+            "Daniel 7:10–11 — the court's judgment ends in consuming fire",
+            "Matthew 25:46 — final judgment is contrasted with eternal life",
+            "Revelation 20:10 — hostile spiritual powers receive final torment"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "‘Whoever is condemned and destroyed from this time onward will be bound together with them until the completion of their generation.’",
+          "study": "The sentence extends to those joined to the Watchers' condemned rebellion. Shared corruption leads to shared confinement. The verse warns that alliance with evil powers cannot shield anyone from the judgment that overtakes those powers.",
+          "crossReferences": [
+            "Psalm 37:38 — transgressors are destroyed together",
+            "Matthew 13:40–42 — agents of lawlessness are gathered for judgment",
+            "Revelation 20:12–15 — each condemned one is judged before final confinement"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "‘Destroy all the spirits of the counterfeit offspring and the sons of the Watchers, because they have wronged humanity.’",
+          "study": "The reason for the sentence is stated plainly: they have inflicted injustice upon human beings. The oppressed are not incidental to the judgment. God acts against spiritual and violent powers because of the wrong done to His creatures.",
+          "crossReferences": [
+            "Genesis 6:5–7 — pervasive evil against creation brings divine judgment",
+            "Psalm 10:14–18 — God sees oppression and brings the violent to account",
+            "Psalm 37:38 — the future of the wicked is cut off"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "‘Destroy every injustice from the face of the earth, and let every work of wickedness come to an end. Let the plant of righteousness and truth appear for the ages; it will be planted with joy.’",
+          "study": "Removal and renewal belong together. The goal is not merely an empty earth after evil is destroyed, but the growth of righteousness and truth. The plant image portrays a new moral order that God establishes and causes to endure.",
+          "crossReferences": [
+            "Psalm 85:10–13 — righteousness and truth flourish under God's favor",
+            "Isaiah 32:16–17 — righteousness takes root and produces peace",
+            "2 Peter 3:13 — the promised new order is one in which righteousness dwells"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "‘Then all the righteous will escape and remain alive until they beget thousands. They will complete all the days of their youth and their sabbaths in peace.’",
+          "study": "The righteous receive life, fruitfulness, and rest in contrast to the violent whose days are cut short. The abundant language presents peace as the settled condition of life after oppression has been removed.",
+          "crossReferences": [
+            "Psalm 128:1–6 — reverence for God is joined with family fruitfulness and peace",
+            "Isaiah 65:20–23 — long life and secure offspring characterize restored creation",
+            "Ezekiel 37:26 — God's covenant of peace is established permanently"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "‘Then the whole earth will be cultivated in righteousness. A tree will be planted upon it, and the earth will be filled with blessing.’",
+          "study": "Cultivation is no longer linked to exploitation or scarcity. Righteousness shapes the work of the earth, and planting becomes a sign of blessing. The chapter moves from a blood-filled earth to one filled with life under just order.",
+          "crossReferences": [
+            "Isaiah 32:15–17 — a fruitful land accompanies righteousness and peace",
+            "Ezekiel 34:26–27 — the land and its trees yield under God's blessing",
+            "Amos 9:13–15 — restored people plant and enjoy the fruit of the land"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "‘All the trees of the earth will rejoice. People will plant vineyards, and a vineyard they plant will produce thousands of measures of wine. Each measure of seed will produce a thousand measures, and each measure of olives will produce ten baths of oil.’",
+          "study": "The overflowing harvest reverses the famine-like consumption caused by the giants. Trees, vines, grain, and olives all participate in abundance. The exact figures communicate provision far beyond the scarcity created by predatory appetite.",
+          "crossReferences": [
+            "Joel 2:21–24 — the land rejoices as grain, wine, and oil abound",
+            "Amos 9:13–14 — vineyards and harvests overflow in restoration",
+            "Zechariah 8:12 — seed, vine, ground, and heavens yield their produce in peace"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "‘Cleanse the earth from every impurity, every injustice, every sin, and every act of ungodliness. Wipe away all the uncleanness committed upon the earth.’",
+          "study": "The command is comprehensive because the corruption was comprehensive. Cleansing addresses impurity, injustice, sin, and ungodliness together. Restoration is not merely greater productivity; it is the removal of the moral defilement that disordered creation.",
+          "crossReferences": [
+            "Numbers 35:33–34 — bloodshed defiles the land where God dwells",
+            "Ezekiel 36:25–27 — cleansing from impurity accompanies a renewed heart and obedience",
+            "Zechariah 13:1 — a fountain is opened for cleansing from sin and impurity"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "‘All the peoples will serve me; they will all bless me and worship me.’",
+          "study": "The restored earth is directed toward its Creator. The spread of rebellious teaching is answered by universal service, blessing, and worship. Renewal reaches beyond one family or nation to all peoples.",
+          "crossReferences": [
+            "Psalm 86:9 — all nations come and worship before the Lord",
+            "Isaiah 66:23 — all humanity comes to worship before God",
+            "Zephaniah 3:9 — the peoples are purified to call upon and serve the LORD together"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "‘The whole earth will be cleansed from every defilement, every impurity, wrath, and scourge. I will never again send these upon it through all the generations of the age.’",
+          "study": "The chapter closes with cleansing and a promise of lasting restraint. Judgment has served the restoration of the earth rather than its abandonment. The promise echoes the post-flood assurance that destruction will not endlessly repeat, while pointing toward a world freed from the corruption that provoked it.",
+          "crossReferences": [
+            "Genesis 8:21–22 — God promises not to strike every living thing again in the same way",
+            "Genesis 9:11 — the covenant declares that a flood will not again destroy all flesh",
+            "Isaiah 54:9–10 — the days of Noah become a pattern for enduring covenant mercy"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 10 answers the appeal of Chapter 9 with four commissions. Uriel warns Noah so that life may be preserved. Raphael binds Asael and announces healing for the earth. Gabriel turns the violent offspring against one another. Michael binds Shemihazah and his companions until final judgment. Each messenger acts under a specific command from the Most High.",
+          "Judgment in this chapter is closely matched to the transgression. Asael, who spread corrupt instruction, is silenced in darkness and charged with the ruin caused by his teaching. The giants, who consumed and slaughtered others, destroy one another and lose the long life they desire. The Watchers, who abandoned their appointed place, are bound and confined. Power does not disappear from moral accountability simply because it is heavenly or extraordinary.",
+          "Preservation and healing are equally central. Noah is told how to escape so that future generations may live, and Raphael is commanded to heal the earth's wound. The final movement describes righteousness, peace, trees, vineyards, grain, oil, cleansing, and universal worship. Divine judgment is therefore presented as the removal of what destroys creation and the establishment of conditions in which life can flourish under God.",
+          "The language reaches beyond the immediate flood story toward an enduring judgment and restoration. Present restraint, the great day, the age of ages, the plant of righteousness, and a cleansed earth are placed within one horizon. The chapter calls readers to see divine justice not as arbitrary destruction but as God's answer to bloodshed, corrupt teaching, violated boundaries, and the cries of those who were wronged."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 5:28–29 — Noah as the son of Lamech",
+        "Genesis 6:11–22 — flood judgment, Noah's instruction, and preservation",
+        "Genesis 8:21–22; 9:11 — the post-flood promise",
+        "Leviticus 16:10, 21–22 — Azazel, confessed sin, and the wilderness",
+        "Psalm 85:10–13 — righteousness, truth, peace, and fruitfulness",
+        "Isaiah 32:15–17 — righteousness producing peace in a fruitful land",
+        "Ezekiel 36:25–27 — cleansing and renewal",
+        "Amos 9:13–15 — abundant harvest and secure planting",
+        "Jude 6 — rebellious angels kept for judgment",
+        "2 Peter 2:4 — sinning angels confined until judgment",
+        "Revelation 20:1–3, 10 — binding and final judgment of hostile spiritual power"
+      ]
+    }
+  ]
+}

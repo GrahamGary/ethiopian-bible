@@ -1,0 +1,109 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-012-2026-08-11",
+  "contentVersion": "2026.08.11.4",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 12,
+      "title": "Chapter 12 — Enoch Sent to the Watchers",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The Aramaic manuscript 4Q204 (4QEnoch c), fragment 1, column v, preserves the core of verse 3 and is primary there, including Enoch standing, blessing the Lord of Majesty and King of the Ages, and the appearance of the Watchers of the Great Holy One. The Greek Codex Panopolitanus preserves the complete six-verse chapter and supplies the wording where the Aramaic is absent; the full Ethiopic (Geʽez) textual tradition confirms the sequence. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Before these things Enoch was taken away, and none of the people knew where he had been taken, where he was, or what had happened to him.",
+          "study": "The narrative returns to Enoch after the account of judgment and restoration. His removal from ordinary human sight prepares him to serve between the heavenly court and the rebellious Watchers. The wording recalls the mystery surrounding Enoch's departure in Genesis without adding an explanation the text does not give.",
+          "crossReferences": [
+            "Genesis 5:24 — Enoch walks with God and is no longer found because God takes him",
+            "Hebrews 11:5 — Enoch is taken and cannot be found",
+            "2 Kings 2:16–18 — a prophet is sought after being taken from ordinary sight"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "His activity was with the Watchers, and his days were with the holy ones.",
+          "study": "Enoch's calling now centers on the heavenly beings introduced earlier. His association with the holy ones does not make the fallen Watchers holy again; it places his mission within the heavenly sphere from which he receives the words he must deliver.",
+          "crossReferences": [
+            "Daniel 4:13 — a watcher, a holy one, descends from heaven",
+            "Daniel 7:10 — heavenly attendants stand before the divine court",
+            "Hebrews 12:22 — innumerable angels gather in the heavenly assembly"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I, Enoch, was standing and blessing the Lord of Majesty and the King of the Ages, when the Watchers of the Great Holy One called to me.",
+          "study": "Enoch's commission begins in worship. The titles Lord of Majesty and King of the Ages place the Watchers beneath the eternal Sovereign whose order they violated. Enoch does not appoint himself; he is called while blessing the One whose message he will carry.",
+          "crossReferences": [
+            "Psalm 29:10 — the LORD is enthroned as King forever",
+            "Psalm 145:1, 13 — God is blessed as King whose kingdom endures through every generation",
+            "1 Timothy 1:17 — honor and glory belong to the King of the ages"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "They said to me, ‘Enoch, scribe of righteousness, go and announce this to the Watchers of heaven: You abandoned the high heaven, the holy and eternal place; you defiled yourselves with women, acted as the children of earth act, and took wives for yourselves.’",
+          "study": "The charge names both abandoned calling and chosen conduct. The Watchers left the holy place assigned to them and crossed into a union patterned after mortal life. Calling Enoch the scribe of righteousness marks his task: he must accurately record and announce the just verdict rather than soften it.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly beings take women from the daughters of humanity",
+            "Jude 6 — angels abandon their own domain and proper dwelling",
+            "Malachi 2:7 — a faithful messenger preserves knowledge and instruction"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "‘You have brought great ruin upon the earth, and there will be no peace or forgiveness for you.’",
+          "study": "The verdict answers the scale of the harm. Their rebellion did not remain private; it devastated the earth through corrupt teaching and violent offspring. The refusal of peace and forgiveness has already been fixed by the divine judgment announced in Chapter 10.",
+          "crossReferences": [
+            "Genesis 6:11–13 — the corrupted earth is ruined by violence and comes under judgment",
+            "Isaiah 48:22 — there is no peace for the wicked",
+            "2 Peter 2:4 — sinning angels are held for judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "‘Though you delighted in your sons, you will see the slaughter of those you loved. You will mourn over the destruction of your sons and make supplication forever, but mercy and peace will not be granted to you.’",
+          "study": "The Watchers will witness the loss of the offspring in whom they took pleasure. Their grief cannot reverse the sentence because it follows persistent rebellion and the devastation of others. The chapter distinguishes anguish over consequences from a granted restoration to peace.",
+          "crossReferences": [
+            "Genesis 6:7 — the violent generation faces destruction from the earth",
+            "Proverbs 1:24–31 — those who reject correction finally eat the fruit of their chosen way",
+            "Hebrews 12:16–17 — bitter tears do not automatically reverse an irrevocable loss"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 12 moves from the Most High's commands back to Enoch's personal commission. The preceding chapters showed holy angels carrying the victims' cry to God and receiving tasks of judgment and preservation. Enoch is now appointed to carry the resulting verdict to the Watchers who rebelled.",
+          "The chapter identifies Enoch as the scribe of righteousness. His role is neither to invent the judgment nor to negotiate its terms. A faithful scribe receives, preserves, and communicates the message entrusted to him. That vocation explains the written petition and written answer that follow in Chapters 13 and 14.",
+          "The accusation is structured around abandoned place, defilement, earthly imitation, and worldwide ruin. The Watchers possessed a holy heavenly station but rejected its boundaries. Their choice multiplied corruption on earth, demonstrating that privilege and proximity to heaven do not remove accountability.",
+          "The closing denial of peace, forgiveness, and mercy must be read within this specific verdict against the Watchers. The narrative has already shown mercy toward Noah, future healing for the earth, and blessing for the righteous. Mercy is not absent from God's rule, but the text does not permit Enoch to promise it where the heavenly judgment has denied the rebels' request."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 5:24 — Enoch taken by God",
+        "Genesis 6:1–13 — heavenly rebellion and the ruin of the earth",
+        "Psalm 145:1, 13 — blessing the eternal King",
+        "Daniel 4:13 — the watcher and holy one",
+        "Jude 6 — angels abandoning their proper dwelling",
+        "2 Peter 2:4 — sinning angels reserved for judgment",
+        "Hebrews 11:5 — Enoch taken from ordinary human sight",
+        "Hebrews 12:16–17 — tears after an irreversible loss"
+      ]
+    }
+  ]
+}

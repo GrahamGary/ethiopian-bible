@@ -1,0 +1,91 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-008-2026-08-10",
+  "contentVersion": "2026.08.10.5",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 8,
+      "title": "Chapter 8 — Corrupting Knowledge and the Human Cry",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The Aramaic text of 4Q201, with parallel readings in 4Q202 and 4Q204, is primary where preserved for the named Watchers and their teachings. The complete Greek chapter preserved through Syncellus and Codex Panopolitanus supplies wording where the Aramaic is damaged, while the full Ethiopic (Geʽez) textual tradition confirms the extended sequence of teachings and the chapter division. Variant ancient spellings of the names are transliterated from the Aramaic where legible. No modern English translation was used as the translation base. Verse numbering follows the conventional four-verse division.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Asael taught people to make swords, weapons, shields and breastplates. He showed them the metals of the earth and how to work them, and how to make bracelets and ornaments; he also taught the use of antimony for the eyes, the beautifying of the eyelids, every kind of precious stone, and coloring dyes.",
+          "study": "The verse gathers instruments of war, metalwork, luxury and bodily display under Asael's instruction. The narrative does not claim that every metal object or ornament is inherently evil. Its charge is that a rebellious heavenly being discloses these arts within a spreading system of violence, seduction and corruption.",
+          "crossReferences": [
+            "Genesis 4:22 — metalworking is known in the generations before the flood",
+            "Isaiah 2:4 — God's peace reverses the making and use of weapons",
+            "Ezekiel 28:13, 16–17 — precious stones, beauty and trade become joined with pride and violence"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Great ungodliness arose. The people committed sexual immorality, went astray, and became corrupt in all their ways.",
+          "study": "The text states the moral outcome of the instruction: ungodliness, sexual disorder, wandering and comprehensive corruption. Skills that promise power or beauty do not produce wisdom when they are detached from faithfulness to God and neighbor.",
+          "crossReferences": [
+            "Genesis 6:5, 11–12 — humanity's ways become corrupt before the flood",
+            "Exodus 32:7–8 — people quickly turn aside from the commanded way",
+            "Romans 1:21–25 — rejecting the Creator disorders worship, desire and conduct"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Shemihazah taught spells and the cutting of roots; Hermoni taught the loosening of spells; Baraqel taught the omens of lightning; Kokabel taught the signs of the stars; Ziqiel taught the signs of shooting stars; Arattaqoph taught the signs of the earth; Shamsiel taught the signs of the sun; and Sahariel taught the signs of the moon.",
+          "study": "The Aramaic witnesses preserve a wider ordered list than one of the Greek forms. The repeated verb 'taught' places responsibility on the Watchers who disclose heavenly or occult signs for forbidden use. The chapter distinguishes such divinatory instruction from the simple observation of creation commanded in Chapters 2–5.",
+          "crossReferences": [
+            "Deuteronomy 4:19 — the heavenly lights must not become objects of unlawful service",
+            "Deuteronomy 18:10–12 — divination, omens and spells are prohibited",
+            "Isaiah 47:12–14 — spells and astrological counsel cannot save from judgment",
+            "Jeremiah 10:2 — God's people are not to be terrified by signs in the heavens"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "As the people were perishing, their cry rose up to heaven.",
+          "study": "The chapter ends by turning from the teachers to their victims. Human beings are dying under the corruption described in Chapters 7–8, but their cry is not lost. It reaches heaven and introduces the response of the holy angels in Chapter 9.",
+          "crossReferences": [
+            "Genesis 4:10 — shed blood cries out to God",
+            "Exodus 3:7–9 — God hears the cry of an oppressed people",
+            "Psalm 12:5 — the groaning of the needy moves God to act",
+            "James 5:4 — the cries of those defrauded reach the Lord of hosts"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 8 explains how the Watchers' rebellion spreads through teaching. Asael's instruction joins weapons, metalworking, adornment and cosmetics within the same corrupting movement. The chapter's concern is not a blanket rejection of craftsmanship or beauty; it is the transfer of power and technique from rebellious beings into a world already being consumed by violence and lust.",
+          "The named teachings in verse 3 are predominantly forms of spells, divination and reading celestial or earthly signs. This differs sharply from the observation of sun, seasons, water and trees in Chapters 2–5. There, creation's order leads the reader to recognize and obey the living God. Here, signs are turned into esoteric techniques taught by beings who have already rejected that order.",
+          "Verse 2 judges the fruit rather than inviting admiration of the secret arts. Ungodliness grows, sexual disorder spreads, people wander and their ways become corrupt. Knowledge is therefore measured ethically in this chapter: what source authorizes it, what purpose directs it, and what kind of life does it produce?",
+          "The final cry prevents the story from centering only on powerful transgressors. The perishing people call upward, and heaven hears. This follows the biblical pattern in which Abel's blood, Israel's oppression and withheld wages all cry before God. Chapter 9 will show that the suffering visible on earth is also visible in heaven."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 4:10, 22 — the cry of blood and pre-flood metalworking",
+        "Genesis 6:5, 11–12 — corruption and violence before the flood",
+        "Exodus 3:7–9 — a human cry heard in heaven",
+        "Deuteronomy 4:19 — the heavenly bodies remaining under the Creator's authority",
+        "Deuteronomy 18:10–12 — forbidden divination, omens and spells",
+        "Isaiah 2:4 — weapons transformed under God's peace",
+        "Isaiah 47:12–14 — the failure of spells and astrology to deliver",
+        "James 5:4 — the cry of victims reaching the Lord"
+      ]
+    }
+  ]
+}

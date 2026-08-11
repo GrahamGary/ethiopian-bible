@@ -1,0 +1,141 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-005-2026-08-10",
+  "contentVersion": "2026.08.10.2",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Aramaic, Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 5,
+      "title": "Chapter 5 — Creation's Obedience and Humanity's Choice",
+      "sourceNote": "Translated afresh into clear modern English from the earliest available primary witnesses. The surviving Aramaic text of 4Q201 is the principal witness through verse 6; the Greek Codex Panopolitanus preserves the complete chapter; and the Ethiopic (Geʽez) textual tradition was used to verify the full sequence and places where the earlier witnesses are damaged. No modern English translation was used as the translation base. Verse numbering follows the conventional nine-verse division.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Study all the trees and observe them: their leaves grow green and cover them, and all their fruit comes forth in honor and splendor. Consider all these works and recognize that the living God made them so, and that He lives forever and ever.",
+          "study": "The command to observe creation reaches its conclusion in the trees' renewed leaves and fruit. Their beauty and fruitfulness are not treated as self-originating; they direct attention to the living God who made them. The chapter therefore begins with worshipful recognition: the visible order of creation bears witness to its eternal Creator.",
+          "crossReferences": [
+            "Genesis 1:11–12 — God causes the earth to bring forth trees bearing fruit according to their kinds",
+            "Psalm 104:12–13, 24 — the created world displays the LORD's wisdom and sustaining provision",
+            "Acts 14:15–17 — the living God is known as Creator and giver of fruitful seasons"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "All the works He has made continue from year to year in the same way. Their appointed work does not change; everything happens in obedience to His command.",
+          "study": "The yearly recurrence of creation's work is presented as obedience. The trees, seasons and other created works do not decide their own order; they fulfill the command assigned to them. This prepares the chapter's moral contrast with people who knowingly abandon God's command.",
+          "crossReferences": [
+            "Genesis 8:22 — the recurring seasons continue while the earth remains",
+            "Psalm 119:89–91 — creation continues according to God's ordinances, for all things serve Him",
+            "Jeremiah 33:20, 25 — day, night, heaven and earth are governed by an established order"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Observe how the sea and the rivers likewise complete their appointed work and do not turn aside from His words.",
+          "study": "The witness expands from the trees to the waters. Sea and rivers are powerful, yet they remain within an order that is not their own. Their constancy reinforces the chapter's claim that created power is rightly exercised under the Creator's word.",
+          "crossReferences": [
+            "Job 38:8–11 — God appoints a boundary for the sea",
+            "Psalm 104:9–10 — God sets limits for the waters and sends springs through the valleys",
+            "Jeremiah 5:22 — the sea does not cross the enduring boundary God placed for it"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "But you have not remained faithful or acted according to His commandments. You have turned away and spoken proud and harsh words against His majesty with your unclean mouths. You who are hard in heart will have no peace.",
+          "study": "The address now turns directly to human rebellion. Creation keeps its appointed work, but the hard-hearted reject God's commands and even speak against His greatness. The text joins conduct, speech and the condition of the heart: turning from God produces corrupt words, and that path cannot produce peace.",
+          "crossReferences": [
+            "Deuteronomy 32:5–6 — a corrupt generation repays the LORD by turning from the One who made them",
+            "Psalm 12:3–4 — proud speech claims freedom from divine authority",
+            "Isaiah 48:22 — there is no peace for the wicked",
+            "Jude 15–16 — ungodly deeds and harsh words spoken against God come under judgment"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Therefore you will curse your own days, and the years of your life will perish. The years leading to your destruction will be multiplied under an everlasting curse, and you will find neither mercy nor peace.",
+          "study": "The consequence answers the rebellion described in verse 4. Those who reject the order of the living God do not gain mastery over their lives; they come to lament the very days they have corrupted. The loss of mercy and peace is judicial language, showing that persistent rebellion carries an appointed end.",
+          "crossReferences": [
+            "Deuteronomy 28:15–20 — covenant rebellion brings curse, confusion and ruin",
+            "Job 3:1–3 — suffering leads Job to lament the day of his birth, illustrating the language of cursing one's day",
+            "Isaiah 57:20–21 — the wicked are restless and do not possess peace"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Then your names will become an everlasting curse among all the righteous. Everyone who pronounces a curse will use you as its example, and all sinners and the godless will swear curses by your names. But the blameless will rejoice. For them there will be release from sins, every mercy, peace and patient kindness; salvation and a good light will be theirs. For all you sinners, however, there will be no salvation; a curse will remain upon you all.",
+          "study": "The two destinies are placed side by side. A rebellious name becomes a warning, while the blameless receive release, mercy, peace, salvation and light. The contrast does not present goodness and evil as equal powers: salvation is God's gift, while the curse exposes the final barrenness of defiance.",
+          "crossReferences": [
+            "Proverbs 10:7 — the memory of the righteous is a blessing, but the name of the wicked decays",
+            "Isaiah 65:15–16 — the condemned leave their name for a curse while God's servants receive another name",
+            "Psalm 32:1–2 — release from sin is a blessed state",
+            "Psalm 97:11 — light is sown for the righteous and joy for the upright in heart"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "For the chosen there will be light, grace and peace, and they will inherit the earth; but for you, the godless, there will be a curse.",
+          "study": "This brief verse gathers the promise into four gifts: light, grace, peace and an inheritance. The chosen are not merely spared; they are given a place in God's restored order. The inheritance of the earth stands in direct contrast with the self-destruction of those who reject its Creator.",
+          "crossReferences": [
+            "Psalm 37:9–11 — those who wait for the LORD inherit the land and delight in abundant peace",
+            "Isaiah 60:1–2 — divine light rises upon God's people amid darkness",
+            "Matthew 5:5 — the meek are promised the inheritance of the earth"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Then wisdom will be given to all the chosen. They will all live and will no longer sin through faithlessness or pride. Light will dwell in the enlightened, and understanding in those who possess knowledge; they will not go astray.",
+          "study": "The promised future includes moral renewal. Wisdom is not only information but the capacity to live without faithless rebellion or pride. Light and understanding belong together, showing that genuine knowledge leads away from transgression and into faithful life.",
+          "crossReferences": [
+            "Proverbs 2:6–12 — the LORD gives wisdom that guards people from evil paths",
+            "Isaiah 11:2–5 — wisdom, understanding and faithful judgment characterize God's righteous rule",
+            "James 3:13–17 — wisdom from above is shown in humility, purity and peace"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "They will not transgress or sin throughout all the days of their lives, and they will not die under anger or wrath. They will complete the full number of their days. Their lives will increase in peace, and the years of their joy will multiply in everlasting gladness and peace for all the days of their lives.",
+          "study": "The chapter ends with life brought into harmony with God's order. Full days, increasing peace and enduring joy reverse the perishing years announced for the rebellious. The promise is not mere length of life; it is life freed from transgression and filled with peace before God.",
+          "crossReferences": [
+            "Proverbs 3:1–2, 13–18 — wisdom's way is associated with length of days, peace and life",
+            "Isaiah 65:20–23 — God's restored people enjoy full days and the fruit of their labor",
+            "Luke 1:74–79 — deliverance leads to holy service and the way of peace"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 5 completes the creation-observation sequence begun in Chapter 2. Green leaves, fruit, recurring years, seas and rivers all fulfill their appointed work. The repeated command to observe is meant to produce recognition of the living God, not worship of nature. Creation is a witness because it proceeds under the Creator's command.",
+          "The chapter then turns that observation into a moral indictment. The natural world keeps its order, but hard-hearted people turn aside from God's commandments and use their speech against His majesty. Human beings are therefore accountable not only for outward actions but also for proud words and the inward hardness from which those words come.",
+          "Two destinies follow. Persistent rebellion ends in lost years, curse and the absence of peace. The chosen and blameless receive release, mercy, salvation, light, grace, wisdom, an inheritance and enduring peace. These promises show that God's answer to corruption is not only judgment; it is also the restoration of people who live within His wise order.",
+          "The biblical connections arise from shared textual themes. Psalm 37 and Matthew 5 both speak of inheriting the land or earth; Proverbs joins wisdom with life and peace; Isaiah contrasts the unrest of the wicked with light and restoration for God's people. These parallels clarify the chapter's biblical world without claiming that every passage is a direct quotation or that one text depends on another."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:11–12 — fruitful trees as works of the Creator",
+        "Psalm 104:9–13, 24 — waters, vegetation and the wisdom of God's ordering",
+        "Psalm 119:89–91 — creation continues in service to God's ordinances",
+        "Proverbs 3:13–18 — wisdom, life and peace",
+        "Isaiah 48:22; 57:20–21 — the wicked do not possess peace",
+        "Psalm 37:9–11 — the righteous inherit the land and enjoy peace",
+        "Matthew 5:5 — the meek inherit the earth",
+        "Jude 15–16 — judgment of ungodly deeds and defiant speech"
+      ]
+    }
+  ]
+}

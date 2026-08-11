@@ -1,0 +1,157 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-015-2026-08-11",
+  "contentVersion": "2026.08.11.7",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Greek and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 15,
+      "title": "Chapter 15 — The Watchers' Abandoned Dwelling and the Spirits of the Giants",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness available for this chapter. No extant Aramaic wording has been identified for 1 Enoch 15. The Greek Codex Panopolitanus preserves the complete twelve-verse chapter and is the principal translation base; the independent Greek text transmitted by Syncellus preserves the latter part of the chapter beginning in verse 8 and confirms the account of the spirits proceeding from the giants. The full Ethiopic (Geʽez) textual tradition confirms the sequence and continuity into Chapter 16. No modern English translation was used as the translation base.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Then He answered me, and I heard His voice: ‘Do not be afraid, Enoch, righteous man and scribe of righteousness. Come near and hear My voice.’",
+          "study": "The enthroned Lord addresses the trembling scribe with reassurance and commission. Enoch is called righteous because he stands faithfully within the task given to him, in contrast to the Watchers who abandoned theirs. He must first listen before he can speak for God.",
+          "crossReferences": [
+            "Daniel 10:12 — a heavenly messenger tells the trembling seer not to fear",
+            "Jeremiah 1:7 — the appointed messenger must speak what God commands"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "‘Go and say to the Watchers of heaven who sent you to petition for them: You should have petitioned on behalf of human beings, not human beings on behalf of you.’",
+          "study": "The Lord exposes a reversal of proper responsibility. Heavenly Watchers should have served the good of humanity, yet after corrupting human life they require a human to plead for them. Their request itself testifies to how far they have fallen from their appointed role.",
+          "crossReferences": [
+            "Psalm 91:11 — angels are commanded to guard human beings",
+            "Hebrews 1:14 — heavenly spirits are sent to serve for the sake of those receiving salvation"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "‘Why did you leave the high, holy, and eternal heaven, lie with women, defile yourselves with the daughters of humanity, take wives for yourselves, act like the children of earth, and beget giant sons?’",
+          "study": "The divine question gathers the Watchers' rebellion into a sequence of deliberate acts. They left their dwelling, crossed a boundary, took wives, and produced violent offspring. The question assigns responsibility directly to the Watchers rather than treating the outcome as an accident.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly beings take the daughters of humanity and giants appear",
+            "Jude 6–7 — angels leave their proper domain and pursue forbidden flesh"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "‘Though you were holy, living spirits possessing eternal life, you defiled yourselves with the blood of women. You begot children through the blood of flesh and desired the blood of humanity, acting like those who are flesh and blood, who die and perish.’",
+          "study": "The charge contrasts the Watchers' spiritual nature with the mortal life they imitated. Blood represents embodied human life and mortality. Their sin was not created embodiment itself but their rejection of the mode of life and boundary assigned to them.",
+          "crossReferences": [
+            "Leviticus 17:11 — the life of the flesh is in the blood",
+            "Luke 20:35–36 — angels do not participate in mortal marriage and death"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "‘For this reason I gave women to human beings, so that they might sow seed in them and have children by them, and so that no work of humanity would cease upon the earth.’",
+          "study": "Human marriage and procreation belong to the Creator's provision for mortal life and the continuation of human work on earth. The Watchers' fault is therefore not that family life is impure, but that heavenly spirits seized an earthly vocation not appointed to them.",
+          "crossReferences": [
+            "Genesis 1:27–28 — male and female humanity is blessed to multiply on earth",
+            "Genesis 2:24 — marriage is given within human embodied life"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "‘But you were formerly living spirits, possessing eternal life and not dying throughout all the generations of the age.’",
+          "study": "The Watchers did not need offspring to preserve their line against death. Their own enduring life removed the mortal purpose for which human procreation was given. The verse reinforces that different creatures receive different callings from one Creator.",
+          "crossReferences": [
+            "Luke 20:36 — angels do not die",
+            "Psalm 103:20–21 — mighty angels fulfill the word and will of the LORD"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "‘Therefore I did not appoint wives for you. The spirits of heaven have their dwelling in heaven.’",
+          "study": "The statement returns to the principle of appointed dwelling. Heaven was not merely where the Watchers happened to live; it was their assigned sphere. By taking wives on earth they rejected the order that matched their created nature and service.",
+          "crossReferences": [
+            "Matthew 22:30 — angels in heaven are not given in marriage",
+            "Jude 6 — rebellious angels fail to keep their own domain and dwelling"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "‘Now the giants who were born from spirit and flesh will be called evil spirits upon the earth, and their dwelling will be upon the earth.’",
+          "study": "The death of the giants does not end the consequences of the forbidden unions. Their mixed origin is used to explain the earthbound spirits that remain after their bodies perish. The text names these spirits evil by their destructive activity and origin in rebellion.",
+          "crossReferences": [
+            "Genesis 6:4–5 — the giants belong to the setting in which great wickedness spreads",
+            "Mark 5:8–13 — unclean spirits seek embodiment and remain associated with the earthly realm"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "‘Evil spirits have come out from their bodies. Because they were born from human beings and their first origin was from the holy Watchers, they will be evil spirits upon the earth, and evil spirits they will be called.’",
+          "study": "The verse explains the name by tracing the spirits to both human bodies and fallen heavenly parentage. Calling the Watchers holy describes the station from which they fell, not the moral quality of their rebellion. Their corrupted offspring continue the harm released by that fall.",
+          "crossReferences": [
+            "Isaiah 24:21 — both the host of the heights and earthly powers come under judgment",
+            "Ephesians 6:12 — spiritual forces of evil operate beyond merely human conflict"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "‘The spirits of heaven have their dwelling in heaven, but the spirits born upon the earth have their dwelling upon the earth.’",
+          "study": "The contrast restates the ordered relationship between origin and dwelling. The spirits of the giants are earthbound because their embodied origin occurred on earth. The heavenly court remains above them and retains authority over their activity and judgment.",
+          "crossReferences": [
+            "Ecclesiastes 5:2 — God is in heaven and humanity is upon earth",
+            "Luke 10:17–20 — evil spirits on earth remain subject to heavenly authority"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "‘The spirits of the giants oppress, corrupt, attack, fight, and bring destruction upon the earth. They eat no food, yet they hunger and thirst, and they cause people to stumble.’",
+          "study": "The spirits continue the giants' pattern of restless appetite and violence without the bodily food that once fed it. Their work is described by its effects: oppression, conflict, destruction, and temptation. The account provides no permission to admire or seek such powers.",
+          "crossReferences": [
+            "John 8:44 — the devil's work is characterized by murder and falsehood",
+            "1 Peter 5:8–9 — the adversary seeks to devour, but must be resisted"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "‘These spirits will rise against the children of humanity and against the women, because they came out from them.’",
+          "study": "The destructive spirits turn against the human world from which their bodies came. This completes the tragic fruit of the Watchers' unions: what began as desire produces continuing hostility toward humanity. Chapter 16 will state the duration and final limit of this activity.",
+          "crossReferences": [
+            "Genesis 3:15 — hostility marks the conflict between evil and humanity",
+            "Ephesians 6:11–13 — people must stand against spiritual forces of evil"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 15 gives the direct divine answer that the throne vision prepared Enoch to receive. The Watchers' petition is rejected because their actions inverted their calling: beings appointed to heavenly service abandoned their dwelling, harmed humanity, and then required a human intermediary to plead for them.",
+          "The central distinction is between mortal humanity and heavenly spirits. Human marriage, childbirth, and bodily continuity are affirmed as provisions for life on earth. The Watchers' sin lies in seizing that embodied vocation in defiance of the heavenly form of life assigned to them.",
+          "The latter part of the chapter explains the origin of the evil spirits within the narrative. The giants' bodies die, but spirits proceed from them and continue their violence through oppression, conflict, destruction, and temptation. The text consistently describes these powers as evil and subject to judgment, never as sources of wisdom or aid.",
+          "The repeated language of dwelling ties the chapter together. Holy service requires remaining within God's appointed order; rebellion abandons that order and spreads disorder to others. Yet even the earthbound spirits remain within the world ruled by the Great Glory. Chapter 16 will set the final boundary on their destructive activity."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 1:27–28 — human marriage and fruitfulness within creation",
+        "Genesis 6:1–5 — heavenly beings, women, giants, and spreading wickedness",
+        "Psalm 91:11 — angels appointed to guard human beings",
+        "Matthew 22:30 — angels in heaven and the absence of marriage",
+        "Luke 20:35–36 — angelic life not subject to mortal death",
+        "Jude 6–7 — angels leaving their proper dwelling",
+        "Ephesians 6:11–13 — resistance against spiritual forces of evil",
+        "1 Peter 5:8–9 — resisting a destructive spiritual adversary"
+      ]
+    }
+  ]
+}
