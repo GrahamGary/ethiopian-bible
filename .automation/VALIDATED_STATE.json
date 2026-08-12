@@ -7,11 +7,11 @@
     "chapter": 108
   },
   "nextUnfinished": {
-    "bookId": "1-enoch",
-    "book": "1 Enoch",
-    "chapter": 109
+    "bookId": "jubilees",
+    "book": "Jubilees",
+    "chapter": 1
   },
-  "validatedAt": "2026-08-12T04:28:48Z",
+  "validatedAt": "2026-08-12T06:25:41Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -601,5 +601,6 @@
       },
       "unrelatedProtectedFilesVerified": 83
     }
-  ]
+  ],
+  "transitionRepairedAt": "2026-08-12T06:25:41Z"
 }

@@ -5,6 +5,7 @@ This directory is the machine-readable boundary between Scripture production and
 - `PRODUCTION_LOCK.json` is created atomically by `scripts/production-lock.sh`. It is intentionally ignored by Git. A live lock covers source work, creation, translation, checking, rendering, and validation. A different chapter can never replace it.
 - `VALIDATED_STATE.json` protects every completed Scripture payload, plus the application files that contain or render completed Scripture, with SHA-256 hashes.
 - `PUBLISH_READY.json` is the only allow-list for publication. Its `files` array contains validated, hash-pinned files only. A chapter absent from that array is not publishable.
+- `content-manifest.json` owns the approved project book order in its ordered `books` array. Every book records its approved chapter total and derived `NOT_STARTED`, `IN_PROGRESS`, or `COMPLETE` status; production must never infer a different order.
 - `PUBLISH_READY.json` lists itself with `validation: "self"` so the publication-control record is explicitly allow-listed without an impossible self-referential hash. The complete gate validates that record immediately before commit and again immediately before push.
 - `PUBLISH_LOCK.json` is an ignored, atomic live-publication lock. Production lock acquisition and publication are mutually exclusive.
 - `PUBLICATION_STATE.json` is an ignored, machine-readable local record written only after a successful `origin/main` push. `PUBLICATION_STATE.pending.json` is prepared before the push so an interrupted or failed attempt cannot be mistaken for a successful publication.
@@ -17,13 +18,19 @@ This directory is the machine-readable boundary between Scripture production and
 
 1. Read `PUBLISH_READY.json`, `VALIDATED_STATE.json`, `PROGRESS.md`, the manifest, Git status, and any existing lock or recovery journal.
 2. If `FINALIZE_TRANSACTION.json` exists, run `python3 scripts/validation-gate.py recover-finalize` and do not create another chapter.
-3. Acquire the exact next unfinished chapter with `scripts/production-lock.sh acquire BOOK_ID CHAPTER RUN_ID`. An active lock exits with status 75. A stale lock may be resumed only for the same book and chapter; the default stale interval is six hours, and production must send regular heartbeats.
+3. Acquire the exact next unfinished chapter with `scripts/production-lock.sh acquire BOOK_ID CHAPTER RUN_ID`. An active lock exits with status 75. A stale lock may be resumed only for the same book and chapter; new locks use a one-hour stale interval, and production must send regular heartbeats. A lock's stored `staleAfterSeconds` remains authoritative for ordinary acquisition, so changing the default never shortens an existing lock automatically.
 4. Keep the lock active through source establishment, creation, translation, checks, rendering, and validation. Run `scripts/production-lock.sh heartbeat RUN_ID` before and after each phase and at least every 30 minutes.
 5. Create or resume only the locked chapter. Never change a file listed under `protectedFiles` in `VALIDATED_STATE.json`.
 6. Write `.automation/VALIDATION_CANDIDATE.json` using the evidence format enforced by `validation-gate.py`. All source attestations must be true and name the primary witnesses actually used.
 7. Run `python3 scripts/validation-gate.py finalize --chapter-file PATH --evidence .automation/VALIDATION_CANDIDATE.json --run-id RUN_ID`.
 8. `finalize` validates source evidence, payload structure, JSON, manifest sequence, app rendering contracts, search, navigation, mobile layout, and previous-content hashes before it prepares any metadata update. It then advances the manifest, `PROGRESS.md`, `VALIDATED_STATE.json`, and `PUBLISH_READY.json` through a recoverable transaction and removes the lock last.
 9. On any failure before validation completes, do not edit the progress, manifest, validated state, or publishing record. Preserve the partial locked chapter and leave the lock for same-chapter recovery.
+
+When a validated chapter reaches its book's manifest-approved `totalChapterCount`, `finalize` marks that book `COMPLETE` and derives the next unfinished marker as Chapter 1 of the next entry in the manifest's ordered `books` array. It refuses to invent an overflow chapter or a next book. The one legacy completed-book overflow state can be corrected transactionally with `python3 scripts/validation-gate.py repair-book-transition`; interruption recovery remains `recover-finalize`.
+
+## Confirmed stranded local-lock recovery
+
+When an existing same-host owner is independently proven inactive but its older lock still carries a longer stored timeout, use `scripts/production-lock.sh recover-stranded BOOK_ID CHAPTER EXISTING_RUN_ID NEW_RUN_ID --inactive-owner-evidence EVIDENCE`. This explicit recovery path requires the exact current `nextUnfinished` book and chapter, the exact displaced run ID, the same host, valid protected repository records, no finalize or publication transaction, an unchanged lock throughout the check, and at least one hour without a heartbeat. It records the prior run, host, heartbeat, and operator evidence in the replacement lock. Never use it merely because another run wants access; an owner that is active or still heartbeating must not be displaced.
 
 ## Authorized protected correction workflow
 

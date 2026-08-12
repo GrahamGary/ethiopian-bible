@@ -2,7 +2,7 @@
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
   "contentVersion": "2026.08.12.100",
-  "updatedAt": "2026-08-12T04:28:48Z",
+  "updatedAt": "2026-08-12T06:25:41Z",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -10,7 +10,15 @@
       "id": "1-enoch",
       "title": "1 Enoch",
       "totalChapterCount": 108,
-      "builtInThroughChapter": 3
+      "builtInThroughChapter": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "totalChapterCount": 50,
+      "builtInThroughChapter": 0,
+      "status": "NOT_STARTED"
     }
   ],
   "updates": [

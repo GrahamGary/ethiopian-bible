@@ -32,7 +32,7 @@ MANIFEST = ROOT / "content-manifest.json"
 PROGRESS = ROOT / "PROGRESS.md"
 INDEX = ROOT / "index.html"
 SERVICE_WORKER = ROOT / "sw.js"
-STALE_SECONDS = 6 * 60 * 60
+STALE_SECONDS = 60 * 60
 CHAPTER_FILE_RE = re.compile(r"^(?P<book>[a-z0-9-]+)-(?P<chapter>\d{3})\.json$")
 REQUIRED_CHECKS = (
     "source",
@@ -299,8 +299,14 @@ def parse_progress(text=None):
     patterns = {
         "last": r"^Last completed:\s+(.+?)\s+(\d+)\s*$",
         "next": r"^Next chapter:\s+(.+?)\s+(\d+)\s*$",
-        "status": r"^Current book status:\s+(\d+)\s+/\s+(\d+) chapters completed\s*$",
-        "overall": r"^Overall project status:\s+(.+?)\s+—\s+(\d+) of (\d+) chapters completed;\s+(.+)$",
+        "status": (
+            r"^Current book status:\s+(\d+)\s+/\s+(\d+) chapters completed"
+            r"(?:\s+—\s+(IN_PROGRESS|COMPLETE))?\s*$"
+        ),
+        "overall": (
+            r"^Overall project status:\s+(.+?)\s+—\s+(\d+) of (\d+) chapters completed"
+            r"(?:\s+—\s+(IN_PROGRESS|COMPLETE))?;\s+(.+)$"
+        ),
     }
     values = {}
     for name, pattern in patterns.items():
@@ -310,25 +316,63 @@ def parse_progress(text=None):
         values[name] = matches[0]
     last_book, last_chapter = values["last"]
     next_book, next_chapter = values["next"]
-    current_done, current_total = map(int, values["status"])
-    overall_book, overall_done, overall_total, overall_tail = values["overall"]
+    current_done, current_total, current_status = values["status"]
+    current_done, current_total = int(current_done), int(current_total)
+    overall_book, overall_done, overall_total, overall_status, overall_tail = values["overall"]
     overall_done, overall_total = int(overall_done), int(overall_total)
-    if last_book != next_book or last_book != overall_book:
-        raise GateError("PROGRESS.md book names disagree")
+    if last_book != overall_book:
+        raise GateError("PROGRESS.md last-completed and overall book names disagree")
     if int(last_chapter) != current_done or current_done != overall_done:
         raise GateError("PROGRESS.md completed chapter values disagree")
-    if int(next_chapter) != current_done + 1:
-        raise GateError("PROGRESS.md next chapter is not sequential")
     if current_total != overall_total:
         raise GateError("PROGRESS.md total chapter values disagree")
+    if current_status != overall_status:
+        raise GateError("PROGRESS.md book statuses disagree")
     return {
         "lastBook": last_book,
         "lastChapter": int(last_chapter),
         "nextBook": next_book,
         "nextChapter": int(next_chapter),
         "total": current_total,
+        "status": current_status or None,
         "overallTail": overall_tail,
     }
+
+
+def book_marker(book, chapter):
+    return {"bookId": book["id"], "book": book["title"], "chapter": chapter}
+
+
+def expected_book_status(book, chapters):
+    built_in = book.get("builtInThroughChapter", 0)
+    validated_through = max([built_in, *chapters])
+    if validated_through == book["totalChapterCount"]:
+        return "COMPLETE"
+    if validated_through == 0:
+        return "NOT_STARTED"
+    return "IN_PROGRESS"
+
+
+def set_manifest_book_statuses(manifest):
+    by_book = {book["id"]: [] for book in manifest["books"]}
+    for item in manifest["updates"]:
+        by_book[item["bookId"]].append(item["chapter"])
+    for book in manifest["books"]:
+        book["status"] = expected_book_status(book, by_book[book["id"]])
+
+
+def next_unfinished_marker(manifest, last):
+    books = manifest["books"]
+    book_index = {book["id"]: index for index, book in enumerate(books)}
+    current = books[book_index[last["bookId"]]]
+    if last["chapter"] < current["totalChapterCount"]:
+        return book_marker(current, last["chapter"] + 1)
+    if last["chapter"] > current["totalChapterCount"]:
+        raise GateError(f"last validated chapter exceeds the approved total for {current['title']}")
+    next_index = book_index[current["id"]] + 1
+    if next_index >= len(books):
+        raise GateError(f"{current['title']} is complete, but the approved book order has no next book")
+    return book_marker(books[next_index], 1)
 
 
 def validate_manifest(manifest=None):
@@ -342,13 +386,17 @@ def validate_manifest(manifest=None):
     if not isinstance(books, list) or not books or not isinstance(updates, list):
         raise GateError("manifest books or updates are invalid")
     book_map = {}
-    for book in books:
+    book_index = {}
+    for index, book in enumerate(books):
         if not isinstance(book, dict) or not book.get("id") or book["id"] in book_map:
             raise GateError("manifest has invalid or duplicate books")
+        require_text(book.get("title"), f"manifest book title for {book['id']}")
         book_map[book["id"]] = book
+        book_index[book["id"]] = index
     ids = set()
     pairs = set()
     by_book = {book_id: [] for book_id in book_map}
+    previous_order_key = None
     for item in updates:
         if not isinstance(item, dict):
             raise GateError("manifest update entry is invalid")
@@ -358,13 +406,17 @@ def validate_manifest(manifest=None):
             raise GateError("manifest update IDs are invalid or duplicated")
         if pair in pairs or pair[0] not in book_map or type(pair[1]) is not int:
             raise GateError("manifest chapter identity is invalid or duplicated")
+        order_key = (book_index[pair[0]], pair[1])
+        if previous_order_key is not None and order_key <= previous_order_key:
+            raise GateError("manifest updates do not follow the approved book and chapter order")
+        previous_order_key = order_key
         ids.add(update_id)
         pairs.add(pair)
         path = safe_path(item.get("url"))
         payload, _, chapter = validate_payload(path, pair[0], pair[1])
         if payload.get("updateId") != update_id or payload.get("contentVersion") != item.get("contentVersion"):
             raise GateError(f"manifest metadata disagrees with {relative(path)}")
-        if chapter.get("chapter") != pair[1]:
+        if chapter.get("chapter") != pair[1] or chapter.get("bookTitle") != book_map[pair[0]]["title"]:
             raise GateError(f"manifest chapter disagrees with {relative(path)}")
         by_book[pair[0]].append(pair[1])
     for book_id, book in book_map.items():
@@ -377,6 +429,11 @@ def validate_manifest(manifest=None):
             expected = list(range(built_in + 1, max(chapters) + 1))
             if chapters != expected:
                 raise GateError(f"manifest discovery sequence has a gap or reorder for {book_id}")
+        expected_status = expected_book_status(book, chapters)
+        if book.get("status") != expected_status:
+            raise GateError(
+                f"manifest status for {book_id} must be {expected_status}, not {book.get('status')}"
+            )
     if not updates:
         raise GateError("manifest contains no validated update")
     last = updates[-1]
@@ -391,10 +448,16 @@ def validate_progress_manifest(progress_text=None, manifest=None):
     book = book_map[last["bookId"]]
     if progress["lastBook"] != book.get("title") or progress["lastChapter"] != last["chapter"]:
         raise GateError("PROGRESS.md and manifest disagree on the last validated chapter")
-    if progress["nextBook"] != book.get("title") or progress["nextChapter"] != last["chapter"] + 1:
+    expected_next = next_unfinished_marker(manifest, last)
+    if (progress["nextBook"], progress["nextChapter"]) != (
+        expected_next["book"],
+        expected_next["chapter"],
+    ):
         raise GateError("PROGRESS.md and manifest disagree on the next unfinished chapter")
     if progress["total"] != book.get("totalChapterCount"):
         raise GateError("PROGRESS.md and manifest disagree on the book total")
+    if progress["status"] != book.get("status"):
+        raise GateError("PROGRESS.md and manifest disagree on the completed book status")
     return progress, manifest, book, last
 
 
@@ -405,9 +468,8 @@ def protected_entries(last):
     ]
     manifest, book_map, _ = validate_manifest()
     for item in manifest["updates"]:
-        if item["bookId"] == last["bookId"] and item["chapter"] <= last["chapter"]:
-            path = safe_path(item["url"])
-            entries.append({"path": relative(path), "sha256": sha256(path), "scope": "validated Scripture"})
+        path = safe_path(item["url"])
+        entries.append({"path": relative(path), "sha256": sha256(path), "scope": "validated Scripture"})
     return entries
 
 
@@ -478,8 +540,15 @@ def validate_state(expected_last=None, allowed_hash_drift=None):
         raise GateError("VALIDATED_STATE.json chapter markers are invalid")
     if expected_last and (last.get("bookId"), last.get("chapter")) != expected_last:
         raise GateError("VALIDATED_STATE.json has the wrong last validated chapter")
-    if (next_item.get("bookId"), next_item.get("chapter")) != (last.get("bookId"), last.get("chapter") + 1):
-        raise GateError("VALIDATED_STATE.json next chapter is not sequential")
+    for label, marker in (("lastValidated", last), ("nextUnfinished", next_item)):
+        if (
+            not isinstance(marker.get("bookId"), str)
+            or not isinstance(marker.get("book"), str)
+            or type(marker.get("chapter")) is not int
+            or marker["chapter"] < 1
+        ):
+            raise GateError(f"VALIDATED_STATE.json {label} marker is invalid")
+    parse_iso(state.get("validatedAt"))
     entries = state.get("protectedFiles")
     if not isinstance(entries, list) or not entries:
         raise GateError("VALIDATED_STATE.json has no protected files")
@@ -512,8 +581,14 @@ def validate_ready(expected_last=None, allowed_hash_drift=None):
         raise GateError("PUBLISH_READY.json chapter markers are invalid")
     if expected_last and (last.get("bookId"), last.get("chapter")) != expected_last:
         raise GateError("PUBLISH_READY.json has the wrong last validated chapter")
-    if (next_item.get("bookId"), next_item.get("chapter")) != (last.get("bookId"), last.get("chapter") + 1):
-        raise GateError("PUBLISH_READY.json next chapter is not sequential")
+    for label, marker in (("lastValidated", last), ("nextUnfinished", next_item)):
+        if (
+            not isinstance(marker.get("bookId"), str)
+            or not isinstance(marker.get("book"), str)
+            or type(marker.get("chapter")) is not int
+            or marker["chapter"] < 1
+        ):
+            raise GateError(f"PUBLISH_READY.json {label} marker is invalid")
     checks = ready.get("checks")
     if not isinstance(checks, dict) or any(checks.get(name) != "PASSED" for name in REQUIRED_CHECKS):
         raise GateError("PUBLISH_READY.json does not record every required check as PASSED")
@@ -574,21 +649,33 @@ def validate_repository_records():
     expected = (last["bookId"], last["chapter"])
     state = validate_state(expected)
     ready = validate_ready(expected)
-    markers = (last["bookId"], last["chapter"], last["chapter"] + 1)
-    state_markers = (state["lastValidated"]["bookId"], state["lastValidated"]["chapter"], state["nextUnfinished"]["chapter"])
-    ready_markers = (ready["lastValidated"]["bookId"], ready["lastValidated"]["chapter"], ready["nextUnfinished"]["chapter"])
-    if state_markers != markers or ready_markers != markers:
+    last_marker = book_marker(book, last["chapter"])
+    next_marker = next_unfinished_marker(manifest, last)
+    if (
+        state["lastValidated"] != last_marker
+        or state["nextUnfinished"] != next_marker
+        or ready["lastValidated"] != last_marker
+        or ready["nextUnfinished"] != next_marker
+    ):
         raise GateError("progress, manifest, validated state, and publishing record disagree")
+    transition = ready.get("transition")
+    if transition is not None and transition != {
+        "completedBook": last_marker,
+        "status": "COMPLETE",
+        "nextApprovedBook": next_marker,
+    }:
+        raise GateError("PUBLISH_READY.json completed-book transition record is inconsistent")
     return progress, manifest, book, last, state, ready
 
 
-def build_progress(book_title, chapter, total):
+def build_progress(book_title, chapter, total, next_marker):
+    status = "COMPLETE" if chapter == total else "IN_PROGRESS"
     return (
         "# Ethiopian Bible Production Progress\n\n"
         f"Last completed: {book_title} {chapter}\n"
-        f"Next chapter: {book_title} {chapter + 1}\n"
-        f"Current book status: {chapter} / {total} chapters completed\n"
-        f"Overall project status: {book_title} — {chapter} of {total} chapters completed; "
+        f"Next chapter: {next_marker['book']} {next_marker['chapter']}\n"
+        f"Current book status: {chapter} / {total} chapters completed — {status}\n"
+        f"Overall project status: {book_title} — {chapter} of {total} chapters completed — {status}; "
         "complete Ethiopian Bible project in progress\n"
     ).encode("utf-8")
 
@@ -623,8 +710,8 @@ def initialize(args):
         raise GateError("cannot initialize validated records while a lock or recovery transaction exists")
     validate_app_contracts()
     progress, manifest, book, last = validate_progress_manifest()
-    last_marker = {"bookId": last["bookId"], "book": book["title"], "chapter": last["chapter"]}
-    next_marker = {"bookId": last["bookId"], "book": book["title"], "chapter": last["chapter"] + 1}
+    last_marker = book_marker(book, last["chapter"])
+    next_marker = next_unfinished_marker(manifest, last)
     validated_at = args.validated_at or iso_now()
     parse_iso(validated_at)
     state = {
@@ -827,6 +914,61 @@ def lock_command(args):
         return
     if args.lock_action == "acquire-correction":
         acquire_correction_lock(args)
+        return
+    if args.lock_action == "recover-stranded":
+        if args.chapter < 1 or not args.book_id or not args.existing_run_id or not args.run_id:
+            raise GateError("book, chapter, existing run ID, and new run ID are required")
+        require_text(args.inactive_owner_evidence, "inactive-owner evidence", 20)
+        if PUBLISH_LOCK.exists():
+            raise GateError("a controlled publication is in progress; stranded-lock recovery refused")
+        if TRANSACTION.exists():
+            raise GateError("a validated finalization transaction must be recovered before a stranded lock")
+        try:
+            _, _, _, _, _, ready = validate_repository_records()
+        except GateError as exc:
+            raise GateError(f"records must be valid before stranded-lock recovery: {exc}") from exc
+        expected = ready["nextUnfinished"]
+        if (args.book_id, args.chapter) != (expected["bookId"], expected["chapter"]):
+            raise GateError(
+                f"requested {args.book_id} {args.chapter}, but the only permitted next chapter is "
+                f"{expected['bookId']} {expected['chapter']}"
+            )
+        if not LOCK.exists():
+            raise GateError("no production lock exists to recover")
+        existing_bytes = LOCK.read_bytes()
+        existing = read_json(LOCK)
+        if existing.get("mode") == "CONTROLLED_CORRECTION":
+            raise GateError("the existing lock is a controlled correction lock")
+        if (existing.get("bookId"), existing.get("chapter")) != (args.book_id, args.chapter):
+            raise GateError("stranded-lock recovery must remain on the existing book and chapter")
+        if existing.get("runId") != args.existing_run_id:
+            raise GateError("existing run ID does not match the production lock")
+        if existing.get("host") != socket.gethostname():
+            raise GateError("stranded-lock recovery requires independently verified evidence from the same host")
+        previous_heartbeat = existing.get("heartbeatAt")
+        age = (utc_now() - parse_iso(previous_heartbeat)).total_seconds()
+        if age < STALE_SECONDS:
+            remaining = max(0, int(STALE_SECONDS - age))
+            print(
+                f"ACTIVE LOCK: stranded recovery unavailable for {remaining}s after the last heartbeat",
+                file=sys.stderr,
+            )
+            raise SystemExit(75)
+        if PUBLISH_LOCK.exists():
+            raise GateError("a controlled publication started concurrently; stranded-lock recovery refused")
+        if not LOCK.exists() or LOCK.read_bytes() != existing_bytes:
+            raise GateError("production lock changed during stranded-lock recovery; recovery refused")
+        recovered = lock_payload(args.book_id, args.chapter, args.run_id, existing.get("runId"))
+        recovered.update(
+            {
+                "recoveryMode": "CONFIRMED_INACTIVE_LOCAL_OWNER",
+                "recoveredFromHeartbeatAt": previous_heartbeat,
+                "recoveredFromHost": existing.get("host"),
+                "recoveryEvidence": args.inactive_owner_evidence.strip(),
+            }
+        )
+        atomic_write(LOCK, json_bytes(recovered))
+        print(f"STRANDED LOCK RECOVERED: resume {args.book_id} {args.chapter} ({args.run_id})")
         return
     if args.lock_action == "acquire":
         if args.chapter < 1 or not args.book_id or not args.run_id:
@@ -1080,6 +1222,66 @@ def prepare_transaction(files, target, run_id, validated_at):
     return transaction
 
 
+def prepare_book_transition_transaction(files, last_marker, next_marker, repaired_at):
+    transaction = {
+        "format": "ethiopian-bible-book-transition-transaction",
+        "schemaVersion": 1,
+        "validationPassed": True,
+        "lastValidated": last_marker,
+        "nextUnfinished": next_marker,
+        "repairedAt": repaired_at,
+        "files": [],
+    }
+    for path, data in files:
+        transaction["files"].append(
+            {
+                "path": relative(path),
+                "sha256": sha256_bytes(data),
+                "contentBase64": base64.b64encode(data).decode("ascii"),
+            }
+        )
+    atomic_write(TRANSACTION, json_bytes(transaction))
+    return transaction
+
+
+def apply_book_transition_transaction(transaction):
+    if (
+        transaction.get("format") != "ethiopian-bible-book-transition-transaction"
+        or transaction.get("schemaVersion") != 1
+        or transaction.get("validationPassed") is not True
+    ):
+        raise GateError("book-transition transaction is invalid or was not validated")
+    if LOCK.exists():
+        raise GateError("book-transition repair cannot run while a production lock exists")
+    entries = transaction.get("files")
+    expected_paths = {relative(MANIFEST), relative(PROGRESS), relative(STATE), relative(READY)}
+    if not isinstance(entries, list) or {
+        entry.get("path") for entry in entries if isinstance(entry, dict)
+    } != expected_paths:
+        raise GateError("book-transition transaction does not contain the exact atomic file set")
+    for entry in entries:
+        path = safe_path(entry.get("path"))
+        try:
+            data = base64.b64decode(entry.get("contentBase64"), validate=True)
+        except Exception as exc:
+            raise GateError(f"invalid book-transition payload for {entry.get('path')}") from exc
+        if sha256_bytes(data) != entry.get("sha256"):
+            raise GateError(f"book-transition hash mismatch for {entry.get('path')}")
+        atomic_write(path, data)
+    _, manifest, book, last, state, ready = validate_repository_records()
+    if (
+        state["lastValidated"] != transaction.get("lastValidated")
+        or ready["lastValidated"] != transaction.get("lastValidated")
+        or state["nextUnfinished"] != transaction.get("nextUnfinished")
+        or ready["nextUnfinished"] != transaction.get("nextUnfinished")
+        or book.get("status") != "COMPLETE"
+        or last["chapter"] != book.get("totalChapterCount")
+        or next_unfinished_marker(manifest, last) != transaction.get("nextUnfinished")
+    ):
+        raise GateError("book-transition transaction did not establish the validated completion state")
+    TRANSACTION.unlink()
+
+
 def prepare_correction_transaction(files, lock, authorization, corrected_at):
     transaction = {
         "format": "ethiopian-bible-correction-transaction",
@@ -1178,6 +1380,106 @@ def apply_transaction(transaction):
     candidate = AUTOMATION / "VALIDATION_CANDIDATE.json"
     if candidate.exists():
         candidate.unlink()
+
+
+def repair_completed_book_transition(_args):
+    if LOCK.exists():
+        raise GateError("a production lock exists; completed-book transition repair refused")
+    if PUBLISH_LOCK.exists():
+        raise GateError("a controlled publication is in progress; completed-book transition repair refused")
+    if TRANSACTION.exists():
+        raise GateError("a finalization transaction already exists; recover it first")
+    validate_app_contracts()
+    manifest = read_json(MANIFEST)
+    manifest, book_map, last = validate_manifest(manifest)
+    book = book_map[last["bookId"]]
+    if last["chapter"] != book["totalChapterCount"] or book.get("status") != "COMPLETE":
+        raise GateError("the manifest's last validated book is not complete at its approved final chapter")
+    expected_last = (last["bookId"], last["chapter"])
+    state = validate_state(expected_last)
+    ready = validate_ready(expected_last, allowed_hash_drift={relative(MANIFEST)})
+    progress = parse_progress()
+    last_marker = book_marker(book, last["chapter"])
+    legacy_next = book_marker(book, last["chapter"] + 1)
+    approved_next = next_unfinished_marker(manifest, last)
+    if approved_next["bookId"] == last_marker["bookId"] or approved_next["chapter"] != 1:
+        raise GateError("the approved order does not advance the completed book to the next book's Chapter 1")
+    if state["lastValidated"] != last_marker or ready["lastValidated"] != last_marker:
+        raise GateError("validated state does not agree on the completed final chapter")
+    if state["nextUnfinished"] != legacy_next or ready["nextUnfinished"] != legacy_next:
+        raise GateError("the repair target is not the legacy same-book overflow marker")
+    if (
+        (progress["lastBook"], progress["lastChapter"]) != (last_marker["book"], last_marker["chapter"])
+        or (progress["nextBook"], progress["nextChapter"]) != (legacy_next["book"], legacy_next["chapter"])
+        or progress["total"] != book["totalChapterCount"]
+    ):
+        raise GateError("PROGRESS.md is not the matching legacy completed-book state")
+    invalid_path = ROOT / f"{legacy_next['bookId']}-{legacy_next['chapter']:03d}.json"
+    if invalid_path.exists():
+        raise GateError(f"invalid overflow chapter exists and must be inspected: {relative(invalid_path)}")
+
+    repaired_at = iso_now()
+    new_manifest = json.loads(json.dumps(manifest))
+    new_manifest["updatedAt"] = repaired_at
+    manifest_bytes = json_bytes(new_manifest)
+    progress_bytes = build_progress(book["title"], last["chapter"], book["totalChapterCount"], approved_next)
+    parse_progress(progress_bytes.decode("utf-8"))
+    new_state = json.loads(json.dumps(state))
+    new_state["nextUnfinished"] = approved_next
+    new_state["validatedAt"] = repaired_at
+    new_state["transitionRepairedAt"] = repaired_at
+    state_bytes = json_bytes(new_state)
+
+    overrides = {
+        relative(MANIFEST): manifest_bytes,
+        relative(PROGRESS): progress_bytes,
+        relative(STATE): state_bytes,
+    }
+    ready_paths = {
+        relative(READY),
+        relative(STATE),
+        relative(MANIFEST),
+        relative(PROGRESS),
+        ".automation/README.md",
+        "scripts/validation-gate.py",
+    }
+    ready_entries = []
+    for path_text in sorted(ready_paths):
+        if safe_path(path_text) == READY:
+            ready_entries.append(
+                {"path": path_text, "validation": "self", "role": "publication-control-record"}
+            )
+            continue
+        data = overrides.get(path_text)
+        digest = sha256_bytes(data) if data is not None else sha256(safe_path(path_text))
+        ready_entries.append({"path": path_text, "sha256": digest, "role": file_role(path_text)})
+    new_ready = {
+        "format": "ethiopian-bible-publish-ready",
+        "schemaVersion": 1,
+        "status": "VALIDATED",
+        "lastValidated": last_marker,
+        "nextUnfinished": approved_next,
+        "validatedAt": repaired_at,
+        "checks": {name: "PASSED" for name in REQUIRED_CHECKS},
+        "transition": {
+            "completedBook": last_marker,
+            "status": "COMPLETE",
+            "nextApprovedBook": approved_next,
+        },
+        "files": ready_entries,
+    }
+    ready_bytes = json_bytes(new_ready)
+    transaction = prepare_book_transition_transaction(
+        [(MANIFEST, manifest_bytes), (PROGRESS, progress_bytes), (STATE, state_bytes), (READY, ready_bytes)],
+        last_marker,
+        approved_next,
+        repaired_at,
+    )
+    apply_book_transition_transaction(transaction)
+    print(
+        f"BOOK TRANSITION REPAIRED: {book['title']} COMPLETE through {last['chapter']}; "
+        f"next unfinished {approved_next['book']} {approved_next['chapter']}"
+    )
 
 
 def finalize_correction(args):
@@ -1315,20 +1617,21 @@ def finalize(args):
     book_id = lock.get("bookId")
     chapter_number = lock.get("chapter")
     chapter_file = safe_path(args.chapter_file)
-    state = validate_state()
-    ready = validate_ready()
+    _, manifest, _, last, state, ready = validate_repository_records()
     expected = ready["nextUnfinished"]
     if (book_id, chapter_number) != (expected["bookId"], expected["chapter"]):
         raise GateError("locked chapter is not the publishing record's next unfinished chapter")
     payload, book_meta, chapter = validate_payload(chapter_file, book_id, chapter_number)
     validate_evidence(safe_path(args.evidence), book_id, chapter_number, chapter_file)
     validate_app_contracts()
-    manifest = read_json(MANIFEST)
-    _, book_map, last = validate_manifest(manifest)
-    if (last["bookId"], last["chapter"] + 1) != (book_id, chapter_number):
-        raise GateError("candidate chapter is not sequential after the manifest's last validated chapter")
+    _, book_map, _ = validate_manifest(manifest)
+    expected_marker = next_unfinished_marker(manifest, last)
+    if (book_id, chapter_number) != (expected_marker["bookId"], expected_marker["chapter"]):
+        raise GateError("candidate chapter is not next in the approved book and chapter order")
     if book_id not in book_map:
         raise GateError("candidate book is absent from the manifest")
+    if book_meta.get("totalChapterCount") != book_map[book_id].get("totalChapterCount"):
+        raise GateError("candidate book total disagrees with the approved manifest metadata")
     update_entry = {
         "id": payload["updateId"],
         "bookId": book_id,
@@ -1341,13 +1644,14 @@ def finalize(args):
     new_manifest["contentVersion"] = payload["contentVersion"]
     new_manifest["updatedAt"] = updated_at
     new_manifest["updates"].append(update_entry)
+    set_manifest_book_statuses(new_manifest)
     validate_manifest(new_manifest)
     total = book_meta["totalChapterCount"]
-    progress_bytes = build_progress(chapter["bookTitle"], chapter_number, total)
+    next_marker = next_unfinished_marker(new_manifest, update_entry)
+    progress_bytes = build_progress(chapter["bookTitle"], chapter_number, total, next_marker)
     parse_progress(progress_bytes.decode("utf-8"))
     manifest_bytes = json_bytes(new_manifest)
-    last_marker = {"bookId": book_id, "book": chapter["bookTitle"], "chapter": chapter_number}
-    next_marker = {"bookId": book_id, "book": chapter["bookTitle"], "chapter": chapter_number + 1}
+    last_marker = book_marker(book_map[book_id], chapter_number)
     new_state = json.loads(json.dumps(state))
     new_state["lastValidated"] = last_marker
     new_state["nextUnfinished"] = next_marker
@@ -1400,16 +1704,28 @@ def finalize(args):
         updated_at,
     )
     apply_transaction(transaction)
-    print(f"VALIDATED: {chapter['bookTitle']} {chapter_number}; next chapter {chapter_number + 1}")
+    print(
+        f"VALIDATED: {chapter['bookTitle']} {chapter_number}; "
+        f"next chapter {next_marker['book']} {next_marker['chapter']}"
+    )
 
 
 def recover_finalize(_args):
     if not TRANSACTION.exists():
         print("No finalization transaction requires recovery.")
         return
+    transaction = read_json(TRANSACTION)
+    if transaction.get("format") == "ethiopian-bible-book-transition-transaction":
+        apply_book_transition_transaction(transaction)
+        last = transaction["lastValidated"]
+        next_item = transaction["nextUnfinished"]
+        print(
+            f"RECOVERED BOOK TRANSITION: {last['book']} {last['chapter']} COMPLETE; "
+            f"next unfinished {next_item['book']} {next_item['chapter']}"
+        )
+        return
     if not LOCK.exists():
         raise GateError("recovery transaction exists without its production lock")
-    transaction = read_json(TRANSACTION)
     if transaction.get("format") == "ethiopian-bible-correction-transaction":
         apply_correction_transaction(transaction)
         target = transaction["target"]
@@ -1824,6 +2140,16 @@ def parser():
     acquire_parser.add_argument("chapter", type=int)
     acquire_parser.add_argument("run_id")
     acquire_parser.set_defaults(func=lock_command)
+    stranded_parser = lock_subparsers.add_parser(
+        "recover-stranded",
+        help="recover an exact same-chapter local lock after independently confirming its owner is inactive",
+    )
+    stranded_parser.add_argument("book_id")
+    stranded_parser.add_argument("chapter", type=int)
+    stranded_parser.add_argument("existing_run_id")
+    stranded_parser.add_argument("run_id")
+    stranded_parser.add_argument("--inactive-owner-evidence", required=True)
+    stranded_parser.set_defaults(func=lock_command)
     correction_acquire_parser = lock_subparsers.add_parser(
         "acquire-correction", help="acquire the authorized protected Chapter 85 correction lock"
     )
@@ -1851,6 +2177,12 @@ def parser():
 
     recover_parser = subparsers.add_parser("recover-finalize", help="finish a validated interrupted transaction")
     recover_parser.set_defaults(func=recover_finalize)
+
+    transition_parser = subparsers.add_parser(
+        "repair-book-transition",
+        help="transactionally repair a validated final chapter's legacy same-book overflow marker",
+    )
+    transition_parser.set_defaults(func=repair_completed_book_transition)
 
     verify_parser = subparsers.add_parser("verify", help="verify the current validated state")
     verify_parser.set_defaults(func=verify)
