@@ -1,0 +1,177 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-093-2026-08-12",
+  "contentVersion": "2026.08.12.85",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 93,
+      "title": "Chapter 93 — The First Seven Weeks",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. The surviving Aramaic of 4QEnochᵍ (4Q212), columns iii–v, governs its extant wording in 93:1–4, 93:9–10, and 93:11–14; it also preserves fuller wording in the closing questions that the Ethiopic transmission shortened. The sixth- or seventh-century Coptic Antinoë fragment preserves parts of 93:3–8 and confirms the sequence and several readings of the weeks where the Aramaic is fragmentary. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 76–79, supplies all fourteen verses and all wording not extant in those earlier witnesses. The Aramaic places the eighth through tenth weeks, now preserved at 91:11–17, directly after 93:10 and before 93:11–14; the project retains the traditional Ethiopic chapter numbering while stating that earlier order plainly. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "After this, while Enoch was transmitting his epistle, he began to speak from the books.",
+          "study": "Enoch presents the following vision as written testimony handed onward. The books frame history as something heaven has made known rather than a pattern inferred from appearances alone.",
+          "crossReferences": [
+            "1 Enoch 81:1–2 — Enoch reads the heavenly tablets",
+            "1 Enoch 92:1 — Enoch writes for his descendants and future generations"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Enoch said, ‘Concerning the children of righteousness, the chosen of the world who have grown from a plant of truth and justice, I will speak and make these things known to you, my sons. I, Enoch, was shown everything in a heavenly vision; from the word of the Watchers and Holy Ones I learned everything, and in the heavenly tablets I read everything and understood.’",
+          "study": "The children of righteousness are pictured as growth from a living plant of truth and justice. Enoch names vision, holy messengers, and heavenly tablets as the channels of his testimony.",
+          "crossReferences": [
+            "1 Enoch 10:16 — the plant of righteousness and truth appears after judgment",
+            "Daniel 7:10 — heavenly judgment is accompanied by opened books"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Then Enoch began again to speak from the books and said, ‘I, Enoch, was born as the seventh in the first week, while righteous conduct still endured.’",
+          "study": "The first week locates Enoch as seventh from Adam and characterizes the earliest age by the continued presence of righteous conduct. The numbered weeks present sacred history as ordered and accountable.",
+          "crossReferences": [
+            "Genesis 5:18–24 — Enoch stands seventh in the genealogy from Adam",
+            "Jude 14 — Enoch is identified as the seventh from Adam"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "After me the second week will arise, in which falsehood and violence will spring up. In it the first end will take place, and in it a man will be saved. After it is completed, unrighteousness will grow, and a decree will be made for sinners.",
+          "study": "The second week moves from growing violence to the flood and Noah’s deliverance. Survival does not end human rebellion, so judgment is followed by a binding divine decree.",
+          "crossReferences": [
+            "Genesis 6:11–18 — violence fills the earth, while Noah is preserved",
+            "Genesis 9:8–17 — God establishes a covenant after the flood"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "After this, in the third week, at its end, a man will be chosen as a plant of righteous judgment, and after him the plant of righteousness will arise forever and ever.",
+          "study": "The chosen man initiates a line described as a lasting plant of righteousness. The image joins divine election with the calling to bear righteous fruit through future generations.",
+          "crossReferences": [
+            "Genesis 12:1–3 — Abraham is chosen so blessing may reach all families",
+            "Isaiah 61:3 — the faithful are called plantings of righteousness"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "After this, in the fourth week, at its end, visions of the holy and righteous will be seen; a law will be given for all future generations, and an enclosure will be made for them.",
+          "study": "The fourth week combines revelation, enduring instruction, and a sacred enclosure. Divine law orders a people, while the sanctuary gives visible form to holiness among them.",
+          "crossReferences": [
+            "Exodus 24:12 — God gives Moses the law and commandments",
+            "Exodus 25:8–9 — Israel is commanded to make a sanctuary"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "After this, in the fifth week, at its end, the house of glory and kingship will be built forever and ever.",
+          "study": "The fifth week centers on the house where divine glory and royal rule are confessed. Its enduring purpose exceeds the vulnerability of the physical structure later burned.",
+          "crossReferences": [
+            "1 Kings 8:10–13 — glory fills the temple built as God’s dwelling",
+            "Psalm 145:13 — God’s kingship endures through every generation"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "After this, in the sixth week, all who live in it will be blinded, and all their hearts will sink into godless forgetfulness of wisdom. In it a man will ascend; at its end the house of kingship will be burned with fire, and the whole race of the chosen root will be scattered.",
+          "study": "The sixth week contrasts Enoch’s ascent with collective loss of wisdom. The burning of the house and dispersal of the chosen root expose the consequences of covenant forgetfulness.",
+          "crossReferences": [
+            "2 Kings 25:8–12 — the temple is burned and the people are exiled",
+            "2 Kings 2:11 — Elijah is taken upward from the earth"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "After this, in the seventh week, an apostate generation will arise. Its deeds will be many, and all its deeds will be apostasy.",
+          "study": "Apostasy describes not one isolated failure but the defining character of a generation’s many works. The repeated word reveals the unity beneath varied forms of rebellion.",
+          "crossReferences": [
+            "Deuteronomy 32:5 — a crooked generation acts corruptly",
+            "Daniel 9:5–6 — transgression includes turning away from God’s commands"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "At its end, chosen ones will be selected from the eternal plant of righteousness as witnesses to righteousness, and sevenfold wisdom and knowledge concerning all his creation will be given to them.",
+          "study": "The seventh week ends not with apostasy’s triumph but with witnesses chosen from the enduring righteous plant. Wisdom equips their testimony to correspond to the fullness of God’s created order.",
+          "crossReferences": [
+            "Isaiah 11:2 — the Spirit’s gifts include wisdom, understanding, and knowledge",
+            "Acts 1:8 — chosen witnesses receive power to testify"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "For what human being can understand the command of God? Who among all the children of humanity can hear the words of the Holy One and not be shaken, or comprehend his thoughts? And who can behold all the works of heaven?",
+          "study": "The questions establish the distance between divine knowledge and ordinary human capacity. Revelation is therefore a gift that awakens reverence rather than a human achievement.",
+          "crossReferences": [
+            "Job 37:23 — the Almighty is beyond human searching",
+            "Isaiah 40:13–14 — no one has measured or instructed the Lord’s mind"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Who can behold heaven and understand its work, or see a soul or spirit and return to report it? Who can ascend, see the whole assembly of spirits, comprehend them, or act as they do?",
+          "study": "Heaven and the assembly of spirits lie beyond normal human investigation. The wording recalls Enoch’s exceptional journeys while denying that such access belongs to unaided human power.",
+          "crossReferences": [
+            "1 Enoch 22:1–4 — Enoch is shown the places of departed spirits",
+            "Proverbs 30:4 — the sage asks who has ascended to heaven and descended"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Who among the children of humanity is able to know and measure the length and breadth of the whole earth? To whom have its full measure and its form been shown?",
+          "study": "Even the inhabited earth exceeds any single person’s knowledge. Its measure and form belong first to its Maker, whose wisdom orders what humans can only explore in part.",
+          "crossReferences": [
+            "Job 38:4–5 — God alone set the earth’s measurements",
+            "Isaiah 40:12 — God measures waters, heavens, and earth"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "What human being can know the length of heaven, how great its height is, on what it is supported, and how vast is the number of the stars?",
+          "study": "The final question turns upward from earth’s expanse to heaven’s dimensions and countless stars. Human limitation becomes an invitation to humility before the One who established and numbers them.",
+          "crossReferences": [
+            "Job 38:6–7 — God questions Job about the earth’s foundations and the stars",
+            "Psalm 147:4–5 — God counts the stars, and his understanding has no limit"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 93 opens the Apocalypse of Weeks, a compressed account of sacred history organized into ten successive periods. This chapter preserves the first seven; the earlier Aramaic manuscript continues directly with the eighth through tenth weeks now numbered 91:11–17.",
+          "The sequence moves from Enoch’s early generation through the flood, the choosing of Abraham, the giving of law and sanctuary, the building and burning of the temple, exile, and a later age of apostasy. History is neither random nor morally neutral: every week is known, every form of violence is answerable, and righteous purpose continues through judgment.",
+          "Plant imagery holds the sequence together. A chosen man becomes the beginning of a plant of righteousness, and at the seventh week’s end witnesses are selected from that same eternal plant. Divine election therefore aims at enduring righteous testimony rather than privilege without responsibility.",
+          "The closing questions set human knowledge beside the immeasurable works of God. Earth, heaven, spirits, stars, and God’s own thought exceed unaided understanding. Enoch’s testimony calls its hearers to receive disclosed wisdom humbly and to live as witnesses to righteousness within their appointed time."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 91:11–17 — the eighth through tenth weeks in the earlier manuscript sequence",
+        "Genesis 5:18–24 — Enoch, seventh from Adam",
+        "Genesis 6:11–18 — violence, judgment, and Noah’s preservation",
+        "Genesis 12:1–3 — Abraham’s choosing and enduring blessing",
+        "Exodus 24:12; 25:8–9 — law and sanctuary",
+        "1 Kings 8:10–13 — the house of glory and kingship",
+        "2 Kings 25:8–12 — temple burning and exile",
+        "Job 38:1–7 — divine questions concerning creation’s dimensions",
+        "Daniel 9:4–19 — apostasy, judgment, and covenant mercy",
+        "Jude 14 — Enoch as seventh from Adam"
+      ]
+    }
+  ]
+}

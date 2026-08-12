@@ -1,0 +1,223 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-091-2026-08-12",
+  "contentVersion": "2026.08.12.83",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 91,
+      "title": "Chapter 91 — Choose the Paths of Righteousness",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. The surviving Aramaic of 4QEnochᵍ (4Q212), column ii, governs its extant fuller wording in 91:10 and 91:18–19; column iv governs 91:11–17. That Aramaic manuscript places 91:11–17 immediately after 93:9–10 as the eighth through tenth weeks of the Apocalypse of Weeks. This chapter retains the complete traditional Ethiopic chapter-and-verse structure required by the project while recording that earlier placement rather than concealing it. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 74–76, supplies all nineteen verses and all wording not extant in 4Q212. Earlier Aramaic wording is followed where it survives. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Now, my son Methuselah, summon all your brothers to me and gather all the sons of your mother, for the word calls me and the spirit has been poured upon me, so that I may show you everything that will come upon you forever.",
+          "study": "Enoch gathers his family because revelation carries responsibility toward future generations. The poured-out spirit equips him to speak about consequences extending beyond his own lifetime.",
+          "crossReferences": [
+            "Genesis 49:1–2 — Jacob gathers his sons to tell what will come afterward",
+            "Joel 2:28 — the poured-out spirit enables prophetic speech"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Then Methuselah went, summoned all his brothers to himself, and gathered his relatives.",
+          "study": "Methuselah responds promptly and brings the family into one hearing community. The transmission of wisdom begins with gathering and attentive presence.",
+          "crossReferences": [
+            "Genesis 49:2 — the sons assemble to hear their father's words",
+            "Deuteronomy 31:28 — leaders and people are gathered to hear testimony"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Enoch spoke with all his children about righteousness and said, 'Hear, my children, every word of your father, and listen carefully to the voice of my mouth, for I exhort you and say to you, my beloved: love uprightness and walk in it.'",
+          "study": "Enoch's teaching joins affection, truth, and conduct. Uprightness is not merely admired or understood; it is loved and made into a path of life.",
+          "crossReferences": [
+            "Proverbs 4:1–6 — children hear a father's instruction and love wisdom",
+            "Micah 6:8 — what is good is expressed in a way of walking"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Do not approach uprightness with a divided heart, and do not associate with those whose hearts are divided. Walk in righteousness, my children; it will lead you on good paths, and righteousness will be your companion.",
+          "study": "A divided heart seeks the appearance of uprightness without full allegiance. Enoch calls for integrity in both personal desire and chosen companionship.",
+          "crossReferences": [
+            "Psalm 86:11 — prayer asks for an undivided heart that fears the Lord",
+            "James 1:6–8 — the double-minded person is unstable in every way"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "For I know that violence will increase upon the earth and a great judgment will be carried out upon it. All unrighteousness will reach its end, be cut off from its roots, and its entire structure will pass away.",
+          "study": "Violence may grow into a structure, but it does not grow beyond judgment. The image moves from roots to building, declaring the complete removal of unrighteousness from foundation to finished work.",
+          "crossReferences": [
+            "Genesis 6:11–13 — widespread violence brings announced judgment",
+            "Malachi 4:1 — wickedness is consumed root and branch"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Yet unrighteousness will arise again, and every deed of unrighteousness, violence, and transgression will be committed upon the earth a second time.",
+          "study": "A prior judgment does not automatically cure later generations. The warning prepares Enoch's children to recognize recurring evil without mistaking recurrence for permanence.",
+          "crossReferences": [
+            "Genesis 8:21 — the human heart remains inclined toward evil after the flood",
+            "Ecclesiastes 1:9 — patterns of human life recur under the sun"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "When unrighteousness, sin, blasphemy, violence, and every kind of deed increase, and apostasy, transgression, and impurity grow, a great judgment will come from heaven upon them all. The holy Lord will come forth in wrath and punishment to execute judgment upon the earth.",
+          "study": "The accumulating list shows rebellion spreading through speech, action, allegiance, and purity. Heaven's judgment answers the whole moral order, not a single isolated offense.",
+          "crossReferences": [
+            "Isaiah 26:21 — the Lord comes from his place to punish earth's guilt",
+            "Jude 14–15 — the Lord comes to execute judgment upon ungodly deeds"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "In those days violence will be cut off from its roots, together with the roots of unrighteousness and deceit, and they will perish from beneath heaven.",
+          "study": "Judgment reaches the generative roots of violence, not only its visible fruits. Deceit is removed with unrighteousness because falsehood sustains oppressive systems.",
+          "crossReferences": [
+            "Psalm 37:9–10 — evildoers are cut off and disappear",
+            "Zephaniah 1:3 — causes of stumbling are swept from the face of the earth"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Every image of the nations will be given over. Their towers will be burned with fire and removed from the whole earth. They will be thrown into the condemnation of fire and perish in wrath and in the mighty condemnation that endures forever.",
+          "study": "The idols and towers of rebellious power share one end. What nations exalt as sacred or secure is removed when it stands against the Lord's righteous order.",
+          "crossReferences": [
+            "Isaiah 2:12–18 — lofty towers and idols are brought low before the Lord",
+            "Revelation 20:10 — enduring fiery judgment receives the deceiving power"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "The righteous will awaken from their sleep, and wisdom will arise and go forth and be given to them. They will give praise to him, and the earth will rest from the sword for all generations forever.",
+          "study": "The fuller Aramaic wording joins resurrection-like awakening, the gift of wisdom, worship, and lasting peace. Righteous renewal answers both death and violence.",
+          "crossReferences": [
+            "Daniel 12:2–3 — sleepers awaken and the wise shine",
+            "Isaiah 2:4 — the nations lay aside the sword and learn peace"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "They will uproot the foundations of violence and the structure of falsehood within it, to execute judgment.",
+          "study": "The earlier Aramaic makes the elect active participants in removing entrenched evil. Foundations and structure must both be dismantled for righteous judgment to be complete.",
+          "crossReferences": [
+            "Psalm 11:3–7 — destroyed foundations are answered by the righteous Judge",
+            "Jeremiah 1:10 — prophetic judgment uproots, tears down, builds, and plants"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "After this the eighth week will arise, the week of righteousness. In it a sword will be given to all the righteous to exact righteous judgment from all the wicked, and the wicked will be delivered into their hands.",
+          "study": "The eighth week begins the final sequence that 4Q212 places after Chapter 93's first seven weeks. The sword represents granted judicial authority directed specifically against wickedness.",
+          "crossReferences": [
+            "Psalm 149:6–9 — the faithful execute written judgment",
+            "Revelation 2:26–27 — authority over rebellious nations is granted to the faithful"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "At its end they will acquire riches in righteousness, and the royal temple of the Great One will be built in glorious splendor for all generations forever.",
+          "study": "The Aramaic speaks of righteous wealth and a royal temple belonging to the Great One. Judgment gives way to a lasting dwelling whose glory is founded on righteousness.",
+          "crossReferences": [
+            "Zechariah 6:12–13 — the Branch builds the Lord's temple and bears royal honor",
+            "Haggai 2:7–9 — the Lord fills the latter house with greater glory"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "After this the ninth week will arise. Righteousness and righteous judgment will be revealed in it to all the children of the whole earth. All who practice impiety will pass entirely from the earth and be thrown into the eternal pit, and everyone will see the right and everlasting way.",
+          "study": "Righteousness becomes universally visible in the ninth week. The removal of impiety and disclosure of the enduring way join judgment with moral clarity for the whole earth.",
+          "crossReferences": [
+            "Isaiah 11:9 — the earth is filled with knowledge of the Lord",
+            "Psalm 98:2, 9 — righteousness is revealed before the nations in judgment"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "After this the tenth week will arise. In its seventh part the everlasting judgment and the appointed time of the great judgment will be carried out in vengeance among the holy ones.",
+          "study": "The final numbered week reaches its decisive seventh part. Judgment is both everlasting in effect and appointed in time, unfolding within the heavenly assembly.",
+          "crossReferences": [
+            "Daniel 7:9–10, 22 — judgment is given in the court among the holy ones",
+            "Revelation 11:18 — the appointed time arrives to judge and reward"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "In it the first heaven will pass away, and a new heaven will appear. All the powers of heaven will rise for all eternity with sevenfold brightness.",
+          "study": "Renewal reaches heaven itself. The sevenfold brightness of its powers portrays an order transformed from the realm where stars rebelled into lasting radiance.",
+          "crossReferences": [
+            "Isaiah 65:17 — the Lord creates new heavens and a new earth",
+            "Revelation 21:1 — the first heaven passes away and a new heaven appears"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "After this there will be many weeks without number forever. In them people will practice goodness and righteousness, and sin will never again be named from then on forever.",
+          "study": "Numbered history opens into unnumbered righteousness. The final condition is not only the restraint of sin but a world in which goodness becomes the enduring work of its people.",
+          "crossReferences": [
+            "Isaiah 60:21 — the people are all righteous and possess the land forever",
+            "Revelation 22:3–5 — the curse is gone and God's servants reign forever"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "Now I speak to you, my children. I will tell you all the paths of righteousness and all the paths of violence, and I will show them to you again in order, so that you may know what will happen.",
+          "study": "Enoch returns from the future weeks to the decision before his hearers. Prophecy serves discernment by clearly distinguishing rival paths and their outcomes.",
+          "crossReferences": [
+            "Deuteronomy 30:15–19 — life and death are set before the people for choice",
+            "Psalm 1:1–6 — the ways of the righteous and wicked lead to different ends"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "Now, my children, listen to me and choose the paths of righteousness in order to walk in them. Keep far from the paths of violence and do not walk in them, because everyone who has walked in the way of wickedness will be utterly destroyed.",
+          "study": "The fuller Aramaic closes with deliberate choice and distance from violence. Knowing the future has value only when it becomes a present commitment to walk in righteousness.",
+          "crossReferences": [
+            "Proverbs 4:14–18 — avoid the path of the wicked and walk the shining righteous way",
+            "Matthew 7:13–14 — two paths lead toward destruction and life"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 91 begins Enoch’s final instruction to his family. He gathers his children not merely to disclose events but to form their choices. Righteousness and violence are presented as rival paths, each with a destination.",
+          "The chapter warns that violence can recur after judgment and grow into a rooted structure. Yet no increase of evil makes it permanent. The Lord’s judgment reaches roots, foundations, buildings, idols, and towers, removing the systems that sustain oppression and deceit.",
+          "The righteous awakening in verse 10 brings wisdom, praise, and peace. The surviving Aramaic expands the later Geʽez wording and shows that renewal includes restored life, truthful understanding, worship of God, and an earth resting from the sword.",
+          "Verses 11–17 describe the eighth, ninth, and tenth weeks. The earlier Aramaic manuscript places these verses directly after the first seven weeks in Chapter 93. The project retains traditional Ethiopic chapter numbering, but the earlier sequence reveals one continuous ten-week panorama moving from judgment to the royal temple, universal righteousness, new heaven, and unending goodness.",
+          "The final appeal returns every cosmic promise to ordinary obedience: listen, choose, walk, and keep far from violence. Enoch’s theology is therefore practical. Confidence in final righteousness is meant to produce an undivided heart and a righteous path now."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 49:1–28 — a patriarch gathers his children for final instruction",
+        "Deuteronomy 30:15–20 — the choice between life and death",
+        "Psalm 1:1–6 — the two ways and their ends",
+        "Isaiah 2:1–4 — the Lord’s house, righteous teaching, and the end of the sword",
+        "Isaiah 65:17–25 — new heavens and enduring righteousness",
+        "Daniel 12:1–3 — awakening, judgment, and the wise",
+        "1 Enoch 93:1–10 — the first seven weeks preceding 91:11–17 in 4Q212",
+        "Matthew 7:13–27 — rival paths, foundations, and final outcomes",
+        "2 Peter 3:10–13 — the passing heavens and a new creation where righteousness dwells",
+        "Revelation 21:1–4 — new heaven, new earth, and God’s lasting dwelling"
+      ]
+    }
+  ]
+}

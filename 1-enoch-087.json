@@ -1,0 +1,83 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-087-2026-08-11",
+  "contentVersion": "2026.08.11.79",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 87,
+      "title": "Chapter 87 — The Earth Cries Out and Heavenly Messengers Come",
+      "sourceNote": "Translated afresh into clear modern English from the early Greek witness P.Oxy. XVII 2069, fragments 1v–2v, for its surviving portions of 1 Enoch 87:1–3, and from the complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 62–63, for the full four-verse chapter and all wording absent from the Greek fragments. The Geʽez text on page 63 reads that one white figure came forth and three came with him; that attested wording is retained here without importing a different numerical reading. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Again I saw them, and they began to gore one another and devour one another. Then the earth began to cry out.",
+          "study": "The violence has become mutual and unrestrained: the creatures turn on one another while the earth itself gives voice to the wrong. The cry marks a transition from suffering below to an answer arriving from heaven.",
+          "crossReferences": [
+            "Genesis 4:10 — shed blood cries out from the ground",
+            "Genesis 6:11–13 — violence fills the earth and comes before God"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I raised my eyes again toward heaven and saw in the vision. Look, figures like white men came out from heaven: one came forth from that place, and three came with him.",
+          "study": "Enoch’s gaze turns upward as heavenly agents enter the vision in humanlike, white appearance. The movement answers the earth’s cry and signals that the violence below has not escaped heaven’s notice.",
+          "crossReferences": [
+            "Genesis 18:1–2 — heavenly visitors appear in the form of men",
+            "Daniel 7:9–10 — heavenly attendants stand before the divine court"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The three who came afterward took hold of my hand. They lifted me away from the generations of the earth and raised me onto a high place. They showed me a tower high above the earth, and all the hills were lower than it.",
+          "study": "The three heavenly figures remove Enoch from the threatened generations and give him a vantage point above the earth. The lofty tower becomes a protected place of witness from which coming judgment can be seen in its proper scale.",
+          "crossReferences": [
+            "Ezekiel 40:1–2 — the prophet is set on a very high mountain and shown a structure",
+            "Revelation 21:10 — the seer is carried to a high mountain to behold God’s work"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "They said to me, ‘Remain here until you see everything that will come upon these elephants, camels, and donkeys, and upon the stars and all the cattle.’",
+          "study": "Enoch is commanded to stay and observe the full outcome for every group in the vision. The instruction makes him a patient witness: neither the violent offspring, the rebellious stars, nor the cattle will stand outside the judgment about to unfold.",
+          "crossReferences": [
+            "Habakkuk 2:1–3 — the prophet takes his stand to watch and await the appointed vision",
+            "Daniel 12:5–6 — the seer remains beside heavenly figures and hears what will follow"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 87 brings the violence of Chapter 86 to its crisis. The hybrid creatures gore and consume one another, while the earth’s cry presents creation not as a silent setting but as a witness against bloodshed.",
+          "Heaven responds by sending white, humanlike figures. Their arrival shows that divine justice is not indifferent or remote. The text does not yet narrate the sentence; it first establishes that the suffering has been heard and that appointed agents have come.",
+          "Three of the figures lift Enoch to a high tower. Separation from the earthly generations protects him and equips him to see what is coming. Revelation here is a responsibility to remain, watch and preserve truthful testimony through the judgment.",
+          "The final command includes every class of figure introduced in the vision: the violent offspring, the fallen stars and the cattle. The chapter therefore holds rebellion, its destructive fruit and the suffering world together under one coming divine reckoning."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 4:10 — the earth bears witness to shed blood",
+        "Genesis 6:11–13 — violence throughout the earth brings judgment",
+        "Genesis 18:1–2 — heavenly messengers appear as men",
+        "Ezekiel 40:1–2 — a prophet is lifted to a high place and shown a structure",
+        "Habakkuk 2:1–3 — the prophet stands watch for the appointed vision",
+        "Revelation 21:10 — a seer is carried to a high mountain to behold"
+      ]
+    }
+  ]
+}

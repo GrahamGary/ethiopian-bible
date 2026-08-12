@@ -1,0 +1,73 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-088-2026-08-11",
+  "contentVersion": "2026.08.11.80",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 88,
+      "title": "Chapter 88 — The Fallen Stars Are Bound",
+      "sourceNote": "Translated afresh into clear modern English from the earliest extant Aramaic witness, 4QEnochᵉ (4Q206), fragment 4, column i, lines 10–13, for its surviving wording in 1 Enoch 88:3, and from the complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed page 63, for the full three-verse chapter and all wording absent from the Aramaic fragment. In verse 3 the Aramaic construction gives a command issued from heaven; that earlier wording governs the translation where the later Geʽez expression is ambiguous. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I saw one of the four who had come first seize that first star which had fallen from heaven. He bound its hands and feet and threw it into an abyss. That abyss was narrow and deep, dreadful and dark.",
+          "study": "The first fallen star is singled out, restrained and removed from the earthly scene. The narrow, deep darkness shows that the power which initiated the transgression is itself subject to appointed judgment.",
+          "crossReferences": [
+            "1 Enoch 10:4–6 — the rebellious leader is bound and confined in darkness",
+            "2 Peter 2:4 — sinning angels are held in gloomy confinement for judgment"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "One of them drew his sword and gave it to the elephants, camels, and donkeys. They began to strike one another, and the whole earth shook because of them.",
+          "study": "The violent offspring now turn their strength against one another. Their self-destruction is not private: the whole earth convulses under the consequences of the violence they had spread.",
+          "crossReferences": [
+            "1 Enoch 10:9–10 — the violent offspring are set against one another",
+            "Judges 7:22 — hostile forces turn their swords against each other"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "As I watched in my dream, look, a command came from heaven to one of the four who had come out. He gathered all the many stars whose sexual organs were like those of horses, bound every one of them hand and foot, and threw them into the depths of the earth.",
+          "study": "The wider company of fallen stars receives the same restraint as the first. Heaven’s command gathers, binds and confines them, showing that neither their number nor their former heavenly status places them beyond divine authority.",
+          "crossReferences": [
+            "1 Enoch 10:11–14 — the Watchers are bound beneath the earth until judgment",
+            "Jude 6 — angels who left their appointed place are kept in bonds under darkness"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 88 answers the earth’s cry by depicting judgment on both the fallen stars and their violent offspring. The same beings who crossed appointed boundaries are now bound, limited and removed by heavenly agents.",
+          "The first star is confined in a dreadful dark abyss. The image emphasizes accountability: the instigator of disorder cannot remain free simply because he came from heaven or exercised unusual power on earth.",
+          "The sword given to the elephants, camels and donkeys turns their violence inward. The scene exposes violence as self-consuming, yet the shaking earth also shows that its consequences continue to wound the wider creation.",
+          "Finally, all the offending stars are gathered and bound by command from heaven. The chapter teaches that divine judgment addresses both rebellious powers and the destructive systems they produce, restraining evil before the vision moves toward the cleansing of the earth."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 10:4–14 — heavenly agents bind the Watchers and turn their offspring against one another",
+        "Judges 7:22 — violent enemies turn their swords on one another",
+        "2 Peter 2:4 — sinning angels are confined for judgment",
+        "Jude 6 — rebellious angels are kept in bonds under darkness",
+        "Revelation 20:1–3 — a heavenly agent binds and confines a rebellious power"
+      ]
+    }
+  ]
+}

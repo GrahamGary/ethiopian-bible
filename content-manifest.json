@@ -1,8 +1,8 @@
 {
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
-  "contentVersion": "2026.08.11.77",
-  "updatedAt": "2026-08-11T16:49:57Z",
+  "contentVersion": "2026.08.12.86",
+  "updatedAt": "2026-08-12T03:47:15Z",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -587,6 +587,69 @@
       "chapter": 85,
       "contentVersion": "2026.08.11.77",
       "url": "1-enoch-085.json"
+    },
+    {
+      "id": "1-enoch-086-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 86,
+      "contentVersion": "2026.08.11.78",
+      "url": "1-enoch-086.json"
+    },
+    {
+      "id": "1-enoch-087-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 87,
+      "contentVersion": "2026.08.11.79",
+      "url": "1-enoch-087.json"
+    },
+    {
+      "id": "1-enoch-088-2026-08-11",
+      "bookId": "1-enoch",
+      "chapter": 88,
+      "contentVersion": "2026.08.11.80",
+      "url": "1-enoch-088.json"
+    },
+    {
+      "id": "1-enoch-089-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 89,
+      "contentVersion": "2026.08.12.81",
+      "url": "1-enoch-089.json"
+    },
+    {
+      "id": "1-enoch-090-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 90,
+      "contentVersion": "2026.08.12.82",
+      "url": "1-enoch-090.json"
+    },
+    {
+      "id": "1-enoch-091-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 91,
+      "contentVersion": "2026.08.12.83",
+      "url": "1-enoch-091.json"
+    },
+    {
+      "id": "1-enoch-092-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 92,
+      "contentVersion": "2026.08.12.84",
+      "url": "1-enoch-092.json"
+    },
+    {
+      "id": "1-enoch-093-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 93,
+      "contentVersion": "2026.08.12.85",
+      "url": "1-enoch-093.json"
+    },
+    {
+      "id": "1-enoch-094-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 94,
+      "contentVersion": "2026.08.12.86",
+      "url": "1-enoch-094.json"
     }
   ]
 }

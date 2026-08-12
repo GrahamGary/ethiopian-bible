@@ -1,0 +1,745 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-089-2026-08-12",
+  "contentVersion": "2026.08.12.81",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 89,
+      "title": "Chapter 89 — From the Flood to the Shepherds",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. The surviving Aramaic text of 4QEnochᵉ (4Q206), fragment 4, columns i–iii, governs its extant wording in 89:1–16 and 89:26–30; 4QEnochᵈ (4Q205), fragment 2, columns i–iii, governs its extant wording in 89:11–14, 89:29–31, and 89:43–44; and 4QEnochᶜ (4Q204), fragment 4, governs its extant wording in 89:31–37. The Greek extract preserved in Codex Vaticanus Graecus 1809 governs 89:42–49 and closely confirms the Aramaic wording in verses 43–44. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 64–67, supplies the whole seventy-seven-verse sequence and all wording not extant in those earlier witnesses. Earlier Aramaic or Greek wording is followed where it survives. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "One of the four went to one of the white cattle and instructed him. He made a vessel for himself and lived inside it. Three cattle entered the vessel with him, and it was covered and roofed over them.",
+          "study": "The white bull represents Noah, who receives warning and prepares a vessel for his household. The vision compresses the command, construction and entry into one movement of obedient preservation.",
+          "crossReferences": [
+            "Genesis 6:13–18 — Noah is instructed to build the ark and enter it with his family",
+            "Genesis 7:1, 7 — Noah and his household enter the ark"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I looked, and see, seven sluices were pouring abundant water onto the earth.",
+          "study": "The sevenfold outpouring presents the flood as a complete heavenly release of waters. The same heaven that answered violence with judgment now opens over the earth.",
+          "crossReferences": [
+            "Genesis 7:11–12 — the windows of heaven open and rain falls upon the earth",
+            "Psalm 78:23 — God commands the skies above and opens heaven’s doors"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Look, chambers opened within the earth, and their waters began to pour out and rise over it. I watched until the earth was covered by the waters and by darkness and mist.",
+          "study": "Water comes from below as well as above, covering the earth in darkness. The vision portrays a comprehensive undoing of the inhabited world under the weight of judgment.",
+          "crossReferences": [
+            "Genesis 7:11 — the fountains of the great deep break open",
+            "Genesis 7:19–20 — the waters prevail until the land is covered"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "The waters rose higher and stood over the earth. The cattle within it were submerged and swallowed up in those waters.",
+          "study": "The cattle cannot withstand the rising flood. Humanity’s symbolic world disappears beneath the waters, making plain the reach and finality of the catastrophe.",
+          "crossReferences": [
+            "Genesis 7:21–23 — life on the dry land perishes in the flood",
+            "Psalm 104:6 — the deep covers the earth like a garment"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "The vessel floated on the waters, while all the cattle, elephants, camels, donkeys, and every animal sank beneath them.",
+          "study": "The vessel remains above the same waters that overwhelm the creatures outside. Rescue rests in the provision Noah was commanded to enter, not in the strength or size of those caught in the flood.",
+          "crossReferences": [
+            "Genesis 7:17–18 — the waters lift the ark above the earth",
+            "Hebrews 11:7 — Noah prepares an ark and preserves his household by faith"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "I could no longer see them. They were unable to escape but perished and sank into the depths.",
+          "study": "The disappearance of the creatures closes the judgment scene without minimizing its loss. No power within the condemned order can provide an escape once the waters have overtaken it.",
+          "crossReferences": [
+            "Genesis 7:23 — every living thing outside the ark is blotted out",
+            "Matthew 24:38–39 — the flood comes and sweeps away those who did not heed"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Again I watched in the vision until those sluices were withdrawn from the high roof, the fissures of the earth were closed, and other depths were opened.",
+          "study": "The channels of judgment are restrained and the waters are given a place to recede. The flood’s end is as ordered as its beginning: the forces of the deep remain under divine command.",
+          "crossReferences": [
+            "Genesis 8:1–2 — the fountains of the deep and the windows of heaven are closed",
+            "Psalm 104:7–9 — the waters flee at God’s rebuke and receive their boundary"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The waters began to descend into them until the earth appeared. The vessel settled on the earth, the darkness withdrew, and light appeared.",
+          "study": "Dry ground and light return after the waters recede. The sequence evokes renewed creation: a preserved household emerges into an earth restored from darkness and the deep.",
+          "crossReferences": [
+            "Genesis 8:3–5 — the waters recede and the ark comes to rest",
+            "Genesis 1:2–4 — light appears over the dark face of the deep"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "The white bull came out from that vessel, and three cattle came with him. One of the three was white like that bull, one was red like blood, and one was black. Then that white bull departed from them.",
+          "study": "Noah and his three sons emerge into the renewed world. Their differing colors prepare the vision’s symbolic account of the families and peoples who will spread across the earth after Noah’s death.",
+          "crossReferences": [
+            "Genesis 8:18–19 — Noah, his family and the creatures leave the ark",
+            "Genesis 9:18–19 — the earth is populated through Noah’s three sons"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "They began to produce wild animals and birds of every kind. From them came lions, leopards, dogs, wolves, hyenas, wild boars, foxes, squirrels, swine, falcons, vultures, kites, eagles, and ravens. A white bull was born among them.",
+          "study": "The multiplying animals and birds symbolize the branching peoples of the post-flood world. The white bull born among them introduces Abraham, whose line will become central within the widening history of nations.",
+          "crossReferences": [
+            "Genesis 10:1–32 — the families and nations descend from Noah’s sons",
+            "Genesis 11:26–12:1 — Abraham arises within the post-flood generations"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "They began to bite one another. But the white bull born among them fathered a wild donkey and another white bull, and the wild donkeys became numerous.",
+          "study": "Conflict spreads among the nations, while Abraham’s household branches through Ishmael and Isaac. The renewed white bull marks the covenant line continuing within a world already divided by hostility.",
+          "crossReferences": [
+            "Genesis 16:11–12 — Ishmael is described as a wild donkey of a man",
+            "Genesis 21:1–5 — Isaac is born to Abraham and Sarah"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "The bull born from him fathered a black wild boar and a white sheep. The wild boar fathered many boars, and the sheep fathered twelve sheep.",
+          "study": "Isaac’s sons appear as contrasting animals, and Jacob’s twelve sons as sheep. The vision narrows from the many post-flood peoples to the family through which Israel will arise.",
+          "crossReferences": [
+            "Genesis 25:24–26 — Esau and Jacob are born to Isaac",
+            "Genesis 35:22–26 — the twelve sons of Jacob are named"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "When those twelve sheep had grown, they handed one of them over to the wild donkeys. The wild donkeys, in turn, handed that sheep over to the wolves, and the sheep grew up among the wolves.",
+          "study": "Joseph is transferred through the hands of traders into Egypt. The animal imagery preserves both his brothers’ betrayal and the chain of human actions that places him among a foreign power.",
+          "crossReferences": [
+            "Genesis 37:23–28 — Joseph’s brothers hand him over to passing traders",
+            "Genesis 39:1–2 — Joseph is taken to Egypt and lives there under God’s care"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "The Lord brought the eleven sheep to live with him and graze with him among the wolves. They multiplied and became many flocks of sheep.",
+          "study": "Jacob’s household joins Joseph in Egypt and grows there. The Lord’s action carries the family into a place of provision, even though that same setting will later become a place of oppression.",
+          "crossReferences": [
+            "Genesis 46:1–7 — Jacob and his household go down to Egypt",
+            "Exodus 1:7 — Israel’s descendants multiply and become very numerous"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "The wolves began to fear them and oppressed them until they destroyed their little ones, throwing their children into a river of rushing water. The sheep cried out because of their children and appealed to their Lord.",
+          "study": "Egypt’s fear becomes forced oppression and an assault on Israel’s children. The sheep’s cry shows suffering turning toward the Lord, whose response will define the deliverance that follows.",
+          "crossReferences": [
+            "Exodus 1:8–16, 22 — Pharaoh oppresses Israel and orders its sons thrown into the Nile",
+            "Exodus 2:23–25 — Israel cries out and God hears their groaning"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "One sheep escaped from the wolves and fled among the wild donkeys. I saw the sheep lamenting, crying, and pleading with their Lord with all their strength, until the Lord of the sheep descended at their voice from his lofty dwelling, came to them, and looked upon them.",
+          "study": "Moses escapes Egypt, while Israel’s sustained appeal reaches the Lord. The descent from the lofty dwelling presents deliverance as God’s attentive response to a people whose affliction he sees and hears.",
+          "crossReferences": [
+            "Exodus 2:15–22 — Moses flees Pharaoh and lives in Midian",
+            "Exodus 3:7–8 — the Lord sees Israel’s affliction, hears their cry and comes down"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "He called the sheep that had escaped from the wolves and spoke to him about the wolves, commanding him to warn them not to touch the sheep.",
+          "study": "The Lord commissions Moses to confront the power oppressing Israel. The warning is grounded in divine ownership: the wolves do not have final authority over the Lord’s flock.",
+          "crossReferences": [
+            "Exodus 3:9–10 — God sends Moses to bring Israel out of Egypt",
+            "Exodus 5:1 — Moses commands Pharaoh to let the Lord’s people go"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "The sheep went to the wolves at the Lord’s word. Another sheep met him and went with him, and the two entered together into the assembly of the wolves. They spoke to them and warned them that from then on they must not touch the sheep.",
+          "study": "Aaron joins Moses, and together they carry the divine demand into Pharaoh’s court. Their authority comes from the Lord’s word rather than from any strength the two sheep possess in themselves.",
+          "crossReferences": [
+            "Exodus 4:14–16, 27–31 — Aaron meets Moses and speaks with him to Israel",
+            "Exodus 5:1–2 — Moses and Aaron confront Pharaoh together"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "After this I saw how the wolves pressed the sheep with all their strength, and the sheep cried out.",
+          "study": "The first response to the divine warning is intensified oppression. The vision refuses to mistake worsening conditions for divine absence; the renewed cry comes within the unfolding confrontation.",
+          "crossReferences": [
+            "Exodus 5:6–19 — Pharaoh increases Israel’s workload after Moses speaks",
+            "Exodus 5:22–23 — Moses brings the people’s worsening trouble before the Lord"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "The Lord came to the sheep and began to strike those wolves. The wolves began to cry out, but the sheep became quiet and no longer cried.",
+          "study": "The Lord’s intervention reverses the sound of the scene: Egypt now cries under judgment while Israel’s appeal is answered. Divine action begins to break the oppressor’s hold and quiet the afflicted flock.",
+          "crossReferences": [
+            "Exodus 7:14–12:30 — the Lord strikes Egypt through the plagues",
+            "Exodus 11:6–7 — a great cry rises in Egypt while Israel is distinguished"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "I watched until the sheep departed from among the wolves. The wolves' eyes were blinded, and they went out after the sheep with all their strength.",
+          "study": "Israel leaves Egypt while the pursuing power is unable to perceive where its course will end. The blindness of the wolves exposes the folly of renewed oppression after judgment has already revealed the Lord's authority.",
+          "crossReferences": [
+            "Exodus 12:31–33 — Pharaoh releases Israel after the final plague",
+            "Exodus 14:5–9 — Egypt pursues Israel with its full military strength"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "The Lord of the sheep went with them and led them, and all his sheep followed him. His face was radiant and glorious, and its appearance was fearsome.",
+          "study": "The flock does not leave by its own direction. The Lord himself leads, and his radiant, fearsome presence makes the exodus an act of divine shepherding.",
+          "crossReferences": [
+            "Exodus 13:21–22 — the Lord goes before Israel in cloud and fire",
+            "Psalm 77:20 — God leads his people like a flock through Moses and Aaron"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "The wolves pursued those sheep until they reached a sea of water.",
+          "study": "The pursuit drives Israel to an apparent barrier. The sea becomes the place where the contrast between the helpless flock and its powerful Lord will be displayed.",
+          "crossReferences": [
+            "Exodus 14:9–10 — Egypt overtakes Israel beside the sea",
+            "Psalm 106:7 — Israel stands in distress at the sea"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "That sea was divided, and the water stood on one side and on the other before them. Their Lord led them and placed himself between them and the wolves.",
+          "study": "The divided sea opens a path, while the Lord's position between flock and pursuer provides protection. Deliverance is both a way forward and a shield behind.",
+          "crossReferences": [
+            "Exodus 14:19–22 — the divine presence separates the camps and the sea divides",
+            "Isaiah 63:11–13 — the Lord leads his flock through the depths"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "Because the wolves still did not see the sheep, they entered the middle of that sea and ran after the sheep through it.",
+          "study": "The wolves enter the path opened for the flock without recognizing that they oppose the Lord who opened it. Their continued pursuit turns the place of Israel's rescue into the place of their own judgment.",
+          "crossReferences": [
+            "Exodus 14:23 — the Egyptians pursue Israel into the sea",
+            "Psalm 136:13–15 — Israel passes through while Pharaoh's army is overthrown"
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "When they saw the Lord of the sheep, they turned to flee from his presence. But the sea closed together, returned at once to its former state, and its waters rose until they covered the wolves.",
+          "study": "Recognition comes only when escape is no longer possible. The waters return to their appointed order, and the oppressor that entered in pursuit is covered by the same sea through which the flock was led.",
+          "crossReferences": [
+            "Exodus 14:24–28 — Egypt flees before the Lord as the sea returns",
+            "Exodus 15:10 — the sea covers the pursuing army"
+          ]
+        },
+        {
+          "verse": 27,
+          "text": "I watched until every wolf that had pursued that flock perished, sinking and drowning as the waters covered them.",
+          "study": "The Aramaic witness piles up the terms for the pursuers' end, emphasizing the completeness of the deliverance. The threat that followed Israel out of bondage does not survive the crossing.",
+          "crossReferences": [
+            "Exodus 14:28–30 — none of the pursuing force remains",
+            "Psalm 106:11 — the waters cover Israel's adversaries"
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "The flock came out from those waters and entered a wilderness where there was neither water nor grass. Their eyes opened and they saw. I watched as the Lord of the sheep pastured them and gave them water to drink and grass to eat.",
+          "study": "Freedom leads into dependence rather than self-sufficiency. In the barren wilderness the Lord supplies the flock's necessities and teaches them to see his sustaining care.",
+          "crossReferences": [
+            "Exodus 15:22–27 — the Lord provides water in the wilderness",
+            "Exodus 16:11–15 — the Lord feeds Israel in a place without ordinary provision"
+          ]
+        },
+        {
+          "verse": 29,
+          "text": "The sheep climbed to the summit of a high rock, and the Lord of the flock sent him to the flock, while they all stood at a distance.",
+          "study": "Moses ascends Sinai as the people remain below. The distance preserves the holiness of the encounter and marks Moses' mediating commission to the flock.",
+          "crossReferences": [
+            "Exodus 19:3, 12 — Moses ascends while the people keep their boundary",
+            "Exodus 20:18, 21 — the people stand far off while Moses approaches"
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "Then I looked, and see, the Lord of the flock stood facing the flock. His appearance was mighty, great, and fearsome, and the whole flock saw him and was afraid before him.",
+          "study": "The Lord's presence before Israel is not domesticated by the shepherd image. His majesty awakens fear and establishes the gravity of the covenant that is being given.",
+          "crossReferences": [
+            "Exodus 19:16–19 — Sinai trembles beneath the Lord's fearful manifestation",
+            "Deuteronomy 5:23–25 — Israel fears the glory revealed at the mountain"
+          ]
+        },
+        {
+          "verse": 31,
+          "text": "They all trembled and were afraid before him, and they cried to the sheep who was second to him and was among them, 'We cannot stand before our Lord or look upon him.'",
+          "study": "The earlier Aramaic wording presents Moses as the one standing second to the Lord among the people. Israel asks for mediation because direct encounter with divine majesty overwhelms them.",
+          "crossReferences": [
+            "Exodus 20:18–19 — the people ask Moses to speak in God's place",
+            "Deuteronomy 5:27 — Israel asks Moses to hear and relay the Lord's words"
+          ]
+        },
+        {
+          "verse": 32,
+          "text": "The sheep that led them went up again, a second time, to the summit of that rock. But the flock began to become blind and stray from the way shown to them, while that sheep knew nothing of it.",
+          "study": "While Moses is on the mountain, the flock abandons the revealed way. Blindness here is moral: they turn from a path already shown rather than lacking instruction.",
+          "crossReferences": [
+            "Exodus 24:12–18 — Moses ascends the mountain again",
+            "Exodus 32:1–8 — Israel quickly turns aside while Moses is absent"
+          ]
+        },
+        {
+          "verse": 33,
+          "text": "The Lord of the flock became exceedingly angry with them. That sheep learned of it, came down from the summit of the rock, and found most of them blind and straying.",
+          "study": "Moses descends into the consequences of covenant betrayal. The majority's blindness shows how rapidly collective desire can displace a clearly revealed allegiance.",
+          "crossReferences": [
+            "Exodus 32:7–10 — the Lord tells Moses of Israel's corruption and anger burns",
+            "Exodus 32:15–19 — Moses descends and sees the calf and dancing"
+          ]
+        },
+        {
+          "verse": 34,
+          "text": "When they saw him, they began to fear before him and wanted to return to their folds.",
+          "study": "The returning shepherd exposes the flock's departure and awakens fear. Their desire to return recognizes that the way of life lies within the covenant folds they abandoned.",
+          "crossReferences": [
+            "Exodus 32:20 — Moses destroys the idol and confronts the people",
+            "Exodus 33:4–6 — the people mourn when they hear the Lord's severe word"
+          ]
+        },
+        {
+          "verse": 35,
+          "text": "That sheep took other sheep with him and came to the flock. They slaughtered everyone who had strayed, and the rest began to fear before him. Then that sheep restored the whole straying flock to their folds.",
+          "study": "Judgment falls within the flock, and restoration follows. The vision does not separate covenant mercy from covenant accountability: the path back is opened through a decisive rejection of the rebellion.",
+          "crossReferences": [
+            "Exodus 32:25–29 — the Levites act against the open rebellion",
+            "Exodus 32:30–34 — Moses seeks atonement after judgment"
+          ]
+        },
+        {
+          "verse": 36,
+          "text": "I watched in this dream until that sheep was changed and became a man. He made a dwelling for the Lord of the flock and brought the entire flock into that dwelling.",
+          "study": "Moses becomes human in the vision at the completion of the sanctuary, as Noah did in building the vessel. The dwelling gathers the flock around the Lord's presence and ordered worship.",
+          "crossReferences": [
+            "Exodus 40:17–35 — Moses erects the tabernacle and the Lord's glory fills it",
+            "Numbers 2:1–2 — Israel camps around the tent of meeting"
+          ]
+        },
+        {
+          "verse": 37,
+          "text": "I watched until the sheep that had joined the sheep who led them fell asleep. Then all the great sheep perished, and little ones arose in their place. They came to a pasture and approached a stream of water.",
+          "study": "Aaron dies and the wilderness generation passes, while a new generation comes forward. The stream marks the boundary of transition from wandering toward inheritance.",
+          "crossReferences": [
+            "Numbers 20:24–29 — Aaron dies and Israel mourns him",
+            "Numbers 26:63–65 — the wilderness generation gives way to its children"
+          ]
+        },
+        {
+          "verse": 38,
+          "text": "Then the sheep that led them, who had become a man, withdrew from them and fell asleep. All the sheep searched for him and cried out over him with a great cry.",
+          "study": "Moses dies before the crossing, and the flock mourns the loss of its long-serving leader. Even a uniquely faithful mediator remains mortal and cannot carry the people through every stage.",
+          "crossReferences": [
+            "Deuteronomy 34:1–8 — Moses dies and Israel mourns him",
+            "Joshua 1:1–2 — leadership turns to Joshua after Moses' death"
+          ]
+        },
+        {
+          "verse": 39,
+          "text": "I watched until they stopped crying for that sheep and crossed that stream. Then two sheep arose and led them in place of those who had fallen asleep.",
+          "study": "The mourning ends and the mission continues under new leaders. Joshua and Caleb embody continuity of faithful witness as Israel crosses into the next phase of its calling.",
+          "crossReferences": [
+            "Joshua 3:14–17 — Israel crosses the Jordan on dry ground",
+            "Numbers 14:30, 38 — Joshua and Caleb remain from the faithful generation"
+          ]
+        },
+        {
+          "verse": 40,
+          "text": "I watched until the sheep came to a good place, a pleasant and glorious land. I watched until they were satisfied, and that dwelling stood among them in the pleasant land.",
+          "study": "The flock receives both nourishment and a settled place for the sanctuary. Gift and worship belong together: the land is not merely possession but the setting for life before the Lord.",
+          "crossReferences": [
+            "Joshua 21:43–45 — the Lord gives Israel the promised land and rest",
+            "Joshua 18:1 — the tent of meeting is set up within the land"
+          ]
+        },
+        {
+          "verse": 41,
+          "text": "At times their eyes were opened and at times they were blind, until another sheep arose, led them, brought them all back, and opened their eyes.",
+          "study": "The alternating sight and blindness compresses the era of recurring apostasy and rescue. A faithful leader restores the flock, but the pattern shows that external deliverance does not permanently heal the heart.",
+          "crossReferences": [
+            "Judges 2:16–19 — judges deliver Israel, yet the people repeatedly turn back",
+            "1 Samuel 7:3–6 — Samuel calls Israel back to wholehearted service"
+          ]
+        },
+        {
+          "verse": 42,
+          "text": "The dogs, foxes, and wild boars began to devour those sheep until the Lord of the sheep raised up one ram from among the sheep, and he led them.",
+          "study": "Foreign enemies consume the vulnerable flock until the Lord raises Saul. Kingship begins as a divinely permitted answer to oppression, and its leader comes from within the sheep.",
+          "crossReferences": [
+            "1 Samuel 9:15–17 — the Lord appoints Saul to save Israel from the Philistines",
+            "1 Samuel 11:11–15 — Saul leads Israel to deliverance and is confirmed as king"
+          ]
+        },
+        {
+          "verse": 43,
+          "text": "That ram began to butt and pursue with his horns. He struck the foxes hard, then the wild boars, and destroyed many wild boars; after that he let the dogs go free.",
+          "study": "The Aramaic and Greek preserve a fuller account of Saul's victories than the later Geʽez wording. His horn drives back Ammonites and Amalekites and halts pursuit of the Philistines, showing real deliverance before his failure.",
+          "crossReferences": [
+            "1 Samuel 11:1–11 — Saul defeats the Ammonites",
+            "1 Samuel 14:46–48 — Saul fights Israel's enemies and ends pursuit of the Philistines"
+          ]
+        },
+        {
+          "verse": 44,
+          "text": "The sheep whose eyes were opened watched that ram among the flock until he left his way. He began to strike the flock, trample it, and walk where there was no way.",
+          "study": "Samuel sees Saul depart from the appointed road and turn royal power against the flock itself. A leader raised for protection becomes dangerous when he abandons obedience.",
+          "crossReferences": [
+            "1 Samuel 13:13–14 — Saul fails to keep the Lord's command",
+            "1 Samuel 15:22–23 — disobedience causes Saul's rejection"
+          ]
+        },
+        {
+          "verse": 45,
+          "text": "The Lord of the sheep sent that sheep to another sheep and raised the other to be a ram at the head of the flock in place of the ram that had left his way.",
+          "study": "Samuel is sent to anoint David while Saul still occupies the throne. Divine appointment turns leadership back toward the way Saul abandoned.",
+          "crossReferences": [
+            "1 Samuel 16:1, 11–13 — Samuel anoints David in Saul's place",
+            "Psalm 78:70–72 — the Lord chooses David to shepherd Israel"
+          ]
+        },
+        {
+          "verse": 46,
+          "text": "He went to him and spoke with him quietly, alone. He raised him to be a ram, a prince, and leader of the flock. Throughout all this the dogs continued to oppress the sheep.",
+          "study": "David's private anointing precedes public rule, and the Philistine threat remains. Calling is established by the Lord before circumstances visibly yield to it.",
+          "crossReferences": [
+            "1 Samuel 16:12–13 — David is anointed among his brothers",
+            "1 Samuel 17:1–11 — Philistine oppression continues during the transition"
+          ]
+        },
+        {
+          "verse": 47,
+          "text": "The first ram pursued the second ram, and the second ram rose and fled from him. Then I watched until the first ram fell before the dogs.",
+          "study": "Saul turns against David, forcing him into flight, and finally falls before the Philistines. Opposition to the chosen successor consumes the final years of the rejected king.",
+          "crossReferences": [
+            "1 Samuel 19:9–18 — Saul pursues David and David flees",
+            "1 Samuel 31:1–6 — Saul falls in battle before the Philistines"
+          ]
+        },
+        {
+          "verse": 48,
+          "text": "The second ram rose and led the little sheep. He fathered many sheep and fell asleep. A little sheep became a ram in his place and became prince and leader of those sheep.",
+          "study": "David leads and establishes a house, then Solomon succeeds him. The vision moves quickly across a dynasty, showing both continuity and the mortality of every ruler.",
+          "crossReferences": [
+            "2 Samuel 5:1–5 — David becomes shepherd and king over Israel",
+            "1 Kings 2:10–12 — David dies and Solomon reigns in his place"
+          ]
+        },
+        {
+          "verse": 49,
+          "text": "The sheep grew and multiplied. All the dogs, foxes, and wild boars feared him and fled from him. That ram butted and killed the wild animals, and they no longer had power among the sheep or robbed them of anything.",
+          "study": "The kingdom reaches security under David's victories and Solomon's settled rule. Former predators lose their power, and the flock experiences the fruit of ordered leadership.",
+          "crossReferences": [
+            "2 Samuel 8:1–14 — David subdues surrounding enemies",
+            "1 Kings 4:20–25 — Israel multiplies and dwells securely under Solomon"
+          ]
+        },
+        {
+          "verse": 50,
+          "text": "That house became great and spacious, and a lofty, great tower was built upon it for the Lord of the sheep. The house was low, but the tower was raised high. The Lord of the sheep stood on that tower, and they set a full table before him.",
+          "study": "The sanctuary becomes the temple, with the tower marking the Lord's exalted dwelling and the full table the worship offered before him. National flourishing is ordered around the divine presence.",
+          "crossReferences": [
+            "1 Kings 6:1–14 — Solomon builds the temple for the Lord",
+            "1 Kings 8:10–13 — the glory of the Lord fills the completed house"
+          ]
+        },
+        {
+          "verse": 51,
+          "text": "Again I watched those sheep as they strayed, went in many directions, and abandoned their house. The Lord of the sheep called some sheep from among them and sent them to the flock, but the flock began to kill them.",
+          "study": "The people abandon the temple's covenant meaning while retaining their national life, and they reject the prophets sent to restore them. Straying becomes violence against the messengers of return.",
+          "crossReferences": [
+            "2 Chronicles 24:19–21 — prophets are sent, but Zechariah is killed",
+            "2 Chronicles 36:15–16 — the people mock and reject the Lord's messengers"
+          ]
+        },
+        {
+          "verse": 52,
+          "text": "One of them escaped and was not killed. He hurried away and cried out over the sheep. They sought to kill him, but the Lord of the sheep rescued him from their hands, brought him up to me, and made him dwell there.",
+          "study": "Elijah is preserved from those who seek his life and is taken to the heavenly place associated with Enoch. The prophet's removal shows that rejection by the flock cannot extinguish the Lord's witness.",
+          "crossReferences": [
+            "1 Kings 19:1–10 — Elijah flees those seeking his life and appeals to the Lord",
+            "2 Kings 2:11 — Elijah is taken up from the earthly scene"
+          ]
+        },
+        {
+          "verse": 53,
+          "text": "He sent many other sheep to that flock to testify to them and lament over them.",
+          "study": "Prophetic testimony continues despite earlier rejection. Lament reveals that warning is not detached condemnation but grief over a flock moving toward ruin.",
+          "crossReferences": [
+            "Jeremiah 7:25–26 — the Lord persistently sends his servants the prophets",
+            "Jeremiah 9:1 — the prophet laments over the slain among his people"
+          ]
+        },
+        {
+          "verse": 54,
+          "text": "After this I watched as they abandoned the house of the Lord and his tower, strayed completely, and became blind. I saw the Lord of the sheep bring much slaughter upon them within their several flocks, until those sheep themselves summoned that slaughter and betrayed his place.",
+          "study": "Persistent abandonment becomes self-invited devastation. The flock's blindness reaches the point where its choices hand over both people and holy place to destruction.",
+          "crossReferences": [
+            "2 Kings 21:10–15 — persistent rebellion brings announced disaster on Jerusalem",
+            "Jeremiah 7:12–15 — trust in the temple cannot shield a faithless people"
+          ]
+        },
+        {
+          "verse": 55,
+          "text": "He gave them into the hands of lions, leopards, wolves, hyenas, foxes, and all the wild animals. The wild animals began to tear those sheep apart.",
+          "study": "The nations become instruments of judgment against the divided flock. Once divine protection is withdrawn, the predators Israel imitated and courted become its destroyers.",
+          "crossReferences": [
+            "2 Kings 17:5–6 — Assyria captures Samaria and exiles Israel",
+            "Jeremiah 5:6 — predatory animals portray judgment on persistent rebellion"
+          ]
+        },
+        {
+          "verse": 56,
+          "text": "I watched as he abandoned their house and tower and gave them all into the hands of lions and every wild animal, to be torn apart and devoured.",
+          "study": "The temple itself is handed over when the covenant it signifies has been persistently forsaken. Sacred architecture cannot replace faithfulness to the Lord who alone makes it holy.",
+          "crossReferences": [
+            "2 Kings 25:8–10 — Babylon burns the temple and destroys Jerusalem",
+            "Lamentations 2:7 — the Lord rejects his altar and hands over the sanctuary"
+          ]
+        },
+        {
+          "verse": 57,
+          "text": "I began to cry out with all my strength, calling to the Lord of the sheep and showing him that the sheep were being devoured by all the wild animals.",
+          "study": "Enoch's response to the vision is intercession rather than spectatorship. He brings the suffering of the flock before the Lord even when that suffering follows judgment.",
+          "crossReferences": [
+            "Psalm 79:1–7 — prayer rises over the devastation of Jerusalem",
+            "Daniel 9:16–19 — Daniel appeals for the ruined city and sanctuary"
+          ]
+        },
+        {
+          "verse": 58,
+          "text": "He remained still when he saw it and was pleased that they were devoured, swallowed, and robbed. He left them in the hands of all the animals to be devoured.",
+          "study": "The Lord does not interrupt the sentence he has appointed. His stillness is judicial, affirming the rightness of judgment after repeated warning, not indifference to suffering.",
+          "crossReferences": [
+            "Deuteronomy 28:63–64 — covenant judgment follows persistent disobedience",
+            "Lamentations 2:17 — the Lord carries out the word long announced"
+          ]
+        },
+        {
+          "verse": 59,
+          "text": "He called seventy shepherds and entrusted those sheep to them so that they might pasture them. He said to the shepherds and their companions, 'From now on, let each of you pasture the sheep, and do everything I command you.'",
+          "study": "Foreign rule is placed within a bounded heavenly administration. The shepherds possess delegated authority, not ownership, and are answerable to the command that defines their service.",
+          "crossReferences": [
+            "Jeremiah 25:8–12 — Babylon receives a limited period of authority over nations",
+            "Daniel 4:17 — earthly rule remains under the decree of heaven"
+          ]
+        },
+        {
+          "verse": 60,
+          "text": "'I will hand them over to you by number and tell you which are to be destroyed; destroy those.' Then he handed the sheep over to them.",
+          "study": "Judgment is numbered and limited before it is executed. The shepherds are permitted no undefined violence; every life entrusted to their rule remains known to the Lord.",
+          "crossReferences": [
+            "Jeremiah 27:5–8 — the Lord assigns nations to Babylon for an appointed purpose",
+            "Zechariah 1:14–15 — the Lord is angry when nations exceed their assigned role"
+          ]
+        },
+        {
+          "verse": 61,
+          "text": "He called another and said to him, 'Observe and watch everything the shepherds do to these sheep, for they will destroy more of them than I commanded.'",
+          "study": "A heavenly recorder is commissioned before the excess occurs. The shepherds' future abuse is neither hidden nor confused with the Lord's command; delegated power remains accountable.",
+          "crossReferences": [
+            "Daniel 7:10 — the court sits and books are opened",
+            "Habakkuk 2:8 — violent plunderers become liable for their excess"
+          ]
+        },
+        {
+          "verse": 62,
+          "text": "'Write down every excess and destruction the shepherds commit: how many they destroy at my command and how many by their own will. Record separately against each shepherd all that he destroys.'",
+          "study": "The record distinguishes authorized judgment from self-willed violence. Collective history does not erase individual responsibility; each shepherd's deeds are entered separately.",
+          "crossReferences": [
+            "Psalm 56:8 — suffering is recorded before God",
+            "Revelation 20:12 — the dead are judged according to what is written in the books"
+          ]
+        },
+        {
+          "verse": 63,
+          "text": "'Read before me by number how many they destroy by their own will and how many were handed to them for destruction. Let this be testimony against them, so that I may know every deed of the shepherds, hand them over, and see whether they remain within the command I gave them.'",
+          "study": "The counted report becomes courtroom testimony. The Lord evaluates not merely outcomes but whether rulers remained within their commission.",
+          "crossReferences": [
+            "Daniel 5:27 — a kingdom is weighed and found wanting",
+            "Romans 2:6 — God repays each one according to deeds"
+          ]
+        },
+        {
+          "verse": 64,
+          "text": "'They must not know it. Do not make it known to them or warn them; only record every destruction each one causes in his time and lay the whole record before me.'",
+          "study": "The hidden record prevents the shepherds from shaping their conduct merely around visible oversight. Authority is tested under the reality of an unseen but exact accounting.",
+          "crossReferences": [
+            "Ecclesiastes 12:14 — every hidden deed is brought into judgment",
+            "Hebrews 4:13 — no creature is hidden from the one to whom account is owed"
+          ]
+        },
+        {
+          "verse": 65,
+          "text": "I watched until those shepherds pastured in their appointed time. They began to kill and destroy more than they had been ordered, and they abandoned those sheep to the lions.",
+          "study": "The anticipated abuse becomes history. The shepherds cross the limit of their commission and increase the flock's exposure to imperial violence.",
+          "crossReferences": [
+            "Isaiah 10:5–12 — Assyria exceeds its role as the rod of judgment",
+            "Zechariah 11:5 — faithless shepherds destroy the flock without pity"
+          ]
+        },
+        {
+          "verse": 66,
+          "text": "The lions and leopards ate and devoured most of those sheep, and the wild boars ate with them. They burned that tower and demolished that house.",
+          "study": "The devouring culminates in the burning of the temple and collapse of the city. The vision joins loss of life and loss of sanctuary as one catastrophe.",
+          "crossReferences": [
+            "2 Kings 25:8–10 — Babylon burns the temple and breaks down Jerusalem's walls",
+            "Psalm 74:3–8 — enemies burn and destroy the sanctuary"
+          ]
+        },
+        {
+          "verse": 67,
+          "text": "I became exceedingly sorrowful over that tower because the house of the sheep had been demolished. Afterward I could no longer see whether those sheep entered that house.",
+          "study": "The destruction of the sanctuary overwhelms the seer with grief and obscures the flock's relation to its former center. The loss is spiritual and communal as well as architectural.",
+          "crossReferences": [
+            "Lamentations 1:10–12 — grief rises over the violated sanctuary",
+            "Psalm 79:1 — the temple is defiled and Jerusalem laid in ruins"
+          ]
+        },
+        {
+          "verse": 68,
+          "text": "The shepherds and their companions handed those sheep to all the wild animals to be devoured. Each shepherd received a fixed number for his own time, and the other wrote in a book how many each one destroyed.",
+          "study": "The succession of rulers unfolds by assigned periods, and every loss remains recorded. Time, authority, and destruction are all measured within the vision's moral order.",
+          "crossReferences": [
+            "Daniel 7:12 — dominion is limited to an appointed season and time",
+            "Zechariah 1:18–21 — successive powers scatter the Lord's people and face response"
+          ]
+        },
+        {
+          "verse": 69,
+          "text": "Each one killed and destroyed far more than was allowed. I began to weep and lament greatly because of those sheep.",
+          "study": "The repeated excess confirms a pattern of abusive rule. Enoch's lament keeps the vision's accounting from becoming abstract; the numbered losses are still lives that call forth grief.",
+          "crossReferences": [
+            "Jeremiah 50:17–18 — successive empires devour and crush Israel",
+            "Lamentations 3:48–51 — tears flow over the destruction of the people"
+          ]
+        },
+        {
+          "verse": 70,
+          "text": "In the vision I watched the recorder write down, day by day, each one destroyed by those shepherds. He carried up the whole book, laid it before the Lord of the sheep, and showed everything they had done, everyone each had removed, and all they had handed over to destruction.",
+          "study": "The record is daily and comprehensive. No victim disappears into the scale of history, and no ruler's actions escape presentation before the Lord.",
+          "crossReferences": [
+            "Malachi 3:16 — a book of remembrance is written before the Lord",
+            "Daniel 7:10 — the heavenly court opens its books"
+          ]
+        },
+        {
+          "verse": 71,
+          "text": "The book was read before the Lord of the sheep. He took it from the recorder's hand, read it, sealed it, and laid it down.",
+          "study": "The Lord personally receives, reads, and seals the testimony. The sealed record awaits its appointed use and guarantees that judgment will rest on preserved truth.",
+          "crossReferences": [
+            "Daniel 12:4 — a book is sealed until the appointed time",
+            "Revelation 5:1 — a sealed scroll rests in the hand of the one on the throne"
+          ]
+        },
+        {
+          "verse": 72,
+          "text": "Immediately I watched the shepherds pasture for twelve hours. Then see, three of those sheep returned, came in, and began to rebuild everything in that house that had fallen. The wild boars tried to hinder them but could not.",
+          "study": "After the measured period of rule, returned exiles begin restoration. Opposition cannot finally prevent the rebuilding that the Lord has permitted.",
+          "crossReferences": [
+            "Ezra 1:1–5 — the exiles return to rebuild the house of the Lord",
+            "Ezra 4:1–5 — adversaries seek to frustrate the rebuilding"
+          ]
+        },
+        {
+          "verse": 73,
+          "text": "They began to build again as before and raised that tower, which was called the high tower. They again set a table before the tower, but all the bread upon it was defiled and impure.",
+          "study": "The temple and its worship are restored, yet the bread is not pure. External reconstruction does not by itself restore the fullness of holiness envisioned in the former house.",
+          "crossReferences": [
+            "Ezra 6:14–18 — the returned community completes and dedicates the temple",
+            "Malachi 1:6–12 — defiled offerings dishonor the Lord's table"
+          ]
+        },
+        {
+          "verse": 74,
+          "text": "In all this the eyes of those sheep were blind, and so were the eyes of their shepherds. Many sheep were handed over to their shepherds for destruction; the shepherds trampled the sheep underfoot and devoured them.",
+          "study": "Blindness marks both people and leaders after the restoration. Shepherds who should guard the flock instead consume it, showing that a rebuilt institution cannot compensate for corrupt oversight.",
+          "crossReferences": [
+            "Ezekiel 34:2–4 — shepherds feed themselves and mistreat the flock",
+            "Zechariah 11:16 — a worthless shepherd devours and tramples the sheep"
+          ]
+        },
+        {
+          "verse": 75,
+          "text": "The Lord of the sheep remained still until all the sheep were scattered over the field and mingled with the animals, and the shepherds did not rescue them from the animals' hands.",
+          "study": "The flock disperses and loses its distinct place among the nations while its rulers fail to save it. The Lord's stillness allows the record of corrupt shepherding to reach its appointed fullness.",
+          "crossReferences": [
+            "Ezekiel 34:5–6 — the sheep scatter for lack of a faithful shepherd",
+            "Nehemiah 9:36–37 — the restored people remain under foreign rulers who consume their produce"
+          ]
+        },
+        {
+          "verse": 76,
+          "text": "The one who wrote the book carried it up to the dwellings of the Lord of the sheep. He showed it and read it before him, pleaded and appealed for the sheep, displayed all the shepherds' deeds, and testified before him against every shepherd.",
+          "study": "The recorder becomes an intercessor as well as a witness. The same book that testifies against abusive rulers is presented with an appeal on behalf of the afflicted flock.",
+          "crossReferences": [
+            "Zechariah 1:12 — the heavenly messenger pleads for mercy on Jerusalem",
+            "Revelation 8:3–4 — heavenly intercession accompanies the prayers of the holy ones"
+          ]
+        },
+        {
+          "verse": 77,
+          "text": "He took the book itself, laid it down beside him, and departed.",
+          "study": "The chapter closes with the record resting beside the Lord. Judgment has not yet been executed, but the complete testimony is in its proper place and ready for the continuation of the vision.",
+          "crossReferences": [
+            "Daniel 7:10–12 — the opened books precede judgment on oppressive dominion",
+            "Revelation 20:12 — written records stand ready for final judgment"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 89 carries the animal vision from the flood to the period after the exile. People and kingdoms appear as animals, while the Lord remains the shepherd who preserves, leads, judges, and holds every ruler to account.",
+          "The exodus and wilderness scenes place deliverance at the center of Israel's identity. The Lord walks before the flock, opens the sea, supplies the wilderness, reveals himself at the mountain, and dwells among the people. Yet the flock repeatedly becomes blind and leaves the way it has been shown.",
+          "The rise of kingship reveals both the gift and danger of human leadership. Saul is raised to protect the flock but abandons the way; David is chosen in his place and establishes security; Solomon builds the tower of the temple. None of these achievements removes the deeper problem of wandering hearts.",
+          "The prophets testify and lament, but their rejection leads toward the destruction of the house and tower. The seventy shepherds then portray delegated foreign rule. Their authority has limits fixed by the Lord, and a heavenly recorder distinguishes commanded judgment from every act of self-willed excess.",
+          "The chapter ends after return and rebuilding, but not with complete restoration. Worship is defiled, shepherds remain blind, and the flock is scattered. Still, the sealed record beside the Lord assures that suffering is neither forgotten nor morally confused: every shepherd will answer for what was done, and the vision continues toward judgment and renewal."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:13–9:19 — Noah, the flood, and the renewed human family",
+        "Exodus 1:8–15:21 — oppression, deliverance, and the crossing of the sea",
+        "Exodus 19:1–40:38 — covenant, rebellion, restoration, and the tabernacle",
+        "1 Samuel 8:1–31:13 — Saul's rise, failure, pursuit of David, and death",
+        "2 Samuel 5:1–8:18 — David shepherds Israel and subdues surrounding enemies",
+        "1 Kings 6:1–8:66 — Solomon builds and dedicates the temple",
+        "2 Kings 17:1–25:30 — exile, Jerusalem's fall, and destruction of the temple",
+        "Ezra 1:1–6:22 — return from exile and rebuilding of the temple",
+        "Ezekiel 34:1–24 — corrupt shepherds are judged and the flock is gathered",
+        "Daniel 7:9–12 — heavenly books open before the judgment of oppressive rule"
+      ]
+    }
+  ]
+}

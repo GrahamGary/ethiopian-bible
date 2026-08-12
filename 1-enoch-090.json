@@ -1,0 +1,430 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-090-2026-08-12",
+  "contentVersion": "2026.08.12.82",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 90,
+      "title": "Chapter 90 — Judgment and the Renewed House",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter. No extant Aramaic or Greek wording has been identified for 1 Enoch 90. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 67–74, is the translation base for all forty-two verses, including the numbered shepherd periods, the horned lamb, the heavenly record, the judgment of stars and shepherds, the new house, the white bull, and Enoch’s awakening. The transmitted animal imagery and numerical details are retained without assigning names inside the Scripture text. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I watched until thirty-six shepherds had pastured in this way, and each completed his appointed time like the first ones. Then others received the sheep into their hands to pasture them, each in his own time, every shepherd in his appointed time.",
+          "study": "The measured succession from Chapter 89 continues. Every shepherd rules within an allotted period, yet each remains accountable for how that entrusted time is used.",
+          "crossReferences": [
+            "1 Enoch 89:68–71 — each shepherd's appointed period and destruction are recorded",
+            "Daniel 7:12 — dominion continues only for an appointed season and time"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "After this I saw in the vision all the birds of heaven coming: eagles, vultures, kites, and ravens. The eagles led all the birds. They began to devour those sheep, peck out their eyes, and eat their flesh.",
+          "study": "New imperial predators descend upon the already scattered flock. Their assault attacks both life and sight, intensifying the blindness that has marked the sheep's history.",
+          "crossReferences": [
+            "Deuteronomy 28:49–51 — a nation like an eagle consumes the people and produce",
+            "Habakkuk 1:8 — invading forces fly like an eagle hastening to devour"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The sheep cried out because the birds were eating their flesh. I cried out and lamented in my sleep because of the shepherd who was pasturing the sheep.",
+          "study": "The flock's suffering moves Enoch to renewed lament, and responsibility is traced to the shepherd as well as the birds. Failed oversight exposes the sheep to devastation.",
+          "crossReferences": [
+            "Psalm 79:1–7 — lament rises as nations devour and ruin the Lord's people",
+            "Ezekiel 34:7–10 — shepherds are held responsible when the flock becomes prey"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I watched until those sheep were devoured by the dogs, eagles, and kites. They left neither flesh, skin, nor sinew on them until only their bones remained; then their bones fell to the ground, and the sheep became few.",
+          "study": "The image depicts near-total depletion: successive predators leave the flock reduced to bones. Yet the remaining few keep the vision from ending in complete extinction.",
+          "crossReferences": [
+            "Psalm 44:11–16 — the flock is scattered among hostile nations",
+            "Ezekiel 37:1–3 — a field of bones portrays a people brought near to extinction"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I watched until twenty-three shepherds had taken up the pasture and completed, each in his own time, fifty-eight periods.",
+          "study": "The Geʽez witness preserves its numerical reckoning without explaining every correspondence. Its point remains clear: history is counted, bounded, and known before the Lord.",
+          "crossReferences": [
+            "1 Enoch 89:59–64 — the shepherds and their acts are numbered and recorded",
+            "Daniel 2:21 — God changes times and seasons and removes rulers"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Little lambs were born from those white sheep. They began to open their eyes, to see, and to cry out to the sheep.",
+          "study": "A new generation begins to see within a blind flock. Their cry is a call to awareness and renewal, even before the older sheep respond.",
+          "crossReferences": [
+            "Isaiah 60:1–2 — light rises amid surrounding darkness",
+            "Malachi 3:16 — those who fear the Lord speak to one another and are heard"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "But the sheep did not cry out to them or listen to what they said. They were exceedingly deaf, and their eyes were exceedingly and powerfully blind.",
+          "study": "The older flock refuses both speech and sight. Their condition is not lack of a witness but resistance to the lambs who have begun to see.",
+          "crossReferences": [
+            "Isaiah 6:9–10 — hearing and seeing are dulled in a resistant people",
+            "Jeremiah 6:10 — the people are unable and unwilling to listen"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "I saw in the vision how the ravens flew upon those lambs, seized one of them, broke the sheep apart, and devoured them.",
+          "study": "The newly seeing lambs immediately face violent opposition. The flock's vulnerability shows why awakening must be joined by deliverance and courageous leadership.",
+          "crossReferences": [
+            "Daniel 8:23–25 — a fierce ruler destroys the holy people",
+            "Psalm 74:19 — prayer asks that the life of the vulnerable not be given to beasts"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "I watched until horns grew on those lambs, but the ravens cast down their horns. Then I watched until a great horn sprang up on one of those sheep, and their eyes were opened.",
+          "study": "Repeated resistance is suppressed until one great horn rises and sight spreads among the flock. The horn represents strength given within the sheep, not rescue imposed from outside them.",
+          "crossReferences": [
+            "Psalm 92:10 — an exalted horn symbolizes renewed strength",
+            "Daniel 8:5–9 — horns symbolize concentrated historical power"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "He looked toward them, and their eyes opened. He cried out to the sheep, and the lambs saw him and all ran to him.",
+          "study": "The great horn gathers the seeing lambs by a cry that they recognize. Shared sight becomes shared allegiance and the beginning of organized resistance.",
+          "crossReferences": [
+            "1 Maccabees 2:27–28 — a public call gathers those zealous for the covenant",
+            "John 10:3–4 — sheep recognize a shepherd's voice and follow"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Throughout all this, those eagles, vultures, ravens, and kites kept tearing the sheep, flying upon them and devouring them. The sheep remained silent, but the lambs lamented and cried out.",
+          "study": "Predation continues even after the horn appears. The contrast between silent sheep and crying lambs shows awakening before victory: the new generation recognizes what the older flock has ceased to resist.",
+          "crossReferences": [
+            "Psalm 44:22–26 — the afflicted flock cries for the Lord to rise and help",
+            "Habakkuk 1:2–4 — the faithful cry while violence continues"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "The ravens fought and contended with him and sought to remove his horn, but they could not prevail against him.",
+          "study": "The predators recognize the horn as the center of resistance and attack it directly. Their inability to remove it signals preservation amid conflict, not an absence of danger.",
+          "crossReferences": [
+            "Psalm 18:37–40 — God strengthens his servant against pursuing enemies",
+            "Daniel 7:21–22 — a horn wages war until heavenly judgment intervenes"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "I watched until the shepherds, eagles, vultures, and kites came. They cried to the ravens to shatter the horn of that lamb. They fought and contended with him, and he fought against them and cried out for help to come to him.",
+          "study": "Rulers and predators unite against the horned lamb, making the conflict both earthly and administrative. The lamb's strength does not eliminate dependence; he cries for aid.",
+          "crossReferences": [
+            "Psalm 118:10–14 — surrounding nations are resisted in the Lord's strength",
+            "2 Maccabees 8:18–23 — the threatened faithful appeal to heavenly help"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "I watched until the man who wrote the names of the shepherds and brought them before the Lord of the sheep came. He helped that lamb and showed him everything; his help had come down.",
+          "study": "The heavenly recorder now acts as helper, joining exact testimony with intervention. Aid descends because the crisis and every deed within it are already known before the Lord.",
+          "crossReferences": [
+            "Daniel 10:12–14 — heavenly help comes in response to an appeal",
+            "2 Maccabees 11:6–10 — the threatened people ask for a good angel to save them"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "I watched until the Lord of the sheep came to them in wrath. All who saw him fled, and they all fell into his shadow before his face.",
+          "study": "The Lord's arrival transforms the battle. The Geʽez image of falling into his shadow is retained: hostile powers collapse before the overwhelming presence they had not reckoned with.",
+          "crossReferences": [
+            "Psalm 68:1–2 — God's enemies flee and perish before his presence",
+            "Nahum 1:5–6 — none can stand before the Lord's indignation"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "All the eagles, vultures, ravens, and kites gathered together and brought all the sheep of the field with them. They all came together and joined forces to break the horn of that lamb.",
+          "study": "The final coalition concentrates its force against the sign of the flock's renewal. What appears to be overwhelming unity among enemies becomes the setting for decisive judgment.",
+          "crossReferences": [
+            "Psalm 2:1–4 — rulers gather together against the Lord and his anointed",
+            "Zechariah 12:3 — nations gather against Jerusalem and meet divine resistance"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "I watched until the man who wrote the book at the Lord's command opened the book of destruction committed by the last twelve shepherds and showed before the Lord of the sheep that they had destroyed far more than those before them.",
+          "study": "The sealed record is opened at the crisis, and the last shepherds' excess is proved. Judgment rests on disclosed evidence, distinguishing their abuse from all that was commanded.",
+          "crossReferences": [
+            "1 Enoch 89:61–71 — excess destruction is recorded against each shepherd",
+            "Daniel 7:10 — the heavenly court sits and the books are opened"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "I watched until the Lord of the sheep came to them, took the staff of wrath in his hand, and struck the earth. The earth split apart, and all the animals and birds of heaven fell away from the sheep, sank into the earth, and it closed over them.",
+          "study": "The Lord answers predatory violence by removing the predators from the flock altogether. The earth that sustained their oppression becomes the means of their disappearance.",
+          "crossReferences": [
+            "Numbers 16:30–33 — the earth opens and closes over rebels",
+            "Isaiah 11:4 — the appointed ruler strikes the earth with the rod of his mouth"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "I watched until a great sword was given to the sheep. The sheep went out against all the animals of the field to kill them, and all the animals and birds of heaven fled before them.",
+          "study": "The flock once given over as prey now receives power to oppose its predators. The reversal is granted rather than self-generated, and hostile forces flee from those they had devoured.",
+          "crossReferences": [
+            "Zechariah 9:13–15 — the Lord equips his people against oppressive powers",
+            "Revelation 19:15 — a sword accompanies the defeat of rebellious nations"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "I watched until a throne was erected in the pleasant land. The Lord of the sheep sat upon it, and the other took all the sealed books and opened them before the Lord of the sheep.",
+          "study": "Victory gives way to court. The throne stands in the restored land, and the opened records bring the whole history of abuse into the Lord's judicial presence.",
+          "crossReferences": [
+            "Daniel 7:9–10 — the Ancient of Days sits and the books are opened",
+            "Revelation 20:11–12 — a throne and opened books precede judgment"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "The Lord called those first seven white ones and commanded them to bring before him, beginning with the first star that had gone before, all the stars whose sexual organs were like those of horses, including the first star that had fallen. They brought them all before him.",
+          "study": "The vision returns to the rebellion that preceded the flood. The heavenly offenders are brought from confinement so that the ancient source of violence may face final judgment.",
+          "crossReferences": [
+            "1 Enoch 86:1–6 — stars fall and corrupt the earthly herd",
+            "Jude 6 — rebellious angels are kept for the judgment of the great day"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "He said to the man who wrote before him, who was one of the seven white ones, 'Take those seventy shepherds to whom I handed the sheep and who, on their own authority, took and killed more than I commanded them.'",
+          "study": "The shepherds are charged in the precise terms of their abuse: they converted delegated authority into self-authorized destruction. Their office cannot shield them from the record of excess.",
+          "crossReferences": [
+            "1 Enoch 89:59–64 — the shepherds receive limits and a record is kept",
+            "Zechariah 11:15–17 — a destructive shepherd faces judgment"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "See, I watched them all bound, standing before him.",
+          "study": "Those who exercised power over the flock now stand restrained before the true ruler. Their binding reveals the temporary and subordinate nature of all oppressive authority.",
+          "crossReferences": [
+            "Psalm 149:7–9 — rulers are bound for written judgment",
+            "Revelation 20:1–3 — a rebellious power is bound before judgment"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "Judgment was held first over the stars. They were judged, found guilty, and went to the place of condemnation. They were thrown into a deep place filled with blazing fire and pillars of fire.",
+          "study": "The rebellious heavenly powers are judged before human rulers. Their former celestial status does not lessen accountability; it heightens the gravity of their departure.",
+          "crossReferences": [
+            "1 Enoch 10:11–14 — the Watchers are bound until final judgment",
+            "2 Peter 2:4 — sinning angels are held for judgment"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "Those seventy shepherds were judged, found guilty, and also thrown into that fiery abyss.",
+          "study": "The shepherds share the condemnation of the powers whose violence they reproduced. Delegation created responsibility, and exceeding their charge created guilt.",
+          "crossReferences": [
+            "Ezekiel 34:10 — the Lord judges shepherds and removes the flock from their mouths",
+            "Revelation 19:20 — oppressive rulers are consigned to fiery judgment"
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "At that time I saw a similar abyss opened in the middle of the earth, full of fire. The blinded sheep were brought, judged, found guilty, and thrown into that fiery abyss, where they burned. This abyss was to the right of that house.",
+          "study": "Judgment reaches the persistently blind within the flock as well as external rulers. Nearness to the house does not exempt those who refused the sight repeatedly offered to them.",
+          "crossReferences": [
+            "Isaiah 66:24 — rebels face enduring judgment outside the restored worshiping community",
+            "Matthew 25:31–33, 41 — judgment separates within the gathered peoples"
+          ]
+        },
+        {
+          "verse": 27,
+          "text": "I watched those sheep burn, and their bones burned.",
+          "study": "The brief image makes the sentence total and irreversible. Even what remained when earlier predators stripped the flock is consumed in judicial fire.",
+          "crossReferences": [
+            "Malachi 4:1 — the day of judgment burns like an oven",
+            "Revelation 20:14–15 — final condemnation is pictured as the lake of fire"
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "I stood up to watch until he folded up that old house. All its pillars were carried away, and its beams and ornaments were folded up with it. They carried it away and placed it in a location in the south of the land.",
+          "study": "The old house is removed as a whole rather than repaired. Its removal prepares for a genuinely new dwelling whose holiness will not inherit the old structure's corruption.",
+          "crossReferences": [
+            "Isaiah 65:17 — former things give way before new creation",
+            "Hebrews 12:26–27 — created things are removed so what cannot be shaken may remain"
+          ]
+        },
+        {
+          "verse": 29,
+          "text": "I watched until the Lord of the sheep brought a new house, greater and higher than the first, and set it in the place where the first had stood after it was folded up. All its pillars were new, and its ornaments were new and greater than those of the old house he had removed. All the sheep were inside it.",
+          "study": "The Lord himself supplies the new house. Its new pillars, greater beauty, and gathered flock portray restoration as divine re-creation rather than human renovation.",
+          "crossReferences": [
+            "Ezekiel 37:26–28 — an everlasting sanctuary stands among a gathered people",
+            "Revelation 21:1–3 — a new dwelling of God comes among humanity"
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "I watched all the surviving sheep, all the animals on the earth, and all the birds of heaven fall down and bow before those sheep. They appealed to them and obeyed them in every word.",
+          "study": "The former relationship of predator and prey is transformed into peaceful submission. The restored flock becomes the center of an ordered creation rather than the object of its violence.",
+          "crossReferences": [
+            "Isaiah 11:6–9 — former predators live peacefully in the renewed order",
+            "Isaiah 60:14 — former oppressors bow before the restored people"
+          ]
+        },
+        {
+          "verse": 31,
+          "text": "After this those three clothed in white who had first lifted me took me by my hand. The hand of that lamb also took hold of me, and they raised me and set me down among those sheep before the judgment took place.",
+          "study": "Enoch is placed within the restored flock by heavenly guides and the horned lamb. The temporal note draws the seer into the vision's outcome even as he continues to behold its judgment.",
+          "crossReferences": [
+            "1 Enoch 87:3–4 — three white ones lift Enoch to a place of vision",
+            "Daniel 12:13 — the seer is promised a place at the appointed end"
+          ]
+        },
+        {
+          "verse": 32,
+          "text": "All those sheep were white, and their wool was abundant and clean.",
+          "study": "The flock's uniform whiteness and clean wool reverse its long history of blindness and defilement. Renewal reaches identity and condition, not merely location.",
+          "crossReferences": [
+            "Isaiah 1:18 — scarlet sin is made white like wool",
+            "Revelation 7:13–14 — a gathered people appears in cleansed white garments"
+          ]
+        },
+        {
+          "verse": 33,
+          "text": "All who had been destroyed and scattered, all the animals of the field, and all the birds of heaven assembled in that house. The Lord of the sheep rejoiced greatly because they were all good and had returned to his house.",
+          "study": "The new house gathers the scattered and reconciles the wider animal world. The Lord's joy rests on a community now characterized as good and fully returned.",
+          "crossReferences": [
+            "Ezekiel 34:11–16 — the Lord searches for and gathers his scattered flock",
+            "Zephaniah 3:17–20 — the Lord rejoices over the restored and gathered people"
+          ]
+        },
+        {
+          "verse": 34,
+          "text": "I watched until they laid down the sword that had been given to the sheep. They brought it back into his house and sealed it before the Lord's face. All the sheep were enclosed within that house, but it could not contain them.",
+          "study": "The sword's purpose ends when opposition and violence end. The overflowing house combines secure inclusion with abundance beyond the old dwelling's capacity.",
+          "crossReferences": [
+            "Isaiah 2:4 — swords cease to serve war in the Lord's ordered future",
+            "Isaiah 54:2–3 — the restored dwelling must be enlarged for its multitude"
+          ]
+        },
+        {
+          "verse": 35,
+          "text": "The eyes of all of them were opened so that they saw what is good, and there was not one among them who could not see.",
+          "study": "Complete sight replaces the recurring blindness that drove the vision's history. Every member of the flock now perceives the good without exception.",
+          "crossReferences": [
+            "Isaiah 29:18 — the eyes of the blind come out of darkness",
+            "Jeremiah 31:34 — all know the Lord in the renewed covenant community"
+          ]
+        },
+        {
+          "verse": 36,
+          "text": "I saw that the house was great and spacious and exceedingly full.",
+          "study": "The new house holds a fullness that exceeds the old order. Greatness here is measured by the restored community gathered within the Lord's dwelling.",
+          "crossReferences": [
+            "Haggai 2:7–9 — the latter house is filled with greater glory",
+            "Revelation 7:9 — an innumerable multitude stands before God"
+          ]
+        },
+        {
+          "verse": 37,
+          "text": "I saw a white bull born, and his horns were great. All the animals of the field and all the birds of heaven feared him and appealed to him continually.",
+          "study": "The return of a white bull recalls humanity's beginning in Chapter 85 while adding great horns of authority. The renewed human order centers on a figure before whom the wider creation responds.",
+          "crossReferences": [
+            "1 Enoch 85:3–10 — the first human generations appear as white cattle",
+            "Psalm 89:17, 24 — an exalted horn signifies divinely given authority"
+          ]
+        },
+        {
+          "verse": 38,
+          "text": "I watched until all their generations were transformed, and they all became white bulls. The first among them became a lamb, and that lamb became a great animal with great black horns on its head. The Lord of the sheep rejoiced over them and over all the bulls.",
+          "study": "The entire renewed community is transformed into white bulls, reversing history's descent into divided animal peoples. The lamb's growth and great horns crown the vision with strength joined to the identity of the flock.",
+          "crossReferences": [
+            "Isaiah 11:6–9 — transformed relationships mark the holy renewed order",
+            "Revelation 5:5–6 — royal strength and the lamb image converge in the victorious figure"
+          ]
+        },
+        {
+          "verse": 39,
+          "text": "I had slept among them, and I awoke and saw everything.",
+          "study": "Enoch awakens from within the vision's restored community. The dream ends, but the sight remains as knowledge he must carry into waking life.",
+          "crossReferences": [
+            "Genesis 28:16 — Jacob wakes from a revelatory dream aware of divine reality",
+            "Daniel 8:18–19 — the seer is awakened to receive the vision's meaning"
+          ]
+        },
+        {
+          "verse": 40,
+          "text": "This is the vision I saw while I slept. I awoke and blessed the Lord of righteousness and gave him glory.",
+          "study": "The fitting response to the whole panorama is worship. Enoch names the Lord by righteousness because judgment, preservation, and renewal have all revealed his just rule.",
+          "crossReferences": [
+            "Daniel 4:34–37 — awakening leads to blessing the righteous heavenly King",
+            "Revelation 19:1–2 — glory is given to God because his judgments are true and just"
+          ]
+        },
+        {
+          "verse": 41,
+          "text": "Afterward I wept greatly, and my tears did not stop until I could no longer endure it. Whenever I looked, they streamed down because of what I had seen, for everything will come and be fulfilled, and every human deed was shown to me in its order.",
+          "study": "Certainty does not make the vision emotionally distant. Enoch's tears join the assurance of fulfillment with grief over the ordered history of human violence and judgment.",
+          "crossReferences": [
+            "Daniel 8:27 — a fulfilled vision leaves the seer overcome",
+            "Luke 19:41–44 — foreknowledge of judgment leads to tears over the city"
+          ]
+        },
+        {
+          "verse": 42,
+          "text": "That night I remembered my first dream. Because of it also I wept and was shaken, for I had seen that vision.",
+          "study": "The second dream recalls the first flood vision and binds both revelations together. Enoch ends not in curiosity but in trembling awareness of the weight of what has been disclosed.",
+          "crossReferences": [
+            "1 Enoch 83:3–9 — Enoch's first dream reveals the earth overwhelmed",
+            "Habakkuk 3:16 — revelation of coming judgment makes the prophet tremble"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 90 completes the animal vision. The flock is reduced under successive rulers and predatory nations, yet seeing lambs arise among the blind sheep. From them one great horn emerges, gathers the lambs, resists the birds, and cries for heavenly help.",
+          "The Lord’s arrival reveals that neither imperial violence nor corrupt shepherding escapes accountability. The heavenly record is opened, the shepherds’ excess is proved, and judgment reaches fallen stars, abusive rulers, and persistently blinded sheep. Authority delegated for a season is judged by the limits of its commission.",
+          "The removal of the old house and arrival of a greater new house shift the vision from judgment to renewal. The scattered gather, former predators bow, the sword is sealed away, every eye is opened, and the Lord rejoices over a community that has become good and returned to his dwelling.",
+          "The white bull and the transformation of all into white bulls recall humanity’s beginning and portray a restored creation. The vision does not merely return to the past; it presents a renewed order marked by cleansed identity, universal sight, peaceful submission, and a great horned figure arising from the flock.",
+          "Enoch awakens blessing the Lord of righteousness, but he also weeps. The chapter holds worship and lament together: God’s final order is certain, every deed is known, and every promise will be fulfilled, yet the path through violence and judgment remains grievous to the faithful seer."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 83:1–84:6 — the first dream of judgment and Enoch’s prayer",
+        "1 Enoch 85:1–89:77 — the animal vision from creation through the shepherds",
+        "Daniel 7:9–27 — heavenly court, books, oppressive horns, and kingdom",
+        "Ezekiel 34:1–31 — judgment of shepherds and gathering of the flock",
+        "Isaiah 11:1–9 — a horned ruler and peace within renewed creation",
+        "Isaiah 65:17–25 — new creation, joy, and the end of predatory harm",
+        "Zechariah 11:4–17 — destructive shepherds and their judgment",
+        "Matthew 25:31–46 — the shepherd-king separates and judges the gathered",
+        "Revelation 19:11–20:15 — defeat of hostile powers and judgment from opened books",
+        "Revelation 21:1–4 — the new dwelling of God with a restored people"
+      ]
+    }
+  ]
+}

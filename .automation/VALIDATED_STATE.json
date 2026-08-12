@@ -4,14 +4,14 @@
   "lastValidated": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 85
+    "chapter": 94
   },
   "nextUnfinished": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 86
+    "chapter": 95
   },
-  "validatedAt": "2026-08-11T18:01:05Z",
+  "validatedAt": "2026-08-12T03:47:15Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -437,6 +437,51 @@
       "path": ".automation/CORRECTION_1_ENOCH_085_EVIDENCE.json",
       "sha256": "645b3aaee4b39af40f984564525457efefec54a738ba19e2bab6053a9248f3cb",
       "scope": "controlled correction validation evidence"
+    },
+    {
+      "path": "1-enoch-086.json",
+      "sha256": "539ed074f48691e99cc941aa3fe364abc097f315c265be0f940940016716cbe6",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-087.json",
+      "sha256": "878206290248daef7dbc86d598ad6cd91cba02fe512bf2bddcced39a5a6beefa",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-088.json",
+      "sha256": "7d515c9bcbbeeab528e29ea70caa9474fc7be400282e5dd42fbfd5aaff07f520",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-089.json",
+      "sha256": "e754eb2b54168ad38fab1c6cb47eef526d9fcfcc4528f11b0be8821619941b49",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-090.json",
+      "sha256": "9c2f4355d5e7b21b5ba6187b5b9a9eb919a99bbec2b40be2fc0394a099e4d18b",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-091.json",
+      "sha256": "09f81c555450bbcba665f3a17b4cc0e68d87f846b0d49fd0b1e67bd693c973a2",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-092.json",
+      "sha256": "fb2ed0a09a1e28200e7a9d934d8c55f2cde37905ceb9a94d2780aabd0ebf3a16",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-093.json",
+      "sha256": "5856866162d04bfaf8949f891c48ea8455677d261e5689775c6c9ab104166dbb",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-094.json",
+      "sha256": "67ccb4be5af3cee9b75d036b492e8eb71c9b2b658059e3b22836758c9e726575",
+      "scope": "validated Scripture"
     }
   ],
   "corrections": [

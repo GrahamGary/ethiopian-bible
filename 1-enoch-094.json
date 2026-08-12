@@ -1,0 +1,150 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-094-2026-08-12",
+  "contentVersion": "2026.08.12.86",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 94,
+      "title": "Chapter 94 — Walk in the Ways of Peace",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. The surviving Aramaic of 4QEnochᵍ (4Q212), column v, governs its extant wording in 94:1–2. No surviving Greek witness preserves wording from Chapter 94. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 79–80, supplies all eleven verses and all wording not extant in the Aramaic fragment. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "And now I say to you, my sons: love righteousness and walk in it, for the ways of righteousness are worthy of acceptance, but the ways of wickedness will be destroyed and vanish.",
+          "study": "Righteousness must be loved and practiced as a way. Its enduring worth is set against wicked paths whose apparent strength ends in disappearance.",
+          "crossReferences": [
+            "Psalm 1:6 — the righteous way is known, but the wicked way perishes",
+            "1 Enoch 91:3–4 — Enoch calls his children to love and walk in uprightness"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "The ways of violence and death will be revealed to certain people of a future generation, but they will keep far from them and will not follow them.",
+          "study": "Exposure to evil does not require participation in it. Future hearers are called to recognize deadly paths, keep their distance, and refuse their direction.",
+          "crossReferences": [
+            "Proverbs 1:15–19 — do not walk in the violent sinner’s path",
+            "Deuteronomy 30:19 — life and death are set before the people as a choice"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "And now I say to you who are righteous: do not walk on an evil and violent path or on the paths of death. Do not approach them, so that you are not destroyed.",
+          "study": "The warning moves from discernment to deliberate distance. Destructive conduct begins with approach, so wisdom refuses the path before it becomes a settled walk.",
+          "crossReferences": [
+            "Proverbs 4:14–15 — avoid the path of the wicked and turn away",
+            "Psalm 119:101 — restraint from every evil path protects obedience"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Seek and choose righteousness and a life that is pleasing, and walk in the ways of peace, so that you may live and rejoice.",
+          "study": "Avoidance alone is incomplete; the faithful actively seek righteousness, choose a pleasing life, and walk toward peace. Life and joy are the fruit of that positive allegiance.",
+          "crossReferences": [
+            "Psalm 34:14 — turn from evil, do good, seek peace, and pursue it",
+            "Isaiah 55:2–3 — attentive obedience leads to delight and life"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Keep my words in the thoughts of your heart, and do not let them be erased from your heart. For I know that sinners will tempt people to corrupt wisdom; it will find no place, and every kind of temptation will increase.",
+          "study": "Remembered instruction protects wisdom when social pressure works to corrupt it. The heart must retain truth deliberately because multiplying temptation seeks to leave wisdom without a dwelling place.",
+          "crossReferences": [
+            "Deuteronomy 6:6 — commanded words are to remain upon the heart",
+            "Proverbs 7:1–3 — treasured teaching is written on the tablet of the heart"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Woe to those who build injustice and oppression and lay deceit as their foundation, for they will suddenly be overthrown, and they will have no peace.",
+          "study": "The first woe exposes evil as a structure people deliberately build. Injustice, oppression, and deceit cannot provide a lasting foundation; sudden overthrow reveals the instability already present in them.",
+          "crossReferences": [
+            "Isaiah 28:15–18 — a refuge of lies and covenant with death are swept away",
+            "Habakkuk 2:9–12 — woe falls on gain and building secured through bloodshed"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Woe to those who build their houses with sin, for they will be torn down from their foundations and will fall by the sword. Those who acquire gold and silver will suddenly perish in judgment.",
+          "study": "A house gained through sin carries corruption into its foundations. Neither property nor precious metals can secure its owners when violence returns upon them and judgment strips wealth of every promise of safety.",
+          "crossReferences": [
+            "Jeremiah 22:13–17 — woe to the one who builds a house by injustice and oppression",
+            "James 5:1–5 — hoarded riches testify against their possessors in the last days"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Woe to you who are rich, for you have trusted in your riches. You will leave your riches behind because you did not remember the Most High in the days of your wealth.",
+          "study": "The offense is not possession alone but trust joined to forgetfulness. Wealth becomes spiritually dangerous when it displaces remembrance of the Most High and convinces its owner that dependence has ended.",
+          "crossReferences": [
+            "Deuteronomy 8:11–18 — abundance must not lead to forgetting the Lord",
+            "Psalm 49:6–12 — those who trust in wealth cannot redeem life from death"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "You have committed blasphemy and injustice, and you are prepared for the day of bloodshed, the day of darkness, and the day of great judgment.",
+          "study": "Blasphemy and injustice prepare their practitioners for judgment rather than for life. The repeated ‘day’ gathers violence, darkness, and divine reckoning into one unavoidable answer to accumulated evil.",
+          "crossReferences": [
+            "Isaiah 2:11–17 — the day of the Lord brings human pride low",
+            "Zephaniah 1:14–18 — the great day is a day of distress, darkness, and judgment"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "This is what I say and declare to you: the One who created you will overthrow you. There will be no compassion over your fall, and your Creator will rejoice over your destruction.",
+          "study": "The Creator is also the judge of what his creatures build. Persistent oppression does not gain immunity from the Giver of life; its fall receives no reversal when judgment vindicates the order it violated.",
+          "crossReferences": [
+            "Deuteronomy 32:35–39 — vengeance arrives in its appointed time, and no one can rescue",
+            "Psalm 37:12–15 — the Lord sees the wicked person’s coming day and overturns his violence"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "In those days, the righteous among you will become a reproach to the sinners and the godless.",
+          "study": "The righteous become a living rebuke because their faithful path exposes the choices of sinners and the godless. Their witness anticipates the public distinction that judgment will finally make clear.",
+          "crossReferences": [
+            "Psalm 52:6–7 — the righteous see the fall of the one who trusted in riches",
+            "Malachi 3:16–18 — the distinction between the righteous and the wicked becomes visible"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 94 turns the two-path teaching of the preceding chapters into direct exhortation. Enoch calls his children and the righteous to love righteousness, keep away from violent paths, choose a pleasing life, and walk in peace. Righteousness is not merely admired; it is remembered in the heart and practiced as a way.",
+          "The chapter then pronounces woes against injustice made systematic. Oppression is built, deceit is laid as a foundation, and houses are established through sin. The imagery teaches that evil carries collapse within its own structure: what is founded on harm cannot produce lasting peace.",
+          "Wealth receives special scrutiny because it can become an object of trust and a cause of forgetting the Most High. Gold, silver, and houses cannot survive the day of judgment. The theological issue is misplaced dependence expressed through blasphemy, injustice, and indifference to the people being oppressed.",
+          "The closing declaration grounds judgment in creation itself: the One who gave life holds human deeds accountable. The righteous become a reproach to the godless not through wealth or force but through the contrast of their faithful conduct. The chapter therefore joins warning and hope—violent paths end, while the way of peace is the way in which life and joy are sought."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 91:3–4 — love uprightness and do not draw near to deceit",
+        "1 Enoch 92:3–5 — the righteous walk in everlasting light while sin perishes",
+        "Psalm 1:1–6 — righteous and wicked ways reach different ends",
+        "Proverbs 4:14–18 — avoid the path of the wicked and walk in growing light",
+        "Isaiah 28:14–18 — deceit cannot remain a secure foundation",
+        "Jeremiah 22:13–17 — unjust building and oppression are condemned",
+        "Deuteronomy 8:11–18 — remember God in days of abundance",
+        "Zephaniah 1:14–18 — wealth cannot deliver in the day of judgment",
+        "Matthew 7:24–27 — foundations reveal whether a house will stand",
+        "James 5:1–6 — oppressive riches become evidence in judgment"
+      ]
+    }
+  ]
+}
