@@ -1,0 +1,114 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-095-2026-08-12",
+  "contentVersion": "2026.08.12.87",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 95,
+      "title": "Chapter 95 — Judgment Will Overtake Injustice",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witness responsibly available for the complete chapter. The extant Aramaic of 4QEnochᵍ (4Q212) ends its parallel wording at 1 Enoch 94:2, and no surviving Aramaic manuscript preserves wording from Chapter 95. No surviving Greek witness preserves wording from this chapter; the Chester Beatty–Michigan Greek papyrus begins its running text at 97:6. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 80–81, therefore supplies all seven verses. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Who will grant me that my eyes might become a cloud of water, so that I may weep over you and pour out my tears like a rain cloud, and find relief from the sorrow of my heart?",
+          "study": "Enoch’s warning begins with grief rather than detachment. His imagined flood of tears shows that announcing judgment is a burden of love: he longs for release from sorrow because the people he addresses continue toward ruin.",
+          "crossReferences": [
+            "Jeremiah 9:1 — the prophet longs for a fountain of tears over his people",
+            "Psalm 119:136 — tears flow because God’s instruction is not kept"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Who gave you permission to practice hostility and evil? Judgment will overtake you, sinners.",
+          "study": "The question strips wrongdoing of every claim to legitimacy. Hostility and evil have no rightful authorization, and their practitioners cannot outrun the judgment that meets them.",
+          "crossReferences": [
+            "Ecclesiastes 12:14 — every deed, including hidden evil, is brought into judgment",
+            "Isaiah 5:20 — woe falls on those who reverse the names of good and evil"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Do not fear sinners, you righteous ones, for the Lord will again deliver them into your hands, so that you may execute judgment on them as you desire.",
+          "study": "Present intimidation does not determine the final order. The Lord will reverse the apparent power of sinners, entrusting judgment to the righteous who had been made afraid by them.",
+          "crossReferences": [
+            "Psalm 37:12–15 — the violence aimed at the righteous returns upon the wicked",
+            "Psalm 149:5–9 — the faithful participate in the execution of written judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Woe to you who pronounce binding curses that cannot be undone; healing is far from you because of your sins.",
+          "study": "Words intended to bind others reveal the speaker’s own estrangement from healing. The woe joins destructive speech to sin’s consequence: those who make harm irreversible place restoration far from themselves.",
+          "crossReferences": [
+            "Psalm 109:17–18 — the one who loves cursing becomes clothed with it",
+            "James 3:9–10 — blessing and cursing must not proceed from the same mouth"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Woe to you who repay your neighbors with evil, for you will be repaid according to your deeds.",
+          "study": "Retaliatory evil does not settle an account; it creates one before judgment. The measure used against a neighbor becomes the measure by which the wrongdoer’s own deeds are answered.",
+          "crossReferences": [
+            "Proverbs 17:13 — evil remains with the house that returns evil for good",
+            "Romans 12:17–21 — do not repay evil for evil, but overcome evil with good"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Woe to you, false witnesses, and to those who prepare injustice, for you will perish suddenly.",
+          "study": "False testimony turns speech into an instrument for arranging injustice. Its apparent planning and control are exposed as fragile when sudden destruction overtakes those who prepared harm for others.",
+          "crossReferences": [
+            "Exodus 20:16 — false testimony against a neighbor is forbidden",
+            "Proverbs 19:5 — a false witness will not escape punishment"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Woe to you sinners, because you persecute the righteous; for you yourselves will be handed over and pursued, you who practice injustice, and their yoke will bear heavily upon you.",
+          "study": "Persecution will be reversed. Those who hunted the righteous will themselves be handed over and pursued, and the burden they imposed through injustice will return upon them with crushing weight.",
+          "crossReferences": [
+            "Psalm 7:14–16 — the violence a person prepares descends on that person’s own head",
+            "2 Thessalonians 1:6–7 — God repays affliction and gives relief to the afflicted"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 95 continues the woes that closed the preceding chapter, but it opens by revealing the heart of the warning. Enoch wishes his eyes could become a rain cloud so that his grief might pour out over the people. Judgment is not treated as spectacle; the prophet’s sorrow shows the human cost of hostility, evil, and stubborn sin.",
+          "The chapter then denies that wrongdoing has any rightful authority. No one gave sinners permission to practice hostility and evil, and judgment will find them. The righteous therefore need not let present persecution define reality. The Lord will reverse the imbalance of power and bring the oppressors under judgment.",
+          "Three woes focus on forms of harm carried through ordinary relationships: binding curses, repayment of evil to a neighbor, and false testimony prepared in the service of injustice. Speech and retaliation are morally consequential acts. Curses place healing far away, evil repayment returns according to one’s deeds, and carefully arranged falsehood ends in sudden loss.",
+          "The final woe gathers the chapter’s reversals into one image. Those who persecute the righteous will be handed over and pursued, and the yoke of injustice will bear upon them. The chapter teaches that divine judgment exposes unauthorized power, answers deeds according to their character, and assures the righteous that persecution will not have the final word."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 94:6–11 — woes announce the collapse of oppression, deceit, and trust in riches",
+        "1 Enoch 96:1–3 — the righteous are told to hope because sinners will fall",
+        "Jeremiah 9:1–9 — prophetic tears accompany judgment on deceit and hostility",
+        "Psalm 7:14–16 — prepared violence recoils upon the one who devised it",
+        "Psalm 37:12–17 — the apparent strength of those who attack the righteous is temporary",
+        "Proverbs 19:5–9 — false witnesses do not escape their appointed end",
+        "Matthew 7:1–2 — the measure used in judgment returns to the one who uses it",
+        "Romans 12:17–21 — evil is not to be repaid with evil",
+        "James 3:8–12 — destructive speech contradicts the proper use of the tongue",
+        "2 Thessalonians 1:6–10 — affliction is answered and the afflicted receive relief"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-105-2026-08-12",
+  "contentVersion": "2026.08.12.97",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [{"id": "1-enoch", "title": "1 Enoch", "shortTitle": "1 Enoch", "category": "Ethiopic biblical literature", "totalChapterCount": 108, "enabled": true}],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 105,
+      "title": "Chapter 105 — Rejoice, Children of Truth",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter. No surviving Aramaic manuscript preserves Chapter 105, and the fourth-century Chester Beatty–Michigan Papyrus XII passes directly from Chapter 104 to Chapter 106 without this passage. The translation therefore follows the complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed page 90. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the Geʽez witness was supplied.",
+      "verses": [
+        {"verse": 1, "text": "In those days the Lord said that they should summon the children of the earth and testify to them with their wisdom: ‘Show it to them, for you are their guides and the recompense over all the earth.", "study": "The received books of Chapter 104 become a public commission. Wisdom is to summon, testify, and guide rather than remain a private possession.", "crossReferences": ["Deuteronomy 4:5–8 — received wisdom is displayed before the peoples", "Daniel 12:3 — those who guide many to righteousness shine"]},
+        {"verse": 2, "text": "For I and my Son will be joined with them forever in the paths of truth during their lives, and peace will be yours. Rejoice, children of truth. Amen.’", "study": "The brief conclusion anchors righteous instruction in abiding divine fellowship. Truth is a lived path marked by peace and joy.", "crossReferences": ["Psalm 85:10–13 — righteousness, truth, and peace meet along God’s path", "John 14:23 — the Father and Son make their dwelling with the one who keeps the word"]}
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 105 is a compact conclusion to the written testimony of Chapters 92–104. The books entrusted to the righteous are not merely to be possessed; their wisdom must be used to summon and instruct the children of the earth.",
+          "The teachers are called guides, linking faithful preservation of the text with faithful direction of life. Wisdom carries responsibility: what has been received truthfully must be shown and testified truthfully.",
+          "The Lord’s promise joins divine presence to those who walk the paths of truth. The wording preserved in Geʽez names both the Lord and ‘my Son,’ placing enduring fellowship at the center of the promised life.",
+          "Peace and joy form the final summons. After long warnings against violence, deception, and oppression, the Epistle closes by addressing ‘children of truth’ whose daily path corresponds to the heavenly record they have received."
+        ]
+      },
+      "crossReferences": ["1 Enoch 92:1 — Enoch’s written instruction is entrusted to his children", "1 Enoch 104:10–13 — truthful books are given to the righteous for wisdom", "Deuteronomy 6:4–9 — received words are taught diligently to the next generation", "Psalm 25:8–10 — God guides the humble in paths of covenant truth", "Psalm 119:1–3 — the blessed walk in the way of divine instruction", "Isaiah 54:13 — children taught by the Lord possess great peace", "Daniel 12:3–4 — wise guides and a preserved book belong together", "Matthew 5:9 — peacemakers are called children of God", "John 14:23–27 — divine dwelling and peace accompany faithful love", "3 John 3–4 — joy arises when children walk in truth"]
+    }
+  ]
+}

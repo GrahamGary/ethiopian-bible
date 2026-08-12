@@ -1,0 +1,34 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-107-2026-08-12",
+  "contentVersion": "2026.08.12.99",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [{"id": "1-enoch", "title": "1 Enoch", "shortTitle": "1 Enoch", "category": "Ethiopic biblical literature", "totalChapterCount": 108, "enabled": true}],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 107,
+      "title": "Chapter 107 — Noah Is Truly Lamech’s Son",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. The fragmentary Aramaic text of 4Q204 (4QEnochᶜ ar), fragment 5 column ii, governs its extant wording in verses 1–2. The fourth-century Chester Beatty–Michigan Papyrus XII supplies the Greek wording through verse 3 where Aramaic is absent or broken. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed page 92, fills remaining physical lacunae and confirms the complete three-verse sequence. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from these primary witnesses was supplied.",
+      "verses": [
+        {"verse": 1, "text": "I saw written upon the heavenly tablets that generation after generation will grow worse until a generation of righteousness arises. Then transgression will be destroyed, sin will pass away from the earth, and every good thing will come upon it.", "study": "The heavenly record looks beyond recurring decline to a decisive generation of righteousness. Evil is not presented as the earth’s permanent condition.", "crossReferences": ["Psalm 102:18 — a coming generation is written about so that it may praise the Lord", "2 Peter 3:13 — the promised new creation is a dwelling place of righteousness"]},
+        {"verse": 2, "text": "Now, my son, go and tell your son Lamech that this child who has been born is truly his son and that this is no lie.", "study": "Enoch’s command answers the family’s immediate fear with unambiguous truth. Noah’s extraordinary appearance does not negate his genuine human descent.", "crossReferences": ["Genesis 5:28–29 — Noah is named as Lamech’s son", "1 John 2:21 — truth is distinguished from every lie"]},
+        {"verse": 3, "text": "When Methuselah heard the words of his father Enoch—for he had shown him every hidden matter—he returned and revealed them to Lamech. He named the child Noah, because he would bring comfort to the earth after all its destruction.", "study": "Methuselah faithfully carries the revealed answer home. Noah’s name turns the child’s alarming signs into a promise of comfort beyond judgment.", "crossReferences": ["Genesis 5:29 — Noah’s name is linked with comfort from the cursed ground", "Genesis 8:20–22 — after destruction, Noah’s worship accompanies renewed stability for the earth"]}
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 107 completes the family consultation begun in Chapter 106. Enoch first reveals the long horizon written on the heavenly tablets: repeated human decline will not continue forever, because a generation of righteousness will arise and goodness will come upon the earth.",
+          "The wider hope does not bypass Lamech’s immediate fear. Enoch explicitly commands Methuselah to say that Noah is truly Lamech’s son. Revelation corrects an anxious but false inference and restores the child to his proper human family.",
+          "Methuselah receives hidden knowledge in order to transmit it. He returns, reports the answer, and names the child Noah. The movement from Enoch to Methuselah to Lamech illustrates faithful stewardship of revealed truth across generations.",
+          "Noah’s name interprets his place in the story as comfort after destruction. Judgment remains real, but it does not have the final word: preservation, renewed earth, future righteousness, and the arrival of good frame the conclusion."
+        ]
+      },
+      "crossReferences": ["1 Enoch 106:1–19 — Noah’s birth, Lamech’s fear, and Enoch’s flood prophecy", "1 Enoch 108:1–15 — the final appendix contrasts sinners’ darkness with the righteous generation", "Genesis 5:28–32 — Lamech names Noah in expectation of comfort", "Genesis 6:8–10 — Noah is righteous and finds favor amid corruption", "Genesis 8:20–22 — Noah’s worship follows the flood’s destruction", "Genesis 9:8–17 — God establishes a covenant with Noah and the earth", "Psalm 14:5–7 — God is with the righteous generation and brings restoration", "Isaiah 11:1–9 — a righteous ruler accompanies the end of harm and violence", "2 Peter 2:5 — Noah is preserved as a herald of righteousness", "2 Peter 3:11–13 — judgment leads toward the promised home of righteousness"]
+    }
+  ]
+}

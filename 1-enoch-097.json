@@ -1,0 +1,141 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-097-2026-08-12",
+  "contentVersion": "2026.08.12.89",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 97,
+      "title": "Chapter 97 — The Record Before the Holy One",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. No surviving Aramaic manuscript preserves wording from Chapter 97. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 82–83, supplies verses 1–5 and confirms the chapter’s ten-verse sequence. For verses 6–10, the fourth-century Chester Beatty–Michigan Papyrus XII preserves the earlier Greek text and governs the translation; the complete Geʽez parallel was checked for continuity. The earlier Greek text does not contain the additional Ethiopic clause about falsehood flowing like water in verse 10, so that clause has not been included. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Be assured, you righteous ones, for sinners will become objects of contempt and will perish on the day of injustice.",
+          "study": "The righteous are invited to treat the sinners’ present prominence as temporary. Injustice has its appointed day, when the status of those who practice it collapses into contempt and loss.",
+          "crossReferences": [
+            "Psalm 37:35–36 — the flourishing wicked person passes away and cannot be found",
+            "Daniel 12:2 — shame and everlasting contempt answer persistent wickedness"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Let it be known to you: the Most High remembers your destruction, and the angels rejoice over your destruction.",
+          "study": "The warning turns directly toward sinners. Their coming ruin is neither forgotten by the Most High nor hidden from heaven; angelic joy signals judgment’s agreement with divine holiness.",
+          "crossReferences": [
+            "Deuteronomy 32:43 — heaven rejoices when God avenges wrong and cleanses the land",
+            "Revelation 19:1–3 — heaven praises God because his judgments are true and just"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "What will you do then, sinners, and where will you flee on that day of judgment, when you hear the voice of the righteous ones’ prayer?",
+          "study": "Judgment removes every imagined place of escape. The prayer of the righteous, once seemingly unheard, becomes a voice sinners must hear when their conduct is called to account.",
+          "crossReferences": [
+            "Psalm 11:1–7 — flight offers no answer to the Lord who examines and judges",
+            "Revelation 6:9–11 — the slain righteous cry out for just judgment"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "You yourselves will not be like the righteous, and this declaration will stand as a witness against you: you have been companions of sinners.",
+          "study": "Moral companionship reveals identity. The contrast with the righteous is established not merely by claims but by chosen solidarity, and the warning itself becomes testimony against those who persist in that fellowship.",
+          "crossReferences": [
+            "Psalm 1:1–6 — company and chosen paths distinguish the righteous from sinners",
+            "Proverbs 13:20 — companionship with fools brings harm"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "In those days the prayer of the righteous will reach the Lord, and the days of your judgment will come upon you.",
+          "study": "The arrival of prayer and judgment is presented as one movement. The Lord’s reception of the righteous plea means that the delayed answer has reached its appointed time.",
+          "crossReferences": [
+            "Psalm 102:1–2 — the afflicted ask that their prayer come before the Lord",
+            "Luke 18:7–8 — God brings justice for those who cry to him day and night"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "All the words of your lawlessness will be read aloud before the Great Holy One, to your faces. Then he will remove every work that took part in lawlessness.",
+          "study": "Lawlessness produces a record that will be spoken openly before divine holiness. Judgment addresses both words and works, removing every deed joined to the unjust order.",
+          "crossReferences": [
+            "Ecclesiastes 12:14 — every deed is brought into judgment",
+            "Matthew 12:36–37 — people give account for their words and are judged by them"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Woe to you sinners who dwell in the midst of the sea and upon dry land; an evil memorial stands against you.",
+          "study": "Neither sea nor land lies outside the reach of judgment. The sinners’ remembered deeds follow them across every realm and remain as a testimony against them.",
+          "crossReferences": [
+            "Psalm 139:7–12 — neither the far sea nor darkness provides escape from God’s presence",
+            "Amos 9:2–4 — no height, depth, or sea can hide those pursued by judgment"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Woe to you who acquire gold and silver apart from righteousness and say, ‘We have become rich in wealth; we have obtained and acquired possessions, and we will do whatever we desire.’",
+          "study": "The woe joins unjust acquisition to the illusion of unrestricted freedom. Wealth gained without righteousness persuades its owners that desire itself is sufficient authority for action.",
+          "crossReferences": [
+            "Jeremiah 17:11 — riches gained unjustly abandon their possessor",
+            "Luke 12:16–21 — stored abundance creates a false confidence in self-directed ease"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "For we have stored silver in our treasuries and many good things in our houses, poured out like water.",
+          "study": "The boast measures security by overflowing stores. Silver and household goods seem as plentiful as water, yet the image of pouring also anticipates how quickly accumulated wealth can run away.",
+          "crossReferences": [
+            "Psalm 49:16–17 — accumulated glory cannot be carried away at death",
+            "James 5:2–3 — stored riches become evidence against their owners"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "You have gone astray, for your wealth will not remain; it will quickly depart from you because you acquired everything unjustly, and you will be handed over to a great curse.",
+          "study": "The final answer to the boast is departure. Wealth founded on injustice cannot stay with its possessors, and its rapid loss reveals that accumulation had led them away rather than made them secure.",
+          "crossReferences": [
+            "Proverbs 13:11 — wealth gained wrongly diminishes",
+            "Habakkuk 2:6–9 — unjust gain brings a woe upon the one who piles it up"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 97 strengthens the righteous by presenting injustice as an order already moving toward contempt and disappearance. It then turns its address toward sinners: the Most High remembers their end, heaven recognizes it, and no place will shelter them when the prayer of the righteous reaches the Lord.",
+          "The chapter repeatedly uses the language of testimony. Companionship with sinners reveals allegiance, the prophetic declaration stands as a witness, words of lawlessness are read aloud, and an evil memorial remains against sinners on sea and land. Judgment is therefore a public disclosure of what speech, deeds, and loyalties have already made true.",
+          "The closing woes focus on wealth obtained apart from righteousness. Unjust gain encourages the boast that possessions authorize whatever their owners desire. Treasuries and houses overflow, but abundance does not change the moral origin of what has been acquired. The earlier Greek witness answers the boast directly: such wealth will not remain.",
+          "The chapter contrasts two arrivals. The prayer of the righteous reaches the Lord, while the days of judgment reach the unjust. What appeared delayed is not forgotten. The Great Holy One confronts lawlessness face to face, removes the works joined to it, and exposes wealth founded on injustice as a temporary possession ending in curse rather than freedom."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 96:4–8 — wealth disguises sin but cannot prevent the mighty person’s judgment",
+        "1 Enoch 98:1–3 — the following oath continues the exposure of wealth and human pride",
+        "Psalm 1:1–6 — allegiance and conduct distinguish the righteous from sinners",
+        "Psalm 49:5–20 — wealth cannot redeem life or remain with its owner",
+        "Amos 9:1–4 — no realm offers an escape from divine judgment",
+        "Habakkuk 2:6–9 — woe falls on unjust accumulation",
+        "Luke 12:16–21 — overflowing stores fail as a foundation for life",
+        "Luke 18:7–8 — the persistent prayer of the righteous receives an answer",
+        "James 5:1–6 — unjust wealth testifies against oppressors",
+        "Revelation 20:11–12 — recorded works are opened before the throne of judgment"
+      ]
+    }
+  ]
+}

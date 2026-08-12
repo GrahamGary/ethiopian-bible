@@ -1,0 +1,109 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-100-2026-08-12",
+  "contentVersion": "2026.08.12.92",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [{"id": "1-enoch", "title": "1 Enoch", "shortTitle": "1 Enoch", "category": "Ethiopic biblical literature", "totalChapterCount": 108, "enabled": true}],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 100,
+      "title": "Chapter 100 — Guarded Like the Pupil of an Eye",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. No surviving Aramaic manuscript preserves wording from Chapter 100. The fourth-century Chester Beatty–Michigan Papyrus XII governs all wording it preserves across the chapter. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 85–86, fills only physical lacunae in the Greek papyrus and confirms the complete thirteen-verse sequence. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from these primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In those days, fathers and sons will strike one another in a single place, and brothers will fall in death with their companions, until a stream flows with their blood.",
+          "study": "Judgment is pictured as violence consuming the bonds that normally restrain it, until family and friendship collapse into a single stream of blood.",
+          "crossReferences": ["Micah 7:5–6 — social corruption divides friends and family members", "Matthew 10:21 — brother and parent turn against their own family in mortal conflict"]
+        },
+        {
+          "verse": 2,
+          "text": "A man will not withhold his hand from his son or his grandson, but will mercilessly kill him; and a sinner will not withhold his hand from his honored brother. From dawn until sunset they will slaughter one another.",
+          "study": "The unrestrained hand expresses a world where mercy has disappeared. Violence continues through the whole day and spares neither descendant nor respected brother.",
+          "crossReferences": ["Isaiah 9:19–21 — no one spares even a brother amid consuming wickedness", "Zechariah 14:13 — panic turns every person’s hand against a neighbor"]
+        },
+        {
+          "verse": 3,
+          "text": "The horse will walk through the blood of sinners up to its chest, and the chariot will sink to the height of its axles.",
+          "study": "The depth of blood makes the scale of violence visible. Military power itself becomes mired in the judgment produced by sinners’ bloodshed.",
+          "crossReferences": ["Isaiah 34:2–3 — judgment fills the land with the blood of armies", "Revelation 14:20 — blood rises to the height of horses in the image of judgment"]
+        },
+        {
+          "verse": 4,
+          "text": "In those days angels will descend into the hidden places and gather into one place all who assisted sin. The Most High will rise on that day to execute a great judgment upon all sinners.",
+          "study": "Hidden allies of sin are gathered by heavenly agents. Judgment reaches not only visible perpetrators but everyone whose assistance sustained wrongdoing.",
+          "crossReferences": ["Matthew 13:41–42 — angels gather all causes of sin for judgment", "Joel 3:2 — the nations are gathered into one place for judgment"]
+        },
+        {
+          "verse": 5,
+          "text": "Over all the righteous and holy he will appoint guards from the holy angels, and they will protect them like the pupil of an eye until all evil and all sin come to an end. Even if the righteous sleep a long sleep, they will have nothing to fear.",
+          "study": "Divine guardianship lasts until evil’s end and extends even through death’s long sleep. The delicate pupil of the eye images attentive, continual protection.",
+          "crossReferences": ["Deuteronomy 32:10 — God guards his people like the pupil of his eye", "Psalm 17:8 — the faithful ask to be kept as the pupil of the eye"]
+        },
+        {
+          "verse": 6,
+          "text": "Then wise people will see, and the children of the earth will attend to all the words of this letter. They will know that their wealth cannot save them when their sin collapses.",
+          "study": "Wisdom listens to the written warning and sees through wealth’s promise. Possessions cannot hold up the sinful order when its foundation falls.",
+          "crossReferences": ["Psalm 49:6–9 — wealth cannot redeem a life from death", "1 Timothy 6:17–19 — uncertain riches must not become the ground of hope"]
+        },
+        {
+          "verse": 7,
+          "text": "Woe to you sinners when you afflict the righteous on the day of severe anguish and burn them with fire, for you will be repaid according to your deeds.",
+          "study": "The woe answers calculated persecution with measured recompense. What sinners inflict upon the righteous establishes the character of the judgment returned to them.",
+          "crossReferences": ["Psalm 7:15–16 — prepared violence returns upon its maker", "2 Thessalonians 1:6–7 — God repays affliction and gives relief to the afflicted"]
+        },
+        {
+          "verse": 8,
+          "text": "Woe to you who are stubborn in heart and stay alert to devise evil; fear will surround you, and no one will help you.",
+          "study": "Watchfulness devoted to evil produces the opposite of security. The calculating heart finds itself encircled by fear without an ally.",
+          "crossReferences": ["Proverbs 6:12–15 — the schemer’s disaster comes suddenly", "Psalm 53:5 — those without fear are overtaken by great fear"]
+        },
+        {
+          "verse": 9,
+          "text": "Woe to all you sinners because of the words of your mouths and the works of your hands, for you have gone astray from holy deeds; you will burn in the heat of a flaming fire.",
+          "study": "Speech and action jointly disclose departure from holiness. The chapter holds both the mouth and hands accountable under the same fiery judgment.",
+          "crossReferences": ["Isaiah 3:10–11 — people receive the fruit of their deeds", "Matthew 12:36–37 — spoken words are brought into judgment"]
+        },
+        {
+          "verse": 10,
+          "text": "Now know that the angels in heaven will investigate your deeds through the sun, the moon, and the stars because of your sin, for upon the earth you execute judgment against the righteous.",
+          "study": "The ordered lights of heaven become witnesses against distorted earthly judgment. Violence against the righteous cannot remain a merely local or hidden matter.",
+          "crossReferences": ["Deuteronomy 30:19 — heaven and earth are called as witnesses", "Habakkuk 2:11 — created things testify against injustice built into human works"]
+        },
+        {
+          "verse": 11,
+          "text": "Every cloud, mist, dew, and rain will testify against you, for because of your sins they will all be withheld from descending upon you and will show no concern for your sin.",
+          "study": "The gifts that sustain the earth testify by their absence. Withheld moisture exposes the rupture between persistent sin and received provision.",
+          "crossReferences": ["Deuteronomy 28:23–24 — the heavens become dry under covenant judgment", "Haggai 1:10–11 — dew and produce are withheld because of disordered priorities"]
+        },
+        {
+          "verse": 12,
+          "text": "Now offer gifts to the rain so that it will not be prevented from descending for you, and to the dew, cloud, and mist; pay them gold so that they may descend.",
+          "study": "The command is bitterly ironic: sinners are invited to discover whether wealth can bribe rain, dew, cloud, and mist. Creation cannot be purchased into reversing judgment.",
+          "crossReferences": ["Job 38:25–28 — rain has a source beyond human control", "Acts 8:18–23 — divine gifts cannot be obtained with silver"]
+        },
+        {
+          "verse": 13,
+          "text": "When snow, frost, and their cold fall upon you, together with every chilling wind and all their scourges, you will not be able to stand before the cold and their blows.",
+          "study": "Human strength cannot stand before the cold forces of creation. The closing image completes the exposure of wealth and power as unable to command the world that sustains life.",
+          "crossReferences": ["Psalm 147:16–18 — frost and cold move at God’s command", "Job 37:9–13 — cold, cloud, and weather serve purposes beyond human control"]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 100 begins with human violence reaching its most intimate and uncontrollable form. Family members, companions, horses, and chariots are engulfed in bloodshed. Angels then gather not only sinners but everyone who assisted sin, showing that hidden support for violence is also accountable.",
+          "Against that collapse stands the Most High’s care for the righteous. Holy angels guard them like the pupil of an eye until evil ends, and even a long sleep gives them no reason for fear. The contrast is sharp: sinners cannot secure themselves through family, force, or wealth, while the righteous are preserved by attentive heavenly guardianship.",
+          "The chapter next holds words, deeds, plans, and persecution together. Stubborn hearts devise evil, mouths speak it, hands perform it, and the righteous suffer under distorted judgment. Recompense answers the whole pattern rather than treating its parts as isolated failures.",
+          "Finally, creation itself becomes a witness. Sun, moon, stars, cloud, mist, dew, rain, snow, frost, and wind all lie beyond the sinner’s control. Gold cannot bribe them, and strength cannot stand against them. The chapter therefore dismantles false security and directs wise readers to heed the letter before the sinful order collapses."
+        ]
+      },
+      "crossReferences": ["1 Enoch 99:15–16 — those who aid oppression are gathered under judgment", "1 Enoch 101:1–9 — the following chapter continues creation’s testimony", "Deuteronomy 32:10 — protection like the pupil of an eye", "Psalm 49:5–20 — wealth cannot save from death", "Psalm 147:15–18 — snow, frost, wind, and water answer God’s word", "Isaiah 34:1–7 — judgment is portrayed through overwhelming bloodshed", "Haggai 1:9–11 — heaven and earth withhold provision", "Matthew 13:36–43 — angels gather those who practice lawlessness", "2 Thessalonians 1:5–10 — persecutors receive recompense and the afflicted relief", "Revelation 14:17–20 — judgment is imaged as blood rising to the horses"]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-096-2026-08-12",
+  "contentVersion": "2026.08.12.88",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "shortTitle": "1 Enoch",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 108,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 96,
+      "title": "Chapter 96 — Healing and a Bright Light",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witness responsibly available for the complete chapter. The extant Aramaic of 4QEnochᵍ (4Q212) ends its parallel wording at 1 Enoch 94:2, and no surviving Aramaic manuscript preserves wording from Chapter 96. No surviving Greek witness preserves wording from this chapter; the Chester Beatty–Michigan Greek papyrus begins its running text at 97:6. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 81–82, therefore supplies all eight verses. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Take hope, you righteous ones, for sinners will quickly perish from before you, and authority over them will be yours according to your desire.",
+          "study": "Hope rests on a coming reversal rather than on present appearances. The sinners who seem dominant will disappear, while those who remained righteous will receive authority when judgment restores the proper order.",
+          "crossReferences": [
+            "Psalm 37:9–11 — evildoers vanish while the humble inherit the land",
+            "1 Enoch 95:3 — the Lord delivers sinners into the hands of the righteous for judgment"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "On the day of the sinners’ distress, your children will rise and soar like eagles, and your nest will be higher than the vultures’ nest. You will ascend and enter the fissures of the earth and the clefts of the rock forever, like hyraxes fleeing the unrighteous; and the sirens will sigh over you and weep.",
+          "study": "The verse layers images of height, refuge, and lament. The righteous generation rises beyond predatory reach and finds enduring shelter even in the earth and rock, while the desolate creatures called sirens mourn over what has happened.",
+          "crossReferences": [
+            "Isaiah 40:31 — those who hope in the Lord rise with wings like eagles",
+            "Proverbs 30:26 — hyraxes make their secure home among the rocks"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "But do not be afraid, you who have suffered, for healing will be yours, a radiant light will shine for you, and you will hear a word of rest from heaven.",
+          "study": "Suffering does not erase the promise addressed to the faithful. Healing, light, and a heavenly word of rest answer pain in body, sight, and hearing with a complete picture of restoration.",
+          "crossReferences": [
+            "Isaiah 30:26 — healing accompanies light made brighter",
+            "Jeremiah 31:13 — mourning is turned into joy and sorrow into comfort"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Woe to you sinners, for your wealth makes you appear righteous, but your hearts convict you as sinners; and this matter will stand as a witness against you, a memorial of evil deeds.",
+          "study": "Wealth can manufacture a public appearance that the heart knows to be false. Inner conviction and the enduring record of deeds testify against the attempt to present prosperity as proof of righteousness.",
+          "crossReferences": [
+            "Deuteronomy 8:12–14 — abundance can lift the heart and obscure dependence on God",
+            "Luke 16:15 — what people exalt can be detestable before God, who knows the heart"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Woe to you who consume the richest wheat, drink the strongest draught from the fountainhead, and trample the humble by your power.",
+          "study": "The woe confronts luxury joined to domination. Enjoying the richest food and drink while using strength to crush the humble turns abundance into evidence of an order sustained by contempt.",
+          "crossReferences": [
+            "Psalm 81:16 — the finest wheat is pictured as a gift of provision",
+            "Amos 6:4–7 — luxurious consumption without grief for others precedes judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Woe to you who drink water at every moment, for you will quickly be repaid, consumed, and dried up, because you abandoned the spring of life.",
+          "study": "Constant access to water cannot preserve those who leave the true source of life. The sequence from repayment to exhaustion and dryness exposes the difference between possessing a resource and remaining joined to life’s fountain.",
+          "crossReferences": [
+            "Jeremiah 2:13 — the fountain of living water is forsaken for broken cisterns",
+            "Psalm 36:8–9 — the fountain of life is with God"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Woe to you who practice injustice, deceit, and blasphemy; a memorial of evil will stand against you.",
+          "study": "Injustice in action, deceit in dealings, and blasphemy in speech are gathered into one lasting record. What wrongdoers would prefer forgotten remains as testimony against them.",
+          "crossReferences": [
+            "Hosea 4:1–2 — falsehood and violence multiply when faithfulness is absent",
+            "Malachi 3:5 — judgment comes against falsehood and the oppression of the vulnerable"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Woe to you mighty ones who use force to oppress the righteous, for the day of your destruction is coming. In those days, many good days will come to the righteous on the day of your judgment.",
+          "study": "Power used to crush the righteous carries an appointed end. The oppressors’ day of judgment becomes the beginning of many good days for those they harmed, so destruction and restoration meet in the same reversal.",
+          "crossReferences": [
+            "Psalm 10:15–18 — oppressive power is broken and the afflicted receive justice",
+            "2 Thessalonians 1:6–7 — affliction is repaid while the afflicted are given relief"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 96 answers the persecution described in Chapter 95 with a direct command to hope. Sinners will not remain before the righteous forever. The imagery of children rising like eagles, a nest lifted above vultures, and refuge in rock clefts portrays security beyond the reach of predatory power, while the sirens’ lament gives the reversal a haunting voice.",
+          "The heart of the promise is personal restoration: those who have suffered are told not to fear because healing, radiant light, and a word of rest will come from heaven. These gifts answer the wounds of oppression without denying them. Hope is grounded in God’s capacity to heal and speak peace from beyond the present conflict.",
+          "The chapter’s woes expose prosperity that disguises moral failure. Wealth can make sinners appear righteous even while their own hearts testify against them. Rich food, abundant drink, and uninterrupted water become accusations when they are enjoyed alongside the trampling of the humble and the abandonment of the spring of life.",
+          "The closing woes insist that deeds remain in memory. Injustice, deceit, blasphemy, and force against the righteous form a record that judgment will disclose. Yet judgment is not only the end of the mighty; it opens many good days for the righteous. The chapter therefore contrasts temporary privilege with lasting healing, light, rest, and life."
+        ]
+      },
+      "crossReferences": [
+        "1 Enoch 95:3–7 — persecution is reversed and the righteous participate in judgment",
+        "1 Enoch 97:1–3 — arrogant wealth cannot prevent coming loss",
+        "Psalm 37:7–17 — oppressive strength fades while the righteous are upheld",
+        "Isaiah 40:28–31 — hope in the Lord gives renewed strength and eagle-like ascent",
+        "Jeremiah 2:13 — abandoning the fountain of living water produces loss",
+        "Amos 6:1–7 — luxurious ease without moral grief receives a woe",
+        "Malachi 3:5 — God bears witness against falsehood and oppression",
+        "Luke 16:15 — outward esteem cannot overturn God’s knowledge of the heart",
+        "James 5:1–6 — wealth gained and enjoyed through oppression testifies in judgment",
+        "Revelation 21:23–25 — divine glory supplies enduring light and safety"
+      ]
+    }
+  ]
+}

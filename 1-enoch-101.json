@@ -1,0 +1,40 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-101-2026-08-12",
+  "contentVersion": "2026.08.12.93",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [{"id": "1-enoch", "title": "1 Enoch", "shortTitle": "1 Enoch", "category": "Ethiopic biblical literature", "totalChapterCount": 108, "enabled": true}],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 101,
+      "title": "Chapter 101 — Consider the Works of the Most High",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. No surviving Aramaic manuscript preserves wording from Chapter 101. The fourth-century Chester Beatty–Michigan Papyrus XII governs all wording it preserves throughout the chapter. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 86–87, fills only physical lacunae in the Greek papyrus and confirms the complete nine-verse sequence. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from these primary witnesses was supplied.",
+      "verses": [
+        {"verse": 1, "text": "Consider the heavens, all you children of heaven, and every work of the Most High; fear him, and do not practice evil before him.", "study": "Attention to the heavens is meant to produce reverence and changed conduct. Creation instructs its observers to fear the One whose work it is.", "crossReferences": ["Psalm 19:1–6 — the heavens declare God’s work", "Romans 1:19–21 — creation makes divine power evident and calls for proper honor"]},
+        {"verse": 2, "text": "If he closes the windows of heaven and prevents rain and dew from descending upon the earth because of you, what will you do?", "study": "The question exposes dependence on gifts no human institution can command. Life below remains vulnerable to heaven being closed.", "crossReferences": ["Deuteronomy 11:16–17 — heaven can be shut so that rain does not fall", "1 Kings 17:1 — dew and rain cease except by God’s word"]},
+        {"verse": 3, "text": "If he sends his wrath against you and against all your deeds, will you not plead with him? Yet you speak proud and harsh words against his righteousness, and you will have no peace.", "study": "Those who will need mercy speak arrogantly against the One they must petition. Proud speech destroys the peace it presumes to possess.", "crossReferences": ["Job 40:1–5 — human accusation falls silent before God’s answer", "Romans 2:4–6 — contempt for patience stores up wrath according to deeds"]},
+        {"verse": 4, "text": "Do you not see the masters of ships, how the waves trouble them, the winds toss their vessels, and they are thrown into distress?", "study": "Experienced sailors reveal human limits. Skill and ownership do not eliminate fear when wind and wave exceed their control.", "crossReferences": ["Psalm 107:23–27 — sailors lose their courage in stormy seas", "Acts 27:14–20 — a violent storm overpowers a ship and its crew"]},
+        {"verse": 5, "text": "Because of this they fear, for all their fine goods go out with them upon the sea; and they expect no good in their hearts, fearing that the sea will swallow them and they will perish in it.", "study": "The storm turns cargo from security into endangered weight. Sailors understand that both possessions and life can disappear into a power they cannot master.", "crossReferences": ["Jonah 1:4–5 — sailors throw cargo into the sea under mortal fear", "Acts 27:18–19 — goods and equipment are cast overboard in a storm"]},
+        {"verse": 6, "text": "Are not the whole sea, all its waters, and all its movement the work of the Most High? He sealed all its activity, bound it, and enclosed it with sand.", "study": "The sea feared by sailors is itself bounded. Its immense motion remains a created work held within limits established by the Most High.", "crossReferences": ["Job 38:8–11 — God shuts in the sea and appoints its boundary", "Jeremiah 5:22 — sand is set as a lasting boundary for the sea"]},
+        {"verse": 7, "text": "At his rebuke it dries up and becomes afraid, and all its fish and everything within it die; yet you sinners who are upon the earth do not fear him.", "study": "The contrast is the chapter’s accusation: the sea responds to rebuke, while morally responsible sinners remain less responsive than creation.", "crossReferences": ["Nahum 1:4 — God rebukes the sea and dries it up", "Isaiah 50:2 — at divine rebuke the sea dries and its fish die"]},
+        {"verse": 8, "text": "Did he not make heaven and earth and everything within them? Who gave knowledge and wisdom to everything that moves upon the earth and within the sea?", "study": "Creaturely knowledge has a giver. Life’s movement on land and sea points beyond itself to the wisdom that formed and sustains it.", "crossReferences": ["Psalm 104:24–25 — earth and sea are filled with works made in wisdom", "Job 38:36–41 — God gives wisdom and provides for creatures"]},
+        {"verse": 9, "text": "Do not the masters of ships fear the sea? Yet sinners do not fear the Most High.", "study": "The final comparison exposes distorted judgment. People fear a created danger they can see while refusing reverence to the Creator who sets its bounds.", "crossReferences": ["Matthew 10:28 — fear is directed beyond those who can harm only the body", "Revelation 15:4 — the Lord alone is rightly feared and glorified"]}
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 101 continues creation’s testimony by asking its readers to consider the heavens and the works of the Most High. Rain and dew are not assumed entitlements. Their possible withholding reveals human dependence and calls proud speakers to recognize the One they would need to petition in distress.",
+          "The chapter’s central example is the sailor. Masters of ships possess knowledge, vessels, and valuable cargo, yet wind and waves can overturn every advantage. Their fear is rational because the sea can swallow both goods and life. The scene turns ordinary maritime experience into moral instruction.",
+          "The sea itself is not ultimate. It is the Most High’s work, bounded by sand and responsive to rebuke. Fish, water, motion, heaven, earth, and every creature receive their place and wisdom from the Creator. Creation’s power is real, but it remains governed power.",
+          "The closing question therefore exposes the sinner’s contradiction. Sailors fear the sea, but sinners do not fear the One who made and limits it. True wisdom moves through creation to reverence, replacing proud speech and evil deeds with attentive recognition of the Most High."
+        ]
+      },
+      "crossReferences": ["1 Enoch 100:10–13 — heavenly lights and weather testify against sin", "1 Enoch 102:1–3 — the next chapter portrays creation shaken by divine voice", "Job 38:8–11 — the sea is enclosed within appointed limits", "Psalm 19:1–6 — heaven bears witness to its Maker", "Psalm 104:24–26 — wisdom fills earth and sea", "Psalm 107:23–30 — sailors learn dependence in a storm", "Jeremiah 5:22–24 — the bounded sea and given rain call people to fear God", "Jonah 1:4–16 — sailors move from terror of the sea to fear of the Lord", "Mark 4:37–41 — the silenced sea raises the question of rightful fear", "Acts 27:14–26 — maritime crisis exposes human limits and dependence"]
+    }
+  ]
+}

@@ -4,14 +4,14 @@
   "lastValidated": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 94
+    "chapter": 108
   },
   "nextUnfinished": {
     "bookId": "1-enoch",
     "book": "1 Enoch",
-    "chapter": 95
+    "chapter": 109
   },
-  "validatedAt": "2026-08-12T03:47:15Z",
+  "validatedAt": "2026-08-12T04:28:48Z",
   "protectedFiles": [
     {
       "path": "index.html",
@@ -481,6 +481,76 @@
     {
       "path": "1-enoch-094.json",
       "sha256": "67ccb4be5af3cee9b75d036b492e8eb71c9b2b658059e3b22836758c9e726575",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-095.json",
+      "sha256": "e64ea7e3fbe395ccd5e0b6238071221ace6b240ab832bb5f2f8e2ba15954d3f7",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-096.json",
+      "sha256": "e53043dc3ed5d3d0b099f03dcf6b62c2bc59ab4f10fe3588853f50ada215bbfb",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-097.json",
+      "sha256": "a6ee6dcc1954c3dc482f410e7d894d1455c9ec5072a6c15470d67376585bad5b",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-098.json",
+      "sha256": "e6f09d495cfdf7541d0fc2f88cb48226277eee96105c455a9f395302dfbea7ae",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-099.json",
+      "sha256": "aaab629022e5bd147134a9dab193ebbf96ef52f55885fafff0c8bafbebd652b6",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-100.json",
+      "sha256": "9edece68816b03ef59db1827e88d80698f1677f0b6fbbd2371f21e5c0246065a",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-101.json",
+      "sha256": "7d8e6dc84bd9513097f1b56af5db24973dd0c804506b16fc0a6003188bf377ab",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-102.json",
+      "sha256": "dcb5b2ac8a383a396244dfdbf63e55e835519f505992656cd86decca3187ba4e",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-103.json",
+      "sha256": "b8742ac958b09877264dd68b5df668893dccfa0769cd1ba8d41b1997b5430543",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-104.json",
+      "sha256": "4d670422366cbd053f6b5cd2a1d6f28d4bf7531d4d37654faaf2167562d0c765",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-105.json",
+      "sha256": "06b176a070e91660568e81bc0b3d9e904632c9306d9a7d91b6609d8fe2ea6502",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-106.json",
+      "sha256": "25b562e7827be112099b8962fa3c663957b3b4fa5f8a9ec98c2d06b60ae9eb1f",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-107.json",
+      "sha256": "beedd48a9eaee5c0189b3f463d4bfb5aa73c1086e1a321cc29aca7460ba37531",
+      "scope": "validated Scripture"
+    },
+    {
+      "path": "1-enoch-108.json",
+      "sha256": "2252a26e4c50f481889735baf0e97fe61532285e8bb1d8a322e02190f1d347b4",
       "scope": "validated Scripture"
     }
   ],

@@ -1,0 +1,127 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "1-enoch-099-2026-08-12",
+  "contentVersion": "2026.08.12.91",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [{"id": "1-enoch", "title": "1 Enoch", "shortTitle": "1 Enoch", "category": "Ethiopic biblical literature", "totalChapterCount": 108, "enabled": true}],
+  "chapters": [
+    {
+      "bookId": "1-enoch",
+      "bookTitle": "1 Enoch",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 99,
+      "title": "Chapter 99 — Walk in the Ways of Righteousness",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. No surviving Aramaic manuscript preserves wording from Chapter 99. The fourth-century Chester Beatty–Michigan Papyrus XII governs all wording it preserves in verses 1–10 and 13–16; its transmitted Greek text omits verses 11–12 and has physical losses elsewhere. The complete Ethiopic (Geʽez) text in August Dillmann’s 1851 critical edition, Liber Henoch Aethiopice, printed pages 84–85, supplies verses 11–12, fills only the Greek papyrus’s physical lacunae, and confirms the complete sixteen-verse sequence. No modern English translation was used as the translation base, no commentary was used as Scripture, and no text absent from these primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Woe to you who cause others to go astray and gain honor and glory through your false deeds. You are lost, and no good salvation belongs to you.",
+          "study": "Honor gained through deception reverses its name: those who seem elevated by misleading others are themselves already lost.",
+          "crossReferences": ["Isaiah 5:20–23 — woe falls on those who reverse good and evil for status", "Matthew 18:6–7 — causing others to stumble brings a severe woe"]
+        },
+        {
+          "verse": 2,
+          "text": "Woe to you who alter the words of truth, pervert the eternal covenant, and regard yourselves as sinless; you will be swallowed by the earth.",
+          "study": "Changing truth is joined to denial of personal sin. The covenant stands while those who rewrite it to excuse themselves lose their place upon the earth.",
+          "crossReferences": ["Deuteronomy 4:2 — nothing is to be added to or taken from the commanded word", "Numbers 16:30–33 — the earth swallows those who reject God’s established order"]
+        },
+        {
+          "verse": 3,
+          "text": "Then prepare yourselves, you righteous ones, and present your prayers as a memorial. Place them as testimony before the angels, so that they may bring the sins of the unrighteous before the Most High God as a memorial.",
+          "study": "Prayer becomes both memorial and testimony. The righteous place injustice before heaven in confidence that it will be carried into the presence of the Most High.",
+          "crossReferences": ["Acts 10:4 — prayers rise before God as a memorial", "Revelation 8:3–4 — the prayers of the holy rise before God with angelic service"]
+        },
+        {
+          "verse": 4,
+          "text": "Then the nations will be thrown into confusion, and the families of the nations will rise on the day when lawlessness is destroyed.",
+          "study": "The destruction of lawlessness shakes collective powers, showing that judgment reaches nations and kinship structures as well as individuals.",
+          "crossReferences": ["Psalm 2:1–5 — nations in turmoil are confronted by divine rule", "Haggai 2:21–22 — kingdoms and their strength are shaken and overthrown"]
+        },
+        {
+          "verse": 5,
+          "text": "At that time women in labor will cast out, give away, and abandon their infants; pregnant women will destroy the fruit of the womb, and nursing mothers will cast down their children and will not return to their infants or show mercy to their beloved ones.",
+          "study": "Judgment is pictured as a collapse of the most intimate bonds of nurture. The extremity of the scene measures the terror and disorder of that day.",
+          "crossReferences": ["Deuteronomy 28:53–57 — siege overturns ordinary maternal compassion", "Lamentations 4:10 — catastrophe produces an appalling collapse of care"]
+        },
+        {
+          "verse": 6,
+          "text": "Again I swear to you sinners that sin has been prepared for a day of blood that will not cease.",
+          "study": "Persistent sin prepares a corresponding day in which accumulated violence is no longer delayed or interrupted.",
+          "crossReferences": ["Isaiah 34:5–8 — the day of recompense is portrayed as a day of blood", "Revelation 14:19–20 — accumulated evil reaches a harvest of judgment"]
+        },
+        {
+          "verse": 7,
+          "text": "Those who worship stone and carve images of gold, silver, wood, stone, and clay, and those who worship phantoms, demons, abominations, evil spirits, and every error without understanding, will find no help in them.",
+          "study": "Manufactured and deceptive objects of worship cannot become helpers. The variety of materials and spirits only multiplies forms of the same powerless error.",
+          "crossReferences": ["Isaiah 44:9–20 — a carved image cannot understand or save its maker", "Psalm 115:4–8 — handmade idols are powerless, and their makers become like them"]
+        },
+        {
+          "verse": 8,
+          "text": "They will go astray through the folly of their hearts, and the visions of their dreams will lead you astray.",
+          "study": "Inner folly and misleading visions reinforce one another. A heart already turned from truth becomes vulnerable to dreams that deepen its error.",
+          "crossReferences": ["Jeremiah 23:25–32 — false dreams lead God’s people astray", "Colossians 2:18 — visionary claims can be inflated by an unspiritual mind"]
+        },
+        {
+          "verse": 9,
+          "text": "You and the lying works you have made and fashioned from stone will perish together.",
+          "study": "The maker shares the fate of the false work. Trust binds worshipers to objects that have neither life nor power to preserve them.",
+          "crossReferences": ["Isaiah 45:16 — makers of idols go together into shame", "Psalm 135:15–18 — those who make and trust idols become like them"]
+        },
+        {
+          "verse": 10,
+          "text": "Then blessed are all who hear the words of the wise and learn them in order to carry out the commandments of the Most High. They will walk in the paths of his righteousness, will not go astray with those in error, and will be saved.",
+          "study": "True hearing aims at obedient practice. Wisdom becomes a saving path when it leads people into the Most High’s righteousness and away from shared error.",
+          "crossReferences": ["Deuteronomy 5:1 — hearing and learning are directed toward obedience", "James 1:22–25 — blessing belongs to the hearer who becomes a doer"]
+        },
+        {
+          "verse": 11,
+          "text": "Woe to you who spread evil against your neighbor, for you will be killed in Sheol.",
+          "study": "Evil deliberately extended toward a neighbor reaches beyond social injury and places its author under the judgment of death.",
+          "crossReferences": ["Proverbs 26:27 — the pit dug for another becomes the digger’s fall", "Romans 13:10 — love does no harm to a neighbor"]
+        },
+        {
+          "verse": 12,
+          "text": "Woe to you who establish foundations of sin and deceit and make life bitter upon the earth, for you will be consumed in it.",
+          "study": "When sin and deceit are built into foundations, they embitter the shared world. The earth made bitter becomes the place where their builders are consumed.",
+          "crossReferences": ["Isaiah 28:15–18 — a refuge founded on falsehood is swept away", "Habakkuk 2:12 — woe falls on construction founded through blood and injustice"]
+        },
+        {
+          "verse": 13,
+          "text": "Woe to you who build your houses through another person’s labor, making every wall with brick and stone of sin. I tell you that you will have no peace.",
+          "study": "A house embodies the means by which it was built. Exploited labor turns walls into testimony, so the structure cannot provide the peace it promises.",
+          "crossReferences": ["Jeremiah 22:13 — woe to the one who builds a house through injustice and unpaid labor", "Micah 3:10 — building with bloodshed and injustice is condemned"]
+        },
+        {
+          "verse": 14,
+          "text": "Woe to those who reject the ancient foundation and inheritance of their fathers and direct their souls after idols, for there will be no rest for them.",
+          "study": "Rejecting an enduring inheritance for idols exchanges rootedness for restless pursuit. What cannot save also cannot give rest.",
+          "crossReferences": ["Jeremiah 6:16 — the ancient paths lead to rest for the soul", "Jeremiah 2:11–13 — exchanging glory for worthless gods abandons living water"]
+        },
+        {
+          "verse": 15,
+          "text": "Woe to you who practice lawlessness, assist oppression, and kill your neighbors, until the day of the great judgment.",
+          "study": "Judgment includes not only direct violence but active assistance given to oppressive systems. Both practice and partnership remain accountable.",
+          "crossReferences": ["Isaiah 1:21–23 — rulers become companions of thieves and neglect justice", "Romans 1:32 — approval of wrongdoing shares moral responsibility"]
+        },
+        {
+          "verse": 16,
+          "text": "For he will cast down your glory, put evil into your hearts, and raise the spirit of his wrath to destroy all of you by the sword; and all the righteous and holy will remember your lawlessness.",
+          "study": "The glory built by oppression is overturned under wrath. The remembered lawlessness of its owners remains visible to the righteous after their power is gone.",
+          "crossReferences": ["Psalm 75:7–8 — God brings one down and raises another in judgment", "Revelation 19:15–21 — divine wrath ends violent opposition by the sword"]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 99 contrasts two kinds of influence. False deeds, altered truth, deceptive dreams, and written or carved works lead people astray; wise words teach obedience and guide hearers into the paths of the Most High’s righteousness. The moral question is not only what a person believes, but what that belief causes others to follow.",
+          "The righteous respond to corruption through prayer that becomes memorial and testimony before the angels and the Most High. Their appeal stands against lawlessness that affects nations, families, mothers, neighbors, laborers, and inherited patterns of faithfulness. Judgment answers harm at every level where it has taken root.",
+          "Idolatry is exposed as dependence on what cannot help. Images of precious metal, ordinary material, deceptive spirits, and visionary error all share the same failure. By contrast, wisdom is heard, learned, practiced, and walked. Its blessing lies in faithful movement rather than manufactured security.",
+          "The closing woes condemn social structures built on harm: evil spread against a neighbor, deceit laid as a foundation, houses built through another’s labor, oppression assisted, and bloodshed committed. Such works offer neither peace nor rest. The chapter ends with overturned glory and remembered lawlessness, assuring the righteous that the public record of oppression will not disappear with its perpetrators."
+        ]
+      },
+      "crossReferences": ["1 Enoch 98:15–16 — written deception leads many astray and destroys its authors", "1 Enoch 100:1–6 — the following judgment gathers those who assist lawlessness", "Psalm 115:4–8 — idols and their makers share powerlessness", "Isaiah 28:14–18 — a covenant with falsehood cannot stand", "Jeremiah 6:16–19 — rejection of ancient paths and instruction brings unrest and disaster", "Jeremiah 22:13–17 — exploited labor and bloodshed condemn a builder", "Habakkuk 2:12–14 — unjust construction receives a woe", "Matthew 7:24–27 — foundations disclose whether a house can stand", "Romans 1:25–32 — idolatry and approval of wrongdoing deepen shared guilt", "James 1:22–25 — wise hearing reaches its goal in obedient action"]
+    }
+  ]
+}

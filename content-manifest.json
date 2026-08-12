@@ -1,8 +1,8 @@
 {
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
-  "contentVersion": "2026.08.12.86",
-  "updatedAt": "2026-08-12T03:47:15Z",
+  "contentVersion": "2026.08.12.100",
+  "updatedAt": "2026-08-12T04:28:48Z",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -650,6 +650,104 @@
       "chapter": 94,
       "contentVersion": "2026.08.12.86",
       "url": "1-enoch-094.json"
+    },
+    {
+      "id": "1-enoch-095-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 95,
+      "contentVersion": "2026.08.12.87",
+      "url": "1-enoch-095.json"
+    },
+    {
+      "id": "1-enoch-096-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 96,
+      "contentVersion": "2026.08.12.88",
+      "url": "1-enoch-096.json"
+    },
+    {
+      "id": "1-enoch-097-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 97,
+      "contentVersion": "2026.08.12.89",
+      "url": "1-enoch-097.json"
+    },
+    {
+      "id": "1-enoch-098-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 98,
+      "contentVersion": "2026.08.12.90",
+      "url": "1-enoch-098.json"
+    },
+    {
+      "id": "1-enoch-099-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 99,
+      "contentVersion": "2026.08.12.91",
+      "url": "1-enoch-099.json"
+    },
+    {
+      "id": "1-enoch-100-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 100,
+      "contentVersion": "2026.08.12.92",
+      "url": "1-enoch-100.json"
+    },
+    {
+      "id": "1-enoch-101-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 101,
+      "contentVersion": "2026.08.12.93",
+      "url": "1-enoch-101.json"
+    },
+    {
+      "id": "1-enoch-102-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 102,
+      "contentVersion": "2026.08.12.94",
+      "url": "1-enoch-102.json"
+    },
+    {
+      "id": "1-enoch-103-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 103,
+      "contentVersion": "2026.08.12.95",
+      "url": "1-enoch-103.json"
+    },
+    {
+      "id": "1-enoch-104-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 104,
+      "contentVersion": "2026.08.12.96",
+      "url": "1-enoch-104.json"
+    },
+    {
+      "id": "1-enoch-105-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 105,
+      "contentVersion": "2026.08.12.97",
+      "url": "1-enoch-105.json"
+    },
+    {
+      "id": "1-enoch-106-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 106,
+      "contentVersion": "2026.08.12.98",
+      "url": "1-enoch-106.json"
+    },
+    {
+      "id": "1-enoch-107-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 107,
+      "contentVersion": "2026.08.12.99",
+      "url": "1-enoch-107.json"
+    },
+    {
+      "id": "1-enoch-108-2026-08-12",
+      "bookId": "1-enoch",
+      "chapter": 108,
+      "contentVersion": "2026.08.12.100",
+      "url": "1-enoch-108.json"
     }
   ]
 }
