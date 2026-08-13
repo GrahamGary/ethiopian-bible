@@ -1,8 +1,8 @@
 {
   "format": "ethiopian-bible-online-manifest",
   "schemaVersion": 1,
-  "contentVersion": "2026.08.12.100",
-  "updatedAt": "2026-08-12T06:25:41Z",
+  "contentVersion": "2026.08.13.12",
+  "updatedAt": "2026-08-13T16:24:31Z",
   "publisher": "Gary Graham",
   "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
   "books": [
@@ -18,7 +18,7 @@
       "title": "Jubilees",
       "totalChapterCount": 50,
       "builtInThroughChapter": 0,
-      "status": "NOT_STARTED"
+      "status": "IN_PROGRESS"
     }
   ],
   "updates": [
@@ -756,6 +756,90 @@
       "chapter": 108,
       "contentVersion": "2026.08.12.100",
       "url": "1-enoch-108.json"
+    },
+    {
+      "id": "jubilees-001-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 1,
+      "contentVersion": "2026.08.13.1",
+      "url": "jubilees-001.json"
+    },
+    {
+      "id": "jubilees-002-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 2,
+      "contentVersion": "2026.08.13.2",
+      "url": "jubilees-002.json"
+    },
+    {
+      "id": "jubilees-003-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 3,
+      "contentVersion": "2026.08.13.3",
+      "url": "jubilees-003.json"
+    },
+    {
+      "id": "jubilees-004-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 4,
+      "contentVersion": "2026.08.13.4",
+      "url": "jubilees-004.json"
+    },
+    {
+      "id": "jubilees-005-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 5,
+      "contentVersion": "2026.08.13.5",
+      "url": "jubilees-005.json"
+    },
+    {
+      "id": "jubilees-006-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 6,
+      "contentVersion": "2026.08.13.6",
+      "url": "jubilees-006.json"
+    },
+    {
+      "id": "jubilees-007-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 7,
+      "contentVersion": "2026.08.13.7",
+      "url": "jubilees-007.json"
+    },
+    {
+      "id": "jubilees-008-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 8,
+      "contentVersion": "2026.08.13.8",
+      "url": "jubilees-008.json"
+    },
+    {
+      "id": "jubilees-009-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 9,
+      "contentVersion": "2026.08.13.9",
+      "url": "jubilees-009.json"
+    },
+    {
+      "id": "jubilees-010-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 10,
+      "contentVersion": "2026.08.13.10",
+      "url": "jubilees-010.json"
+    },
+    {
+      "id": "jubilees-011-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 11,
+      "contentVersion": "2026.08.13.11",
+      "url": "jubilees-011.json"
+    },
+    {
+      "id": "jubilees-012-2026-08-13",
+      "bookId": "jubilees",
+      "chapter": 12,
+      "contentVersion": "2026.08.13.12",
+      "url": "jubilees-012.json"
     }
   ]
 }

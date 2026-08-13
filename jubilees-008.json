@@ -1,0 +1,321 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-008-2026-08-13",
+  "contentVersion": "2026.08.13.8",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "shortTitle": "Jubilees",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 50,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 8,
+      "title": "Chapter 8 — Generations and the Division of the Earth",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter: the Ethiopic (Geʽez) text preserved in manuscripts A–D and printed as Jubilees 8:1–30 on text pages 30–38 of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. No surviving Hebrew or Greek fragment preserving wording from Jubilees 8 was located. The extant fifth-century Latin palimpsest begins with fragmentary material from Chapter 13 and supplies no text here. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the twenty-ninth jubilee, during the first week, Arpachshad took a wife at the beginning of the week. Her name was Rasuʾeya, daughter of Susan, daughter of Elam. In the third year of that week she bore him a son, and he named him Kainan.",
+          "study": "The post-flood genealogy advances through named households and carefully marked time. The record presents the growth of nations as part of an ordered history rather than an anonymous expansion.",
+          "crossReferences": [
+            "Genesis 10:22–24 — Arpachshad stands in the line of Shem leading to Shelah and Eber",
+            "Genesis 11:10–13 — the generations after the flood are recorded through Arpachshad’s line"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "When the boy grew, his father taught him writing. He went out to seek a place for himself where he might take possession of a city.",
+          "study": "Kainan receives literacy from his father and then seeks a settled place of his own. Knowledge and settlement are gifts that still require moral discernment in their use.",
+          "crossReferences": [
+            "Deuteronomy 6:6–9 — one generation teaches received words to the next",
+            "Genesis 4:17 — early human settlement includes the building of a city"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "He found an inscription that earlier generations had carved upon a rock. He read what was written there, copied it, and sinned because of it, for it contained the Watchers’ teaching by which they observed the signs of the sun, moon, stars, and every sign of heaven.",
+          "study": "An ancient inscription preserves corrupt knowledge as well as information. Kainan’s ability to read does not protect him when he receives the Watchers’ forbidden practice without rejecting it.",
+          "crossReferences": [
+            "1 Enoch 8:3 — the Watchers disclose celestial signs and other forbidden knowledge",
+            "Deuteronomy 18:10–14 — divination and the reading of omens are forbidden"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He wrote it down but told no one, because he was afraid to speak to Noah about it, lest Noah become angry with him.",
+          "study": "Secrecy reveals that Kainan knows his action will not bear righteous scrutiny. Fear of correction drives the corrupt teaching underground rather than leading him to abandon it.",
+          "crossReferences": [
+            "John 3:19–21 — evil deeds avoid the light, while truth comes into it",
+            "Proverbs 28:13 — concealed transgression contrasts with confession and forsaking"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "In the thirtieth jubilee, during the second week, in its first year, Kainan took a wife named Melka, daughter of Madai son of Japheth. In the fourth year she bore him a son, and he named him Shelah, for he said, ‘I have truly been sent.’",
+          "study": "The genealogy joins Shem’s line to Japheth’s household through marriage. The naming of Shelah preserves the father’s interpretation of the child’s arrival within the family story.",
+          "crossReferences": [
+            "Genesis 10:2 — Madai is numbered among the sons of Japheth",
+            "Genesis 11:12 — Shelah continues the line from Arpachshad"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "After Shelah was born in the fourth year, he grew and took a wife named Muak, daughter of Kesed, his father’s brother. This was in the thirty-first jubilee, in the fifth week, in its first year.",
+          "study": "The chronological frame continues as a new household is formed within the wider kinship group. Each marriage carries the genealogy toward the nations and territories described later in the chapter.",
+          "crossReferences": [
+            "Genesis 11:13–14 — Shelah’s generation precedes the birth of Eber",
+            "Genesis 24:3–4 — marriage within the extended family appears in patriarchal history"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "In the fifth year of that week she bore him a son, and he named him Eber. Eber took a wife named Azurad, daughter of Nebrod, in the thirty-second jubilee, during the seventh week, in its third year.",
+          "study": "Eber’s birth and marriage extend the carefully dated line. The text locates personal family events inside the larger calendar of jubilees and weeks.",
+          "crossReferences": [
+            "Genesis 10:21 — Shem is identified as the ancestor of all Eber’s children",
+            "Genesis 11:14–16 — Eber follows Shelah in the post-flood genealogy"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "In the sixth year she bore him a son, and he named him Peleg, because in the days of his birth Noah’s children began dividing the earth among themselves. For this reason he called his name Peleg.",
+          "study": "Peleg’s name becomes a memorial of division. A family name preserves a turning point when humanity’s common earth begins to be assigned among distinct peoples.",
+          "crossReferences": [
+            "Genesis 10:25 — Peleg is named because the earth was divided in his days",
+            "1 Chronicles 1:19 — the same explanation accompanies Peleg in the genealogy"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "They divided it wrongly among themselves and reported the matter to Noah.",
+          "study": "The first attempt at division is judged disordered. Bringing the matter to Noah opens the way for an accountable allotment rather than possession determined by rivalry.",
+          "crossReferences": [
+            "Proverbs 16:33 — the lot is cast, but its decision belongs to the Lord",
+            "Numbers 26:52–56 — land is distributed by an ordered allotment"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "At the beginning of the thirty-third jubilee they divided the earth into three parts, for Shem, Ham, and Japheth, each according to his inheritance. This happened in the first year of the first week, while one of us who had been sent remained with them.",
+          "study": "The earth is assigned in three principal portions under heavenly witness. The narrative treats national boundaries as an accountable stewardship rather than a license for limitless seizure.",
+          "crossReferences": [
+            "Genesis 10:1, 32 — the nations spread from Noah’s three sons after the flood",
+            "Deuteronomy 32:8 — the Most High establishes the boundaries of peoples"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Noah called his sons, and they came near to him, they and their children. He divided the earth by lot to determine what his three sons should possess. They stretched out their hands and took the written record from the fold of their father Noah’s garment.",
+          "study": "Noah gathers both sons and descendants so the allotment is public and generational. The written lots bind future possession to a witnessed decision.",
+          "crossReferences": [
+            "Joshua 18:8–10 — land is described in writing and assigned by lot",
+            "Acts 17:26 — God appoints the times and boundaries of human habitation"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "In the written record, Shem’s lot came out as the middle of the earth, to possess as an inheritance for himself and his children throughout eternal generations. Its boundary began at the middle of the Rafa mountain range, at the source of the waters of the Tina River. It went westward through the middle of this river until it reached the waters of the depths from which the river flows. The river pours its waters into the Meʾat Sea and continues as far as the Great Sea. Everything north of it belongs to Japheth, and everything south of it belongs to Shem.",
+          "study": "Shem receives the central portion, described by rivers, seas, and mountains. The detailed boundary makes inheritance concrete and establishes limits between neighboring allotments.",
+          "crossReferences": [
+            "Genesis 9:26–27 — Noah’s blessing gives Shem a distinctive place among his brothers",
+            "Joshua 15:1–12 — an inheritance is defined through named geographic boundaries"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "The boundary continues until it reaches Karas, which lies within the arm of the sea that faces south.",
+          "study": "The allotment follows recognizable landmarks rather than an abstract claim. Territorial responsibility is expressed through an exact boundary.",
+          "crossReferences": [
+            "Numbers 34:1–12 — Israel’s land is traced through specific border points",
+            "Joshua 13:1–6 — seas and regions mark the extent of allotted land"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "His portion extends toward the Great Sea and proceeds straight until it comes west of the arm that faces south, the sea called the Branch of the Egyptian Sea.",
+          "study": "Sea branches continue the boundary description of Shem’s portion. The inheritance has both breadth and restraint: it is spacious, yet its edge is named.",
+          "crossReferences": [
+            "Exodus 23:31 — seas and wilderness define the promised territory",
+            "Isaiah 11:15 — the branch of Egypt’s sea appears as a geographic boundary under God’s rule"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "From there it turns southward toward the mouth of the Great Sea along the shore. It goes west of Afra until it reaches the waters of the Gihon River, then follows the southern side of the Gihon’s waters along the riverbank.",
+          "study": "The Gihon joins the inherited land to the geography of creation. River and coast together trace the ordered extent of Shem’s lot.",
+          "crossReferences": [
+            "Genesis 2:13 — the Gihon is one of the rivers associated with Eden",
+            "Joshua 1:4 — wilderness, river, and sea define the breadth of an inheritance"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "It turns eastward until it reaches the Garden of Eden, along its southern side, south and east of the whole land of Eden and all the eastern region. Then it turns east and continues until it reaches the eastern side of the mountain range called Rafa, after which it descends toward the bank at the mouth of the Tina River.",
+          "study": "The line returns to its starting region after passing beside Eden. The circuit portrays the land as an integrated whole ordered around creation’s sacred geography.",
+          "crossReferences": [
+            "Genesis 2:8–14 — Eden is planted in the east and described by its rivers",
+            "Ezekiel 47:13–20 — a sacred inheritance is bounded by a complete geographic circuit"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "This was the portion that came by lot to Shem and his children, for them to possess forever throughout all generations.",
+          "study": "The lot is stated as a lasting inheritance, not a temporary advantage. Permanence gives later conduct a standard against which encroachment can be judged.",
+          "crossReferences": [
+            "Psalm 105:8–11 — covenant land is remembered as an enduring inheritance",
+            "Genesis 17:8 — a promised land is given as an everlasting possession"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "Noah rejoiced greatly that this portion had come out for Shem and his children. He remembered everything he had spoken in prophecy, saying, ‘Blessed be the Lord, the God of Shem, and may the Lord dwell in Shem’s dwelling place.’",
+          "study": "The lot confirms Noah’s earlier blessing, turning memory into praise. Shem’s privilege is centered on the Lord’s presence rather than territory alone.",
+          "crossReferences": [
+            "Genesis 9:26–27 — Noah blesses the God of Shem and speaks of dwelling in Shem’s tents",
+            "Exodus 25:8 — God commands a sanctuary so that he may dwell among his people"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "He knew that the Garden of Eden is the holy of holies and the Lord’s dwelling, that Mount Sinai is in the middle of the wilderness, and that Mount Zion is at the center of the earth’s navel. These three were created as holy places, each facing the others.",
+          "study": "Eden, Sinai, and Zion form a sacred geography of divine dwelling, revelation, and worship. Their holiness derives from God’s purpose and presence.",
+          "crossReferences": [
+            "Exodus 19:18–20 — the Lord descends upon holy Mount Sinai",
+            "Psalm 132:13–14 — the Lord chooses Zion as his dwelling place"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "Noah blessed the God of gods, who had placed the Lord’s word in his mouth, and he blessed the Lord forever.",
+          "study": "Noah credits prophecy to the God who gave the word. Fulfillment leads him beyond satisfaction in his family toward enduring worship.",
+          "crossReferences": [
+            "Numbers 23:5 — the Lord places a word in the prophet’s mouth",
+            "Psalm 136:1–3 — the God of gods is blessed for his enduring faithfulness"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "He knew that a blessed and excellent portion had fallen to Shem and his children throughout eternal generations: all the land of Eden; all the land along the Erythrean Sea; all the land of the east; India and the region within Erythrea and its mountains; all the land of Bashan; all the land of Lebanon; the islands of Caphtor; the whole mountain range of Sanir and Amana; the Asshur mountain range in the north; all the lands of Elam, Asshur, Babylon, Susan, and Madai; all the mountains of Ararat; and the whole region beyond the sea, northward beyond the Asshur mountains. It was a blessed and spacious land, and everything in it was exceedingly beautiful.",
+          "study": "The summary names the breadth, fruitfulness, and beauty of Shem’s inheritance. Blessing embraces many lands, yet it remains a received portion rather than a possession gained by violence.",
+          "crossReferences": [
+            "Genesis 10:22–31 — Shem’s descendants are associated with peoples and territories of the east",
+            "Deuteronomy 8:7–10 — a spacious and fruitful land calls forth blessing of the Lord"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "For Ham a second portion came out, beyond the Gihon toward the south, on the right side of the Garden. It proceeds southward toward all the mountains of fire, then turns west toward the Atel Sea and continues west until it reaches the Mauq Sea, into which everything that descends is destroyed.",
+          "study": "Ham’s portion is likewise bounded through rivers, mountains, and seas. Its heat and severe landmarks distinguish it from the central land allotted to Shem.",
+          "crossReferences": [
+            "Genesis 10:6–20 — Ham’s descendants spread through southern and western lands",
+            "Psalm 78:51 — Egypt is remembered as part of the land of Ham"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "It turns northward to the border of Gadir and reaches the coast of the sea waters, the waters of the Great Sea, until it comes to the Gihon River. The Gihon continues until it reaches the right side of the Garden of Eden.",
+          "study": "Ham’s border closes at the same river and garden that help define Shem’s portion. Shared boundaries require each household to honor what has been allotted to the other.",
+          "crossReferences": [
+            "Genesis 2:13 — the Gihon flows through the land associated with Cush",
+            "Deuteronomy 19:14 — inherited boundaries must not be moved"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "This is the land that came out for Ham as his portion, for him and his children to possess forever throughout their generations.",
+          "study": "Ham’s inheritance is affirmed with the same generational force as Shem’s. Distinct allotments do not imply that one brother’s portion lacks legitimacy.",
+          "crossReferences": [
+            "Genesis 10:20 — Ham’s families are listed by clans, languages, lands, and nations",
+            "Acts 17:26 — every nation receives appointed times and places of dwelling"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "For Japheth a third portion came out beyond the Tina River, north of the mouth of its waters. It extends toward the northeast, to the whole region of Gog and everything east of it.",
+          "study": "Japheth receives the northern region beyond the Tina. His allotment completes the threefold division of the inhabited world.",
+          "crossReferences": [
+            "Genesis 10:2–5 — Japheth’s descendants spread through distant coastlands",
+            "Ezekiel 38:2–6 — Gog and several northern peoples are named together"
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "It goes directly north toward the mountains of Qelt, then northward toward the Mauq Sea, and it reaches east of Gadir as far as the edge of the sea waters.",
+          "study": "The northern inheritance is traced by mountain and sea just as the other portions were. The repeated precision emphasizes order within the world’s diversity.",
+          "crossReferences": [
+            "Genesis 10:5 — Japheth’s coastland peoples spread according to their territories",
+            "Joshua 19:10–16 — allotted land is marked by a sequence of named boundaries"
+          ]
+        },
+        {
+          "verse": 27,
+          "text": "It continues until it reaches west of Fara. From there it turns back toward Aferag and proceeds eastward to the waters of the Meʾat Sea.",
+          "study": "The boundary turns and continues through further named regions. Even remote territory is presented as measured and assigned before God.",
+          "crossReferences": [
+            "Psalm 24:1–2 — the earth and its fullness belong to the Lord",
+            "Job 38:8–11 — God appoints limits for the sea"
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "It reaches the edge of the Tina River toward the northeast, until it comes to the bank of its waters near the Rafa mountain range, and then circles toward the north.",
+          "study": "Japheth’s line returns to the river and mountains that anchor the wider division. The joined borders show that the brothers’ futures remain geographically connected.",
+          "crossReferences": [
+            "Numbers 34:7–9 — a northern boundary is traced from landmark to landmark",
+            "Deuteronomy 2:5, 9 — peoples are commanded to respect lands assigned to others"
+          ]
+        },
+        {
+          "verse": 29,
+          "text": "This is the land that came out for Japheth and his children as the portion of his inheritance, for him and his children to possess throughout their generations forever: five great islands and a vast land in the north.",
+          "study": "Japheth’s inheritance includes both islands and a broad northern land. The extent of the gift is joined to the same lasting responsibility given to his brothers.",
+          "crossReferences": [
+            "Genesis 9:27 — Noah asks that God enlarge Japheth",
+            "Genesis 10:5 — the coastlands are divided among Japheth’s descendants"
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "Japheth’s land is cold, while Ham’s land is hot; but Shem’s land is neither hot nor cold, for cold and heat are blended within it.",
+          "study": "The chapter closes by distinguishing the climates of the three portions. The central land of Shem is portrayed as holding a measured balance between the extremes.",
+          "crossReferences": [
+            "Genesis 8:22 — cold and heat continue within the earth’s appointed order",
+            "Acts 17:26 — the nations inhabit boundaries appointed within one created world"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 8 first traces the line from Arpachshad to Peleg through marriages, births, and the measured sequence of jubilees and weeks. Within that genealogy, Kainan’s discovery of a stone inscription gives a warning about inherited knowledge: literacy can preserve truth, but it can also carry forward the forbidden teaching of the Watchers. His secrecy shows that knowledge separated from obedience becomes a source of sin rather than wisdom.",
+          "Peleg’s birth coincides with the division of the earth. When Noah’s descendants divide it wrongly, Noah gathers the three households and establishes a witnessed allotment by written lots. The act places possession under order and accountability. Each family receives a genuine inheritance with named limits, and later generations are therefore responsible to respect boundaries they did not invent for themselves.",
+          "Shem’s central portion receives special attention. Eden, Sinai, and Zion are presented as three corresponding holy places associated with divine dwelling, revelation, and worship. Noah rejoices because Shem’s lot confirms his earlier prophetic blessing, yet his response is to bless the God who placed the word in his mouth. The land’s holiness and beauty remain gifts of God, not grounds for self-exaltation.",
+          "Ham and Japheth also receive enduring portions, described through rivers, seas, mountain ranges, islands, climate, and direction. Together the three allotments portray a diverse but ordered world. The chapter’s theology of land joins gift to restraint: peoples may inhabit what they receive, but wrongful division and encroachment oppose the peaceable order established before Noah and the heavenly witness."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 9:18–27 — Noah’s sons receive blessing and a differentiated family future",
+        "Genesis 10:1–32 — the nations and territories spread from Shem, Ham, and Japheth",
+        "Genesis 11:10–19 — the line from Arpachshad proceeds through Shelah, Eber, and Peleg",
+        "Deuteronomy 18:9–14 — divination and the reading of omens are rejected",
+        "Deuteronomy 32:8–9 — the Most High establishes the divisions and boundaries of peoples",
+        "Joshua 18:8–10 — inheritance is described in writing and distributed by lot",
+        "Psalm 132:13–14 — Zion is chosen as the Lord’s dwelling place",
+        "Acts 17:24–27 — one Creator appoints the nations’ times and boundaries",
+        "1 Enoch 8:1–3 — the Watchers teach forbidden arts and celestial signs",
+        "Jubilees 9:1–15 — the three principal portions are subdivided among Noah’s grandsons"
+      ]
+    }
+  ]
+}

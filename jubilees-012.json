@@ -1,0 +1,330 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-012-2026-08-13",
+  "contentVersion": "2026.08.13.12",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "shortTitle": "Jubilees",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 50,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 12,
+      "title": "Chapter 12 — Abram Rejects Idols and Receives the Call",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary biblical-language witnesses responsibly available for this chapter. Hebrew 11Q12 (11QJubilees), a Herodian-period parchment manuscript, preserves portions of Jubilees 12:15–17 in fragment 8 lines 2–6 and 12:28–29 in fragment 9 lines 2–6; those preserved Hebrew portions were given priority. The complete chapter is preserved in the Ethiopic (Geʽez) text of manuscripts A–D, printed as Jubilees 12:1–31 on critical-text pages 41–44 (PDF pages 113–116) of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. The extant fifth-century Latin palimpsest begins with fragmentary material from Chapter 13 and supplies no wording here. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the sixth week, in its seventh year, Abram said to his father Terah, ‘Father!’",
+          "study": "Abram begins his challenge within the closest human relationship. The simple address shows respect even as he prepares to confront inherited false worship.",
+          "crossReferences": [
+            "Exodus 20:12 — honor for a parent remains part of covenant faithfulness",
+            "Joshua 24:2 — Terah belongs to the ancestral household that served other gods"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Terah answered, ‘Here I am, my son.’ Abram said, ‘What help or benefit do we receive from these idols you worship and before which you bow?’",
+          "study": "Abram tests idolatry by its inability to give help. His question exposes the emptiness of offering devotion to objects that cannot respond.",
+          "crossReferences": [
+            "Isaiah 44:9–10 — an idol is fashioned without yielding any benefit",
+            "Jeremiah 2:11 — people exchange their glory for what cannot help"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "‘There is no spirit in them. They are mute forms and a deception of the heart. Do not worship them.’",
+          "study": "The idols lack both life and speech, yet they misdirect the inner person. Abram identifies idolatry as a falsehood embraced by the worshiper’s heart.",
+          "crossReferences": [
+            "Psalm 115:4–7 — idols have mouths but cannot speak and possess no living power",
+            "Habakkuk 2:18–19 — a mute idol cannot awaken or teach"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "‘Worship the God of heaven, who sends rain and dew down upon the earth, performs everything upon the earth, created everything by his word, and from whose presence all life comes.’",
+          "study": "Abram contrasts lifeless images with the living Creator. Rain, creation, speech, and life all flow from God rather than from objects carried and served by people.",
+          "crossReferences": [
+            "Genesis 1:3–31 — God creates the world through his spoken command",
+            "Acts 14:15–17 — the living Creator gives rain, crops, food, and gladness"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "‘Why do you worship things with no spirit in them? They are made by human hands and carried upon your shoulders. They cannot help you. Instead, they bring deep shame upon their makers and lead the hearts of their worshipers astray. Do not worship them.’",
+          "study": "The worshipers must carry the gods they expect to carry them. Abram reveals the reversal: handcrafted religion burdens its makers and leads them into shame.",
+          "crossReferences": [
+            "Isaiah 46:6–7 — people carry an idol that cannot answer or save",
+            "Jeremiah 10:3–5 — a crafted image must be carried because it cannot walk"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "His father said to him, ‘I know this too, my son, but what can I do about the people who have appointed me to serve before these idols?’",
+          "study": "Terah recognizes the truth but feels bound by his public role. Knowledge without courageous obedience leaves him serving what he knows is false.",
+          "crossReferences": [
+            "John 12:42–43 — fear of people can suppress open allegiance to truth",
+            "Proverbs 29:25 — fear of humanity becomes a snare"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "‘If I tell them the truth, they will kill me, because their whole being clings to the idols in worship and honor.’",
+          "study": "Idolatry protects itself through threatened violence. Terah sees that the people’s attachment is not a neutral custom but a loyalty willing to silence truth.",
+          "crossReferences": [
+            "1 Kings 19:10 — opponents of true worship seek the lives of those who testify",
+            "John 16:2 — violent religious zeal can mistake murder for service"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "‘Remain silent, my son, or they will kill you.’ Abram spoke these words to his two brothers also. They became angry with him, so he kept silent.",
+          "study": "Abram’s first witness meets fear from his father and anger from his brothers. Silence here is temporary restraint, not surrender of his conviction.",
+          "crossReferences": [
+            "Ecclesiastes 3:7 — wisdom recognizes both a time for silence and a time to speak",
+            "Matthew 10:21–23 — family hostility may accompany testimony to truth"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "In the fortieth jubilee, during the second week, in its seventh year, Abram took a wife named Sarai, the daughter of his father, and she became his wife.",
+          "study": "Sarai enters the narrative as Abram’s wife within the extended household. Their union will become central to the promise of descendants despite long barrenness.",
+          "crossReferences": [
+            "Genesis 11:29–30 — Abram marries Sarai, who is barren",
+            "Genesis 20:12 — Abraham describes Sarah as his father’s daughter but not his mother’s"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "In the third year of the third week, Abram’s brother Haran took a wife. In the seventh year of that week she bore him a son, and he named him Lot.",
+          "study": "Lot’s birth prepares the nephew who will later travel with Abram. The family chronology quietly establishes relationships that will shape the journey to Canaan.",
+          "crossReferences": [
+            "Genesis 11:27 — Haran is named as Lot’s father",
+            "Genesis 12:4 — Lot accompanies Abram when he leaves Haran"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Abram’s brother Nahor also took a wife.",
+          "study": "Nahor’s marriage completes the notice about Terah’s sons forming households. His family will remain connected to the later marriages of the patriarchs.",
+          "crossReferences": [
+            "Genesis 11:29 — Nahor takes Milcah as his wife",
+            "Genesis 24:15 — Rebekah comes from the household of Nahor"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "When Abram was sixty years old, in the fourth week, in its fourth year, he rose during the night and set fire to the house of idols. He burned everything inside, and no one knew who had done it.",
+          "study": "Abram moves from verbal protest to the destruction of his household’s idol center. The night action exposes the objects’ helplessness: gods unable to escape fire cannot save worshipers.",
+          "crossReferences": [
+            "Deuteronomy 7:5 — idolatrous images are to be broken and burned",
+            "Judges 6:25–27 — Gideon tears down his father’s altar during the night"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "The people rose in the night and tried to rescue their gods from the fire.",
+          "study": "Instead of the gods rescuing people, people rush to rescue their gods. The reversal makes the impotence of the images visible amid crisis.",
+          "crossReferences": [
+            "Isaiah 46:1–2 — idols become burdens that cannot rescue themselves",
+            "Jeremiah 10:11 — gods that did not make heaven and earth will perish"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Haran hurried in to save them, but the fire flared over him and burned him. He died in Ur of the Chaldeans before his father Terah, and they buried him there.",
+          "study": "Haran loses his life attempting to preserve lifeless images. His death before Terah echoes Genesis while Jubilees places it within the cost of idolatrous loyalty.",
+          "crossReferences": [
+            "Genesis 11:28 — Haran dies in Ur before his father Terah",
+            "Isaiah 57:13 — gathered idols cannot deliver when judgment comes"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Terah left Ur of the Chaldeans with his sons to travel toward the land of Lebanon and the land of Canaan. He settled in Haran, and Abram remained with his father Terah in Haran for two weeks of years.",
+          "study": "The family leaves Ur and reaches Haran but does not yet complete the journey to Canaan. The Hebrew fragment preserves Abram’s fourteen-year residence with Terah at this midpoint.",
+          "crossReferences": [
+            "Genesis 11:31 — Terah’s household leaves Ur for Canaan but settles in Haran",
+            "Acts 7:2–4 — Abraham’s movement from Mesopotamia passes through Haran"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "In the sixth week, in its fifth year, Abram stayed awake through the night of the new moon of the seventh month. From evening until morning he observed the stars to determine what the year’s rainfall would be. He sat alone and watched.",
+          "study": "Abram practices the celestial inquiry taught in Chaldean culture, yet solitude opens a moment of self-examination. The preserved Hebrew text locates the observation precisely in sacred time.",
+          "crossReferences": [
+            "Jubilees 11:7 — Chaldean divination interprets signs of heaven",
+            "Isaiah 47:13 — observers of the heavens cannot govern what is coming"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "A word arose in his heart, and he said, ‘Every sign of the stars, moon, and sun is in the Lord’s hand. Why am I searching them?’",
+          "study": "Abram’s reasoning turns from created signs to the One who governs them. The Hebrew fragment preserves the beginning of this decisive rejection of astral divination.",
+          "crossReferences": [
+            "Deuteronomy 4:19 — the heavenly bodies must not become objects of service",
+            "Psalm 8:3–4 — the heavens direct wonder toward their Maker"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "‘If he wills, he sends rain morning and evening; if he wills, he withholds it. Everything is in his hand.’",
+          "study": "Rain is governed by personal divine will, not impersonal celestial technique. Abram’s confession restores providence to the Creator.",
+          "crossReferences": [
+            "Jeremiah 14:22 — the heavens cannot give rain; hope rests in the Lord",
+            "Matthew 5:45 — the Father causes rain to fall upon the earth"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "That night he prayed, saying, ‘My God, God Most High, you alone are my God. I have chosen you and your dominion. You created everything, and everything is the work of your hands.’",
+          "study": "Abram’s rejection of astrology becomes personal worship. He chooses the Most High’s rule because all created things, including the stars, are works of God’s hands.",
+          "crossReferences": [
+            "Genesis 14:22 — Abram confesses the Most High as maker of heaven and earth",
+            "Nehemiah 9:6–7 — the sole Creator chooses Abram from Ur"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "‘Rescue me from the power of evil spirits that rule the thoughts of human hearts. Do not let them mislead me away from you, my God. Establish me and my descendants forever, so that from now on we never wander away.’",
+          "study": "Abram recognizes that false worship involves spiritual deception as well as human thought. He asks for enduring faithfulness that will extend through his descendants.",
+          "crossReferences": [
+            "Psalm 119:133 — the worshiper asks God to establish his steps and prevent evil rule",
+            "Ephesians 6:11–12 — spiritual powers operate behind human conflict and deception"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "He continued, ‘Should I return to Ur of the Chaldeans, where they seek to make me come back, or should I remain here? Make the right path succeed before your servant so that I may follow it. Do not let me walk in the deception of my own heart, my God.’",
+          "study": "Abram brings a concrete decision into prayer. He seeks neither nostalgia nor impulse but a path made clear by God rather than by his own unreliable desires.",
+          "crossReferences": [
+            "Proverbs 3:5–6 — trusting the Lord rather than one’s own insight makes the path straight",
+            "Psalm 25:4–5 — the servant asks God to reveal and teach the right way"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "When he finished speaking and praying, the Lord’s word was sent to him through me: ‘Leave your land, your relatives, and your father’s household, and go to a land that I will show you. I will make you into a great and numerous nation.’",
+          "study": "God answers Abram’s request with a summons beyond both Ur and Haran. The call requires leaving familiar securities while trusting the land and future God will reveal.",
+          "crossReferences": [
+            "Genesis 12:1–2 — Abram is called from land and kindred toward an unseen land",
+            "Hebrews 11:8 — Abraham obeys and goes without knowing the destination"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "‘I will bless you and make your name great. You will be blessed upon the earth. In you every family of the earth will be blessed. I will bless those who bless you and curse those who curse you.’",
+          "study": "The promise transforms separation into worldwide blessing. Abram’s great name will not imitate Babel’s self-made fame; it is God’s gift for the good of all families.",
+          "crossReferences": [
+            "Genesis 12:2–3 — Abram receives blessing, a great name, and a mission to all families",
+            "Galatians 3:8 — the blessing of the nations is announced beforehand to Abraham"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "‘I will be God to you, to your son, to your son’s son, and to all your descendants. Do not fear. From now through every generation of the earth, I am your God.’",
+          "study": "God’s promise is relational and generational. The command not to fear rests on the enduring declaration that the Creator binds himself to Abram and his seed.",
+          "crossReferences": [
+            "Genesis 17:7–8 — God establishes an enduring covenant with Abraham’s descendants",
+            "Genesis 26:24 — Isaac hears, ‘Do not fear, for I am with you’"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "The Lord God said, ‘Open his mouth and ears so that he may hear and speak the revealed language,’ for that language had ceased from the mouths of all humanity since Babel’s overthrow.",
+          "study": "The call includes restored capacity to receive and transmit sacred speech. Language divided at Babel is here given as a means of revelation rather than self-exaltation.",
+          "crossReferences": [
+            "Genesis 11:7–9 — Babel’s language is confused and humanity is scattered",
+            "Isaiah 50:4–5 — the Lord opens the servant’s ear for instructed speech"
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "I opened his mouth, ears, and lips, and began speaking with him in Hebrew, the language of creation.",
+          "study": "The angelic narrator identifies Hebrew as the restored language of creation within this tradition. Abram receives it through divine action, not Chaldean divination.",
+          "crossReferences": [
+            "Genesis 2:19–20 — human speech names the creatures in the creation account",
+            "Exodus 4:11–12 — the Lord who made the mouth enables faithful speech"
+          ]
+        },
+        {
+          "verse": 27,
+          "text": "Abram took the books of his ancestors, which were written in Hebrew, and copied them. From that time he began studying them. I explained what he could not understand, and he studied them throughout the six rainy months.",
+          "study": "Revelation leads to disciplined study. Abram copies inherited books, receives help with difficult matters, and devotes a full season to learning.",
+          "crossReferences": [
+            "Deuteronomy 17:18–19 — sacred instruction is copied and studied continually",
+            "Ezra 7:10 — faithful service begins with setting the heart to study and practice"
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "In the seventh year of the sixth week, Abram spoke with his father and told him that he was leaving Haran to go see the land of Canaan and then return to him.",
+          "study": "The Hebrew fragment preserves Abram’s direct notice to Terah. Obedience to God’s call is joined with transparent speech and continuing concern for his father.",
+          "crossReferences": [
+            "Genesis 12:4–5 — Abram departs Haran and sets out for Canaan",
+            "Acts 7:4 — after living in Haran, Abraham moves into the promised land"
+          ]
+        },
+        {
+          "verse": 29,
+          "text": "His father Terah said, ‘Go in peace. May the eternal God make your path straight. May the Lord be with you and protect you from every evil. May he give you grace, mercy, and favor before all who see you, and may no human being gain power to harm you. Go in peace.’",
+          "study": "Terah releases Abram with a blessing that invokes the eternal God. The Hebrew fragment preserves the beginning of this prayer for direction, presence, and protection.",
+          "crossReferences": [
+            "Genesis 24:40 — the Lord’s presence is trusted to prosper a patriarchal journey",
+            "Psalm 121:7–8 — the Lord guards a traveler from evil in going out and coming in"
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "‘If you see a land pleasing to your eyes where you can live, then come and take me to you. Take Lot, the son of your brother Haran, as your own son. May the Lord be with you.’",
+          "study": "Terah asks to share in the journey if the land proves suitable and entrusts Lot to Abram’s filial care. The family bond continues across the call to depart.",
+          "crossReferences": [
+            "Genesis 12:4–5 — Abram takes Lot and his household toward Canaan",
+            "Genesis 13:8 — Abram addresses Lot as a brother and seeks peace"
+          ]
+        },
+        {
+          "verse": 31,
+          "text": "‘Leave your brother Nahor with me until you return safely; then all of us will go with you together.’",
+          "study": "Terah hopes the household will eventually reunite in Canaan. The chapter closes with Abram beginning his obedient journey while family hopes remain only partly fulfilled.",
+          "crossReferences": [
+            "Genesis 11:31–32 — Terah’s journey toward Canaan ends with his death in Haran",
+            "Genesis 24:10 — Nahor’s city remains the later home of Abraham’s extended family"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 12 begins with Abram’s direct critique of his father’s idols. They have no spirit, no speech, and no ability to help; their makers must carry them. In contrast, the God of heaven creates by his word, gives rain and dew, and is the source of all life. Terah privately recognizes the truth but fears the people whose worship he serves, showing how social pressure can preserve false religion even after its emptiness is understood.",
+          "Abram’s burning of the idol house makes the images’ helplessness visible, but Haran dies trying to rescue them. Terah’s household leaves Ur and settles in Haran, where Abram later recognizes that celestial divination is another form of misplaced trust. The stars, moon, sun, and rain are in the Lord’s hand. Abram therefore turns from searching created signs to praying to their Creator.",
+          "God answers with the call to leave land, relatives, and father’s house for an unseen country. The blessing deliberately reverses Babel: humanity tried to make its own great name and was scattered, while God promises to make Abram’s name great so that all families of the earth may receive blessing. Covenant identity begins in trustful obedience and extends toward a worldwide purpose.",
+          "The chapter also presents revelation as restored hearing, speech, and study. Abram receives Hebrew, copies the books of his ancestors, and studies them with angelic instruction. He then tells Terah of the journey to Canaan. The surviving Hebrew fragments confirm portions of Abram’s years in Haran, his rejection of astral signs, his departure notice, and Terah’s blessing, anchoring the complete Geʽez account in an early Hebrew witness."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 11:27–32 — Terah’s household, Haran’s death, and the journey from Ur to Haran",
+        "Genesis 12:1–5 — God calls Abram and promises worldwide blessing",
+        "Genesis 20:12 — Abraham explains his family relationship to Sarah",
+        "Joshua 24:2–3 — Abraham is taken from ancestors who served other gods",
+        "Isaiah 44:9–20 — lifeless handmade idols deceive their makers",
+        "Jeremiah 10:1–16 — crafted gods are contrasted with the living Creator",
+        "Acts 7:2–4 — Abraham’s call and movement from Mesopotamia through Haran",
+        "Galatians 3:6–9 — Abraham’s faith and blessing extend to the nations",
+        "Hebrews 11:8–10 — Abraham obeys the call to an unseen inheritance",
+        "Jubilees 10:25–26 — Babel’s confused language and overthrow precede restored sacred speech"
+      ]
+    }
+  ]
+}

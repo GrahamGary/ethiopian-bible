@@ -1,0 +1,186 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-009-2026-08-13",
+  "contentVersion": "2026.08.13.9",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "shortTitle": "Jubilees",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 50,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 9,
+      "title": "Chapter 9 — The Inheritances of Noah’s Grandsons",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter: the Ethiopic (Geʽez) text preserved in manuscripts A–D and printed as Jubilees 9:1–15 on text pages 38–40 of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. No surviving Hebrew or Greek fragment preserving wording from Jubilees 9 was located. The extant fifth-century Latin palimpsest begins with fragmentary material from Chapter 13 and supplies no text here. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Ham divided his portion among his sons. The first share came out for Cush toward the east; west of him a share came out for Mizraim; west of Mizraim one for Put; and west of Put, beside the sea, one for Canaan.",
+          "study": "Ham’s broad inheritance is now assigned among four households from east to west. The ordered shares give each family a defined place and establish limits against later encroachment.",
+          "crossReferences": [
+            "Genesis 10:6 — Cush, Mizraim, Put, and Canaan are named as Ham’s sons",
+            "Psalm 105:23 — Egypt is identified with the land of Ham"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Shem also divided his portion among his sons. The first share came out for Elam and his children, east of the Tigris River as far as the whole land of India in the east, along the coast of the Erythrean Sea, the waters of Dedan, all the mountains of Mebri and Ela, all the land of Susan, and everything along the side of Farnak as far as the Erythrean Sea and the Tina River.",
+          "study": "Elam’s share stretches through eastern lands bounded by rivers, mountains, and sea. The long description gives geographic substance to the family lists preserved in Genesis.",
+          "crossReferences": [
+            "Genesis 10:22 — Elam is the first-named son of Shem",
+            "Daniel 8:2 — Susa stands in the province of Elam beside the Ulai canal"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "For Asshur the second share came out: all the land of Asshur, Nineveh, Shinar, and Sak, as far as the border of India where the Wadafa River rises.",
+          "study": "Asshur receives a region containing cities and lands that later become centers of power. Here they first appear as an allotted inheritance within Noah’s family order.",
+          "crossReferences": [
+            "Genesis 10:11–12 — Asshur and Nineveh are associated in the table of nations",
+            "Genesis 10:22 — Asshur belongs to the line of Shem"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "For Arpachshad the third share came out: all the land of the Chaldean region east of the Euphrates, bordering the Erythrean Sea; all the waters of the desert as far as the arm of the sea that faces Egypt; and all the land of Lebanon, Sanir, and Amana as far as the Euphrates.",
+          "study": "Arpachshad’s portion joins the Chaldean east to Lebanon and the Euphrates. The line from which Abraham will come is placed within a wide and carefully bounded inheritance.",
+          "crossReferences": [
+            "Genesis 11:10–26 — Arpachshad’s line leads through Eber to Abram",
+            "Joshua 1:4 — Lebanon and the Euphrates mark the breadth of promised territory"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "For Aram the fourth share came out: all the land of Mesopotamia between the Tigris and the Euphrates, north of the Chaldeans, as far as the Asshur mountain range and the land of Arara.",
+          "study": "Aram’s land is defined by the two great rivers and the regions north of Chaldea. Natural boundaries give shape to an inheritance received within the larger portion of Shem.",
+          "crossReferences": [
+            "Genesis 10:22–23 — Aram and his sons are numbered in Shem’s line",
+            "Deuteronomy 23:4 — Aram-naharaim is remembered as the region of the two rivers"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "For Lud the fifth share came out: the Asshur mountain range and everything belonging to it, until it reaches the Great Sea and extends eastward toward the territory of his brother Asshur.",
+          "study": "Lud’s share is positioned beside Asshur’s and stretches toward the Great Sea. The adjoining lands underscore both kinship and the need to honor distinct boundaries.",
+          "crossReferences": [
+            "Genesis 10:22 — Lud is named among the sons of Shem",
+            "Isaiah 66:19 — Lud is listed among distant nations that will hear God’s glory"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Japheth likewise divided the land of his inheritance among his sons.",
+          "study": "The pattern now passes to Japheth’s household. Each principal son of Noah receives and then orders his portion for the next generation.",
+          "crossReferences": [
+            "Genesis 10:2–5 — Japheth’s sons spread into their lands and coastlands",
+            "Genesis 9:27 — Japheth’s enlargement is announced in Noah’s blessing"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The first share came out for Gomer, eastward from the northern side as far as the Tina River. North of him, all the interior regions of the north as far as the Meʾat Sea came out for Magog.",
+          "study": "Gomer and Magog receive neighboring northern territories. Their placement begins a sevenfold subdivision of Japheth’s expansive inheritance.",
+          "crossReferences": [
+            "Genesis 10:2–3 — Gomer and Magog stand first among Japheth’s sons",
+            "Ezekiel 38:2–6 — Magog and the house of Gomer appear among northern peoples"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "For Madai a share came out for him to possess west of his two brothers, extending to the islands and the shores of the islands.",
+          "study": "Madai’s portion reaches westward to island coasts. The description prepares for the later movement of Madai toward Shem’s lands while preserving the original lot.",
+          "crossReferences": [
+            "Genesis 10:2 — Madai is named among Japheth’s sons",
+            "Jubilees 10:35–36 — Madai later seeks a dwelling near his wife’s relatives"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "For Javan the fourth share came out: every island and the islands that lie toward the border of Lud.",
+          "study": "Javan’s inheritance is maritime and island-centered. The allotment corresponds to the coastland expansion associated with his descendants.",
+          "crossReferences": [
+            "Genesis 10:4–5 — Javan’s sons are joined to the division of coastland peoples",
+            "Isaiah 66:19 — Javan is named among distant nations and coastlands"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "For Tubal the fifth share came out: the middle of the arm of the sea that approaches the border of Lud’s portion, as far as the second arm, and the region beyond the second arm to the third arm.",
+          "study": "Tubal’s share is traced through successive arms of the sea. Even a difficult coastal geography is treated as measured inheritance rather than unclaimed space.",
+          "crossReferences": [
+            "Genesis 10:2 — Tubal belongs to Japheth’s seven sons",
+            "Ezekiel 27:13 — Tubal is remembered in the commerce of the nations"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "For Meshech the sixth share came out: all the region beyond the third arm until it approaches the east of Gadir.",
+          "study": "Meshech receives the next western region beyond Tubal. The sequence preserves the coherence of Japheth’s family division from one coastal boundary to another.",
+          "crossReferences": [
+            "Genesis 10:2 — Meshech is named with Tubal among Japheth’s sons",
+            "Ezekiel 38:2–3 — Meshech and Tubal are paired in prophetic geography"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "For Tiras the seventh share came out: four great islands in the middle of the sea that extend toward Ham’s portion. The islands of Kamaturi came out by lot for Arpachshad’s children as their inheritance.",
+          "study": "Tiras completes Japheth’s seven shares with four great islands. The additional notice about Kamaturi shows that inherited territories can interlock without dissolving the authority of the lots.",
+          "crossReferences": [
+            "Genesis 10:2 — Tiras completes the list of Japheth’s sons",
+            "Psalm 72:10 — kings of distant coastlands and islands bring tribute"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "In this way Noah’s sons divided the earth among their own sons in the presence of their father Noah. He bound them all by an oath, calling down a curse upon anyone who sought to seize a portion that had not fallen to him by lot.",
+          "study": "The distribution is solemnized before Noah by an oath and a curse. Boundaries are therefore a moral covenant: taking another’s inheritance is rebellion against a witnessed order.",
+          "crossReferences": [
+            "Deuteronomy 27:17 — a curse is pronounced on the one who moves a neighbor’s boundary",
+            "Joshua 18:10 — Joshua casts lots before the Lord to distribute the land"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "They all said, ‘So be it; so be it,’ for themselves and for their children forever throughout their generations, until the day of judgment. On that day the Lord God will judge them with sword and fire for all the wicked impurity of their errors, by which they filled the earth with transgression, impurity, sexual immorality, and sin.",
+          "study": "Every household accepts the oath for itself and its descendants. The chapter looks beyond earthly enforcement to God’s final judgment upon violence, impurity, and the rejection of rightful limits.",
+          "crossReferences": [
+            "Isaiah 66:15–16 — the Lord comes with fire and sword to execute judgment",
+            "Jude 14–15 — the Lord comes to judge all people for their ungodly deeds"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 9 continues the threefold division of the earth by assigning each principal inheritance among Noah’s grandsons. Ham’s portion is ordered from Cush in the east to Canaan beside the western sea. Shem’s portion is divided among Elam, Asshur, Arpachshad, Aram, and Lud. Japheth’s larger northern and maritime inheritance is distributed among seven sons, with rivers, mountains, sea arms, islands, cities, and named regions marking the boundaries.",
+          "The geography is ancient and at points difficult to identify with certainty, but the chapter’s purpose is clear: every household receives a definite share. Land is not presented as ownerless space available to whoever can seize it. It is an inheritance received in the presence of Noah, and the repeated language of portions and lots places possession under a moral order that restrains rivalry.",
+          "The division also expands the family list of Genesis 10 into a theology of nations. Peoples differ in location and extent, yet they remain branches of one post-flood family. Neighboring portions require mutual respect. Shem’s children border one another, Japheth’s island and coastal shares interlock, and some islands associated with one region are assigned to Arpachshad’s line. Diversity does not remove shared accountability.",
+          "The concluding oath gives the allotments generational weight. Each family accepts a curse against taking what was not assigned by lot, and the promise is carried forward to the day of judgment. Sword and fire answer a world filled with transgression, impurity, sexual immorality, and sin. The chapter therefore connects territorial justice with holiness: peace among peoples depends on receiving gifts with gratitude and refusing possession through wrongful seizure."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 9:18–27 — Noah’s sons stand under distinct blessing and family destinies",
+        "Genesis 10:1–32 — Noah’s grandsons become clans, languages, lands, and nations",
+        "Deuteronomy 19:14 — inherited boundaries must not be moved",
+        "Deuteronomy 27:17 — a curse rests on the one who displaces a neighbor’s boundary",
+        "Deuteronomy 32:8 — the Most High establishes the boundaries of peoples",
+        "Joshua 18:8–10 — land is written down and distributed by lot before the Lord",
+        "Acts 17:24–27 — the Creator appoints the nations’ times and places",
+        "Isaiah 66:15–19 — divine judgment by fire and sword reaches the nations",
+        "Jubilees 8:10–30 — Shem, Ham, and Japheth first receive the earth in three portions",
+        "Jubilees 10:29–36 — later settlement tests obedience to the inherited boundaries"
+      ]
+    }
+  ]
+}

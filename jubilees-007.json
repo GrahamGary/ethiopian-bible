@@ -1,0 +1,402 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-007-2026-08-13",
+  "contentVersion": "2026.08.13.7",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "shortTitle": "Jubilees",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 50,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 7,
+      "title": "Chapter 7 — Noah’s Vineyard and His Final Instruction",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter: the Ethiopic (Geʽez) text preserved in manuscripts A–D and printed as Jubilees 7:1–39 on text pages 26–30 of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. No surviving Hebrew or Greek fragment preserving wording from Jubilees 7 was located. Although the fifth-century Latin codex originally contained this chapter, its surviving leaves begin with material from Chapter 13 and supply no text here. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the first year of the seventh week of this jubilee, Noah planted a vineyard on the mountain where the ark had rested, named Lubar, one of the mountains of Ararat. It bore fruit in the fourth year. He guarded its fruit and gathered it in that year, in the seventh month.",
+          "study": "Noah turns the place of the ark’s rest into cultivated ground. Patiently guarding the vineyard until its fourth-year harvest joins renewed life with responsible care.",
+          "crossReferences": [
+            "Genesis 8:4 — the ark rests upon the mountains of Ararat",
+            "Genesis 9:20 — Noah begins to cultivate the soil and plants a vineyard"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "He made wine from the fruit, put it in a vessel, and kept it until the fifth year—until the first day, at the new moon of the first month.",
+          "study": "The wine is prepared and kept for an appointed time rather than consumed immediately. The calendar orders Noah’s enjoyment of the vineyard’s produce.",
+          "crossReferences": [
+            "Leviticus 23:9–14 — produce is withheld until its appointed offering",
+            "Ecclesiastes 3:1 — every purpose has its appointed time"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "He celebrated that day as a joyful feast. He offered a burnt offering to the Lord: one young bull, one ram, seven year-old sheep, and one male goat, so that through it he might make atonement for himself and his sons.",
+          "study": "Noah’s feast begins with worship and atonement. Joy in the harvest is placed beneath gratitude to God and acknowledgment of the household’s need for mercy.",
+          "crossReferences": [
+            "Genesis 8:20 — Noah builds an altar and offers burnt offerings",
+            "Numbers 29:2–5 — a sacred day includes bulls, a ram, lambs, and a goat"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He prepared the male goat first and put some of its blood on the flesh upon the altar he had made. He offered all its fat on the altar where he made the burnt offering, together with the bull, the ram, and the sheep, and he offered all their flesh on the altar.",
+          "study": "The offering follows a deliberate order in which blood, fat, and flesh are presented at the altar. Worship is treated as careful obedience, not casual celebration.",
+          "crossReferences": [
+            "Leviticus 4:26 — the fat is offered on the altar and atonement is made",
+            "Leviticus 17:11 — blood is assigned to the altar for atonement"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Upon it he placed all their offerings mixed with oil. Afterward he sprinkled wine on the fire that had already been made upon the altar, placed frankincense on the altar, and caused a pleasing fragrance to rise, acceptable before the Lord his God.",
+          "study": "Oil, wine, and frankincense accompany the animals in a full act of thanksgiving. The pleasing fragrance signifies the Lord’s favorable reception of Noah’s worship.",
+          "crossReferences": [
+            "Genesis 8:21 — the Lord receives the pleasing aroma of Noah’s offering",
+            "Leviticus 2:1–2 — oil and frankincense accompany an offering on the altar"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "He rejoiced, and he and his sons drank some of this wine with gladness.",
+          "study": "The wine is received within shared celebration after sacrifice. The following events show that a good gift still requires sober restraint.",
+          "crossReferences": [
+            "Deuteronomy 16:14–15 — households rejoice together at an appointed feast",
+            "Psalm 104:14–15 — God brings forth food and wine from the cultivated earth"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "When evening came, Noah entered his tent. Drunk, he lay down and slept, and while he slept he was uncovered inside his tent.",
+          "study": "Celebration passes into exposure when Noah becomes drunk. The episode portrays how loss of self-command can turn rest and privacy into vulnerability.",
+          "crossReferences": [
+            "Genesis 9:21 — Noah drinks the wine, becomes drunk, and lies uncovered",
+            "Proverbs 20:1 — wine can lead a person away from wisdom"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Ham saw his father Noah naked, went outside, and told his two brothers.",
+          "study": "Ham sees his father’s shame and spreads knowledge of it rather than protecting him. The verse contrasts exposure with the covering action that follows.",
+          "crossReferences": [
+            "Genesis 9:22 — Ham sees his father’s nakedness and tells his brothers",
+            "Proverbs 17:9 — love covers an offense rather than repeating it"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Shem took a garment, and he and Japheth rose. They placed the garment across their shoulders, walked backward, and covered their father’s shame while keeping their faces turned away.",
+          "study": "Shem and Japheth combine action with restraint: they cover Noah without looking upon his exposure. Honor seeks restoration while refusing to exploit another’s shame.",
+          "crossReferences": [
+            "Genesis 9:23 — Shem and Japheth walk backward and cover their father",
+            "1 Peter 4:8 — steadfast love covers a multitude of sins"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "Noah awoke from his sleep and learned everything his youngest son had done to him. He cursed his son and said, ‘Cursed is Canaan; he shall be a servant in bondage to his brothers.’",
+          "study": "Noah’s awakening brings the hidden conduct into judgment. The curse names Canaan and announces a reversal of standing within the family.",
+          "crossReferences": [
+            "Genesis 9:24–25 — Noah learns what happened and curses Canaan",
+            "Deuteronomy 27:16 — dishonoring father or mother is placed under a curse"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Then Noah blessed Shem and said, ‘Blessed be the Lord, the God of Shem, and Canaan shall be his servant.’",
+          "study": "The blessing is directed first to the Lord, who is identified as Shem’s God. Shem’s future is grounded in relationship to God rather than in family rank alone.",
+          "crossReferences": [
+            "Genesis 9:26 — the Lord, God of Shem, is blessed",
+            "Genesis 14:19–20 — blessing of God accompanies blessing upon his servant"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "‘May the Lord enlarge Japheth, and may the Lord dwell in the dwelling place of Shem; and Canaan shall be their servant.’",
+          "study": "Japheth receives spaciousness, while Shem’s dwelling is marked by the Lord’s presence. The brothers who acted together in honor are blessed in distinct but related ways.",
+          "crossReferences": [
+            "Genesis 9:27 — Japheth is enlarged and dwells in the tents of Shem",
+            "Exodus 25:8 — God purposes to dwell among his people"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Ham learned that his father had cursed his youngest son, and he was deeply displeased because his son had been cursed. He separated from his father, taking with him his sons Cush, Mizraim, Put, and Canaan.",
+          "study": "The curse leads to physical separation in the family. Ham’s grief does not produce reconciliation, and the household begins to divide into distinct settlements.",
+          "crossReferences": [
+            "Genesis 10:6 — Cush, Mizraim, Put, and Canaan are the sons of Ham",
+            "Genesis 13:8–11 — family tension can lead to separation of households"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Ham built a city for himself and named it after his wife, Neelatamauk.",
+          "study": "A new city gives Ham’s separated household a lasting center. Naming it after his wife binds the settlement to family memory.",
+          "crossReferences": [
+            "Genesis 4:17 — Cain builds a city and names it after a family member",
+            "Genesis 10:10–12 — cities arise among the generations after the flood"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Japheth saw this and became jealous of his brother. He also built a city for himself and named it after his wife, Adataneses.",
+          "study": "Japheth’s building is prompted by rivalry rather than simple need. The renewed world already shows how comparison can shape human ambition.",
+          "crossReferences": [
+            "Genesis 4:4–8 — jealousy within a family leads toward destructive action",
+            "James 3:16 — jealousy and selfish ambition produce disorder"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "But Shem remained with his father Noah and built a city beside his father near the mountain. He too named it after his wife, Sedeqatelebab.",
+          "study": "Shem’s city is built without leaving Noah. His settlement preserves nearness to his father while establishing a household of his own.",
+          "crossReferences": [
+            "Genesis 9:26 — Shem stands within Noah’s blessing",
+            "Ruth 1:16 — faithfulness can be expressed by remaining near one’s family"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "These three cities were near Mount Lubar: Sedeqatelebab in front of the mountain on its eastern side, Neelatamauk toward its south, and Adataneses toward the west.",
+          "study": "The three households remain geographically near the mountain even after relational separation. Their cities form a new human landscape around the place of deliverance.",
+          "crossReferences": [
+            "Genesis 8:4 — the mountains of Ararat mark the ark’s place of rest",
+            "Acts 17:26 — the nations receive their times and boundaries of habitation"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "These were Shem’s sons: Elam, Asshur, Arpachshad—who was born two years after the flood—Lud, and Aram.",
+          "study": "Shem’s line is recorded as the renewed population grows. The dating of Arpachshad’s birth anchors the genealogy directly after the flood.",
+          "crossReferences": [
+            "Genesis 10:22 — the sons of Shem are named",
+            "Genesis 11:10 — Arpachshad is born two years after the flood"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "Japheth’s sons were Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras. These were the sons of Noah’s household.",
+          "study": "Japheth’s seven sons complete another branch of Noah’s expanding family. Genealogy links the new cities to the peoples who will spread across the earth.",
+          "crossReferences": [
+            "Genesis 10:2 — the seven sons of Japheth are listed",
+            "1 Chronicles 1:4–5 — Noah’s line continues through Japheth’s sons"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "During the twenty-eighth jubilee, Noah began to command his grandsons concerning the ordinances, commandments, and every judgment he knew. He testified to his sons that they should practice righteousness, cover the shame of their bodies, bless their Creator, honor father and mother, love one another, and guard themselves from sexual immorality, uncleanness, and every injustice.",
+          "study": "Noah answers the family’s early disorder by transmitting a comprehensive way of life. Worship, bodily holiness, family honor, mutual love, and justice belong together.",
+          "crossReferences": [
+            "Leviticus 19:2–18 — holiness includes family honor, purity, justice, and neighbor-love",
+            "Ephesians 5:1–5 — love and thanksgiving are joined to freedom from sexual impurity"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "For because of these three things the flood came upon the earth. Through sexual immorality the Watchers violated the command governing them and went after the daughters of humanity. They took as wives whomever they chose and committed the first uncleanness.",
+          "study": "Noah interprets the flood through boundary-breaking desire, impurity, and injustice. The Watchers’ sin begins when they abandon their assigned order and seize what they choose.",
+          "crossReferences": [
+            "Genesis 6:1–4 — heavenly beings take women from the daughters of humanity",
+            "Jude 6–7 — angels abandon their proper dwelling and are linked with sexual transgression"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "They fathered sons, the Nephilim, and these were all unlike one another. They devoured one another: the giant killed the Naphil, the Naphil killed the Elyo, the Elyo killed humankind, and people killed one another.",
+          "study": "The offspring of forbidden unions produce escalating violence rather than stable life. Devouring and killing move through every level until ordinary human fellowship is corrupted.",
+          "crossReferences": [
+            "Genesis 6:4–5 — the Nephilim appear as human wickedness becomes great",
+            "1 Enoch 7:3–5 — the giants consume life and turn against humanity"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "Everyone gave himself over to injustice and to shedding innocent blood, and the earth was filled with injustice.",
+          "study": "Violence becomes universal because people surrender themselves to it. Innocent bloodshed is not merely personal wrongdoing; it fills and corrupts the earth.",
+          "crossReferences": [
+            "Genesis 6:11–13 — the earth is filled with violence before the flood",
+            "Isaiah 59:3–8 — bloodshed and injustice corrupt both hands and paths"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "After them, all the wild animals, birds, everything that moves, and everything that walks upon the earth followed in corruption. Much blood was poured out upon the earth, and every thought and desire of humanity continually planned what was empty and evil.",
+          "study": "Human violence spreads into the wider creaturely order. The corruption of conduct is traced to thoughts and desires that continually turn toward evil.",
+          "crossReferences": [
+            "Genesis 6:5, 12 — every intention is evil and all flesh corrupts its way",
+            "Hosea 4:1–3 — human bloodshed brings suffering upon land animals and birds"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "The Lord wiped everything from the surface of the earth because of their deeds and because of the blood they had poured out within the earth.",
+          "study": "The flood is presented as judgment upon practiced evil and accumulated bloodshed. The Lord acts against a world in which violence has become its settled way.",
+          "crossReferences": [
+            "Genesis 7:22–23 — life on the dry ground is wiped away",
+            "Numbers 35:33 — shed blood pollutes the land"
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "But we were left—I, you my children, and everything that entered the ark with us. Yet now I am the first to see from your conduct that you are not walking in righteousness. You have begun to walk on the path of destruction, separating from one another, envying one another, and refusing to remain united, my sons, each with his brother.",
+          "study": "Survival does not guarantee faithfulness in the next generation. Noah sees the old pattern returning through division and envy and calls his sons back to righteous fellowship.",
+          "crossReferences": [
+            "Genesis 7:23 — Noah and those with him in the ark remain alive",
+            "1 Corinthians 3:3 — jealousy and strife reveal conduct shaped by the fallen world"
+          ]
+        },
+        {
+          "verse": 27,
+          "text": "For I see that the demons have begun to lead you and your children astray. I now fear for you that after my death you will shed human blood upon the earth and that you too will be wiped from the earth’s surface.",
+          "study": "Noah recognizes spiritual deception working through human conduct. His warning joins unseen temptation to the concrete danger of future bloodshed and judgment.",
+          "crossReferences": [
+            "1 Enoch 15:8–12 — evil spirits arise to afflict and mislead humanity",
+            "John 8:44 — the devil is described as a murderer and the father of lies"
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "For everyone who sheds human blood, and everyone who consumes the blood of any living flesh, will be wiped from the earth.",
+          "study": "The command protects both human life and the life represented by animal blood. Shedding human blood and consuming creaturely blood reject God’s authority over life.",
+          "crossReferences": [
+            "Genesis 9:4–6 — blood must not be eaten and human bloodshed is judged",
+            "Leviticus 17:10 — the one who consumes blood is cut off"
+          ]
+        },
+        {
+          "verse": 29,
+          "text": "No person who consumes blood or pours out human blood upon the earth will remain. Neither seed nor living descendant will remain for him beneath heaven, for they will go to Sheol and descend to the place of judgment. They will all enter the deepest darkness through a violent death.",
+          "study": "The warning extends beyond immediate death to loss of posterity and descent to judgment. Bloodshed is shown to carry consequences no earthly power can contain.",
+          "crossReferences": [
+            "Psalm 55:23 — violent and deceitful people do not live out their days",
+            "Isaiah 14:15 — the proud are brought down to Sheol and the depths"
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "Whenever you slaughter any wild animal, livestock, or creature that flies above the earth, let none of its blood remain visible upon you. Do good for your own lives by covering what has been poured out upon the surface of the earth.",
+          "study": "Covering animal blood visibly returns life to the earth under God’s command. The practice trains the household to receive food without treating blood carelessly.",
+          "crossReferences": [
+            "Leviticus 17:13 — the blood of hunted game is poured out and covered with earth",
+            "Deuteronomy 12:23–24 — blood is not eaten but poured upon the ground"
+          ]
+        },
+        {
+          "verse": 31,
+          "text": "Do not be among those who eat flesh with its blood. Be vigilant so that no one consumes blood in your presence. Cover the blood, for this is how I was commanded to testify to you, to your children, and to all flesh.",
+          "study": "Noah makes the command a communal responsibility: each person must refuse blood and guard the household’s practice. His testimony is meant for later generations as well as his own.",
+          "crossReferences": [
+            "Genesis 9:4 — flesh must not be eaten with its lifeblood",
+            "Acts 15:28–29 — believers are instructed to abstain from blood"
+          ]
+        },
+        {
+          "verse": 32,
+          "text": "Do not consume the life together with the flesh, so that your own blood—your life—may not be required from the hand of any flesh that pours it out upon the earth.",
+          "study": "Life and blood are identified so that eating is governed by reverence. Those who honor the life of creatures are reminded that their own lifeblood also stands under God’s protection.",
+          "crossReferences": [
+            "Genesis 9:4–5 — lifeblood is forbidden as food and human lifeblood is required",
+            "Leviticus 17:14 — the life of every creature is its blood"
+          ]
+        },
+        {
+          "verse": 33,
+          "text": "For the earth cannot be cleansed from blood that has been poured upon it; the earth is cleansed throughout its generations only by the blood of the one who poured it out.",
+          "study": "Bloodshed creates guilt that adheres to the land and demands justice. The verse insists that violence cannot be dismissed without moral reckoning.",
+          "crossReferences": [
+            "Numbers 35:33 — the land is cleansed of blood only by judgment upon the murderer",
+            "Deuteronomy 21:7–9 — atonement is required when innocent blood stains the land"
+          ]
+        },
+        {
+          "verse": 34,
+          "text": "Now, my children, listen: practice justice and righteousness, so that you may be planted in righteousness across the whole earth and your honor may rise before my God, who saved me from the floodwaters.",
+          "study": "Noah turns from warning to a positive path. A people planted in righteousness honors the God whose deliverance gave their family a future.",
+          "crossReferences": [
+            "Psalm 1:1–3 — the righteous are like a tree firmly planted",
+            "Isaiah 61:3 — God’s people are called oaks of righteousness for his glory"
+          ]
+        },
+        {
+          "verse": 35,
+          "text": "You are about to go, build cities for yourselves, and plant within them every kind of plant upon the earth and every kind of fruit-bearing tree.",
+          "study": "Noah sends his children toward constructive labor: settlements are to be joined with cultivation. City-building is placed under instruction concerning righteous use of the land.",
+          "crossReferences": [
+            "Jeremiah 29:5 — build houses, settle, and plant gardens",
+            "Amos 9:14 — restored people build cities and plant vineyards and gardens"
+          ]
+        },
+        {
+          "verse": 36,
+          "text": "For three years the fruit of every fruit-bearing tree must remain unpicked for food. In the fourth year its fruit shall be consecrated and offered as acceptable firstfruits before the Most High Lord, the Creator of heaven, earth, and everything. Let the first of wine and oil be offered abundantly as firstfruits upon the Lord’s altar, which receives them; and what remains shall be eaten before that altar by those who serve in the Lord’s house.",
+          "study": "The first yield fit for use is consecrated to the Creator before it becomes ordinary provision. Firstfruits teach that cultivated abundance begins as God’s gift and belongs within worship.",
+          "crossReferences": [
+            "Leviticus 19:23–24 — fruit is withheld three years and made holy in the fourth",
+            "Numbers 18:12 — the first and best of oil and wine are given to the Lord"
+          ]
+        },
+        {
+          "verse": 37,
+          "text": "In the fifth year make its release, releasing it in righteousness and justice. Then you will act rightly, and everything you plant will prosper.",
+          "study": "After consecration comes ordinary use, but even release must be governed by justice. Prosperity is connected with receiving the land’s produce in the appointed way.",
+          "crossReferences": [
+            "Leviticus 19:25 — fruit may be eaten in the fifth year so that its yield may increase",
+            "Deuteronomy 15:1–2 — release is practiced at an appointed time"
+          ]
+        },
+        {
+          "verse": 38,
+          "text": "For this is how Enoch, your father’s father, commanded his son Methuselah; Methuselah commanded his son Lamech; and Lamech commanded me everything his ancestors had commanded him.",
+          "study": "Noah presents the instruction as a faithfully transmitted inheritance. Each generation receives the command in order to hand it on intact to the next.",
+          "crossReferences": [
+            "Genesis 5:21–29 — Enoch, Methuselah, Lamech, and Noah form successive generations",
+            "Deuteronomy 6:6–7 — received commands are diligently taught to children"
+          ]
+        },
+        {
+          "verse": 39,
+          "text": "I too am commanding you, my children, just as Enoch commanded his son in the first jubilees. While he was alive in the seventh generation, he commanded and testified to his children and to his children’s children until the day of his death.",
+          "study": "The chapter closes with testimony carried across generations. Enoch’s instruction reaches Noah’s descendants because faithful teaching continues throughout a lifetime.",
+          "crossReferences": [
+            "Genesis 5:22–24 — Enoch walks with God in the seventh generation from Adam",
+            "Psalm 78:5–7 — one generation teaches God’s testimony to the next"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 7 begins with Noah cultivating the mountain where the ark came to rest. The vineyard’s first harvest is carefully timed, and its wine is placed within worship before it becomes part of family celebration. Yet Noah’s drunken exposure shows that renewed creation has not removed human vulnerability. Ham spreads his father’s shame, while Shem and Japheth protect it, and the resulting curse and blessings shape the family’s future.",
+          "The sons establish nearby cities, but settlement is already marked by separation, rivalry, and different forms of attachment to Noah. Shem remains with his father; Ham withdraws in grief; Japheth builds from jealousy. Against this fragmentation, Noah gives his descendants an integrated command: practice righteousness, honor parents, love one another, preserve bodily holiness, and reject every injustice.",
+          "Noah explains the flood through sexual corruption, impurity, and violent injustice. The Watchers abandon their assigned order, their offspring devour one another, humanity sheds innocent blood, and corruption spreads through the creaturely world. The flood therefore stands as a warning that bloodshed pollutes the earth and brings judgment. The repeated command not to consume blood or shed human blood treats life as belonging to God.",
+          "The chapter ends by joining righteous community to responsible cultivation. Fruit is patiently withheld, consecrated as firstfruits, and only afterward released for ordinary use. Noah locates this practice within a chain of testimony from Enoch through Methuselah and Lamech. Faithfulness is therefore both personal and generational: rescued people must order worship, family, food, land, and justice according to instruction they preserve and pass on."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 8:4, 20–22 — the ark rests on Ararat and Noah worships after deliverance",
+        "Genesis 9:20–29 — Noah’s vineyard, exposure, curse, and blessings",
+        "Genesis 10:1–32 — the sons of Noah and the families that spread from them",
+        "Leviticus 17:10–14 — blood is not eaten because it represents life",
+        "Leviticus 19:23–25 — the fruit of a new tree is withheld, consecrated, and then eaten",
+        "Numbers 35:30–34 — bloodshed pollutes the land and requires justice",
+        "Deuteronomy 6:4–9 — covenant teaching is passed diligently to children",
+        "Psalm 78:1–7 — testimony is transmitted from one generation to another",
+        "1 Enoch 7:1–6 — the giants bring devouring and bloodshed upon the earth",
+        "Jude 6–7 — heavenly beings abandon their proper order and face judgment"
+      ]
+    }
+  ]
+}

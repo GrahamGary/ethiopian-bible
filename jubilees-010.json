@@ -1,0 +1,375 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-010-2026-08-13",
+  "contentVersion": "2026.08.13.10",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "shortTitle": "Jubilees",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 50,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 10,
+      "title": "Chapter 10 — Spirits Restrained and Nations Dispersed",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter: the Ethiopic (Geʽez) text preserved in manuscripts A–D and printed as Jubilees 10:1–36 on critical-text pages 35–38 (PDF pages 107–110) of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. No surviving Hebrew or Greek fragment preserving wording from Jubilees 10 was located. The extant fifth-century Latin palimpsest begins with fragmentary material from Chapter 13 and supplies no text here. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the primary witness was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the third week of this jubilee, the unclean demons began to mislead the children of Noah’s sons, causing them to wander into error and destroying them.",
+          "study": "The violence of the giants continues after the flood through unclean spirits that corrupt and destroy human life. The chapter begins with a danger humanity cannot master by ordinary strength.",
+          "crossReferences": [
+            "1 Enoch 15:8–12 — the spirits of the dead giants afflict and mislead humanity",
+            "Mark 5:2–5 — an unclean spirit brings isolation and self-destruction"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Noah’s sons came to their father Noah and told him about the demons that were misleading, blinding, and killing their children.",
+          "study": "Noah’s family responds by naming the evil plainly and bringing it to the covenant patriarch. Their report turns helpless fear into an appeal for righteous intervention.",
+          "crossReferences": [
+            "Genesis 9:8–11 — God establishes his post-flood covenant with Noah and his sons",
+            "Psalm 107:19 — the afflicted cry to the Lord in their distress"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Noah prayed before the Lord his God and said, ‘God of the spirits of all flesh, you showed mercy to me and saved me and my sons from the floodwaters. You did not let me perish as the children of destruction did. Your grace toward me has been great, and your mercy toward my life has been abundant. Now let your grace be raised over my children, and do not let evil spirits rule them and wipe them from the earth.’",
+          "study": "Noah grounds his prayer in God’s earlier mercy. The God who preserved life through the flood is asked to continue that protection against powers seeking a second destruction.",
+          "crossReferences": [
+            "Numbers 16:22 — God is addressed as the God of the spirits of all flesh",
+            "Genesis 7:23 — Noah and those with him are preserved through the flood"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "‘Instead, bless me and my children, so that we may increase, multiply, and fill the earth.’",
+          "study": "The prayer appeals to God’s commission after the flood. Demonic destruction opposes the Creator’s blessing of fruitful life, so protection serves the renewed human vocation.",
+          "crossReferences": [
+            "Genesis 9:1 — God blesses Noah’s household to multiply and fill the earth",
+            "Genesis 1:28 — fruitfulness belongs to humanity’s creation blessing"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "‘You know how your Watchers, the fathers of these spirits, acted in my days. As for the spirits that remain alive, confine them and hold them in the place of condemnation. Do not let them destroy the children of your servant, my God, for they are malicious and were formed for destruction.’",
+          "study": "Noah links the present spirits to the Watchers whose rebellion preceded the flood. He asks that their destructive activity be answered with confinement under divine judgment.",
+          "crossReferences": [
+            "1 Enoch 10:11–14 — the rebellious Watchers are bound until judgment",
+            "2 Peter 2:4 — sinning angels are kept in restraint for judgment"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "‘Do not let them rule the spirits of the living, for you alone can exercise authority over them. From now and forever, do not let them gain power over the children of the righteous.’",
+          "study": "Noah confesses that ultimate rule belongs to God alone. His request distinguishes the Creator’s rightful sovereignty from the spirits’ parasitic domination of human lives.",
+          "crossReferences": [
+            "Psalm 103:19 — the Lord’s kingdom rules over all",
+            "Luke 10:19 — authority over hostile spirits is granted under divine rule"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Then the Lord our God commanded us to bind all of them.",
+          "study": "The heavenly response is immediate and decisive. The spirits remain creatures subject to God’s command and to the servants he appoints.",
+          "crossReferences": [
+            "1 Enoch 10:4–6 — a heavenly messenger is commanded to bind a rebel",
+            "Revelation 20:1–3 — an angel binds the deceiver by divine authority"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "But Mastema, chief of the spirits, came and said, ‘Lord Creator, let some of them remain before me. Let them listen to my voice and carry out everything I tell them. If none of them are left to me, I will be unable to exercise the authority of my will among humanity, for they are appointed for corruption and deception before my judgment, and the wickedness of humanity is great.’",
+          "study": "Mastema petitions to retain agents of testing and corruption. Even this adversarial power must ask permission, showing that evil operates within limits it did not establish.",
+          "crossReferences": [
+            "Job 1:9–12 — the accuser must receive permission before testing Job",
+            "Luke 22:31–32 — Satan’s demand to sift the disciples remains subject to divine intercession"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "God said, ‘Let a tenth of them remain before him, and let nine parts descend to the place of condemnation.’",
+          "study": "Most of the spirits are confined, while a strictly limited remnant remains. The proportion stresses restraint: Mastema receives neither equality with God nor unrestricted power.",
+          "crossReferences": [
+            "1 Enoch 21:7–10 — rebellious spirits await judgment in a place of confinement",
+            "Revelation 12:9 — the deceiver’s activity is real but ultimately judged"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "He commanded one of us to teach Noah all the remedies for their afflictions, because he knew that humanity would not walk uprightly or contend in righteousness.",
+          "study": "God’s provision includes practical knowledge for resisting harm. The remedy is given with sober recognition that human wrongdoing will continue to create openings for deception.",
+          "crossReferences": [
+            "Sirach 38:4 — the Lord brings medicines from the earth",
+            "Genesis 8:21 — the human heart’s inclination remains evil after the flood"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "We acted according to all his words. We bound all the malicious evil spirits in the place of condemnation, but we left a tenth of them to be subject to Satan upon the earth.",
+          "study": "The angelic servants execute the judgment exactly. The surviving tenth remains subordinate, confirming that neither Satan nor the spirits possess independent sovereignty.",
+          "crossReferences": [
+            "Daniel 4:35 — none can prevent God from carrying out his will",
+            "James 2:19 — demons recognize and tremble before divine reality"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "We explained to Noah all the remedies for the spirits’ diseases and deceptions, and how he could heal them with the plants of the earth.",
+          "study": "The instruction joins spiritual discernment with created means of healing. Plants are not magical powers; they are gifts within creation used under knowledge God supplies.",
+          "crossReferences": [
+            "2 Kings 20:7 — a preparation of figs is applied as a means of healing",
+            "Ezekiel 47:12 — the leaves of life-giving trees are for healing"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Noah wrote everything in a book, just as we had instructed him concerning every kind of remedy. In this way the evil spirits were kept from harming Noah’s children.",
+          "study": "Noah preserves the received instruction in writing for the household after him. Faithful recordkeeping becomes a means of passing protective wisdom across generations.",
+          "crossReferences": [
+            "Habakkuk 2:2 — revelation is written clearly so it may be carried forward",
+            "Deuteronomy 6:6–9 — received instruction is preserved and taught to children"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "He gave everything he had written to Shem, his eldest son, because he loved him more than all his sons.",
+          "study": "The written collection passes into Shem’s care. Love is expressed as the entrusting of knowledge that can protect and serve later generations.",
+          "crossReferences": [
+            "Genesis 9:26 — Noah’s blessing gives Shem a distinctive covenant place",
+            "Proverbs 4:1–4 — a father entrusts life-giving instruction to his son"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Noah rested with his ancestors and was buried on Mount Lubar in the land of Ararat.",
+          "study": "Noah’s long ministry ends in the region where the ark came to rest. His burial closes the life of the flood survivor while the covenant household continues.",
+          "crossReferences": [
+            "Genesis 8:4 — the ark rests on the mountains of Ararat",
+            "Genesis 9:28–29 — Noah dies after living 950 years"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "He completed 950 years in his life—nineteen jubilees, two weeks, and five years.",
+          "study": "The jubilee calendar restates the lifespan known from Genesis. Even an extraordinary life is measured and completed within God’s ordered time.",
+          "crossReferences": [
+            "Genesis 9:29 — all Noah’s days total 950 years",
+            "Psalm 90:12 — numbered days call humanity to wisdom"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "In his earthly life he surpassed humanity in righteousness, except for Enoch, because Noah was complete in righteousness. Enoch’s appointed work was to serve as a witness to the world’s generations, recounting the deeds of each generation until the day of judgment.",
+          "study": "Noah and Enoch model two complementary forms of faithfulness: righteous obedience and enduring testimony. Both lives point beyond their own age toward final accountability.",
+          "crossReferences": [
+            "Genesis 6:9 — Noah is righteous and blameless in his generation",
+            "Jude 14–15 — Enoch’s witness announces the coming judgment"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "In the thirty-third jubilee, in the first year of the second week, Peleg took a wife named Lomna, daughter of Shinar. In the fourth year of that week she bore him a son, and he named him Reu, for he said, ‘Look, humanity has become evil through its wicked plan to build a city and a tower for itself in the land of Shinar.’",
+          "study": "The genealogy moves directly into Babel’s rebellion. Reu’s naming preserves a father’s judgment that technological cooperation has been bent toward a proud and wicked purpose.",
+          "crossReferences": [
+            "Genesis 11:16–18 — Reu is born in Peleg’s line",
+            "Genesis 11:2–4 — humanity settles in Shinar and plans a city and tower"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "They had journeyed eastward from the land of Ararat to Shinar. In Peleg’s days they built the city and tower, saying, ‘Come, let us climb by it into heaven.’",
+          "study": "The movement from Ararat to Shinar leads from preserved life to collective self-exaltation. The tower turns settlement into an attempt to invade heaven by human achievement.",
+          "crossReferences": [
+            "Genesis 11:2–4 — the settlers in Shinar seek a tower with its top in heaven",
+            "Isaiah 14:13–14 — pride speaks of ascending to heaven and making itself like the Most High"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "They began construction, and in the fourth week they baked bricks with fire. Brick served them in place of stone, and the mortar that joined them was asphalt from the sea and from springs of water in the land of Shinar.",
+          "study": "The narrative describes real materials and skilled workmanship. Human creativity is not condemned in itself; its moral character follows the purpose it serves.",
+          "crossReferences": [
+            "Genesis 11:3 — baked brick and bitumen replace stone and mortar",
+            "Exodus 1:13–14 — brickmaking can be drawn into oppressive human projects"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "They built it for forty-three years. Its width was 203 bricks, and the height of one brick was a third. Its height reached 5,433 cubits and two palms; one wall extended thirteen stadia and the other thirty stadia.",
+          "study": "The immense measurements emphasize sustained communal ambition. Scale and duration cannot make a project secure when its purpose resists the Creator.",
+          "crossReferences": [
+            "Genesis 11:4 — the builders seek fame and protection from dispersal",
+            "Psalm 127:1 — labor cannot secure what the Lord does not establish"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "The Lord our God said to us, ‘Look, they are one people, and they have begun to do this. Now nothing they plan will be withheld from them. Come, let us go down and confuse their language, so that they cannot understand one another’s speech. Let them be scattered into cities and nations, and let no single purpose remain among them until the day of judgment.’",
+          "study": "Unity without obedience magnifies rebellion rather than righteousness. God limits the builders’ shared purpose by dividing their speech and redirecting humanity into nations.",
+          "crossReferences": [
+            "Genesis 11:6–7 — God resolves to confuse the language of the united builders",
+            "Acts 17:26 — the nations and their appointed places remain under God’s ordering"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "The Lord descended, and we descended with him, to see the city and tower that humanity had built.",
+          "study": "The highest human tower remains far below heaven; God must still descend to inspect it. The scene exposes the smallness of human pride before divine majesty.",
+          "crossReferences": [
+            "Genesis 11:5 — the Lord comes down to see the city and tower",
+            "Psalm 113:5–6 — the exalted Lord stoops to look upon heaven and earth"
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "He confused their language, and they could no longer understand one another’s speech. At once they stopped building the city and tower.",
+          "study": "A change in speech ends the project that military force had not opposed. God breaks rebellious coordination at its communicative root.",
+          "crossReferences": [
+            "Genesis 11:7–8 — confused speech halts construction and scatters the builders",
+            "Psalm 33:10 — the Lord frustrates the plans of peoples"
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "For this reason the whole land of Shinar was called Babel, because there the Lord confused all the languages of humanity. From there they were scattered into their cities, each according to its language and nation.",
+          "study": "Babel’s name memorializes judgment on proud unity. The resulting languages and nations become enduring signs that humanity lives under God’s boundaries.",
+          "crossReferences": [
+            "Genesis 11:9 — Babel is named for the confusion and dispersion that occurred there",
+            "Genesis 10:5 — peoples are distinguished by lands, languages, clans, and nations"
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "The Lord sent a powerful wind against the tower and threw it down upon the earth. It stood between Asshur and Babylon in the land of Shinar, and they called its name ‘Overthrow.’",
+          "study": "The abandoned monument is finally cast down by a force God commands. What was meant to secure a great name receives instead a name of defeat.",
+          "crossReferences": [
+            "Jeremiah 51:58 — Babylon’s massive walls and gates labor only for destruction",
+            "Luke 1:51 — God scatters those who are proud in their inward plans"
+          ]
+        },
+        {
+          "verse": 27,
+          "text": "At the beginning of the thirty-fourth jubilee, in the first year of the fourth week, they were scattered from the land of Shinar.",
+          "study": "The dispersion is placed precisely within sacred chronology. Babel is not timeless myth here but a dated transition in the history of nations.",
+          "crossReferences": [
+            "Genesis 10:25 — the division of the earth is associated with Peleg’s days",
+            "Genesis 11:8 — the Lord scatters the builders over the earth"
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "Ham and his sons went to the land he was to occupy, the southern land he had received as his portion.",
+          "study": "After dispersal, Ham’s household moves toward its assigned inheritance. The lots established earlier remain the standard for rightful settlement.",
+          "crossReferences": [
+            "Genesis 10:6–20 — Ham’s descendants spread into their clans and lands",
+            "Jubilees 8:22–24 — Ham receives the southern portion of the earth"
+          ]
+        },
+        {
+          "verse": 29,
+          "text": "Canaan saw that the land of Lebanon as far as the river of Egypt was very good. He did not go to his inheritance in the west beside the sea; instead, he settled in the land of Lebanon, east and west, from the border of the Jordan to the border of the sea.",
+          "study": "Canaan chooses desirable land over allotted land. The goodness he sees becomes an occasion for seizure because desire is not governed by covenant boundaries.",
+          "crossReferences": [
+            "Genesis 13:10–12 — sight of desirable land can direct a morally consequential choice",
+            "Joshua 1:4 — Lebanon and the Great Sea frame the land later given to Israel"
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "His father Ham and his brothers Cush and Mizraim said to him, ‘You have settled in a land that is not yours and did not fall to us by lot. Do not do this. If you persist, you and your children will fall in that land and be cursed through rebellion. You settled through rebellion, and through rebellion your children will fall and be uprooted forever.’",
+          "study": "Canaan receives a direct family warning before judgment. His brothers identify both the violated boundary and the self-destructive pattern by which unlawful seizure produces later loss.",
+          "crossReferences": [
+            "Deuteronomy 27:17 — a curse rests on moving a neighbor’s boundary",
+            "Proverbs 1:29–31 — those rejecting counsel eat the fruit of their own way"
+          ]
+        },
+        {
+          "verse": 31,
+          "text": "‘Do not live in Shem’s dwelling, because it came to Shem and his sons by their lot.’",
+          "study": "The command is simple because the earlier allotment is unambiguous. Respect for Shem’s dwelling tests whether Canaan will receive limits as part of justice.",
+          "crossReferences": [
+            "Jubilees 8:12–21 — Shem’s inheritance is defined and blessed",
+            "Deuteronomy 19:14 — inherited boundaries must not be displaced"
+          ]
+        },
+        {
+          "verse": 32,
+          "text": "‘You are cursed, and you will be cursed beyond all Noah’s sons by the curse with which we bound ourselves by oath before the holy Judge and before our father Noah.’",
+          "study": "The warning invokes the sworn covenant of Chapter 9. Canaan’s action is not merely a private dispute; it defies an oath witnessed by the holy Judge.",
+          "crossReferences": [
+            "Genesis 9:25 — Noah pronounces a curse upon Canaan",
+            "Jubilees 9:14–15 — Noah’s descendants swear not to seize another’s allotted portion"
+          ]
+        },
+        {
+          "verse": 33,
+          "text": "But Canaan did not listen to them. He and his sons remained in the land of Lebanon, from Hamath to the entrance of Egypt, until this day.",
+          "study": "Canaan knowingly rejects the warning and makes the encroachment generational. Persistence can normalize disobedience without changing its covenant character.",
+          "crossReferences": [
+            "Numbers 34:7–8 — Hamath marks a northern boundary of Canaan",
+            "Genesis 10:18–19 — Canaanite territory extends toward the southern regions"
+          ]
+        },
+        {
+          "verse": 34,
+          "text": "For this reason that land was named Canaan.",
+          "study": "The place-name preserves the memory of Canaan’s settlement. Geography now bears witness both to a family’s presence and to the disputed choice behind it.",
+          "crossReferences": [
+            "Genesis 12:5–6 — Abram enters the land of Canaan while Canaanites dwell there",
+            "Psalm 105:11 — the land of Canaan is later named as an allotted inheritance"
+          ]
+        },
+        {
+          "verse": 35,
+          "text": "Japheth and his sons went toward the sea and settled in the land of their portion. Madai saw the land by the sea, but it did not please him. He asked Elam, Asshur, and Arpachshad—his wife’s brother—for a portion, and he settled in the land of Media near his wife’s brother, where he remains until this day.",
+          "study": "Madai also finds his assigned region undesirable, but unlike Canaan he seeks consent before relocating. Negotiated settlement honors kinship and boundary rather than taking by force.",
+          "crossReferences": [
+            "Genesis 10:2 — Madai is named among Japheth’s sons",
+            "Jubilees 9:9 — Madai’s first lot lies westward toward islands and coasts"
+          ]
+        },
+        {
+          "verse": 36,
+          "text": "He called his dwelling place, and the dwelling place of his sons, Media, after the name of their father Madai.",
+          "study": "The chapter ends with a nation named through its ancestor and an agreed dwelling. Media’s foundation contrasts with Canaan’s refusal to respect the sworn allotments.",
+          "crossReferences": [
+            "2 Kings 17:6 — the cities of the Medes appear as an established region",
+            "Daniel 8:20 — Media is remembered among the powers of the ancient world"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 10 gathers three movements into one account of divine restraint after the flood. First, the surviving spirits of the giants prey upon Noah’s descendants. Noah responds by appealing to the mercy that preserved his family, and God confines nine-tenths of the spirits. Mastema retains only a limited tenth, while Noah receives knowledge of remedies and preserves it in writing for Shem. Evil is active, but it is neither equal to God nor beyond his boundaries.",
+          "Noah’s death closes the flood generation. His righteousness is compared with Enoch’s enduring witness, and both men are placed within a history moving toward the day of judgment. The written remedies given to Shem and the testimony appointed to Enoch emphasize faithful transmission: one generation must preserve truth and life-giving wisdom for the next.",
+          "The tower of Babel then shows human wickedness operating collectively. Skill, fire-baked brick, asphalt, time, and shared language make an immense project possible, but unity serves self-exaltation rather than obedience. God confuses the builders’ speech, scatters them into nations, and finally casts down the tower by a powerful wind. Human achievement cannot secure a name or future against the Creator’s ordering of the earth.",
+          "The final settlements test the sworn boundaries of Chapters 8–9. Canaan takes Shem’s desirable land despite explicit warning and carries the resulting conflict into later generations. Madai also dislikes his coastal portion, but he asks for land and settles near his wife’s family by agreement. The contrast is morally decisive: desire does not authorize seizure, while consent and respect for inherited limits make peaceful relocation possible."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 6:1–9 — the Watchers tradition and Noah’s righteousness frame the post-flood crisis",
+        "Genesis 9:1–29 — Noah’s blessing, covenant household, lifespan, and death",
+        "Genesis 10:1–32 — Noah’s descendants spread into lands, languages, and nations",
+        "Genesis 11:1–9 — Babel’s city, tower, confused language, and dispersion",
+        "1 Enoch 10:4–15 — rebellious heavenly beings are bound for judgment",
+        "1 Enoch 15:8–12 — the spirits of the giants afflict and deceive humanity",
+        "Job 1:6–12 — the accuser’s activity remains subject to divine permission",
+        "Acts 2:1–11 — many languages hear one testimony through the Spirit",
+        "Jubilees 8:10–30 — the earth is divided among Shem, Ham, and Japheth",
+        "Jubilees 9:14–15 — Noah’s descendants swear to honor allotted boundaries"
+      ]
+    }
+  ]
+}

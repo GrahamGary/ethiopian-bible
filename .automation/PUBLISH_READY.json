@@ -3,16 +3,16 @@
   "schemaVersion": 1,
   "status": "VALIDATED",
   "lastValidated": {
-    "bookId": "1-enoch",
-    "book": "1 Enoch",
-    "chapter": 108
+    "bookId": "jubilees",
+    "book": "Jubilees",
+    "chapter": 12
   },
   "nextUnfinished": {
     "bookId": "jubilees",
     "book": "Jubilees",
-    "chapter": 1
+    "chapter": 13
   },
-  "validatedAt": "2026-08-12T06:25:41Z",
+  "validatedAt": "2026-08-13T16:24:31Z",
   "checks": {
     "source": "PASSED",
     "structure": "PASSED",
@@ -24,19 +24,6 @@
     "mobileLayout": "PASSED",
     "previousContentIntegrity": "PASSED"
   },
-  "transition": {
-    "completedBook": {
-      "bookId": "1-enoch",
-      "book": "1 Enoch",
-      "chapter": 108
-    },
-    "status": "COMPLETE",
-    "nextApprovedBook": {
-      "bookId": "jubilees",
-      "book": "Jubilees",
-      "chapter": 1
-    }
-  },
   "files": [
     {
       "path": ".automation/PUBLISH_READY.json",
@@ -44,29 +31,79 @@
       "role": "publication-control-record"
     },
     {
-      "path": ".automation/README.md",
-      "sha256": "8da024b034c96f9aeffb245867ec1ac3bab2778a66c7d6b202f18aea172a2700",
-      "role": "validation-infrastructure"
-    },
-    {
       "path": ".automation/VALIDATED_STATE.json",
-      "sha256": "98c5122d3279a05a8bb8aee612b01e7943aad306db2f057416f2af53ed96d7c0",
+      "sha256": "10e343632844a5e67152b517b285478501c362db90ce2ada95f4f01b07e67cfd",
       "role": "validation-infrastructure"
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "32e840720055ca32e9f1f8d627c947be56e5b314d71e045d43cce424230468c4",
+      "sha256": "b8b66a7e0f8adebeef24caba906a7219ae5150f366b851e3cd78de1dc9bd549e",
       "role": "publication-metadata"
     },
     {
       "path": "content-manifest.json",
-      "sha256": "02bab8ef7654dd3002a375ef1c02bc5aee49f135f2a87f646b9b83159ee65772",
+      "sha256": "8235508b64cf979de86bee61cac851dbe46fc86e0ba162a11a6d779bd083a3ef",
       "role": "publication-metadata"
     },
     {
-      "path": "scripts/validation-gate.py",
-      "sha256": "61411646138935f56ca9dcdd384c6cd629063674bee4cf66104f473d2aec4982",
-      "role": "automation-infrastructure"
+      "path": "jubilees-001.json",
+      "sha256": "02753e5a8c9351e58abb9c8a7fa16ae96cc5b846ff8041039e9d1b98d7373bd9",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-002.json",
+      "sha256": "6ca9b1de22699dd33ce9df42ed7c70445acd29b21bc41c41ef904eb07d5c9dbf",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-003.json",
+      "sha256": "165fc68b32338a6db678119273ae0006e0db7ba9cbb8e280f35944b8a980828f",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-004.json",
+      "sha256": "3bcd868f1a30b1f7ecafe50034b5cfa571754f43afa58e654e304526cb7679ae",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-005.json",
+      "sha256": "f293cc1b83bc21cb7af387b64a93f553f6fb00831eeed4bab99270ec85a2cce2",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-006.json",
+      "sha256": "e5df02df707662391602ac57479556aade9a4b487f1339279b650b4cb628f0f8",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-007.json",
+      "sha256": "4771d00503eebcbbb317789290dd54257402f0c61192bd35f470f559b162a5fd",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-008.json",
+      "sha256": "80bd31d996b71ffa777ac19f52241630303677f37f3b8aeb1eb285a5b40d2d13",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-009.json",
+      "sha256": "7149a4391ad0386ec7c50d83780f2e3634e0264313d87e5498210acb011770b0",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-010.json",
+      "sha256": "71d4bfe868f3acbe340a24bf963e19ebec30d9bb0bfbd787347761caa80c7898",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-011.json",
+      "sha256": "21497b0a9b03498fdbfc0f1faacb6d1bdd745667dad70dbedc07b6a45ae38ff5",
+      "role": "scripture"
+    },
+    {
+      "path": "jubilees-012.json",
+      "sha256": "cc522f28f8e278aa3d72985e26a044315bc5492231b4f29c5b17b67f2a09a4c9",
+      "role": "scripture"
     }
   ]
 }

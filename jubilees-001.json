@@ -1,0 +1,216 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-001-2026-08-13",
+  "contentVersion": "2026.08.13.1",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [{"id": "jubilees", "title": "Jubilees", "shortTitle": "Jubilees", "category": "Ethiopic biblical literature", "totalChapterCount": 50, "enabled": true}],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Hebrew and Ethiopic textual tradition • Modern English research translation",
+      "chapter": 1,
+      "title": "Chapter 1 — Revelation on Mount Sinai",
+      "sourceNote": "Translated afresh into clear modern English from the earliest primary-language witnesses responsibly available for this chapter. The Hasmonean Hebrew manuscript 4Q216 (4QJubileesᵃ) governs every physically preserved reading in verses 1–17 and 27–29. Physical gaps there and the complete wording of verses 18–26 follow the Ethiopic (Geʽez) text preserved in manuscripts A–D and printed on text pages 1–4 of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from these primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the first year after the Israelites went out from Egypt, in the third month, on the sixteenth day of that month, the Lord spoke to Moses: ‘Come up to me on the mountain, and I will give you the two stone tablets—the law and the commandment—which I have written so that you may teach them.’",
+          "study": "The book begins at Sinai and anchors its revelation in Israel’s exodus. Written instruction is given to Moses not merely to possess, but to teach.",
+          "crossReferences": ["Exodus 24:12 — the Lord calls Moses up to receive the stone tablets, law, and commandment", "Deuteronomy 4:14 — Moses is commanded to teach Israel the statutes"]
+        },
+        {
+          "verse": 2,
+          "text": "Moses went up the mountain of God, and the glory of the Lord settled upon Mount Sinai. The cloud covered it for six days.",
+          "study": "Moses enters a place marked by divine glory and concealed by cloud. The six-day covering prepares for God’s summons on the seventh day.",
+          "crossReferences": ["Exodus 24:15–16 — the cloud covers Sinai for six days", "1 Kings 8:10–11 — the cloud signifies the glory of the Lord"]
+        },
+        {
+          "verse": 3,
+          "text": "On the seventh day he called Moses from within the cloud. Moses saw the glory of the Lord like a blazing fire on the summit of the mountain.",
+          "study": "The voice comes from the hidden cloud, while the visible glory appears as fire. Revelation joins divine nearness with holiness that commands awe.",
+          "crossReferences": ["Exodus 24:16–17 — God calls from the cloud and his glory appears like consuming fire", "Hebrews 12:28–29 — reverent worship answers the holiness of the consuming God"]
+        },
+        {
+          "verse": 4,
+          "text": "Moses remained on the mountain forty days and forty nights. The Lord made known to him what was earlier and what will come later, the division of all the days according to the law and the testimony.",
+          "study": "The forty-day encounter embraces both remembered history and coming events. Time itself is presented as ordered under God’s instruction and testimony.",
+          "crossReferences": ["Exodus 24:18 — Moses remains on the mountain forty days and nights", "Isaiah 46:9–10 — God declares the end from the beginning"]
+        },
+        {
+          "verse": 5,
+          "text": "He said, ‘Set your heart on every word that I tell you on this mountain. Write them in a book so that their generations may see that I have not abandoned them because of all the evil they do when they break the covenant that I establish today between me and you for their generations on Mount Sinai.",
+          "study": "Written revelation will explain future judgment without suggesting divine abandonment. Israel’s breach of covenant, rather than a failure of God’s faithfulness, accounts for the coming evil.",
+          "crossReferences": ["Deuteronomy 31:19–21 — a written testimony explains Israel’s future unfaithfulness", "Nehemiah 9:31–33 — God remains faithful and just even when his people act wickedly"]
+        },
+        {
+          "verse": 6,
+          "text": "When all these things come upon them, they will recognize that I acted more justly than they did in every judgment upon them and in every curse. They will recognize that I was truly with them.",
+          "study": "Fulfilled warnings will vindicate God’s justice. Even disciplinary judgment will reveal that his covenant presence was real throughout their history.",
+          "crossReferences": ["Deuteronomy 30:1–3 — blessing and curse lead Israel to return to the Lord", "Daniel 9:14 — the Lord is righteous in the judgments he brings"]
+        },
+        {
+          "verse": 7,
+          "text": "Now write for yourself all the words that I make known to you today, for I know their rebellion and their stiff neck even before I bring them into the land that I swore to their fathers—to Abraham, Isaac, and Jacob—when I said, “To your offspring I will give a land flowing with milk and honey.”",
+          "study": "God knows Israel’s resistance before fulfilling the ancestral promise. His foreknowledge does not cancel the gift, but makes the covenant warning necessary.",
+          "crossReferences": ["Deuteronomy 9:6 — Israel is described as a stiff-necked people", "Genesis 15:18 — the land is promised to Abraham’s offspring"]
+        },
+        {
+          "verse": 8,
+          "text": "They will eat and be satisfied, and then they will turn to other gods—gods that cannot rescue them from any of their distress. This testimony will testify against them.",
+          "study": "Abundance can become the setting for forgetfulness. False gods are exposed by their inability to save, while the written testimony remains a truthful witness.",
+          "crossReferences": ["Deuteronomy 8:10–14 — satisfaction can lead to forgetting the Lord", "Judges 10:13–14 — the gods Israel chose cannot rescue them in distress"]
+        },
+        {
+          "verse": 9,
+          "text": "For they will forget all my commandments—everything I command them—and will follow the nations, their uncleanness, and their disgrace. They will serve their gods, and these will become a trap, distress, suffering, and a snare to them.",
+          "study": "Forgetting God’s commands is expressed through imitation and worship. What appears attractive in surrounding nations becomes a mechanism of bondage.",
+          "crossReferences": ["Deuteronomy 7:16 — the gods of the nations become a snare", "Psalm 106:34–39 — Israel imitates the nations and is defiled by their practices"]
+        },
+        {
+          "verse": 10,
+          "text": "Many will perish; they will be captured and fall into an enemy’s hand because they abandoned my statutes and commandments, my covenant festivals, my Sabbaths, and my holy place, which I consecrated for myself among them.",
+          "study": "Captivity is tied to abandonment of the covenant’s whole pattern: conduct, sacred time, and holy place. Worship and daily obedience cannot be separated.",
+          "crossReferences": ["Leviticus 26:14–17 — covenant disobedience leads to defeat before enemies", "2 Chronicles 36:20–21 — exile answers neglected Sabbaths and rejected warnings"]
+        },
+        {
+          "verse": 11,
+          "text": "They will forsake my dwelling and my sanctuary, which I consecrated for myself in the midst of the land so that I might set my name upon it and dwell there. They will make for themselves high places, sacred poles, and carved images; each will bow to his own image in error. They will sacrifice their children to demons and to every work produced by the error of their hearts.",
+          "study": "Abandoning the sanctuary produces self-made worship. The descent from images to child sacrifice shows the destructive end of devotion shaped by an erring heart.",
+          "crossReferences": ["Deuteronomy 12:5–7 — God chooses the place where his name will dwell", "Psalm 106:36–38 — idols become a snare and children are sacrificed to demons"]
+        },
+        {
+          "verse": 12,
+          "text": "I will send witnesses to them to testify against them, but they will not listen. They will kill the witnesses and persecute those who seek the law. They will alter everything and begin to do evil before my eyes.",
+          "study": "God’s warnings continue through faithful witnesses, yet rebellion hardens into violence against both messengers and seekers of instruction. Rejection of truth prepares deliberate evil.",
+          "crossReferences": ["2 Chronicles 24:19–22 — witnesses are sent, but Zechariah is killed for confronting rebellion", "Matthew 23:34–35 — God’s messengers are persecuted and killed"]
+        },
+        {
+          "verse": 13,
+          "text": "I will hide my face from them and hand them over to the nations for captivity, plunder, and devouring. I will remove them from the midst of the land and scatter them among the nations.",
+          "study": "Hidden divine favor leads to the reversal of settled life in the land. Captivity and scattering display the covenant consequence of sustained rebellion.",
+          "crossReferences": ["Deuteronomy 31:17–18 — God hides his face because his people turn to other gods", "Deuteronomy 28:63–64 — covenant judgment removes and scatters Israel among the nations"]
+        },
+        {
+          "verse": 14,
+          "text": "They will forget all my law, all my commandments, and all my judgments. They will go astray regarding the new moons, Sabbaths, festivals, jubilees, and covenant.",
+          "study": "Exile includes disordered memory and sacred time. The list anticipates the book’s emphasis on faithful calendars as part of covenant obedience.",
+          "crossReferences": ["Ezekiel 22:26 — holy and common things are no longer distinguished", "Hosea 2:11 — rebellion brings an end to festivals, new moons, and Sabbaths"]
+        },
+        {
+          "verse": 15,
+          "text": "Afterward they will return to me from among the nations with all their heart, all their soul, and all their strength. I will gather them from among all the nations. They will seek me, and I will be found by them when they seek me with all their heart and all their soul.",
+          "study": "Scattering is not the final word. Wholehearted return is answered by divine gathering and the renewed discovery of God’s presence.",
+          "crossReferences": ["Deuteronomy 4:29–31 — the scattered seek God with all heart and soul and find him", "Jeremiah 29:13–14 — wholehearted seeking is answered by restoration from exile"]
+        },
+        {
+          "verse": 16,
+          "text": "I will reveal to them abundant peace with righteousness. I will plant them as a plant of uprightness with all my heart and all my soul. They will become a blessing and not a curse; they will be the head and not the tail.",
+          "study": "Restoration is more than return to a location. God plants a righteous people with wholehearted commitment and reverses their former curse and humiliation.",
+          "crossReferences": ["Jeremiah 32:40–41 — God plants his people faithfully with all his heart and soul", "Deuteronomy 28:12–13 — covenant blessing makes Israel the head and not the tail"]
+        },
+        {
+          "verse": 17,
+          "text": "I will build my sanctuary in their midst and dwell with them. I will be their God, and they will be my people in truth and righteousness.",
+          "study": "The restored covenant reaches its goal in shared dwelling. Truth and righteousness characterize a people living with God in their midst.",
+          "crossReferences": ["Exodus 25:8 — the sanctuary is made so that God may dwell among his people", "Ezekiel 37:26–28 — God’s everlasting sanctuary stands among his restored people"]
+        },
+        {
+          "verse": 18,
+          "text": "I will neither abandon them nor fail them, for I am the Lord their God.’",
+          "study": "The prophecy of rebellion and exile closes with the certainty of God’s identity and commitment. His final purpose is faithful presence, not abandonment.",
+          "crossReferences": ["Deuteronomy 31:6 — the Lord will neither fail nor abandon his people", "Hebrews 13:5 — God’s promise of unfailing presence grounds faithful living"]
+        },
+        {
+          "verse": 19,
+          "text": "Moses fell facedown and prayed: ‘Lord, my God, do not abandon your people and inheritance to wander in the error of their hearts. Do not deliver them into the hands of their enemies, the nations, lest those enemies rule over them and make them sin against you.",
+          "study": "Moses answers revelation with intercession. He appeals for protection not merely from political defeat, but from the spiritual damage that hostile rule could deepen.",
+          "crossReferences": ["Exodus 32:11–13 — Moses intercedes for the people after their covenant sin", "Psalm 106:40–46 — Israel is handed to enemies, yet God remembers his covenant"]
+        },
+        {
+          "verse": 20,
+          "text": "Lord, let your mercy rise over your people. Create an upright spirit in them, and do not let the spirit of Belial rule over them to accuse them before you and turn them away from every path of righteousness, so that they perish from before your face.",
+          "study": "Moses asks for inward renewal and protection from an accusing power of wickedness. Perseverance in righteous paths depends upon divine mercy working within the people.",
+          "crossReferences": ["Psalm 51:10–12 — prayer asks God for a clean heart and steadfast spirit", "Zechariah 3:1–4 — the accuser is rebuked and guilt is removed"]
+        },
+        {
+          "verse": 21,
+          "text": "They are your people and your inheritance, whom you rescued from Egypt by your great power. Create a pure heart and a holy spirit for them. Do not let them be trapped by their sins from now through eternity.’",
+          "study": "The exodus becomes the basis for asking continued grace. Moses seeks a purity and holiness adequate not only for rescue from Egypt, but for enduring freedom from sin.",
+          "crossReferences": ["Deuteronomy 9:26–29 — Moses pleads for the people as God’s inheritance redeemed from Egypt", "Ezekiel 36:25–27 — God gives a clean heart and his Spirit for obedient life"]
+        },
+        {
+          "verse": 22,
+          "text": "The Lord said to Moses, ‘I know their opposition, their thoughts, and their stiff neck. They will not listen until they acknowledge their own sin and the sin of their fathers.",
+          "study": "God’s answer begins without minimizing entrenched resistance. Honest confession of both present and inherited rebellion is the threshold of return.",
+          "crossReferences": ["Leviticus 26:40–42 — restoration follows confession of their sin and their fathers’ sin", "Nehemiah 9:16–17 — Israel’s stiff neck is confessed alongside God’s readiness to forgive"]
+        },
+        {
+          "verse": 23,
+          "text": "After this they will return to me in complete uprightness, with all their heart and all their soul. I will remove the foreskin from their heart and from the heart of their offspring, and I will create a holy spirit for them and purify them so that they never turn away from me again.",
+          "study": "The promised return is sustained by divine transformation. The image of an uncircumcised heart gives way to inward purity and a holy spirit that secures lasting faithfulness.",
+          "crossReferences": ["Deuteronomy 30:6 — God circumcises the heart so his people may love him fully", "Ezekiel 36:26–27 — a new heart and Spirit enable enduring obedience"]
+        },
+        {
+          "verse": 24,
+          "text": "Their souls will cling to me and to all my commandments, and they will fulfill my commandments. I will be their Father, and they will be my children.",
+          "study": "Renewed hearts produce attachment to God and practiced obedience. Covenant relationship is expressed with the intimate language of Father and children.",
+          "crossReferences": ["Deuteronomy 10:20 — Israel is commanded to cling to the Lord", "2 Corinthians 6:16–18 — God dwells with his people and calls them sons and daughters"]
+        },
+        {
+          "verse": 25,
+          "text": "They will all be called children of the living God. Every angel and every spirit will know—yes, they will know—that these are my children and that I am their Father in uprightness and righteousness, and that I love them.",
+          "study": "The restored identity of God’s people becomes known throughout the heavenly realm. Their sonship rests on the Father’s righteous love and is openly acknowledged.",
+          "crossReferences": ["Hosea 1:10 — those once rejected are called children of the living God", "1 John 3:1 — the Father’s love is displayed in naming his people children of God"]
+        },
+        {
+          "verse": 26,
+          "text": "Write for yourself all these words that I declare to you on this mountain: what was first and what will come last, what will happen in every division of the days appointed for the law and the testimony, and in the weeks of their jubilees, forever—until I descend and dwell with them for all eternity.’",
+          "study": "The command to write gathers history, future, law, testimony, and sacred time into one revealed record. The horizon is God’s enduring dwelling with his people.",
+          "crossReferences": ["Isaiah 30:8 — revelation is written as a witness for a future day", "Revelation 21:3 — the final hope is God dwelling permanently with humanity"]
+        },
+        {
+          "verse": 27,
+          "text": "Then he told the angel of the presence, ‘Write for Moses from the beginning of creation until my sanctuary is built among them for all eternity.",
+          "study": "The angel of the presence receives the task of recording the history disclosed to Moses. Creation and sanctuary form the record’s great span.",
+          "crossReferences": ["Exodus 23:20–23 — God’s angel goes before Israel with divine authority", "Malachi 3:1 — the messenger of the covenant is associated with the Lord’s coming to his sanctuary"]
+        },
+        {
+          "verse": 28,
+          "text": "The Lord will appear to the eyes of all, and all will know that I am the God of Israel, the Father of all Jacob’s children, and King upon Mount Zion for all eternity. Zion and Jerusalem will be holy.’",
+          "study": "Universal recognition centers on the God who binds himself to Israel and reigns from Zion. The holiness of Jerusalem flows from the eternal kingship and presence of God.",
+          "crossReferences": ["Isaiah 52:8–10 — all ends of the earth see the Lord return to Zion", "Zechariah 14:9 — the Lord is recognized as King over all the earth"]
+        },
+        {
+          "verse": 29,
+          "text": "The angel of the presence, who went before Israel’s camp, took the tablets containing the divisions of the years—from the time of creation—according to the law and the testimony, their weeks and their jubilees, year by year in their full number, from the day of creation until heaven and earth are renewed, along with everything they contain, as are all the heavenly lights and all the creation of the earth, until the Lord’s sanctuary is made in Jerusalem upon Mount Zion. Then all the lights will be renewed for healing, peace, and blessing for all Israel’s chosen ones. So it will be from that day throughout all the days of the earth.",
+          "study": "The chapter closes with heavenly tablets that order history in weeks and jubilees. Their record moves toward renewed creation, holy dwelling, healing, peace, and blessing.",
+          "crossReferences": ["Isaiah 65:17–19 — renewed heavens, earth, and Jerusalem replace former sorrow", "Revelation 22:1–5 — God’s dwelling brings healing and unfailing light"]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Jubilees opens within Moses’ forty-day encounter on Mount Sinai. The Lord commands him to write a testimony that reaches from creation into Israel’s future and organizes history by days, weeks, and jubilees. Revelation therefore joins instruction, memory, sacred time, and hope; what Moses receives is meant to teach later generations how God’s covenant purpose unfolds.",
+          "The first prophetic movement traces a grave cycle. Israel will enjoy the promised land, become satisfied, forget the commandments, imitate the nations, corrupt worship, reject witnesses, and suffer captivity and scattering. The chapter presents judgment as the just consequence of covenant rupture, yet it repeatedly insists that God has not abandoned his people or ceased to be present with them.",
+          "Restoration begins with wholehearted return and is completed by God’s inward work. He gathers the scattered, plants them in righteousness, removes the hardness of their hearts, creates a holy spirit within them, and makes them his children. Moses’ intercession stands within this promise: divine mercy not only rescues from enemies but purifies the heart so that obedience can endure.",
+          "The final vision joins sanctuary and renewed creation. God dwells among his people, reigns from Zion, and becomes known before all. The heavenly record proceeds until creation’s lights are renewed for healing, peace, and blessing. Chapter 1 thus supplies the theological frame for the book: history is ordered under divine testimony, human unfaithfulness receives judgment, and God’s faithful purpose advances toward a holy people in his lasting presence."
+        ]
+      },
+      "crossReferences": [
+        "Exodus 19:1–20 — Israel arrives at Sinai and the Lord descends upon the mountain",
+        "Exodus 24:12–18 — Moses enters the cloud for forty days to receive the tablets",
+        "Deuteronomy 4:25–31 — idolatry, scattering, wholehearted seeking, and mercy form a covenant sequence",
+        "Deuteronomy 30:1–10 — return from exile is joined to circumcision of the heart",
+        "2 Chronicles 36:14–21 — rejected messengers and desecrated worship lead to exile",
+        "Jeremiah 31:31–34 — the restored covenant places God’s law within the heart",
+        "Ezekiel 36:22–28 — gathering, cleansing, a new spirit, obedience, and divine dwelling accompany restoration",
+        "Ezekiel 37:21–28 — the scattered are gathered and God’s sanctuary remains among them",
+        "Hosea 1:9–11 — rejected people are again called children of the living God",
+        "Revelation 21:1–5 — renewed creation reaches its goal in God dwelling with his people"
+      ]
+    }
+  ]
+}

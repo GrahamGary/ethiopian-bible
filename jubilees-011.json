@@ -1,0 +1,258 @@
+{
+  "format": "ethiopian-bible-update",
+  "schemaVersion": 1,
+  "updateId": "jubilees-011-2026-08-13",
+  "contentVersion": "2026.08.13.11",
+  "publisher": "Gary Graham",
+  "copyright": "Copyright © 2026 Gary Graham. All rights reserved.",
+  "books": [
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "shortTitle": "Jubilees",
+      "category": "Ethiopic biblical literature",
+      "totalChapterCount": 50,
+      "enabled": true
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "jubilees",
+      "bookTitle": "Jubilees",
+      "category": "Ethiopic textual tradition • Modern English research translation",
+      "chapter": 11,
+      "title": "Chapter 11 — Abram Resists Idolatry and Famine",
+      "sourceNote": "Translated afresh into clear modern English from the earliest complete primary-language witness responsibly available for this chapter: the Ethiopic (Geʽez) text preserved in manuscripts A–D and printed as Jubilees 11:1–23 on critical-text pages 38–41 (PDF pages 110–113) of R. H. Charles’s 1895 critical edition, The Ethiopic Version of the Hebrew Book of Jubilees. No surviving Hebrew fragment preserving Chapter 11 wording was identified in the published Qumran Jubilees catalogue, and the extant fifth-century Latin palimpsest begins with fragmentary material from Chapter 13. A short Greek chronographic parallel preserved by George Cedrenus corroborates the rise of kings in Serug’s time in part of verse 2; the complete wording of the chapter is preserved in Geʽez. No modern English translation was used as the translation base, no commentary was used as Scripture, and no wording absent from the primary witnesses was supplied.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the thirty-fifth jubilee, during the third week, in its first year, Reu took a wife named Ora, daughter of Ur son of Kesed. In the seventh year of that week she bore him a son, and he named him Serug.",
+          "study": "The genealogy continues through a named household and a precisely dated birth. The ordered record keeps covenant history visible even as the surrounding culture descends into violence and idolatry.",
+          "crossReferences": [
+            "Genesis 11:18–21 — Reu fathers Serug in the post-Babel genealogy",
+            "1 Chronicles 1:25–26 — Reu and Serug stand in the line leading to Abraham"
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Noah’s descendants began warring against one another. They took captives, killed each other, shed human blood upon the earth, ate blood, and built fortified cities, walls, and towers. Individuals exalted themselves over their peoples and established the beginnings of kingdoms. People fought people, nation fought nation, and city fought city. Everyone began doing evil, making weapons, and teaching their sons warfare. They conquered cities and sold men and women as slaves.",
+          "study": "The multiplication of nations becomes a multiplication of organized violence. Kingship, fortification, weapons, and commerce in human lives are joined when power is severed from justice.",
+          "crossReferences": [
+            "Genesis 9:5–6 — God demands an accounting for human blood",
+            "Habakkuk 2:12 — woe is pronounced on building a city through bloodshed"
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Ur son of Kesed built the city of Ara of the Chaldeans and named it after himself and his father. The people cast images for themselves, and each worshiped the idol he had made. They began producing carved figures and impure representations, while malicious spirits helped them and enticed them into transgression and impurity.",
+          "study": "City building becomes entangled with image making and self-made worship. The spirits exploit human craftsmanship, turning created materials into objects that estrange their makers from the Creator.",
+          "crossReferences": [
+            "Isaiah 44:9–17 — a craftsman forms an idol and bows to what his hands made",
+            "1 Corinthians 10:19–21 — idolatry participates in fellowship with demons"
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Prince Mastema worked vigorously to bring all this about. He sent out the other spirits placed under his authority to commit every kind of wrong, sin, and transgression—to corrupt, destroy, and shed blood upon the earth.",
+          "study": "Mastema directs the spirits retained in the previous chapter toward social corruption. Their influence is seen not only in private temptation but in systems of bloodshed and destruction.",
+          "crossReferences": [
+            "Jubilees 10:8–11 — a tenth of the spirits remain subject to Mastema",
+            "John 8:44 — the devil is associated with murder and falsehood"
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "For this reason his name was called Serug, because everyone had turned aside to commit every kind of sin and transgression.",
+          "study": "Serug’s name becomes a witness to the moral turning of his generation. A personal genealogy preserves public memory of widespread apostasy.",
+          "crossReferences": [
+            "Psalm 14:2–3 — humanity turns aside and becomes corrupt",
+            "Romans 3:12 — all have turned away from the good"
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Serug grew up and lived in Ur of the Chaldeans near his wife’s maternal grandfather. He worshiped idols. In the thirty-sixth jubilee, during the fifth week, in its first year, he took a wife named Melka, daughter of Kaber, the child of his father’s brother.",
+          "study": "The covenant genealogy now lives inside an idolatrous environment and participates in its worship. Kinship continuity alone does not guarantee faithfulness to God.",
+          "crossReferences": [
+            "Joshua 24:2 — Abraham’s ancestors beyond the Euphrates served other gods",
+            "Genesis 11:28 — Ur of the Chaldeans is the homeland of Abraham’s family"
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "In the first year of that week she bore him Nahor. Nahor grew and lived in Ur of the Chaldeans, and his father taught him Chaldean investigations—divining and interpreting omens from the signs of heaven.",
+          "study": "Forbidden celestial practice is transmitted as family education. Skill in observing heaven becomes corrupt when it seeks omens rather than honoring the One who made the heavens.",
+          "crossReferences": [
+            "Deuteronomy 18:10–14 — divination and the reading of omens are forbidden",
+            "Isaiah 47:13 — Babylon’s astrologers cannot save those who consult them"
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "In the thirty-seventh jubilee, during the sixth week, in its first year, Nahor took a wife named Ijaska, daughter of Nestag of the Chaldeans.",
+          "study": "The family line advances quietly within Chaldean society. The chronological precision shows that God’s larger purpose continues through ordinary marriages and generations.",
+          "crossReferences": [
+            "Genesis 11:22–24 — Nahor fathers Terah in the ancestral line",
+            "Luke 3:34 — Nahor appears in the genealogy leading to Abraham"
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "In the seventh year of that week she bore him Terah.",
+          "study": "Terah’s birth brings the genealogy to Abram’s immediate household. A single brief notice stands at the threshold of a major turn in sacred history.",
+          "crossReferences": [
+            "Genesis 11:24–27 — Terah becomes the father of Abram, Nahor, and Haran",
+            "1 Chronicles 1:26 — Terah follows Nahor in the recorded line"
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "Prince Mastema sent ravens and other birds to consume the seed sown in the land, so that the land would be ruined and humanity robbed of its labor. Before people could cover the seed after plowing, the ravens seized it from the surface of the ground.",
+          "study": "The attack targets food at the moment of sowing and turns work into hunger. Destruction comes through the loss of seed before it can take root and bear fruit.",
+          "crossReferences": [
+            "Mark 4:3–4, 14–15 — birds take seed from the path in a picture of spiritual theft",
+            "Joel 1:10–12 — ruined grain and harvest bring the land to grief"
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "For this reason Nahor named his son Terah, because the ravens and birds made the people destitute by devouring their seed.",
+          "study": "Terah’s name carries the memory of deprivation. The genealogy again records not merely ancestry but the suffering and spiritual conflict of a generation.",
+          "crossReferences": [
+            "Ruth 1:20–21 — a name can preserve the memory of severe loss",
+            "Genesis 41:51–52 — patriarchal names interpret the circumstances surrounding a life"
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Because of the birds, the years began producing no harvest. The birds also consumed all the fruit upon the trees, and only with great labor could the people rescue a little of the earth’s produce in those days.",
+          "study": "The famine reaches both field and orchard, leaving survival dependent on exhausting effort. The scene reveals the fragility of abundance when the sources of fruitfulness are attacked.",
+          "crossReferences": [
+            "Deuteronomy 28:33 — another people consumes the produce of human labor",
+            "Haggai 1:6 — much sowing yields little when blessing is withheld"
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "In the thirty-ninth jubilee, during the second week, in its first year, Terah took a wife named Edna, daughter of Abram, who belonged to his father’s sister’s family. In the seventh year of that week she bore him a son, and he named him Abram after the father of his mother.",
+          "study": "Abram receives the name of his maternal grandfather within a closely connected clan. The coming reformer of his household is born inside the family structure whose idolatry he will challenge.",
+          "crossReferences": [
+            "Genesis 11:26–27 — Terah’s family record introduces Abram",
+            "Joshua 24:2–3 — God takes Abraham from an idolatrous ancestral household"
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "His mother’s father had died before his daughter conceived a son.",
+          "study": "The naming preserves a deceased relative’s memory through a child born later. Generational continuity remains present even when death interrupts direct relationship.",
+          "crossReferences": [
+            "Genesis 48:16 — a family name is carried forward through descendants",
+            "Ecclesiastes 1:4 — one generation passes while another comes"
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "As the child grew in understanding, he recognized the earth’s error: everyone had wandered after carved images and impurity. His father taught him writing. When Abram was two weeks of years old, he separated himself from his father so that he would not worship idols with him.",
+          "study": "At fourteen Abram combines literacy with moral discernment. He refuses inherited worship when he recognizes that it leads away from the living God.",
+          "crossReferences": [
+            "Joshua 24:2–3 — Abraham is called out from ancestors who served other gods",
+            "2 Corinthians 6:16–17 — God’s people are called to separate from idols"
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "He began praying to the Creator of everything, asking that God rescue him from humanity’s error and keep his own portion from falling into the error of impurity and disgrace.",
+          "study": "Abram’s separation is sustained by prayer rather than self-confidence. He appeals to the universal Creator for personal rescue from a universal pattern of deception.",
+          "crossReferences": [
+            "Nehemiah 9:6–7 — the Creator of all chooses Abram and brings him from Ur",
+            "Psalm 119:10 — the worshiper asks not to wander from God’s commands"
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "When the season came to sow seed in the land, everyone went out together to guard the seed from the ravens. Abram went with them, and the boy was fourteen years old.",
+          "study": "Abram joins his neighbors in their threatened work. Spiritual distinctness does not withdraw him from practical service to people suffering around him.",
+          "crossReferences": [
+            "Proverbs 10:5 — wisdom works diligently in the season of harvest",
+            "Galatians 6:10 — doing good extends to all people"
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "A cloud of ravens came to consume the seed. Before they could land, Abram ran toward them and cried out, ‘Do not come down! Return to the place from which you came!’ They turned and flew back.",
+          "study": "Abram confronts the agents of famine before they touch the ground. His command protects both the seed and the laboring community at the vulnerable beginning of the crop.",
+          "crossReferences": [
+            "1 Samuel 17:45–47 — a young servant confronts a destroyer in the Lord’s name",
+            "James 4:7 — resistance under God’s authority makes the adversary flee"
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "That day he turned back the clouds of ravens seventy times. Wherever Abram was in the whole region, not one raven succeeded in settling there.",
+          "study": "Abram’s resistance is repeated, patient, and complete. Deliverance is not a single dramatic moment only; he continues guarding the fields throughout the day.",
+          "crossReferences": [
+            "Psalm 121:3–8 — the keeper of Israel watches without ceasing",
+            "Luke 18:1 — faithful prayer and action persist without giving up"
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "Everyone throughout the land who was with him saw him cry out and saw all the ravens turn away. Abram’s name became renowned throughout the land of the Chaldeans.",
+          "study": "His public service produces public testimony. Abram becomes known because his faith brings protection to others, not because he seeks a monument to his own name.",
+          "crossReferences": [
+            "Genesis 12:2 — God promises to make Abram’s name great so he may be a blessing",
+            "Matthew 5:16 — visible good works direct witnesses toward God’s glory"
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "During that year everyone who wanted to sow came to him, and he accompanied them until the sowing season ended. They planted their land, and that year they brought home enough grain; they ate and were satisfied.",
+          "study": "Abram’s gift becomes sustained service through the entire season. The result is not private advantage but a community fed through protected labor and restored harvest.",
+          "crossReferences": [
+            "Leviticus 26:5 — covenant abundance allows people to eat bread until satisfied",
+            "Psalm 107:9 — God satisfies the hungry with good things"
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "In the first year of the fifth week, Abram instructed the woodworkers who made implements for oxen. They constructed a container above the ground, attached over the plow frame, so that seed could be placed in it and fall from there beside the plowshare, becoming hidden in the soil. Then they no longer feared the ravens.",
+          "study": "Abram answers recurring danger with teachable craftsmanship. Wisdom turns a moment of deliverance into a durable practice that protects seed by placing it directly in the earth.",
+          "crossReferences": [
+            "Exodus 35:30–35 — wisdom and craftsmanship produce practical work for the community",
+            "Proverbs 8:12 — wisdom dwells with prudence and discovers useful knowledge"
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "In this way they fitted containers above the ground on all their plow frames. They sowed and cultivated the whole land according to Abram’s instruction, and they no longer feared the birds.",
+          "study": "The innovation spreads because its knowledge is shared. Chapter 11 closes with fear replaced by cultivated land, showing Abram’s calling already taking the form of blessing to others.",
+          "crossReferences": [
+            "Genesis 12:2–3 — Abram is called to become a blessing for families of the earth",
+            "Isaiah 28:23–29 — the farmer’s varied methods come from wonderful divine counsel"
+          ]
+        }
+      ],
+      "explanation": {
+        "heading": "Chapter teaching and context",
+        "paragraphs": [
+          "Chapter 11 follows Babel’s dispersion with the growth of organized human violence. Noah’s descendants wage war, fortify cities, establish kingdoms, enslave captives, and teach warfare to their children. At the same time, crafted images become objects of worship. Mastema and his subordinate spirits intensify these choices, but human beings willingly make the weapons, idols, and systems through which corruption spreads.",
+          "The genealogy from Reu through Serug, Nahor, and Terah unfolds inside this Chaldean culture. Divination is taught from father to son, and even Abram’s ancestors serve idols. The chapter therefore does not present Abrahamic faith as an automatic inheritance. Abram recognizes the falsehood around him, separates from idolatrous worship, and prays to the Creator of all for rescue from the error gripping humanity.",
+          "The ravens turn spiritual hostility into material famine by stealing seed and fruit. Fourteen-year-old Abram answers first by commanding the birds away and persistently guarding the sowers. His action protects the work of the whole region, restores an adequate harvest, and makes his name known through service rather than self-exaltation.",
+          "Abram then moves from repeated intervention to practical wisdom. He teaches craftsmen to attach seed containers to plows so grain falls directly into the furrow and is covered. The community no longer fears the birds. The chapter’s contrast is sharp: corrupt knowledge reads omens and manufactures idols, while faithful wisdom prays to the Creator, preserves seed, equips laborers, and feeds neighbors."
+        ]
+      },
+      "crossReferences": [
+        "Genesis 9:4–6 — blood is sacred and human bloodshed demands an accounting",
+        "Genesis 11:18–32 — the genealogy from Reu through Terah and Abram",
+        "Genesis 12:1–3 — Abram is called from his land to become a blessing",
+        "Joshua 24:2–3 — Abraham’s ancestors serve other gods beyond the Euphrates",
+        "Deuteronomy 18:9–14 — divination and omens are rejected before the Lord",
+        "Isaiah 44:9–20 — makers of images become blind to their own idolatry",
+        "Mark 4:3–4, 14–15 — birds taking sown seed portray the work of the adversary",
+        "1 Corinthians 10:19–21 — idol worship participates in demonic fellowship",
+        "Jubilees 10:8–12 — Mastema retains a limited company of deceiving spirits",
+        "Nehemiah 9:6–8 — the Creator chooses Abram from Ur and finds his heart faithful"
+      ]
+    }
+  ]
+}
